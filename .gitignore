@@ -1,0 +1,16 @@
+.DS_Store
+review/
+data/candidates.json
+data/remote_ltx_full_ids.txt
+data/remote_ltx_redo_ids.txt
+data/review_decisions.json
+data/selected_300.json
+data/selected_remote_paths.txt
+data/supplement_candidates.json
+data/supplement_review_decisions.json
+scripts/build_candidates.py
+scripts/build_review_boards.py
+scripts/build_supplement_candidates.py
+scripts/finalize_review_selection.py
+scripts/generate_contact_sheets.py
+scripts/seed_review_decisions.py

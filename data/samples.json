@@ -1,0 +1,4220 @@
+{
+  "schema_version": "phyhoi-study-manifest-v1",
+  "title": "PhyHOI-Bench CIPG User Study",
+  "metric": "Causal Interaction Physics Graph Score",
+  "sample_total": 300,
+  "samples": [
+    {
+      "sample_id": "P001",
+      "media_id": "A_00389",
+      "category": "ignition",
+      "category_label": "Ignition and visible flame onset",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_00389.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P002",
+      "media_id": "A_02818",
+      "category": "ignition",
+      "category_label": "Ignition and visible flame onset",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_02818.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P003",
+      "media_id": "A_02759",
+      "category": "bamboo_cutting",
+      "category_label": "Bamboo or mat cutting",
+      "study_prompt": "A person cuts a bamboo or woven plant material.",
+      "video": "./media/A_02759.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P004",
+      "media_id": "A_02620",
+      "category": "bamboo_cutting",
+      "category_label": "Bamboo or mat cutting",
+      "study_prompt": "A person cuts a bamboo or woven plant material.",
+      "video": "./media/A_02620.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P005",
+      "media_id": "A_01258",
+      "category": "bamboo_cutting",
+      "category_label": "Bamboo or mat cutting",
+      "study_prompt": "A person cuts a bamboo or woven plant material.",
+      "video": "./media/A_01258.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P006",
+      "media_id": "A_01476",
+      "category": "bamboo_cutting",
+      "category_label": "Bamboo or mat cutting",
+      "study_prompt": "A person cuts a bamboo or woven plant material.",
+      "video": "./media/A_01476.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P007",
+      "media_id": "A_00396",
+      "category": "bamboo_cutting",
+      "category_label": "Bamboo or mat cutting",
+      "study_prompt": "A person cuts a bamboo or woven plant material.",
+      "video": "./media/A_00396.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P008",
+      "media_id": "A_02861",
+      "category": "watermelon_cutting",
+      "category_label": "Watermelon cutting",
+      "study_prompt": "A person cuts a watermelon.",
+      "video": "./media/A_02861.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P009",
+      "media_id": "A_01352",
+      "category": "watermelon_cutting",
+      "category_label": "Watermelon cutting",
+      "study_prompt": "A person cuts a watermelon.",
+      "video": "./media/A_01352.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P010",
+      "media_id": "A_02683",
+      "category": "watermelon_cutting",
+      "category_label": "Watermelon cutting",
+      "study_prompt": "A person cuts a watermelon.",
+      "video": "./media/A_02683.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P011",
+      "media_id": "A_02096",
+      "category": "watermelon_cutting",
+      "category_label": "Watermelon cutting",
+      "study_prompt": "A person cuts a watermelon.",
+      "video": "./media/A_02096.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P012",
+      "media_id": "A_03319",
+      "category": "watermelon_cutting",
+      "category_label": "Watermelon cutting",
+      "study_prompt": "A person cuts a watermelon.",
+      "video": "./media/A_03319.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": true
+      }
+    },
+    {
+      "sample_id": "P013",
+      "media_id": "A_01544",
+      "category": "watermelon_cutting",
+      "category_label": "Watermelon cutting",
+      "study_prompt": "A person cuts a watermelon.",
+      "video": "./media/A_01544.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P014",
+      "media_id": "A_02317",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_02317.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P015",
+      "media_id": "A_02234",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_02234.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P016",
+      "media_id": "A_02184",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_02184.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P017",
+      "media_id": "A_01531",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_01531.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P018",
+      "media_id": "A_01215",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_01215.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P019",
+      "media_id": "A_00780",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_00780.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P020",
+      "media_id": "A_00143",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_00143.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P021",
+      "media_id": "A_00864",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_00864.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P022",
+      "media_id": "A_00003",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_00003.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P023",
+      "media_id": "A_03154",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_03154.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P024",
+      "media_id": "A_03147",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_03147.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P025",
+      "media_id": "A_03140",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_03140.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P026",
+      "media_id": "A_00242",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_00242.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P027",
+      "media_id": "A_00075",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_00075.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P028",
+      "media_id": "A_03225",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_03225.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P029",
+      "media_id": "A_02708",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02708.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P030",
+      "media_id": "A_01316",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_01316.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P031",
+      "media_id": "A_00953",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_00953.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P032",
+      "media_id": "A_03349",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_03349.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P033",
+      "media_id": "A_03010",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_03010.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P034",
+      "media_id": "A_02923",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02923.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P035",
+      "media_id": "A_02590",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02590.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P036",
+      "media_id": "A_02533",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02533.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": true
+      }
+    },
+    {
+      "sample_id": "P037",
+      "media_id": "A_02522",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02522.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P038",
+      "media_id": "A_02165",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02165.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P039",
+      "media_id": "A_02049",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02049.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P040",
+      "media_id": "A_02046",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02046.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P041",
+      "media_id": "A_01630",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_01630.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P042",
+      "media_id": "A_00954",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_00954.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P043",
+      "media_id": "A_00978",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00978.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P044",
+      "media_id": "A_01925",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01925.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P045",
+      "media_id": "A_01064",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01064.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P046",
+      "media_id": "A_01010",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01010.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P047",
+      "media_id": "A_01009",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01009.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P048",
+      "media_id": "A_00948",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00948.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P049",
+      "media_id": "A_02855",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02855.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P050",
+      "media_id": "A_01860",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01860.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P051",
+      "media_id": "A_00133",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00133.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P052",
+      "media_id": "A_02642",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02642.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P053",
+      "media_id": "A_02333",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02333.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P054",
+      "media_id": "A_02127",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02127.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P055",
+      "media_id": "A_01733",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01733.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P056",
+      "media_id": "A_01691",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01691.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P057",
+      "media_id": "A_01554",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01554.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P058",
+      "media_id": "A_01300",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01300.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P059",
+      "media_id": "A_00905",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00905.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P060",
+      "media_id": "A_00769",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00769.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P061",
+      "media_id": "A_00434",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00434.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P062",
+      "media_id": "A_03339",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_03339.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P063",
+      "media_id": "A_01809",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01809.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P064",
+      "media_id": "A_01620",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01620.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P065",
+      "media_id": "A_01260",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01260.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P066",
+      "media_id": "A_01133",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01133.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P067",
+      "media_id": "A_02589",
+      "category": "beer_pouring",
+      "category_label": "Beer pouring",
+      "study_prompt": "A person pours beer into a container.",
+      "video": "./media/A_02589.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P068",
+      "media_id": "A_02363",
+      "category": "beer_pouring",
+      "category_label": "Beer pouring",
+      "study_prompt": "A person pours beer into a container.",
+      "video": "./media/A_02363.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P069",
+      "media_id": "A_00614",
+      "category": "beer_pouring",
+      "category_label": "Beer pouring",
+      "study_prompt": "A person pours beer into a container.",
+      "video": "./media/A_00614.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P070",
+      "media_id": "A_00310",
+      "category": "beer_pouring",
+      "category_label": "Beer pouring",
+      "study_prompt": "A person pours beer into a container.",
+      "video": "./media/A_00310.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P071",
+      "media_id": "A_01436",
+      "category": "beer_pouring",
+      "category_label": "Beer pouring",
+      "study_prompt": "A person pours beer into a container.",
+      "video": "./media/A_01436.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P072",
+      "media_id": "A_00437",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_00437.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P073",
+      "media_id": "A_00224",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_00224.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P074",
+      "media_id": "A_03312",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_03312.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P075",
+      "media_id": "A_03262",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_03262.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P076",
+      "media_id": "A_02459",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_02459.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P077",
+      "media_id": "A_01569",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_01569.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": true
+      }
+    },
+    {
+      "sample_id": "P078",
+      "media_id": "A_00484",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_00484.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P079",
+      "media_id": "A_00222",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_00222.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P080",
+      "media_id": "A_00579",
+      "category": "sparks",
+      "category_label": "Grinding or cutting sparks",
+      "study_prompt": "A human-object interaction produces visible sparks.",
+      "video": "./media/A_00579.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P081",
+      "media_id": "A_00558",
+      "category": "sparks",
+      "category_label": "Grinding or cutting sparks",
+      "study_prompt": "A human-object interaction produces visible sparks.",
+      "video": "./media/A_00558.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P082",
+      "media_id": "A_00186",
+      "category": "sparks",
+      "category_label": "Grinding or cutting sparks",
+      "study_prompt": "A human-object interaction produces visible sparks.",
+      "video": "./media/A_00186.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P083",
+      "media_id": "A_03008",
+      "category": "sparks",
+      "category_label": "Grinding or cutting sparks",
+      "study_prompt": "A human-object interaction produces visible sparks.",
+      "video": "./media/A_03008.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": true
+      }
+    },
+    {
+      "sample_id": "P084",
+      "media_id": "A_02869",
+      "category": "sparks",
+      "category_label": "Grinding or cutting sparks",
+      "study_prompt": "A human-object interaction produces visible sparks.",
+      "video": "./media/A_02869.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P085",
+      "media_id": "A_00008",
+      "category": "fried_food",
+      "category_label": "Retrieving fried food from oil",
+      "study_prompt": "A person retrieves fried food from hot oil.",
+      "video": "./media/A_00008.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P086",
+      "media_id": "A_02902",
+      "category": "fried_food",
+      "category_label": "Retrieving fried food from oil",
+      "study_prompt": "A person retrieves fried food from hot oil.",
+      "video": "./media/A_02902.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P087",
+      "media_id": "A_03187",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/A_03187.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": false,
+        "D5": false,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P088",
+      "media_id": "A_00545",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/A_00545.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P089",
+      "media_id": "A_00526",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/A_00526.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P090",
+      "media_id": "A_03310",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/A_03310.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P091",
+      "media_id": "A_01224",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/A_01224.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": false,
+        "D5": false,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P092",
+      "media_id": "A_00290",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/A_00290.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": false,
+        "D5": false,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P093",
+      "media_id": "synth_smg_01",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/synth_smg_01.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P094",
+      "media_id": "A_02791",
+      "category": "smoke_emission",
+      "category_label": "Smoke generation",
+      "study_prompt": "A human-object interaction produces visible smoke.",
+      "video": "./media/A_02791.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P095",
+      "media_id": "A_02319",
+      "category": "smoke_diffusion",
+      "category_label": "Smoke diffusion and dissipation",
+      "study_prompt": "Smoke disperses through the surrounding air.",
+      "video": "./media/A_02319.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P096",
+      "media_id": "A_00317",
+      "category": "smoke_diffusion",
+      "category_label": "Smoke diffusion and dissipation",
+      "study_prompt": "Smoke disperses through the surrounding air.",
+      "video": "./media/A_00317.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P097",
+      "media_id": "A_03296",
+      "category": "smoke_diffusion",
+      "category_label": "Smoke diffusion and dissipation",
+      "study_prompt": "Smoke disperses through the surrounding air.",
+      "video": "./media/A_03296.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P098",
+      "media_id": "A_03227",
+      "category": "smoke_diffusion",
+      "category_label": "Smoke diffusion and dissipation",
+      "study_prompt": "Smoke disperses through the surrounding air.",
+      "video": "./media/A_03227.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P099",
+      "media_id": "A_00271",
+      "category": "smoke_diffusion",
+      "category_label": "Smoke diffusion and dissipation",
+      "study_prompt": "Smoke disperses through the surrounding air.",
+      "video": "./media/A_00271.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P100",
+      "media_id": "A_00684",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_00684.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P101",
+      "media_id": "A_00574",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_00574.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P102",
+      "media_id": "A_00299",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_00299.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P103",
+      "media_id": "A_00206",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_00206.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P104",
+      "media_id": "A_03324",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_03324.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P105",
+      "media_id": "A_01596",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_01596.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P106",
+      "media_id": "A_01573",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_01573.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P107",
+      "media_id": "A_01205",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_01205.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P108",
+      "media_id": "A_01136",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_01136.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P109",
+      "media_id": "A_00272",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_00272.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P110",
+      "media_id": "A_02830",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_02830.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P111",
+      "media_id": "A_02217",
+      "category": "writing_surface",
+      "category_label": "Writing or drawing on board or glass",
+      "study_prompt": "A person writes or draws on a surface.",
+      "video": "./media/A_02217.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P112",
+      "media_id": "A_02036",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_02036.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P113",
+      "media_id": "A_02513",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_02513.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P114",
+      "media_id": "A_00436",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_00436.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P115",
+      "media_id": "A_00321",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_00321.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": false,
+        "D5": false,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P116",
+      "media_id": "A_00226",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_00226.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P117",
+      "media_id": "A_00177",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_00177.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P118",
+      "media_id": "A_01477",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_01477.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P119",
+      "media_id": "A_00320",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_00320.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P120",
+      "media_id": "A_01623",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_01623.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P121",
+      "media_id": "A_02315",
+      "category": "car_wash",
+      "category_label": "Foamy car washing",
+      "study_prompt": "A person washes a vehicle with visible foam or water.",
+      "video": "./media/A_02315.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P122",
+      "media_id": "A_00986",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_00986.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P123",
+      "media_id": "A_02288",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_02288.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P124",
+      "media_id": "A_01637",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01637.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P125",
+      "media_id": "A_00025",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_00025.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P126",
+      "media_id": "A_01347",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01347.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P127",
+      "media_id": "A_02650",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_02650.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P128",
+      "media_id": "A_02577",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_02577.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P129",
+      "media_id": "A_02163",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_02163.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P130",
+      "media_id": "A_01902",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01902.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P131",
+      "media_id": "A_01855",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01855.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P132",
+      "media_id": "A_01636",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01636.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P133",
+      "media_id": "A_01621",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01621.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P134",
+      "media_id": "A_01517",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01517.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P135",
+      "media_id": "A_01242",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01242.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P136",
+      "media_id": "A_01209",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01209.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P137",
+      "media_id": "A_01066",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_01066.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P138",
+      "media_id": "A_00862",
+      "category": "plant_leaves",
+      "category_label": "Eating or removing plant leaves",
+      "study_prompt": "A person picks or eats a plant leaf.",
+      "video": "./media/A_00862.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P139",
+      "media_id": "A_02937",
+      "category": "brick_smashing",
+      "category_label": "Hand or tool impact on bricks and blocks",
+      "study_prompt": "A person strikes or breaks a masonry object by hand.",
+      "video": "./media/A_02937.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P140",
+      "media_id": "A_02062",
+      "category": "brick_smashing",
+      "category_label": "Hand or tool impact on bricks and blocks",
+      "study_prompt": "A person strikes or breaks a masonry object by hand.",
+      "video": "./media/A_02062.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P141",
+      "media_id": "A_00084",
+      "category": "brick_smashing",
+      "category_label": "Hand or tool impact on bricks and blocks",
+      "study_prompt": "A person strikes or breaks a masonry object by hand.",
+      "video": "./media/A_00084.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": true
+      }
+    },
+    {
+      "sample_id": "P142",
+      "media_id": "A_00083",
+      "category": "brick_smashing",
+      "category_label": "Hand or tool impact on bricks and blocks",
+      "study_prompt": "A person strikes or breaks a masonry object by hand.",
+      "video": "./media/A_00083.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": true
+      }
+    },
+    {
+      "sample_id": "P143",
+      "media_id": "A_00085",
+      "category": "brick_smashing",
+      "category_label": "Hand or tool impact on bricks and blocks",
+      "study_prompt": "A person strikes or breaks a masonry object by hand.",
+      "video": "./media/A_00085.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": false,
+        "D5": false,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P144",
+      "media_id": "A_01494",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_01494.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P145",
+      "media_id": "A_00503",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_00503.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P146",
+      "media_id": "A_00493",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_00493.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P147",
+      "media_id": "A_01713",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_01713.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P148",
+      "media_id": "A_01592",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_01592.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P149",
+      "media_id": "A_03245",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_03245.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P150",
+      "media_id": "A_02820",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_02820.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P151",
+      "media_id": "A_01283",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_01283.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P152",
+      "media_id": "A_00979",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_00979.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P153",
+      "media_id": "A_01360",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_01360.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P154",
+      "media_id": "A_02627",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_02627.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P155",
+      "media_id": "A_01609",
+      "category": "plant_watering",
+      "category_label": "Plant watering with visible spray",
+      "study_prompt": "A person waters or sprays a plant.",
+      "video": "./media/A_01609.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P156",
+      "media_id": "A_01778",
+      "category": "fabric_folding",
+      "category_label": "Folding clothes, towels, or fabric",
+      "study_prompt": "A person folds or arranges fabric.",
+      "video": "./media/A_01778.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": false,
+        "D5": false,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P157",
+      "media_id": "A_01199",
+      "category": "fabric_folding",
+      "category_label": "Folding clothes, towels, or fabric",
+      "study_prompt": "A person folds or arranges fabric.",
+      "video": "./media/A_01199.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P158",
+      "media_id": "A_01863",
+      "category": "fabric_folding",
+      "category_label": "Folding clothes, towels, or fabric",
+      "study_prompt": "A person folds or arranges fabric.",
+      "video": "./media/A_01863.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P159",
+      "media_id": "A_02141",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_02141.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P160",
+      "media_id": "A_01173",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_01173.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P161",
+      "media_id": "A_03231",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_03231.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P162",
+      "media_id": "A_03118",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_03118.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P163",
+      "media_id": "A_03115",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_03115.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P164",
+      "media_id": "A_03020",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_03020.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P165",
+      "media_id": "A_02973",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_02973.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P166",
+      "media_id": "A_02786",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_02786.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P167",
+      "media_id": "A_02778",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_02778.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P168",
+      "media_id": "A_02101",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_02101.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P169",
+      "media_id": "A_01601",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_01601.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P170",
+      "media_id": "A_01483",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_01483.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P171",
+      "media_id": "A_01394",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_01394.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P172",
+      "media_id": "A_01046",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_01046.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P173",
+      "media_id": "A_00967",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00967.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P174",
+      "media_id": "A_00910",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00910.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P175",
+      "media_id": "A_00875",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00875.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P176",
+      "media_id": "A_00861",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00861.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P177",
+      "media_id": "A_00622",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00622.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P178",
+      "media_id": "A_00568",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00568.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P179",
+      "media_id": "A_00078",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00078.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P180",
+      "media_id": "A_00059",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00059.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P181",
+      "media_id": "A_00430",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_00430.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P182",
+      "media_id": "A_02161",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_02161.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P183",
+      "media_id": "A_00479",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_00479.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P184",
+      "media_id": "A_00405",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_00405.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P185",
+      "media_id": "A_00211",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_00211.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P186",
+      "media_id": "A_00597",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_00597.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P187",
+      "media_id": "A_02473",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_02473.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P188",
+      "media_id": "A_02624",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_02624.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P189",
+      "media_id": "A_02456",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_02456.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P190",
+      "media_id": "A_01122",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_01122.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P191",
+      "media_id": "A_00936",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_00936.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P192",
+      "media_id": "A_00913",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_00913.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P193",
+      "media_id": "A_02344",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_02344.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P194",
+      "media_id": "A_01988",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_01988.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P195",
+      "media_id": "A_01687",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_01687.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P196",
+      "media_id": "A_03322",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_03322.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P197",
+      "media_id": "A_01811",
+      "category": "granular_material",
+      "category_label": "Wood chips, soil, and granular material",
+      "study_prompt": "A person digs, cuts, or moves granular material.",
+      "video": "./media/A_01811.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P198",
+      "media_id": "A_03152",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_03152.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P199",
+      "media_id": "A_01511",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_01511.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P200",
+      "media_id": "A_00809",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_00809.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P201",
+      "media_id": "A_00731",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_00731.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P202",
+      "media_id": "A_00506",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_00506.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P203",
+      "media_id": "A_00448",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_00448.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P204",
+      "media_id": "A_00375",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_00375.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P205",
+      "media_id": "A_03057",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_03057.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P206",
+      "media_id": "A_02414",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_02414.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P207",
+      "media_id": "A_03153",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_03153.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P208",
+      "media_id": "A_02471",
+      "category": "drawer_table",
+      "category_label": "Opening drawers or folding furniture",
+      "study_prompt": "A person opens a drawer, compartment, or folding surface.",
+      "video": "./media/A_02471.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P209",
+      "media_id": "A_03264",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_03264.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P210",
+      "media_id": "A_03148",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_03148.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P211",
+      "media_id": "A_00995",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_00995.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P212",
+      "media_id": "A_00357",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_00357.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P213",
+      "media_id": "A_02835",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_02835.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P214",
+      "media_id": "A_01943",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_01943.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P215",
+      "media_id": "A_03756",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_03756.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P216",
+      "media_id": "A_03646",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_03646.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P217",
+      "media_id": "A_03512",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_03512.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P218",
+      "media_id": "A_03511",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_03511.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P219",
+      "media_id": "A_02329",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_02329.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P220",
+      "media_id": "A_01981",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_01981.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": false,
+        "D5": false,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P221",
+      "media_id": "A_01937",
+      "category": "glass_breaking",
+      "category_label": "Breaking or shattering glass",
+      "study_prompt": "A person strikes and breaks glass.",
+      "video": "./media/A_01937.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P222",
+      "media_id": "A_02044",
+      "category": "glass_breaking",
+      "category_label": "Breaking or shattering glass",
+      "study_prompt": "A person strikes and breaks glass.",
+      "video": "./media/A_02044.mp4",
+      "activation": {
+        "D0": true,
+        "D1": true,
+        "D2": true,
+        "D3": true,
+        "D4": true,
+        "D5": true,
+        "D6": false
+      }
+    },
+    {
+      "sample_id": "P223",
+      "media_id": "A_04724",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04724.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P224",
+      "media_id": "A_04706",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04706.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P225",
+      "media_id": "A_04695",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04695.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P226",
+      "media_id": "A_04694",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04694.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P227",
+      "media_id": "A_04669",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04669.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P228",
+      "media_id": "A_04544",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04544.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P229",
+      "media_id": "A_04539",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04539.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P230",
+      "media_id": "A_04494",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04494.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P231",
+      "media_id": "A_04439",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04439.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P232",
+      "media_id": "A_04424",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04424.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P233",
+      "media_id": "A_04417",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04417.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P234",
+      "media_id": "A_04407",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04407.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P235",
+      "media_id": "A_04337",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04337.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P236",
+      "media_id": "A_04317",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04317.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P237",
+      "media_id": "A_04290",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04290.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P238",
+      "media_id": "A_04274",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04274.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P239",
+      "media_id": "A_04131",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_04131.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P240",
+      "media_id": "A_03923",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_03923.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P241",
+      "media_id": "A_03883",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_03883.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P242",
+      "media_id": "A_03796",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_03796.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P243",
+      "media_id": "A_03765",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_03765.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P244",
+      "media_id": "A_03722",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_03722.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P245",
+      "media_id": "A_03693",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_03693.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P246",
+      "media_id": "A_03662",
+      "category": "ignition",
+      "category_label": "Ignition and visible flames",
+      "study_prompt": "A person lights or ignites an object.",
+      "video": "./media/A_03662.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P247",
+      "media_id": "A_03175",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_03175.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P248",
+      "media_id": "A_02921",
+      "category": "meat_cutting",
+      "category_label": "Meat, fish, or carcass cutting",
+      "study_prompt": "A person cuts or saws meat.",
+      "video": "./media/A_02921.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P249",
+      "media_id": "A_04534",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_04534.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P250",
+      "media_id": "A_02996",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02996.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P251",
+      "media_id": "A_02918",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02918.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P252",
+      "media_id": "A_02444",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02444.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P253",
+      "media_id": "A_01677",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01677.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P254",
+      "media_id": "A_01666",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01666.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P255",
+      "media_id": "A_01560",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01560.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P256",
+      "media_id": "A_01095",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01095.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P257",
+      "media_id": "A_01074",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01074.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P258",
+      "media_id": "A_00879",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00879.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P259",
+      "media_id": "A_00417",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00417.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P260",
+      "media_id": "A_00378",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00378.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P261",
+      "media_id": "A_00159",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00159.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P262",
+      "media_id": "A_00065",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_00065.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P263",
+      "media_id": "A_02277",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_02277.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P264",
+      "media_id": "A_01458",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01458.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P265",
+      "media_id": "A_01381",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01381.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P266",
+      "media_id": "A_01355",
+      "category": "vegetable_cutting",
+      "category_label": "Vegetable cutting",
+      "study_prompt": "A person cuts a vegetable or fruit.",
+      "video": "./media/A_01355.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P267",
+      "media_id": "A_00370",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_00370.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P268",
+      "media_id": "A_04110",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_04110.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P269",
+      "media_id": "A_01694",
+      "category": "vehicle_opening",
+      "category_label": "Vehicle door, trunk, or panel opening",
+      "study_prompt": "A person opens a vehicle door or compartment.",
+      "video": "./media/A_01694.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P270",
+      "media_id": "A_02752",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_02752.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P271",
+      "media_id": "A_00739",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_00739.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P272",
+      "media_id": "A_00485",
+      "category": "foamy_beverage",
+      "category_label": "Foamy or carbonated beverage pouring",
+      "study_prompt": "A person pours a foamy or carbonated drink.",
+      "video": "./media/A_00485.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P273",
+      "media_id": "A_04187",
+      "category": "smoke",
+      "category_label": "Smoke generation and diffusion",
+      "study_prompt": "A human-object interaction involves visible smoke.",
+      "video": "./media/A_04187.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P274",
+      "media_id": "A_03428",
+      "category": "smoke",
+      "category_label": "Smoke generation and diffusion",
+      "study_prompt": "A human-object interaction involves visible smoke.",
+      "video": "./media/A_03428.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P275",
+      "media_id": "A_03416",
+      "category": "smoke",
+      "category_label": "Smoke generation and diffusion",
+      "study_prompt": "A human-object interaction involves visible smoke.",
+      "video": "./media/A_03416.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P276",
+      "media_id": "A_03405",
+      "category": "smoke",
+      "category_label": "Smoke generation and diffusion",
+      "study_prompt": "A human-object interaction involves visible smoke.",
+      "video": "./media/A_03405.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P277",
+      "media_id": "A_03388",
+      "category": "smoke",
+      "category_label": "Smoke generation and diffusion",
+      "study_prompt": "A human-object interaction involves visible smoke.",
+      "video": "./media/A_03388.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P278",
+      "media_id": "A_04237",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_04237.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P279",
+      "media_id": "A_04157",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_04157.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P280",
+      "media_id": "A_03576",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_03576.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P281",
+      "media_id": "A_02849",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_02849.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P282",
+      "media_id": "A_00762",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00762.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P283",
+      "media_id": "A_03548",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_03548.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P284",
+      "media_id": "A_00924",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_00924.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P285",
+      "media_id": "A_03588",
+      "category": "hair_styling",
+      "category_label": "Hair combing, braiding, or styling",
+      "study_prompt": "A person arranges, ties, or braids hair.",
+      "video": "./media/A_03588.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P286",
+      "media_id": "A_04609",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_04609.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P287",
+      "media_id": "A_04476",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_04476.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P288",
+      "media_id": "A_04287",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_04287.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P289",
+      "media_id": "A_04061",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_04061.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P290",
+      "media_id": "A_03997",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_03997.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P291",
+      "media_id": "A_03943",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_03943.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P292",
+      "media_id": "A_03664",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_03664.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P293",
+      "media_id": "A_03453",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_03453.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P294",
+      "media_id": "A_03598",
+      "category": "throw_catch",
+      "category_label": "Throwing, tossing, and catching",
+      "study_prompt": "A person throws and catches an object.",
+      "video": "./media/A_03598.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P295",
+      "media_id": "A_04277",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_04277.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P296",
+      "media_id": "A_03903",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_03903.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P297",
+      "media_id": "A_04035",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_04035.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P298",
+      "media_id": "A_03701",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_03701.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P299",
+      "media_id": "A_04490",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_04490.mp4",
+      "activation": {}
+    },
+    {
+      "sample_id": "P300",
+      "media_id": "A_04488",
+      "category": "sports",
+      "category_label": "Golf, badminton, billiards, and racket sports",
+      "study_prompt": "A person strikes or propels sports equipment.",
+      "video": "./media/A_04488.mp4",
+      "activation": {}
+    }
+  ]
+}

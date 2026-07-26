@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>PhyHOI-Bench User Study</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="./config.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand">PhyHOI-Bench</div>
+      <div class="study-title">CIPG Physical-Plausibility Study</div>
+    </div>
+    <div class="progress-block" aria-label="Study progress">
+      <div class="progress-copy">
+        <span id="progressLabel">0 / 0</span>
+        <span id="saveState">Not started</span>
+      </div>
+      <div class="progress-track"><div id="progressFill"></div></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="setupView" class="setup-view">
+      <div class="setup-copy">
+        <p class="eyebrow">Anonymous evaluation</p>
+        <h1>PhyHOI physical-plausibility evaluation</h1>
+        <p>
+          Watch each generated video, then evaluate the seven nodes of the Causal
+          Interaction Physics Graph. Use only visible evidence. A failed parent node
+          automatically blocks its causal descendants.
+        </p>
+        <div class="setup-legend" aria-label="Verdict definitions">
+          <span class="legend-yes">Yes</span><span>physically valid</span>
+          <span class="legend-no">No</span><span>visible violation</span>
+          <span class="legend-u">U</span><span>unobservable</span>
+        </div>
+      </div>
+      <form id="setupForm" class="setup-form">
+        <label for="participantId">Participant code</label>
+        <div class="participant-row">
+          <input id="participantId" name="participantId" autocomplete="off" required maxlength="48">
+          <button id="regenerateId" type="button" class="icon-button" title="Generate another anonymous code">
+            <i data-lucide="refresh-cw"></i>
+          </button>
+        </div>
+        <label for="sampleCount">Videos assigned</label>
+        <select id="sampleCount" name="sampleCount">
+          <option value="20">20 videos</option>
+          <option value="30" selected>30 videos</option>
+          <option value="40">40 videos</option>
+        </select>
+        <label class="consent-row">
+          <input id="consent" type="checkbox" required>
+          <span>I consent to anonymous research use of these ratings.</span>
+        </label>
+        <button type="submit" class="primary-button">
+          <i data-lucide="play"></i>
+          Start evaluation
+        </button>
+      </form>
+    </section>
+
+    <section id="studyView" class="study-view" hidden>
+      <div class="video-column">
+        <div class="sample-meta">
+          <span id="sampleIndex" class="sample-index"></span>
+          <span id="sampleCategory" class="sample-category"></span>
+        </div>
+        <div class="video-shell">
+          <video id="studyVideo" controls playsinline preload="metadata"></video>
+        </div>
+        <div class="scenario-band">
+          <span>Scenario</span>
+          <p id="samplePrompt"></p>
+        </div>
+      </div>
+
+      <form id="ratingForm" class="rating-column">
+        <div class="rating-head">
+          <div>
+            <p class="eyebrow">CIPG causal graph</p>
+            <h2>Node-wise verdicts</h2>
+          </div>
+          <button id="replayButton" type="button" class="icon-button" title="Replay video">
+            <i data-lucide="rotate-ccw"></i>
+          </button>
+        </div>
+
+        <div id="nodeList" class="node-list"></div>
+
+        <div class="nav-row">
+          <button id="previousButton" type="button" class="secondary-button">
+            <i data-lucide="arrow-left"></i>
+            Previous
+          </button>
+          <button id="nextButton" type="submit" class="primary-button">
+            Save and continue
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <section id="completeView" class="complete-view" hidden>
+      <i data-lucide="check-circle-2" class="complete-icon"></i>
+      <h1>Evaluation complete</h1>
+      <p id="completionSummary"></p>
+      <div class="complete-actions">
+        <button id="downloadJson" type="button" class="primary-button">
+          <i data-lucide="download"></i>
+          Download JSON
+        </button>
+        <button id="downloadCsv" type="button" class="secondary-button">
+          <i data-lucide="sheet"></i>
+          Download CSV
+        </button>
+        <button id="submitResults" type="button" class="primary-button" hidden>
+          <i data-lucide="send"></i>
+          Submit responses
+        </button>
+      </div>
+      <p id="submitStatus" class="submit-status"></p>
+    </section>
+  </main>
+</body>
+</html>

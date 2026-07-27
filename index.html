@@ -11,10 +11,10 @@
     }
   </script>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=20260727-progress-export">
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
   <script src="./config.js" defer></script>
-  <script src="./app.js" defer></script>
+  <script src="./app.js?v=20260727-progress-export" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -145,6 +145,10 @@
           <button id="previousButton" type="button" class="secondary-button">
             <i data-lucide="arrow-left"></i>
             <span data-i18n="previous">Previous</span>
+          </button>
+          <button id="downloadProgressJson" type="button" class="secondary-button">
+            <i data-lucide="download"></i>
+            <span data-i18n="downloadProgressJson">Export current JSON</span>
           </button>
           <button id="nextButton" type="submit" class="primary-button">
             <span data-i18n="saveContinue">Save and continue</span>

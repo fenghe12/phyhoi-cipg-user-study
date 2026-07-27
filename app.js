@@ -647,6 +647,7 @@ const TRANSLATIONS = {
     replayVideo: "Replay video",
     previous: "Previous",
     saveContinue: "Save and continue",
+    downloadProgressJson: "Export current JSON",
     completeStudy: "Complete study",
     evaluationComplete: "Evaluation complete",
     downloadJson: "Export result JSON",
@@ -709,6 +710,7 @@ const TRANSLATIONS = {
     replayVideo: "重新播放视频",
     previous: "上一个",
     saveContinue: "保存并继续",
+    downloadProgressJson: "导出当前进度 JSON",
     completeStudy: "完成评估",
     evaluationComplete: "评估完成",
     downloadJson: "导出结果 JSON",
@@ -1105,9 +1107,10 @@ function resultPayload() {
       first_failed_node: firstFailedNode(rating.verdicts, active) || null,
     };
   });
-  const overallRatings = assignments
-    .map((item) => item.overall_physical_plausibility)
-    .filter((value) => Number.isInteger(value));
+  const overallRatings = state.assignment
+    .map((sample) => ({ sample, rating: state.ratings[sample.sample_id] }))
+    .filter(({ sample, rating }) => ratingComplete(sample, rating))
+    .map(({ rating }) => rating.overallPlausibility);
   return {
     schema_version: "phyhoi-human-alignment-v3",
     anonymous_session_id: state.sessionId,
@@ -1115,12 +1118,34 @@ function resultPayload() {
     started_at: state.startedAt,
     completed_at: state.completedAt || new Date().toISOString(),
     summary: {
-      completed_videos: assignments.filter((item) => item.overall_physical_plausibility).length,
+      completed_videos: completedCount(),
       mean_overall_physical_plausibility: overallRatings.length
         ? Number((overallRatings.reduce((sum, value) => sum + value, 0) / overallRatings.length).toFixed(6))
         : null,
     },
     assignment: assignments,
+  };
+}
+
+function progressPayload() {
+  const payload = resultPayload();
+  const answeredAssignments = payload.assignment.filter(
+    (item) =>
+      Number.isInteger(item.overall_physical_plausibility) ||
+      Object.keys(item.raw_node_labels || {}).length > 0,
+  );
+  return {
+    ...payload,
+    export_kind: "in_progress",
+    exported_at: new Date().toISOString(),
+    completed_at: null,
+    progress: {
+      completed_videos: payload.summary.completed_videos,
+      assigned_videos: state.assignment.length,
+      current_video_order: state.currentIndex + 1,
+      included_response_records: answeredAssignments.length,
+    },
+    assignment: answeredAssignments,
   };
 }
 
@@ -1300,6 +1325,15 @@ async function initialize() {
     download(
       `phyhoi-response-${state.sessionId}.json`,
       JSON.stringify(resultPayload(), null, 2),
+      "application/json",
+    );
+  });
+  $("#downloadProgressJson")?.addEventListener("click", () => {
+    persist();
+    const payload = progressPayload();
+    download(
+      `phyhoi-progress-${state.sessionId}-${payload.progress.completed_videos}-of-${payload.progress.assigned_videos}.json`,
+      JSON.stringify(payload, null, 2),
       "application/json",
     );
   });

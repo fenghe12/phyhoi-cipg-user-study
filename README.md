@@ -27,6 +27,10 @@ Refreshing or reopening the page in the same browser restores the randomized
 assignment, current video, partial answers, and completion state. The final
 page exports one JSON result file whose filename contains the anonymous
 internal session identifier. The identifier is never shown in the interface.
+During the study, participants may also export an in-progress JSON checkpoint.
+The checkpoint contains only started response records and reports the completed,
+assigned, and current video counts. Exporting a checkpoint does not alter the
+browser's saved progress or the final result format.
 
 The method quota entries for LongCat-Video-Avatar and InteractAvatar are
 explicit placeholders. Do not begin the formal study until the reviewed

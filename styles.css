@@ -441,7 +441,8 @@ input:focus, select:focus, textarea:focus {
   font-size: 12px;
 }
 .rating-notice svg { width: 16px; height: 16px; }
-.nav-row { display: flex; justify-content: space-between; gap: 10px; padding: 0 12px; }
+.nav-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 0 12px; }
+.nav-row #downloadProgressJson { justify-self: center; }
 
 .complete-view {
   display: grid;
@@ -479,4 +480,12 @@ input:focus, select:focus, textarea:focus {
   .verdict-control { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .scenario-band { grid-template-columns: 1fr; gap: 4px; }
   .study-facts div { min-height: 86px; padding: 8px; }
+  .nav-row { grid-template-columns: 1fr 1fr; }
+  .nav-row #downloadProgressJson {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: stretch;
+  }
+  .nav-row #previousButton { grid-column: 1; grid-row: 2; }
+  .nav-row #nextButton { grid-column: 2; grid-row: 2; }
 }

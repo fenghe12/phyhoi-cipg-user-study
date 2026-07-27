@@ -652,6 +652,9 @@ const TRANSLATIONS = {
     downloadJson: "Export result JSON",
     submitResponses: "Submit responses",
     savedLocally: "Saved in this browser",
+    autoSavedAt: (time) => `Auto-saved at ${time}`,
+    restoredProgress: (completed, total, time) => `Restored ${completed} / ${total} · last saved ${time}`,
+    saveFailed: "Automatic save failed",
     completeOverall: "Select an overall rating",
     completeNodes: "Label every listed node",
     videoOf: (current, total) => `Video ${current} of ${total}`,
@@ -711,6 +714,9 @@ const TRANSLATIONS = {
     downloadJson: "导出结果 JSON",
     submitResponses: "提交结果",
     savedLocally: "已保存在当前浏览器",
+    autoSavedAt: (time) => `已自动保存 · ${time}`,
+    restoredProgress: (completed, total, time) => `已恢复 ${completed} / ${total} · 上次保存 ${time}`,
+    saveFailed: "自动保存失败",
     completeOverall: "请选择整体评分",
     completeNodes: "请标注页面列出的所有节点",
     videoOf: (current, total) => `第 ${current} / ${total} 个视频`,
@@ -728,6 +734,9 @@ const state = {
   sessionId: "",
   currentIndex: 0,
   startedAt: null,
+  completedAt: null,
+  consentedAt: null,
+  lastSavedAt: null,
   language: localStorage.getItem("phyhoi-human-alignment:language") || "en",
 };
 
@@ -788,20 +797,66 @@ function savedRecord() {
   }
 }
 
+function displayTime(isoValue) {
+  const date = isoValue ? new Date(isoValue) : new Date();
+  if (Number.isNaN(date.getTime())) return "--:--";
+  return new Intl.DateTimeFormat(state.language === "zh" ? "zh-CN" : "en", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  }).format(date);
+}
+
+function completedCount() {
+  return state.assignment.filter((sample) => (
+    ratingComplete(sample, state.ratings[sample.sample_id])
+  )).length;
+}
+
 function persist() {
-  if (!state.sessionId) return;
-  localStorage.setItem(
-    recordKey(),
-    JSON.stringify({
-      sessionId: state.sessionId,
-      assignmentIds: state.assignment.map((sample) => sample.sample_id),
-      ratings: state.ratings,
-      currentIndex: state.currentIndex,
-      startedAt: state.startedAt,
-      language: state.language,
-    }),
+  if (!state.sessionId || !state.assignment.length) return;
+  state.lastSavedAt = new Date().toISOString();
+  try {
+    localStorage.setItem(
+      recordKey(),
+      JSON.stringify({
+        sessionId: state.sessionId,
+        assignmentIds: state.assignment.map((sample) => sample.sample_id),
+        ratings: state.ratings,
+        currentIndex: state.currentIndex,
+        startedAt: state.startedAt,
+        completedAt: state.completedAt,
+        consentedAt: state.consentedAt,
+        lastSavedAt: state.lastSavedAt,
+        language: state.language,
+      }),
+    );
+    $("#saveState").textContent = t("autoSavedAt", displayTime(state.lastSavedAt));
+  } catch {
+    $("#saveState").textContent = t("saveFailed");
+  }
+}
+
+function restoreSavedRecord(saved) {
+  if (!saved?.assignmentIds?.length || !state.manifest?.samples?.length) return false;
+  const byId = new Map(state.manifest.samples.map((sample) => [sample.sample_id, sample]));
+  const assignment = saved.assignmentIds.map((id) => byId.get(id)).filter(Boolean);
+  if (!assignment.length) return false;
+  state.assignment = assignment;
+  state.ratings = saved.ratings || {};
+  state.currentIndex = Math.max(
+    0,
+    Math.min(Number(saved.currentIndex) || 0, assignment.length - 1),
   );
-  $("#saveState").textContent = t("savedLocally");
+  state.startedAt = saved.startedAt || new Date().toISOString();
+  state.completedAt = saved.completedAt || null;
+  state.consentedAt = saved.consentedAt || null;
+  state.lastSavedAt = saved.lastSavedAt || null;
+  if (saved.language === "en" || saved.language === "zh") {
+    state.language = saved.language;
+    localStorage.setItem("phyhoi-human-alignment:language", state.language);
+  }
+  return true;
 }
 
 function activeMap(sample) {
@@ -1018,9 +1073,7 @@ function validateCurrent() {
 }
 
 function updateProgress() {
-  const completed = state.assignment.filter((sample) => (
-    ratingComplete(sample, state.ratings[sample.sample_id])
-  )).length;
+  const completed = completedCount();
   const total = state.assignment.length || state.manifest?.sample_total || 300;
   $("#progressLabel").textContent = `${completed} / ${total}`;
   $("#progressFill").style.width = `${total ? (completed / total) * 100 : 0}%`;
@@ -1060,7 +1113,7 @@ function resultPayload() {
     anonymous_session_id: state.sessionId,
     language: state.language,
     started_at: state.startedAt,
-    completed_at: new Date().toISOString(),
+    completed_at: state.completedAt || new Date().toISOString(),
     summary: {
       completed_videos: assignments.filter((item) => item.overall_physical_plausibility).length,
       mean_overall_physical_plausibility: overallRatings.length
@@ -1117,6 +1170,7 @@ function toCsv(payload) {
 }
 
 function completeStudy() {
+  state.completedAt = state.completedAt || new Date().toISOString();
   persist();
   $("#studyView").hidden = true;
   $("#completeView").hidden = false;
@@ -1173,6 +1227,9 @@ function applyTranslations() {
   if (!$("#completeView").hidden && state.assignment.length) {
     $("#completionSummary").textContent = t("completionSummary", state.assignment.length);
   }
+  if (state.assignment.length && state.lastSavedAt) {
+    $("#saveState").textContent = t("autoSavedAt", displayTime(state.lastSavedAt));
+  }
   if (window.lucide) lucide.createIcons();
 }
 
@@ -1185,7 +1242,6 @@ async function initialize() {
   const response = await fetch(manifestPath);
   if (!response.ok) throw new Error(`Unable to load sample manifest: ${response.status}`);
   state.manifest = await response.json();
-  updateProgress();
 
   document.querySelectorAll("[data-language]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -1203,18 +1259,14 @@ async function initialize() {
   $("#setupForm").addEventListener("submit", (event) => {
     event.preventDefault();
     const saved = savedRecord();
-    if (saved?.assignmentIds?.length) {
-      const byId = new Map(state.manifest.samples.map((sample) => [sample.sample_id, sample]));
-      state.assignment = saved.assignmentIds.map((id) => byId.get(id)).filter(Boolean);
-      state.ratings = saved.ratings || {};
-      state.currentIndex = Math.min(saved.currentIndex || 0, state.assignment.length - 1);
-      state.startedAt = saved.startedAt || new Date().toISOString();
-    }
+    restoreSavedRecord(saved);
     if (!state.assignment.length) {
       state.assignment = randomizedAssignment(state.manifest.samples, state.sessionId);
       state.ratings = {};
       state.currentIndex = 0;
       state.startedAt = new Date().toISOString();
+      state.consentedAt = new Date().toISOString();
+      state.completedAt = null;
     }
     $("#setupView").hidden = true;
     $("#studyView").hidden = false;
@@ -1253,6 +1305,30 @@ async function initialize() {
   });
   $("#submitResults").addEventListener("click", submitResults);
   applyTranslations();
+
+  const saved = savedRecord();
+  if (restoreSavedRecord(saved)) {
+    $("#setupView").hidden = true;
+    if (state.completedAt && completedCount() === state.assignment.length) {
+      completeStudy();
+    } else {
+      $("#studyView").hidden = false;
+      renderCurrent();
+      $("#saveState").textContent = t(
+        "restoredProgress",
+        completedCount(),
+        state.assignment.length,
+        displayTime(state.lastSavedAt),
+      );
+    }
+  } else {
+    updateProgress();
+  }
+
+  window.addEventListener("pagehide", persist);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") persist();
+  });
 }
 
 initialize().catch((error) => {

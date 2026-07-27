@@ -22,9 +22,11 @@ plausibility rating and then independent Yes/No/Unobservable labels for every
 active D0--D6 node. Causal gating is applied only in the exported post-processed
 labels; the raw human labels are retained.
 
-The static site saves progress in browser local storage and exports JSON/CSV.
-The anonymous internal session identifier is never shown in the interface.
-Set `submissionEndpoint` in `config.js` when a collection backend is available.
+The static site automatically saves every selection in browser local storage.
+Refreshing or reopening the page in the same browser restores the randomized
+assignment, current video, partial answers, and completion state. The final
+page exports one JSON result file whose filename contains the anonymous
+internal session identifier. The identifier is never shown in the interface.
 
 The method quota entries for LongCat-Video-Avatar and InteractAvatar are
 explicit placeholders. Do not begin the formal study until the reviewed

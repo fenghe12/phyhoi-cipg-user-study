@@ -305,6 +305,10 @@ input:focus, select:focus, textarea:focus {
   box-shadow: var(--shadow);
   overflow: hidden;
 }
+.video-column {
+  position: sticky;
+  top: 94px;
+}
 
 .sample-meta, .rating-head {
   display: flex;
@@ -396,7 +400,20 @@ input:focus, select:focus, textarea:focus {
 .node-row.awaiting-overall { background: #f5f7f8; }
 .node-name { display: flex; align-items: baseline; gap: 8px; font-weight: 750; }
 .node-name b { color: var(--blue); font-family: "Times New Roman", Times, serif; font-size: 19px; }
-.node-description { margin-top: 2px; color: var(--muted); font-size: 12px; }
+.node-question {
+  margin-top: 3px;
+  color: #2f3d48;
+  font-size: 13px;
+  line-height: 1.38;
+}
+.node-description {
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid #e4e9ed;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.34;
+}
 
 .verdict-control { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
 .verdict-control button {
@@ -444,7 +461,7 @@ input:focus, select:focus, textarea:focus {
   .instruction-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dimension-guide { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .rating-column { order: 2; }
-  .video-column { order: 1; }
+  .video-column { position: static; order: 1; }
 }
 
 @media (max-width: 720px) {

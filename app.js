@@ -3,56 +3,56 @@ const NODE_DEFINITIONS = [
     id: "D0",
     name: { en: "Object Integrity", zh: "对象完整性" },
     description: {
-      en: "People and objects remain identifiable and structurally consistent.",
-      zh: "人物与物体保持可识别，外观和结构前后一致。",
+      en: "People and objects remain identifiable, intact, and structurally consistent.",
+      zh: "人物与物体保持可识别、完整，外观和结构前后一致。",
     },
   },
   {
     id: "D1",
     name: { en: "Contact", zh: "接触有效性" },
     description: {
-      en: "Required contact or support is physically established.",
-      zh: "动作所需的接触或支撑关系真实成立。",
+      en: "The contact or support required by the action is physically established.",
+      zh: "动作所需的接触或支撑关系在物理上真实成立。",
     },
   },
   {
     id: "D2",
     name: { en: "Contact Region", zh: "接触区域" },
     description: {
-      en: "Force is applied to the correct functional surface or region.",
-      zh: "作用力施加在正确的功能表面或区域。",
+      en: "Contact and force are applied to the correct functional surface or region.",
+      zh: "接触点与作用力落在正确的功能表面或区域。",
     },
   },
   {
     id: "D3",
     name: { en: "Kinematic Execution", zh: "运动学执行" },
     description: {
-      en: "The action mechanism, body motion, and completion are physically valid.",
-      zh: "动作机制、人体运动与完成过程符合物理规律。",
+      en: "The action mechanism, body motion, execution, and completion are physically valid.",
+      zh: "动作机制、人体运动、执行过程与完成状态符合物理规律。",
     },
   },
   {
     id: "D4",
     name: { en: "Causal Physical Effect", zh: "因果物理效应" },
     description: {
-      en: "The action produces the expected visible physical effect.",
-      zh: "动作产生了预期且可见的物理效果。",
+      en: "The action produces the expected visible physical consequence.",
+      zh: "动作产生了符合预期且可见的物理结果。",
     },
   },
   {
     id: "D5",
     name: { en: "Temporal Persistence", zh: "时序与持续性" },
     description: {
-      en: "The effect appears, persists, dissipates, or rebounds in a valid order.",
-      zh: "效果的出现、持续、消退或回弹具有合理时序。",
+      en: "The effect appears in the correct order and persists, dissipates, or rebounds plausibly.",
+      zh: "效果按正确顺序出现，并以合理方式持续、消退或回弹。",
     },
   },
   {
     id: "D6",
     name: { en: "Human Biomechanical Response", zh: "人体生物力学响应" },
     description: {
-      en: "Posture and body response are consistent with the applied force.",
-      zh: "人体姿态、关节运动与受力反馈相符。",
+      en: "Posture, joint motion, exertion, recoil, and balance are consistent with the applied force.",
+      zh: "人体姿态、关节运动、发力、反冲与平衡反馈同作用力相符。",
     },
   },
 ];
@@ -97,6 +97,7 @@ const PROMPT_ZH = {
 
 const TRANSLATIONS = {
   en: {
+    languageLabel: "Language / 语言",
     studyTitle: "Human Physical-Plausibility Study",
     notStarted: "Not started",
     anonymousEvaluation: "Anonymous blinded evaluation",
@@ -120,11 +121,12 @@ const TRANSLATIONS = {
     consent: "I consent to the anonymous research use of these ratings.",
     startEvaluation: "Start evaluation",
     continueEvaluation: "Continue evaluation",
-    instructions: "Instructions",
-    instructionWatch: "Watch the full video.",
-    instructionRate: "First rate overall plausibility (1-5).",
-    instructionLabel: "Then label each listed node independently.",
-    instructionEvidence: "Use visible evidence only; choose Unobservable when evidence is insufficient.",
+    instructions: "Evaluation instructions",
+    instructionScope: "The guide always shows D0-D6. The response form includes only dimensions activated for the current interaction.",
+    instructionWatch: "Watch the complete video at least once before answering.",
+    instructionRate: "Rate overall physical plausibility from 1 to 5: 1 means evidently implausible and 5 means physically plausible.",
+    instructionLabel: "Then label every activated dimension independently; do not infer a dimension from another answer.",
+    instructionEvidence: "Yes = physically valid; No = a visible violation; Unobservable = insufficient visible evidence. Do not infer events that are not shown.",
     blinded: "Method and automatic results hidden",
     scenario: "Scenario",
     overallPlausibility: "Overall physical plausibility",
@@ -152,6 +154,7 @@ const TRANSLATIONS = {
     submissionFailed: (message) => `Submission failed: ${message}`,
   },
   zh: {
+    languageLabel: "语言 / Language",
     studyTitle: "人体-物体交互物理合理性人工评估",
     notStarted: "尚未开始",
     anonymousEvaluation: "匿名盲评",
@@ -176,10 +179,11 @@ const TRANSLATIONS = {
     startEvaluation: "开始评估",
     continueEvaluation: "继续评估",
     instructions: "评估说明",
-    instructionWatch: "完整观看视频。",
-    instructionRate: "先评价整体物理合理性（1–5 分）。",
-    instructionLabel: "再独立标注页面列出的每个节点。",
-    instructionEvidence: "仅使用可见证据；证据不足时选择“不可观察”。",
+    instructionScope: "下方说明固定展示 D0–D6；作答区只显示当前交互实际激活的维度。",
+    instructionWatch: "作答前至少完整观看一次视频。",
+    instructionRate: "先评价整体物理合理性：1 分表示明显不合理，5 分表示符合物理规律。",
+    instructionLabel: "再独立判断每个已激活维度，不要根据其他维度的答案推断本维度。",
+    instructionEvidence: "“是”表示符合物理规律；“否”表示存在可见违例；“不可观察”表示可见证据不足。不要推断视频未展示的事件。",
     blinded: "生成方法与自动评分结果已隐藏",
     scenario: "场景",
     overallPlausibility: "整体物理合理性",
@@ -409,6 +413,21 @@ function renderNodes() {
   if (window.lucide) lucide.createIcons();
 }
 
+function renderDimensionGuide() {
+  const guide = $("#dimensionGuide");
+  if (!guide) return;
+  guide.innerHTML = "";
+  NODE_DEFINITIONS.forEach(({ id, name, description }) => {
+    const item = document.createElement("div");
+    item.className = `dimension-guide-item dimension-${id.toLowerCase()}`;
+    item.innerHTML = `
+      <div class="dimension-guide-name"><b>${id}</b><span>${name[state.language]}</span></div>
+      <p>${description[state.language]}</p>
+    `;
+    guide.appendChild(item);
+  });
+}
+
 function promptForStudy(sample) {
   if (state.language === "zh" && PROMPT_ZH[sample.category]) {
     return PROMPT_ZH[sample.category];
@@ -597,6 +616,7 @@ function applyTranslations() {
   document.querySelectorAll("[data-language]").forEach((button) => {
     button.classList.toggle("selected", button.dataset.language === state.language);
   });
+  renderDimensionGuide();
   const saved = state.sessionId ? savedRecord() : null;
   $("#startButtonLabel").textContent =
     saved?.assignmentIds?.length ? t("continueEvaluation") : t("startEvaluation");

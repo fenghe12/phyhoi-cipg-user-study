@@ -18,9 +18,12 @@
       <div class="study-title" data-i18n="studyTitle">Human Physical-Plausibility Study</div>
     </div>
     <div class="topbar-actions">
-      <div class="language-switch" role="group" aria-label="Language">
-        <button type="button" data-language="en" class="selected">EN</button>
-        <button type="button" data-language="zh">中文</button>
+      <div class="language-control">
+        <span data-i18n="languageLabel">Language / 语言</span>
+        <div class="language-switch" role="group" aria-label="Language / 语言">
+          <button type="button" data-language="en" class="selected">English</button>
+          <button type="button" data-language="zh">中文</button>
+        </div>
       </div>
       <div class="progress-block" aria-label="Study progress">
         <div class="progress-copy">
@@ -75,16 +78,22 @@
 
     <section id="studyView" class="study-view" hidden>
       <div class="instruction-band">
-        <div class="instruction-title">
-          <i data-lucide="clipboard-check"></i>
-          <strong data-i18n="instructions">Instructions</strong>
+        <div class="instruction-heading">
+          <div class="instruction-title">
+            <i data-lucide="clipboard-check"></i>
+            <strong data-i18n="instructions">Evaluation instructions</strong>
+          </div>
+          <p data-i18n="instructionScope">
+            The guide always shows D0-D6. The response form includes only dimensions activated for the current interaction.
+          </p>
         </div>
         <div class="instruction-steps">
           <span><b>1</b><span data-i18n="instructionWatch">Watch the full video.</span></span>
-          <span><b>2</b><span data-i18n="instructionRate">First rate overall plausibility (1-5).</span></span>
-          <span><b>3</b><span data-i18n="instructionLabel">Then label each listed node independently.</span></span>
-          <span><b>4</b><span data-i18n="instructionEvidence">Use visible evidence only; choose Unobservable when evidence is insufficient.</span></span>
+          <span><b>2</b><span data-i18n="instructionRate">Rate overall physical plausibility from 1 to 5.</span></span>
+          <span><b>3</b><span data-i18n="instructionLabel">Label each activated dimension independently.</span></span>
+          <span><b>4</b><span data-i18n="instructionEvidence">Use Yes, No, or Unobservable from visible evidence only.</span></span>
         </div>
+        <div id="dimensionGuide" class="dimension-guide" aria-label="CIPG dimension definitions"></div>
       </div>
 
       <div class="video-column">

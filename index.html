@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>PhyHOI-Bench User Study</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="./styles.css">
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
   <script src="./config.js" defer></script>
@@ -14,80 +15,109 @@
   <header class="topbar">
     <div>
       <div class="brand">PhyHOI-Bench</div>
-      <div class="study-title">CIPG Physical-Plausibility Study</div>
+      <div class="study-title" data-i18n="studyTitle">Human Physical-Plausibility Study</div>
     </div>
-    <div class="progress-block" aria-label="Study progress">
-      <div class="progress-copy">
-        <span id="progressLabel">0 / 0</span>
-        <span id="saveState">Not started</span>
+    <div class="topbar-actions">
+      <div class="language-switch" role="group" aria-label="Language">
+        <button type="button" data-language="en" class="selected">EN</button>
+        <button type="button" data-language="zh">中文</button>
       </div>
-      <div class="progress-track"><div id="progressFill"></div></div>
+      <div class="progress-block" aria-label="Study progress">
+        <div class="progress-copy">
+          <span id="progressLabel">0 / 300</span>
+          <span id="saveState" data-i18n="notStarted">Not started</span>
+        </div>
+        <div class="progress-track"><div id="progressFill"></div></div>
+      </div>
     </div>
   </header>
 
   <main>
     <section id="setupView" class="setup-view">
       <div class="setup-copy">
-        <p class="eyebrow">Anonymous evaluation</p>
-        <h1>PhyHOI physical-plausibility evaluation</h1>
-        <p>
-          Watch each generated video, then evaluate the seven nodes of the Causal
-          Interaction Physics Graph. Use only visible evidence. A failed parent node
-          automatically blocks its causal descendants.
+        <p class="eyebrow" data-i18n="anonymousEvaluation">Anonymous blinded evaluation</p>
+        <h1 data-i18n="setupHeading">Physical plausibility of generated human-object interactions</h1>
+        <p data-i18n="setupIntro">
+          You will evaluate 300 generated videos. The generating method, automatic
+          scores, and reference answers are concealed. Video order is randomized.
         </p>
+        <div class="protocol-panel">
+          <h2 data-i18n="protocolHeading">Evaluation protocol</h2>
+          <ol>
+            <li data-i18n="protocolWatch">Watch the complete video before rating it.</li>
+            <li data-i18n="protocolLikert">Rate overall physical plausibility from 1 to 5.</li>
+            <li data-i18n="protocolNodes">Label every listed D0-D6 node using only visible evidence.</li>
+            <li data-i18n="protocolSessions">You may complete the study in multiple sessions; progress is stored in this browser.</li>
+          </ol>
+        </div>
         <div class="setup-legend" aria-label="Verdict definitions">
-          <span class="legend-yes">Yes</span><span>physically valid</span>
-          <span class="legend-no">No</span><span>visible violation</span>
-          <span class="legend-u">U</span><span>unobservable</span>
+          <span class="legend-yes" data-i18n="yes">Yes</span><span data-i18n="yesDefinition">physically valid</span>
+          <span class="legend-no" data-i18n="no">No</span><span data-i18n="noDefinition">visible physical violation</span>
+          <span class="legend-u" data-i18n="unobservableShort">U</span><span data-i18n="unobservableDefinition">insufficient visible evidence</span>
         </div>
       </div>
       <form id="setupForm" class="setup-form">
-        <label for="participantId">Participant code</label>
-        <div class="participant-row">
-          <input id="participantId" name="participantId" autocomplete="off" required maxlength="48">
-          <button id="regenerateId" type="button" class="icon-button" title="Generate another anonymous code">
-            <i data-lucide="refresh-cw"></i>
-          </button>
+        <div class="study-facts">
+          <div><strong>300</strong><span data-i18n="videos">videos</span></div>
+          <div><strong>50</strong><span data-i18n="categories">interaction categories</span></div>
+          <div><strong>7</strong><span data-i18n="dimensions">CIPG dimensions</span></div>
         </div>
-        <label for="sampleCount">Videos assigned</label>
-        <select id="sampleCount" name="sampleCount">
-          <option value="20">20 videos</option>
-          <option value="30" selected>30 videos</option>
-          <option value="40">40 videos</option>
-        </select>
         <label class="consent-row">
           <input id="consent" type="checkbox" required>
-          <span>I consent to anonymous research use of these ratings.</span>
+          <span data-i18n="consent">I consent to the anonymous research use of these ratings.</span>
         </label>
         <button type="submit" class="primary-button">
           <i data-lucide="play"></i>
-          Start evaluation
+          <span id="startButtonLabel" data-i18n="startEvaluation">Start evaluation</span>
         </button>
       </form>
     </section>
 
     <section id="studyView" class="study-view" hidden>
+      <div class="instruction-band">
+        <div class="instruction-title">
+          <i data-lucide="clipboard-check"></i>
+          <strong data-i18n="instructions">Instructions</strong>
+        </div>
+        <div class="instruction-steps">
+          <span><b>1</b><span data-i18n="instructionWatch">Watch the full video.</span></span>
+          <span><b>2</b><span data-i18n="instructionRate">First rate overall plausibility (1-5).</span></span>
+          <span><b>3</b><span data-i18n="instructionLabel">Then label each listed node independently.</span></span>
+          <span><b>4</b><span data-i18n="instructionEvidence">Use visible evidence only; choose Unobservable when evidence is insufficient.</span></span>
+        </div>
+      </div>
+
       <div class="video-column">
         <div class="sample-meta">
           <span id="sampleIndex" class="sample-index"></span>
-          <span id="sampleCategory" class="sample-category"></span>
+          <span class="blind-badge"><i data-lucide="eye-off"></i><span data-i18n="blinded">Method and automatic results hidden</span></span>
         </div>
         <div class="video-shell">
           <video id="studyVideo" controls playsinline preload="metadata"></video>
         </div>
         <div class="scenario-band">
-          <span>Scenario</span>
+          <span data-i18n="scenario">Scenario</span>
           <p id="samplePrompt"></p>
         </div>
       </div>
 
       <form id="ratingForm" class="rating-column">
+        <fieldset class="likert-panel">
+          <legend data-i18n="overallPlausibility">Overall physical plausibility</legend>
+          <p data-i18n="likertPrompt">How physically plausible is the complete interaction process?</p>
+          <div id="likertScale" class="likert-scale" role="radiogroup" aria-label="Overall physical plausibility"></div>
+          <div class="likert-anchors">
+            <span data-i18n="evidentlyImplausible">Evidently implausible</span>
+            <span data-i18n="physicallyPlausible">Physically plausible</span>
+          </div>
+        </fieldset>
+
         <div class="rating-head">
           <div>
-            <p class="eyebrow">CIPG causal graph</p>
-            <h2>Node-wise verdicts</h2>
+            <p class="eyebrow" data-i18n="cipgDimensions">CIPG dimensions</p>
+            <h2 data-i18n="nodeVerdicts">Node-wise judgments</h2>
           </div>
-          <button id="replayButton" type="button" class="icon-button" title="Replay video">
+          <button id="replayButton" type="button" class="icon-button" data-i18n-title="replayVideo" title="Replay video">
             <i data-lucide="rotate-ccw"></i>
           </button>
         </div>
@@ -97,10 +127,10 @@
         <div class="nav-row">
           <button id="previousButton" type="button" class="secondary-button">
             <i data-lucide="arrow-left"></i>
-            Previous
+            <span data-i18n="previous">Previous</span>
           </button>
           <button id="nextButton" type="submit" class="primary-button">
-            Save and continue
+            <span data-i18n="saveContinue">Save and continue</span>
             <i data-lucide="arrow-right"></i>
           </button>
         </div>
@@ -109,20 +139,20 @@
 
     <section id="completeView" class="complete-view" hidden>
       <i data-lucide="check-circle-2" class="complete-icon"></i>
-      <h1>Evaluation complete</h1>
+      <h1 data-i18n="evaluationComplete">Evaluation complete</h1>
       <p id="completionSummary"></p>
       <div class="complete-actions">
         <button id="downloadJson" type="button" class="primary-button">
           <i data-lucide="download"></i>
-          Download JSON
+          <span data-i18n="downloadJson">Download JSON</span>
         </button>
         <button id="downloadCsv" type="button" class="secondary-button">
           <i data-lucide="sheet"></i>
-          Download CSV
+          <span data-i18n="downloadCsv">Download CSV</span>
         </button>
         <button id="submitResults" type="button" class="primary-button" hidden>
           <i data-lucide="send"></i>
-          Submit responses
+          <span data-i18n="submitResponses">Submit responses</span>
         </button>
       </div>
       <p id="submitStatus" class="submit-status"></p>

@@ -1,11 +1,60 @@
 const NODE_DEFINITIONS = [
-  ["D0", "Object Integrity", "Objects and people remain identifiable and structurally consistent."],
-  ["D1", "Contact", "Required contact or support is physically established."],
-  ["D2", "Contact Region", "The force acts on the correct functional surface or region."],
-  ["D3", "Kinematic Execution", "The action mechanism and completion are physically valid."],
-  ["D4", "Causal Physical Effect", "The action produces the expected visible physical effect."],
-  ["D5", "Temporal Persistence", "The effect appears, persists, dissipates, or rebounds in a valid order."],
-  ["D6", "Human Biomechanical Response", "Posture and body response are consistent with the applied force."],
+  {
+    id: "D0",
+    name: { en: "Object Integrity", zh: "对象完整性" },
+    description: {
+      en: "People and objects remain identifiable and structurally consistent.",
+      zh: "人物与物体保持可识别，外观和结构前后一致。",
+    },
+  },
+  {
+    id: "D1",
+    name: { en: "Contact", zh: "接触有效性" },
+    description: {
+      en: "Required contact or support is physically established.",
+      zh: "动作所需的接触或支撑关系真实成立。",
+    },
+  },
+  {
+    id: "D2",
+    name: { en: "Contact Region", zh: "接触区域" },
+    description: {
+      en: "Force is applied to the correct functional surface or region.",
+      zh: "作用力施加在正确的功能表面或区域。",
+    },
+  },
+  {
+    id: "D3",
+    name: { en: "Kinematic Execution", zh: "运动学执行" },
+    description: {
+      en: "The action mechanism, body motion, and completion are physically valid.",
+      zh: "动作机制、人体运动与完成过程符合物理规律。",
+    },
+  },
+  {
+    id: "D4",
+    name: { en: "Causal Physical Effect", zh: "因果物理效应" },
+    description: {
+      en: "The action produces the expected visible physical effect.",
+      zh: "动作产生了预期且可见的物理效果。",
+    },
+  },
+  {
+    id: "D5",
+    name: { en: "Temporal Persistence", zh: "时序与持续性" },
+    description: {
+      en: "The effect appears, persists, dissipates, or rebounds in a valid order.",
+      zh: "效果的出现、持续、消退或回弹具有合理时序。",
+    },
+  },
+  {
+    id: "D6",
+    name: { en: "Human Biomechanical Response", zh: "人体生物力学响应" },
+    description: {
+      en: "Posture and body response are consistent with the applied force.",
+      zh: "人体姿态、关节运动与受力反馈相符。",
+    },
+  },
 ];
 
 const DESCENDANTS = {
@@ -18,21 +67,167 @@ const DESCENDANTS = {
   D6: [],
 };
 
+const PROMPT_ZH = {
+  bamboo_cutting: "一名人物正在切割竹子或编织植物材料。",
+  beer_pouring: "一名人物正在将啤酒倒入容器。",
+  brick_smashing: "一名人物徒手击打或破坏砖块等砌体物体。",
+  car_wash: "一名人物正在使用可见泡沫或水清洗车辆。",
+  drawer_table: "一名人物正在打开抽屉、储物格或折叠台面。",
+  fabric_folding: "一名人物正在折叠或整理织物。",
+  foamy_beverage: "一名人物正在倾倒泡沫或碳酸饮料。",
+  fried_food: "一名人物正在从热油中捞取油炸食物。",
+  glass_breaking: "一名人物正在击打并破坏玻璃。",
+  granular_material: "一名人物正在挖掘、切削或移动颗粒材料。",
+  hair_styling: "一名人物正在整理、扎起或编织头发。",
+  ignition: "一名人物正在点燃物体。",
+  meat_cutting: "一名人物正在切割或锯开肉类。",
+  plant_leaves: "一名人物正在摘取或食用植物叶片。",
+  plant_watering: "一名人物正在给植物浇水或喷水。",
+  smoke: "人体-物体交互过程中出现了可见烟雾。",
+  smoke_diffusion: "烟雾正在周围空气中扩散。",
+  smoke_emission: "人体-物体交互过程产生了可见烟雾。",
+  sparks: "人体-物体交互过程产生了可见火花。",
+  sports: "一名人物正在击打或推动运动器材。",
+  throw_catch: "一名人物正在抛出并接住物体。",
+  vegetable_cutting: "一名人物正在切割蔬菜或水果。",
+  vehicle_opening: "一名人物正在打开车门或车辆储物空间。",
+  watermelon_cutting: "一名人物正在切割西瓜。",
+  writing_surface: "一名人物正在板面或玻璃表面书写或绘画。",
+};
+
+const TRANSLATIONS = {
+  en: {
+    studyTitle: "Human Physical-Plausibility Study",
+    notStarted: "Not started",
+    anonymousEvaluation: "Anonymous blinded evaluation",
+    setupHeading: "Physical plausibility of generated human-object interactions",
+    setupIntro: "You will evaluate 300 generated videos. The generating method, automatic scores, and reference answers are concealed. Video order is randomized.",
+    protocolHeading: "Evaluation protocol",
+    protocolWatch: "Watch the complete video before rating it.",
+    protocolLikert: "Rate overall physical plausibility from 1 to 5.",
+    protocolNodes: "Label every listed D0-D6 node using only visible evidence.",
+    protocolSessions: "You may complete the study in multiple sessions; progress is stored in this browser.",
+    yes: "Yes",
+    no: "No",
+    unobservable: "Unobservable",
+    unobservableShort: "U",
+    yesDefinition: "physically valid",
+    noDefinition: "visible physical violation",
+    unobservableDefinition: "insufficient visible evidence",
+    videos: "videos",
+    categories: "interaction categories",
+    dimensions: "CIPG dimensions",
+    consent: "I consent to the anonymous research use of these ratings.",
+    startEvaluation: "Start evaluation",
+    continueEvaluation: "Continue evaluation",
+    instructions: "Instructions",
+    instructionWatch: "Watch the full video.",
+    instructionRate: "First rate overall plausibility (1-5).",
+    instructionLabel: "Then label each listed node independently.",
+    instructionEvidence: "Use visible evidence only; choose Unobservable when evidence is insufficient.",
+    blinded: "Method and automatic results hidden",
+    scenario: "Scenario",
+    overallPlausibility: "Overall physical plausibility",
+    likertPrompt: "How physically plausible is the complete interaction process?",
+    evidentlyImplausible: "Evidently implausible",
+    physicallyPlausible: "Physically plausible",
+    cipgDimensions: "CIPG dimensions",
+    nodeVerdicts: "Node-wise judgments",
+    rateOverallFirst: "Select the overall rating first",
+    replayVideo: "Replay video",
+    previous: "Previous",
+    saveContinue: "Save and continue",
+    completeStudy: "Complete study",
+    evaluationComplete: "Evaluation complete",
+    downloadJson: "Download JSON",
+    downloadCsv: "Download CSV",
+    submitResponses: "Submit responses",
+    savedLocally: "Saved in this browser",
+    completeOverall: "Select an overall rating",
+    completeNodes: "Label every listed node",
+    videoOf: (current, total) => `Video ${current} of ${total}`,
+    completionSummary: (total) => `${total} videos were evaluated. Download the response file before closing this page.`,
+    submitting: "Submitting...",
+    submitted: "Responses submitted.",
+    submissionFailed: (message) => `Submission failed: ${message}`,
+  },
+  zh: {
+    studyTitle: "人体-物体交互物理合理性人工评估",
+    notStarted: "尚未开始",
+    anonymousEvaluation: "匿名盲评",
+    setupHeading: "生成式人体-物体交互视频的物理合理性评估",
+    setupIntro: "你将评估 300 个生成视频。生成方法、自动评分结果和参考答案均被隐藏，视频顺序随机排列。",
+    protocolHeading: "评估流程",
+    protocolWatch: "完整观看视频后再开始评分。",
+    protocolLikert: "使用 1–5 分评价视频整体物理合理性。",
+    protocolNodes: "仅依据可见证据标注页面列出的 D0–D6 节点。",
+    protocolSessions: "可分多次完成；进度会保存在当前浏览器中。",
+    yes: "是",
+    no: "否",
+    unobservable: "不可观察",
+    unobservableShort: "不可观察",
+    yesDefinition: "符合物理规律",
+    noDefinition: "存在可见物理违例",
+    unobservableDefinition: "可见证据不足",
+    videos: "个视频",
+    categories: "类交互场景",
+    dimensions: "个 CIPG 维度",
+    consent: "我同意将这些匿名评分用于学术研究。",
+    startEvaluation: "开始评估",
+    continueEvaluation: "继续评估",
+    instructions: "评估说明",
+    instructionWatch: "完整观看视频。",
+    instructionRate: "先评价整体物理合理性（1–5 分）。",
+    instructionLabel: "再独立标注页面列出的每个节点。",
+    instructionEvidence: "仅使用可见证据；证据不足时选择“不可观察”。",
+    blinded: "生成方法与自动评分结果已隐藏",
+    scenario: "场景",
+    overallPlausibility: "整体物理合理性",
+    likertPrompt: "该视频中的完整交互过程在物理上是否合理？",
+    evidentlyImplausible: "明显不符合物理规律",
+    physicallyPlausible: "符合物理规律",
+    cipgDimensions: "CIPG 评估维度",
+    nodeVerdicts: "逐节点判断",
+    rateOverallFirst: "请先完成整体评分",
+    replayVideo: "重新播放视频",
+    previous: "上一个",
+    saveContinue: "保存并继续",
+    completeStudy: "完成评估",
+    evaluationComplete: "评估完成",
+    downloadJson: "下载 JSON",
+    downloadCsv: "下载 CSV",
+    submitResponses: "提交结果",
+    savedLocally: "已保存在当前浏览器",
+    completeOverall: "请选择整体评分",
+    completeNodes: "请标注页面列出的所有节点",
+    videoOf: (current, total) => `第 ${current} / ${total} 个视频`,
+    completionSummary: (total) => `已完成 ${total} 个视频的评估。关闭页面前请下载结果文件。`,
+    submitting: "正在提交……",
+    submitted: "结果已提交。",
+    submissionFailed: (message) => `提交失败：${message}`,
+  },
+};
+
 const state = {
   manifest: null,
   assignment: [],
   ratings: {},
-  participantId: "",
+  sessionId: "",
   currentIndex: 0,
   startedAt: null,
+  language: localStorage.getItem("phyhoi-human-alignment:language") || "en",
 };
 
 const $ = (selector) => document.querySelector(selector);
+const t = (key, ...args) => {
+  const value = TRANSLATIONS[state.language]?.[key] ?? TRANSLATIONS.en[key] ?? key;
+  return typeof value === "function" ? value(...args) : value;
+};
 
 function anonymousCode() {
   const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
-  const values = crypto.getRandomValues(new Uint8Array(8));
-  return `P-${Array.from(values, (value) => alphabet[value % alphabet.length]).join("")}`;
+  const values = crypto.getRandomValues(new Uint8Array(12));
+  return Array.from(values, (value) => alphabet[value % alphabet.length]).join("");
 }
 
 function hashString(value) {
@@ -64,28 +259,12 @@ function shuffle(items, random) {
   return result;
 }
 
-function balancedAssignment(samples, count, participantId) {
-  const random = seededRandom(hashString(participantId));
-  const byCategory = new Map();
-  samples.forEach((sample) => {
-    if (!byCategory.has(sample.category)) byCategory.set(sample.category, []);
-    byCategory.get(sample.category).push(sample);
-  });
-  const queues = shuffle(
-    Array.from(byCategory.values(), (items) => shuffle(items, random)),
-    random,
-  );
-  const selected = [];
-  while (selected.length < count && queues.some((queue) => queue.length)) {
-    queues.forEach((queue) => {
-      if (selected.length < count && queue.length) selected.push(queue.shift());
-    });
-  }
-  return shuffle(selected, random);
+function randomizedAssignment(samples, sessionId) {
+  return shuffle(samples, seededRandom(hashString(sessionId)));
 }
 
 function recordKey() {
-  return `phyhoi-study:${state.participantId}`;
+  return `phyhoi-human-alignment:v3:${state.sessionId}`;
 }
 
 function savedRecord() {
@@ -97,280 +276,234 @@ function savedRecord() {
 }
 
 function persist() {
-  if (!state.participantId) return;
+  if (!state.sessionId) return;
   localStorage.setItem(
     recordKey(),
     JSON.stringify({
-      participantId: state.participantId,
+      sessionId: state.sessionId,
       assignmentIds: state.assignment.map((sample) => sample.sample_id),
       ratings: state.ratings,
       currentIndex: state.currentIndex,
       startedAt: state.startedAt,
+      language: state.language,
     }),
   );
-  $("#saveState").textContent = "Saved locally";
-}
-
-function blockedNodes(verdicts, active) {
-  const blocked = new Set();
-  NODE_DEFINITIONS.forEach(([node]) => {
-    if (!active[node]) return;
-    if (verdicts[node] === "no") {
-      DESCENDANTS[node].forEach((descendant) => blocked.add(descendant));
-    }
-  });
-  return blocked;
+  $("#saveState").textContent = t("savedLocally");
 }
 
 function activeMap(sample) {
   const activation = sample.activation || {};
   const hasExplicitActivation = Object.keys(activation).length > 0;
   return Object.fromEntries(
-    NODE_DEFINITIONS.map(([node]) => [node, hasExplicitActivation ? Boolean(activation[node]) : true]),
+    NODE_DEFINITIONS.map(({ id }) => [id, hasExplicitActivation ? Boolean(activation[id]) : true]),
   );
+}
+
+function blockedNodes(verdicts, active) {
+  const blocked = new Set();
+  NODE_DEFINITIONS.forEach(({ id }) => {
+    if (active[id] && verdicts[id] === "no") {
+      DESCENDANTS[id].forEach((descendant) => {
+        if (active[descendant]) blocked.add(descendant);
+      });
+    }
+  });
+  return blocked;
 }
 
 function currentRating() {
   const sample = state.assignment[state.currentIndex];
   if (!state.ratings[sample.sample_id]) {
     state.ratings[sample.sample_id] = {
+      overallPlausibility: null,
       verdicts: {},
-      reasons: {},
       viewedAt: new Date().toISOString(),
     };
-  }
-  if (!state.ratings[sample.sample_id].reasons) {
-    state.ratings[sample.sample_id].reasons = {};
   }
   return state.ratings[sample.sample_id];
 }
 
 function firstFailedNode(verdicts, active) {
-  return NODE_DEFINITIONS.map(([node]) => node).find(
+  return NODE_DEFINITIONS.map(({ id }) => id).find(
     (node) => active[node] && verdicts[node] === "no",
   );
+}
+
+function renderLikert() {
+  const rating = currentRating();
+  const scale = $("#likertScale");
+  scale.innerHTML = "";
+  for (let value = 1; value <= 5; value += 1) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "likert-button";
+    button.textContent = String(value);
+    button.setAttribute("role", "radio");
+    button.setAttribute("aria-checked", String(rating.overallPlausibility === value));
+    if (rating.overallPlausibility === value) button.classList.add("selected");
+    button.addEventListener("click", () => {
+      rating.overallPlausibility = value;
+      renderLikert();
+      renderNodes();
+      persist();
+    });
+    scale.appendChild(button);
+  }
 }
 
 function renderNodes() {
   const sample = state.assignment[state.currentIndex];
   const rating = currentRating();
   const active = activeMap(sample);
-  const blocked = blockedNodes(rating.verdicts, active);
   const container = $("#nodeList");
   container.innerHTML = "";
 
-  NODE_DEFINITIONS.forEach(([node, name, description]) => {
+  if (!rating.overallPlausibility) {
+    const notice = document.createElement("div");
+    notice.className = "rating-notice";
+    notice.innerHTML = `<i data-lucide="arrow-up"></i><span>${t("rateOverallFirst")}</span>`;
+    container.appendChild(notice);
+  }
+
+  NODE_DEFINITIONS.forEach(({ id, name, description }) => {
+    if (!active[id]) return;
     const row = document.createElement("div");
     row.className = "node-row";
-    const isActive = active[node];
-    const isBlocked = blocked.has(node);
-    const verdict = rating.verdicts[node];
-    if (!isActive) row.classList.add("inactive");
-    if (isBlocked) row.classList.add("blocked");
+    if (!rating.overallPlausibility) row.classList.add("awaiting-overall");
 
     const copy = document.createElement("div");
     copy.innerHTML = `
-      <div class="node-name"><b>${node}</b><span>${name}</span></div>
-      <div class="node-description">${description}</div>
+      <div class="node-name"><b>${id}</b><span>${name[state.language]}</span></div>
+      <div class="node-description">${description[state.language]}</div>
     `;
     row.appendChild(copy);
 
-    if (!isActive || isBlocked) {
-      const label = document.createElement("div");
-      label.className = "blocked-label";
-      label.textContent = isActive ? "Blocked by an upstream failure" : "Not active for this scenario";
-      row.appendChild(label);
-    } else {
-      const control = document.createElement("div");
-      control.className = "verdict-control";
-      [
-        ["yes", "Yes"],
-        ["no", "No"],
-        ["unobservable", "Unobservable"],
-      ].forEach(([value, label]) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.dataset.value = value;
-        button.textContent = label;
-        if (rating.verdicts[node] === value) button.classList.add("selected");
-        button.addEventListener("click", () => {
-          if (rating.verdicts[node] !== value) delete rating.reasons[node];
-          rating.verdicts[node] = value;
-          const newlyBlocked = blockedNodes(rating.verdicts, active);
-          newlyBlocked.forEach((blockedNode) => {
-            delete rating.verdicts[blockedNode];
-            delete rating.reasons[blockedNode];
-          });
-          renderNodes();
-          persist();
-        });
-        control.appendChild(button);
-      });
-      row.appendChild(control);
-
-      if (verdict) {
-        const reason = document.createElement("label");
-        reason.className = "node-reason";
-        const requirement = verdict === "yes" ? "optional" : "required";
-        reason.innerHTML = `
-          <span>Visible evidence <small>${requirement}</small></span>
-          <input
-            type="text"
-            maxlength="240"
-            value="${escapeHtml(rating.reasons[node] || "")}"
-            placeholder="${verdict === "yes" ? "Optional supporting evidence" : "Briefly describe the visible evidence"}"
-          >
-        `;
-        reason.querySelector("input").addEventListener("input", (event) => {
-          rating.reasons[node] = event.target.value;
-          persist();
-        });
-        row.appendChild(reason);
+    const control = document.createElement("div");
+    control.className = "verdict-control";
+    [
+      ["yes", t("yes")],
+      ["no", t("no")],
+      ["unobservable", t("unobservableShort")],
+    ].forEach(([value, label]) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.value = value;
+      button.textContent = label;
+      if (value === "unobservable") {
+        button.title = t("unobservable");
+        button.setAttribute("aria-label", t("unobservable"));
       }
-    }
+      button.disabled = !rating.overallPlausibility;
+      if (rating.verdicts[id] === value) button.classList.add("selected");
+      button.addEventListener("click", () => {
+        rating.verdicts[id] = value;
+        renderNodes();
+        persist();
+      });
+      control.appendChild(button);
+    });
+    row.appendChild(control);
     container.appendChild(row);
   });
-}
 
-function escapeHtml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
+  if (window.lucide) lucide.createIcons();
 }
 
 function promptForStudy(sample) {
-  return sample.study_prompt || sample.category_label || sample.prompt || "";
+  if (state.language === "zh" && PROMPT_ZH[sample.category]) {
+    return PROMPT_ZH[sample.category];
+  }
+  return sample.study_prompt || sample.prompt || sample.category_label || "";
 }
 
 function renderCurrent() {
   const sample = state.assignment[state.currentIndex];
-  const rating = currentRating();
-  $("#sampleIndex").textContent = `Video ${state.currentIndex + 1} of ${state.assignment.length}`;
-  $("#sampleCategory").textContent = sample.category_label;
+  $("#sampleIndex").textContent = t("videoOf", state.currentIndex + 1, state.assignment.length);
   $("#samplePrompt").textContent = promptForStudy(sample);
   $("#studyVideo").src = sample.video;
   $("#studyVideo").load();
   $("#previousButton").disabled = state.currentIndex === 0;
   $("#nextButton").innerHTML =
     state.currentIndex === state.assignment.length - 1
-      ? 'Complete study <i data-lucide="check"></i>'
-      : 'Save and continue <i data-lucide="arrow-right"></i>';
+      ? `<span>${t("completeStudy")}</span><i data-lucide="check"></i>`
+      : `<span>${t("saveContinue")}</span><i data-lucide="arrow-right"></i>`;
+  renderLikert();
   renderNodes();
   updateProgress();
-  if (window.lucide) lucide.createIcons();
-}
-
-function requiredNodesAnswered(sample, rating) {
-  const active = activeMap(sample);
-  const blocked = blockedNodes(rating.verdicts, active);
-  return NODE_DEFINITIONS.every(([node]) => (
-    !active[node] || blocked.has(node) || Boolean(rating.verdicts[node])
-  ));
+  applyTranslations();
+  window.scrollTo({ top: 0, behavior: "instant" });
 }
 
 function ratingComplete(sample, rating) {
-  if (!rating || !requiredNodesAnswered(sample, rating)) return false;
+  if (!rating?.overallPlausibility) return false;
   const active = activeMap(sample);
-  const blocked = blockedNodes(rating.verdicts, active);
-  return NODE_DEFINITIONS.every(([node]) => {
-    const verdict = rating.verdicts[node];
-    return (
-      !active[node]
-      || blocked.has(node)
-      || verdict === "yes"
-      || (verdict && Boolean((rating.reasons?.[node] || "").trim()))
-    );
-  });
+  return NODE_DEFINITIONS.every(({ id }) => !active[id] || Boolean(rating.verdicts[id]));
 }
 
 function validateCurrent() {
   const sample = state.assignment[state.currentIndex];
   const rating = currentRating();
-  if (!requiredNodesAnswered(sample, rating)) {
-    $("#saveState").textContent = "Complete all visible nodes";
+  if (!rating.overallPlausibility) {
+    $("#saveState").textContent = t("completeOverall");
+    $(".likert-panel").scrollIntoView({ behavior: "smooth", block: "center" });
     return false;
   }
-  const active = activeMap(sample);
-  const blocked = blockedNodes(rating.verdicts, active);
-  for (const [node] of NODE_DEFINITIONS) {
-    const verdict = rating.verdicts[node];
-    if (
-      active[node]
-      && !blocked.has(node)
-      && verdict
-      && verdict !== "yes"
-      && !(rating.reasons[node] || "").trim()
-    ) {
-      const input = document.querySelector(`.node-row:nth-child(${Number(node.slice(1)) + 1}) .node-reason input`);
-      input?.focus();
-      $("#saveState").textContent = `Add visible evidence for ${node}`;
-      return false;
-    }
+  if (!ratingComplete(sample, rating)) {
+    $("#saveState").textContent = t("completeNodes");
+    $("#nodeList").scrollIntoView({ behavior: "smooth", block: "start" });
+    return false;
   }
   return true;
 }
 
 function updateProgress() {
-  const completed = state.assignment.filter((sample) => {
-    const rating = state.ratings[sample.sample_id];
-    return ratingComplete(sample, rating);
-  }).length;
-  $("#progressLabel").textContent = `${completed} / ${state.assignment.length}`;
-  $("#progressFill").style.width = `${state.assignment.length ? (completed / state.assignment.length) * 100 : 0}%`;
+  const completed = state.assignment.filter((sample) => (
+    ratingComplete(sample, state.ratings[sample.sample_id])
+  )).length;
+  const total = state.assignment.length || state.manifest?.sample_total || 300;
+  $("#progressLabel").textContent = `${completed} / ${total}`;
+  $("#progressFill").style.width = `${total ? (completed / total) * 100 : 0}%`;
 }
 
 function resultPayload() {
   const assignments = state.assignment.map((sample, order) => {
-    const rating = state.ratings[sample.sample_id] || { verdicts: {}, reasons: {} };
+    const rating = state.ratings[sample.sample_id] || {
+      overallPlausibility: null,
+      verdicts: {},
+    };
     const active = activeMap(sample);
     const blocked = blockedNodes(rating.verdicts, active);
-    const effectiveVerdicts = Object.fromEntries(
-      NODE_DEFINITIONS.map(([node]) => {
-        if (!active[node]) return [node, "inactive"];
-        if (blocked.has(node)) return [node, "gated_no"];
-        return [node, rating.verdicts[node] || null];
+    const postGatedVerdicts = Object.fromEntries(
+      NODE_DEFINITIONS.map(({ id }) => {
+        if (!active[id]) return [id, "inactive"];
+        if (blocked.has(id)) return [id, "gated_no"];
+        return [id, rating.verdicts[id] || null];
       }),
     );
-    const scored = Object.values(effectiveVerdicts).filter(
-      (verdict) => verdict === "yes" || verdict === "no" || verdict === "gated_no",
-    );
-    const passed = scored.filter((verdict) => verdict === "yes").length;
     return {
-      order,
+      order: order + 1,
       sample_id: sample.sample_id,
       media_id: sample.media_id,
       category: sample.category,
-      raw_verdicts: rating.verdicts,
-      effective_verdicts: effectiveVerdicts,
-      reasons: rating.reasons || {},
+      overall_physical_plausibility: rating.overallPlausibility,
+      raw_node_labels: rating.verdicts,
+      post_gated_node_labels: postGatedVerdicts,
       first_failed_node: firstFailedNode(rating.verdicts, active) || null,
-      cipg_score: scored.length ? Number((passed / scored.length).toFixed(6)) : null,
     };
   });
-  const dimensionPassRates = Object.fromEntries(
-    NODE_DEFINITIONS.map(([node]) => {
-      const verdicts = assignments
-        .map((item) => item.effective_verdicts[node])
-        .filter((verdict) => verdict === "yes" || verdict === "no" || verdict === "gated_no");
-      const passed = verdicts.filter((verdict) => verdict === "yes").length;
-      return [node, verdicts.length ? Number((passed / verdicts.length).toFixed(6)) : null];
-    }),
-  );
-  const videoScores = assignments
-    .map((item) => item.cipg_score)
-    .filter((score) => score !== null);
+  const overallRatings = assignments
+    .map((item) => item.overall_physical_plausibility)
+    .filter((value) => Number.isInteger(value));
   return {
-    schema_version: "phyhoi-user-study-v2",
-    participant_id: state.participantId,
+    schema_version: "phyhoi-human-alignment-v3",
+    anonymous_session_id: state.sessionId,
+    language: state.language,
     started_at: state.startedAt,
     completed_at: new Date().toISOString(),
     summary: {
-      dimension_pass_rates: dimensionPassRates,
-      overall_cipg_score: videoScores.length
-        ? Number((videoScores.reduce((sum, score) => sum + score, 0) / videoScores.length).toFixed(6))
+      completed_videos: assignments.filter((item) => item.overall_physical_plausibility).length,
+      mean_overall_physical_plausibility: overallRatings.length
+        ? Number((overallRatings.reduce((sum, value) => sum + value, 0) / overallRatings.length).toFixed(6))
         : null,
     },
     assignment: assignments,
@@ -388,36 +521,49 @@ function download(filename, content, type) {
 }
 
 function toCsv(payload) {
-  const nodeColumns = NODE_DEFINITIONS.flatMap(([node]) => [`${node}_verdict`, `${node}_reason`]);
-  const rows = [["participant_id", "order", "sample_id", "media_id", "category", ...nodeColumns, "first_failed_node", "cipg_score"]];
+  const nodeColumns = NODE_DEFINITIONS.flatMap(({ id }) => [
+    `${id}_raw`,
+    `${id}_post_gated`,
+  ]);
+  const rows = [[
+    "anonymous_session_id",
+    "order",
+    "sample_id",
+    "media_id",
+    "category",
+    "overall_physical_plausibility",
+    ...nodeColumns,
+    "first_failed_node",
+  ]];
   payload.assignment.forEach((item) => {
     rows.push([
-      payload.participant_id,
-      item.order + 1,
+      payload.anonymous_session_id,
+      item.order,
       item.sample_id,
       item.media_id,
       item.category,
-      ...NODE_DEFINITIONS.flatMap(([node]) => [
-        item.effective_verdicts[node] || "",
-        item.reasons[node] || "",
+      item.overall_physical_plausibility ?? "",
+      ...NODE_DEFINITIONS.flatMap(({ id }) => [
+        item.raw_node_labels[id] || "",
+        item.post_gated_node_labels[id] || "",
       ]),
       item.first_failed_node || "",
-      item.cipg_score ?? "",
     ]);
   });
-  return rows.map((row) => row.map((value) => `"${String(value).replaceAll('"', '""')}"`).join(",")).join("\n");
+  return rows
+    .map((row) => row.map((value) => `"${String(value).replaceAll('"', '""')}"`).join(","))
+    .join("\n");
 }
 
 function completeStudy() {
   persist();
   $("#studyView").hidden = true;
   $("#completeView").hidden = false;
-  $("#completionSummary").textContent =
-    `${state.assignment.length} videos were rated under participant code ${state.participantId}.`;
+  $("#completionSummary").textContent = t("completionSummary", state.assignment.length);
   const endpoint = window.PHYHOI_CONFIG?.submissionEndpoint;
   $("#submitResults").hidden = !endpoint;
   updateProgress();
-  if (window.lucide) lucide.createIcons();
+  applyTranslations();
 }
 
 async function submitResults() {
@@ -425,7 +571,7 @@ async function submitResults() {
   if (!endpoint) return;
   const button = $("#submitResults");
   button.disabled = true;
-  $("#submitStatus").textContent = "Submitting...";
+  $("#submitStatus").textContent = t("submitting");
   try {
     const response = await fetch(endpoint, {
       method: "POST",
@@ -433,38 +579,77 @@ async function submitResults() {
       body: JSON.stringify(resultPayload()),
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    $("#submitStatus").textContent = "Responses submitted.";
+    $("#submitStatus").textContent = t("submitted");
   } catch (error) {
-    $("#submitStatus").textContent = `Submission failed: ${error.message}`;
+    $("#submitStatus").textContent = t("submissionFailed", error.message);
     button.disabled = false;
   }
 }
 
+function applyTranslations() {
+  document.documentElement.lang = state.language === "zh" ? "zh-CN" : "en";
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    element.textContent = t(element.dataset.i18n);
+  });
+  document.querySelectorAll("[data-i18n-title]").forEach((element) => {
+    element.title = t(element.dataset.i18nTitle);
+  });
+  document.querySelectorAll("[data-language]").forEach((button) => {
+    button.classList.toggle("selected", button.dataset.language === state.language);
+  });
+  const saved = state.sessionId ? savedRecord() : null;
+  $("#startButtonLabel").textContent =
+    saved?.assignmentIds?.length ? t("continueEvaluation") : t("startEvaluation");
+  if (!$("#studyView").hidden && state.assignment.length) {
+    $("#sampleIndex").textContent = t("videoOf", state.currentIndex + 1, state.assignment.length);
+    $("#samplePrompt").textContent = promptForStudy(state.assignment[state.currentIndex]);
+    $("#nextButton").innerHTML =
+      state.currentIndex === state.assignment.length - 1
+        ? `<span>${t("completeStudy")}</span><i data-lucide="check"></i>`
+        : `<span>${t("saveContinue")}</span><i data-lucide="arrow-right"></i>`;
+  }
+  if (!$("#completeView").hidden && state.assignment.length) {
+    $("#completionSummary").textContent = t("completionSummary", state.assignment.length);
+  }
+  if (window.lucide) lucide.createIcons();
+}
+
 async function initialize() {
-  $("#participantId").value = localStorage.getItem("phyhoi-study:last-participant") || anonymousCode();
+  state.sessionId =
+    localStorage.getItem("phyhoi-human-alignment:session-id") || anonymousCode();
+  localStorage.setItem("phyhoi-human-alignment:session-id", state.sessionId);
+
   const manifestPath = window.PHYHOI_CONFIG?.sampleManifest || "./data/samples.json";
   const response = await fetch(manifestPath);
   if (!response.ok) throw new Error(`Unable to load sample manifest: ${response.status}`);
   state.manifest = await response.json();
-  $("#sampleCount").value = String(window.PHYHOI_CONFIG?.defaultAssignmentSize || 30);
+  updateProgress();
+
+  document.querySelectorAll("[data-language]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.language = button.dataset.language;
+      localStorage.setItem("phyhoi-human-alignment:language", state.language);
+      applyTranslations();
+      if (!$("#studyView").hidden && state.assignment.length) {
+        renderLikert();
+        renderNodes();
+      }
+      persist();
+    });
+  });
 
   $("#setupForm").addEventListener("submit", (event) => {
     event.preventDefault();
-    state.participantId = $("#participantId").value.trim();
-    localStorage.setItem("phyhoi-study:last-participant", state.participantId);
     const saved = savedRecord();
     if (saved?.assignmentIds?.length) {
       const byId = new Map(state.manifest.samples.map((sample) => [sample.sample_id, sample]));
       state.assignment = saved.assignmentIds.map((id) => byId.get(id)).filter(Boolean);
-      if (state.assignment.length) {
-        state.ratings = saved.ratings || {};
-        state.currentIndex = Math.min(saved.currentIndex || 0, state.assignment.length - 1);
-        state.startedAt = saved.startedAt || new Date().toISOString();
-      }
+      state.ratings = saved.ratings || {};
+      state.currentIndex = Math.min(saved.currentIndex || 0, state.assignment.length - 1);
+      state.startedAt = saved.startedAt || new Date().toISOString();
     }
     if (!state.assignment.length) {
-      const count = Math.min(Number($("#sampleCount").value), state.manifest.samples.length);
-      state.assignment = balancedAssignment(state.manifest.samples, count, state.participantId);
+      state.assignment = randomizedAssignment(state.manifest.samples, state.sessionId);
       state.ratings = {};
       state.currentIndex = 0;
       state.startedAt = new Date().toISOString();
@@ -475,9 +660,6 @@ async function initialize() {
     persist();
   });
 
-  $("#regenerateId").addEventListener("click", () => {
-    $("#participantId").value = anonymousCode();
-  });
   $("#replayButton").addEventListener("click", () => {
     $("#studyVideo").currentTime = 0;
     $("#studyVideo").play();
@@ -502,16 +684,16 @@ async function initialize() {
   });
   $("#downloadJson").addEventListener("click", () => {
     download(
-      `${state.participantId}.json`,
+      `phyhoi-response-${state.sessionId}.json`,
       JSON.stringify(resultPayload(), null, 2),
       "application/json",
     );
   });
   $("#downloadCsv").addEventListener("click", () => {
-    download(`${state.participantId}.csv`, toCsv(resultPayload()), "text/csv");
+    download(`phyhoi-response-${state.sessionId}.csv`, toCsv(resultPayload()), "text/csv");
   });
   $("#submitResults").addEventListener("click", submitResults);
-  if (window.lucide) lucide.createIcons();
+  applyTranslations();
 }
 
 initialize().catch((error) => {

@@ -614,6 +614,7 @@ const TRANSLATIONS = {
     protocolLikert: "Rate the complete interaction from 1 to 5. A score of 1 means evidently physically implausible; a score of 5 means physically plausible.",
     protocolNodes: "Answer every displayed D0-D6 question independently using only visible video evidence. Select Unobservable only when the required event cannot be judged.",
     protocolSessions: "The 300 videos may be completed across multiple sessions. Progress is stored only in this browser until results are downloaded or submitted.",
+    protocolExport: "After all 300 videos are complete, export the result JSON and return that file to the researcher. The filename contains an anonymous session identifier.",
     yes: "Yes",
     no: "No",
     unobservable: "Unobservable",
@@ -648,14 +649,13 @@ const TRANSLATIONS = {
     saveContinue: "Save and continue",
     completeStudy: "Complete study",
     evaluationComplete: "Evaluation complete",
-    downloadJson: "Download JSON",
-    downloadCsv: "Download CSV",
+    downloadJson: "Export result JSON",
     submitResponses: "Submit responses",
     savedLocally: "Saved in this browser",
     completeOverall: "Select an overall rating",
     completeNodes: "Label every listed node",
     videoOf: (current, total) => `Video ${current} of ${total}`,
-    completionSummary: (total) => `${total} videos were evaluated. Download the response file before closing this page.`,
+    completionSummary: (total) => `${total} videos were evaluated. Export the result JSON and return it to the researcher before closing this page.`,
     submitting: "Submitting...",
     submitted: "Responses submitted.",
     submissionFailed: (message) => `Submission failed: ${message}`,
@@ -673,6 +673,7 @@ const TRANSLATIONS = {
     protocolLikert: "使用 1–5 分评价完整交互过程。1 分表示明显不符合物理规律，5 分表示符合物理规律。",
     protocolNodes: "仅依据视频中的可见证据，独立回答作答区显示的每个 D0–D6 问题。只有无法判断相关事件时才选择“不可观察”。",
     protocolSessions: "300 个视频可以分多次完成。下载或提交结果前，进度仅保存在当前浏览器中。",
+    protocolExport: "完成全部 300 个视频后，导出结果 JSON 并将文件交给研究者。文件名包含匿名会话编号。",
     yes: "是",
     no: "否",
     unobservable: "不可观察",
@@ -707,14 +708,13 @@ const TRANSLATIONS = {
     saveContinue: "保存并继续",
     completeStudy: "完成评估",
     evaluationComplete: "评估完成",
-    downloadJson: "下载 JSON",
-    downloadCsv: "下载 CSV",
+    downloadJson: "导出结果 JSON",
     submitResponses: "提交结果",
     savedLocally: "已保存在当前浏览器",
     completeOverall: "请选择整体评分",
     completeNodes: "请标注页面列出的所有节点",
     videoOf: (current, total) => `第 ${current} / ${total} 个视频`,
-    completionSummary: (total) => `已完成 ${total} 个视频的评估。关闭页面前请下载结果文件。`,
+    completionSummary: (total) => `已完成 ${total} 个视频的评估。关闭页面前，请导出结果 JSON 并将文件交给研究者。`,
     submitting: "正在提交……",
     submitted: "结果已提交。",
     submissionFailed: (message) => `提交失败：${message}`,
@@ -1250,9 +1250,6 @@ async function initialize() {
       JSON.stringify(resultPayload(), null, 2),
       "application/json",
     );
-  });
-  $("#downloadCsv").addEventListener("click", () => {
-    download(`phyhoi-response-${state.sessionId}.csv`, toCsv(resultPayload()), "text/csv");
   });
   $("#submitResults").addEventListener("click", submitResults);
   applyTranslations();

@@ -739,6 +739,8 @@ const state = {
   completedAt: null,
   consentedAt: null,
   lastSavedAt: null,
+  prefetchedVideoLink: null,
+  videoRenderToken: 0,
   language: localStorage.getItem("phyhoi-human-alignment:language") || "en",
 };
 
@@ -1034,12 +1036,45 @@ function promptForStudy(sample) {
   return sample.study_prompt || sample.prompt || sample.category_label || "";
 }
 
+function clearVideoPrefetch() {
+  state.prefetchedVideoLink?.remove();
+  state.prefetchedVideoLink = null;
+}
+
+function scheduleNextVideoPrefetch(renderToken) {
+  const nextSample = state.assignment[state.currentIndex + 1];
+  if (!nextSample) return;
+
+  const video = $("#studyVideo");
+  const prefetch = () => {
+    if (renderToken !== state.videoRenderToken) return;
+    clearVideoPrefetch();
+    const link = document.createElement("link");
+    link.rel = "prefetch";
+    link.href = nextSample.video;
+    link.type = "video/mp4";
+    link.fetchPriority = "low";
+    document.head.appendChild(link);
+    state.prefetchedVideoLink = link;
+  };
+
+  if (video.readyState >= HTMLMediaElement.HAVE_ENOUGH_DATA) {
+    prefetch();
+  } else {
+    video.addEventListener("canplaythrough", prefetch, { once: true });
+  }
+}
+
 function renderCurrent() {
   const sample = state.assignment[state.currentIndex];
+  const renderToken = state.videoRenderToken + 1;
+  state.videoRenderToken = renderToken;
+  clearVideoPrefetch();
   $("#sampleIndex").textContent = t("videoOf", state.currentIndex + 1, state.assignment.length);
   $("#samplePrompt").textContent = promptForStudy(sample);
   $("#studyVideo").src = sample.video;
   $("#studyVideo").load();
+  scheduleNextVideoPrefetch(renderToken);
   $("#previousButton").disabled = state.currentIndex === 0;
   $("#nextButton").innerHTML =
     state.currentIndex === state.assignment.length - 1

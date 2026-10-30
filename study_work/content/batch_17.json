@@ -1,0 +1,406 @@
+[
+  {
+    "sample_id": "P102",
+    "media_id": "A_00299",
+    "zh": {
+      "title": "用粉笔在黑板上书写",
+      "question": "人物用粉笔在黑板上书写或画线，整体交互有多合理？",
+      "body": "观察短粉笔的指间握持、手腕精细移动及抬臂协调，不规定文字内容。",
+      "contact": "粉笔端与板面的接触和移动应与手部操作相关。",
+      "object": "新增粉笔痕迹应与接触轨迹相联系，原有文字不作为当前书写成功的依据。",
+      "aftermath": "若抬手、停笔或少量粉尘落下，观察接触解除和痕迹保留，不要求明显粉尘。",
+      "unknown": "仅举粉笔准备，或实际接触与新增笔迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、粉笔、板面及痕迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部操作、粉笔接触与关键痕迹变化严重不符。",
+        "握持、接触或痕迹形成部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及粉笔与板面关系合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、粉笔、板面、痕迹及可见停笔或粉尘运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write on a blackboard with chalk",
+      "question": "How physically plausible is the interaction as the person writes or draws lines on the blackboard with chalk?",
+      "body": "Consider fingertip grip on the short chalk, fine wrist motion, and raised-arm coordination. Specific text is not required.",
+      "contact": "Chalk-end contact and movement should relate to hand operation.",
+      "object": "New chalk traces should relate to the contact path. Existing text does not establish current writing success.",
+      "aftermath": "If the hand lifts, writing stops, or dust falls, consider release and trace retention. Visible dust is not required.",
+      "unknown": "Choose unable to judge if only chalk preparation is shown or neither actual contact nor new traces can be assessed.",
+      "scores": [
+        "The person, chalk, board, and traces behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand operation, chalk contact, and key trace changes seriously disagree.",
+        "Some grip, contact, or trace formation is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and chalk–board relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, chalk, board, traces, and visible stopping or dust motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P104",
+    "media_id": "A_03324",
+    "zh": {
+      "title": "用记号笔在白板上书写",
+      "question": "人物用记号笔在白板上书写或画图，整体交互有多合理？",
+      "body": "观察握笔、手指和手腕控制及手臂导向，允许不同姿势和图形。",
+      "contact": "笔尖与板面的接触及移动应与手的操作对应，板面支撑应保持可解释。",
+      "object": "新增墨迹应与笔尖经过的位置相联系，已有图表或擦痕不代表当前操作已成功。",
+      "aftermath": "若抬笔或停止，观察笔迹保留与接触解除，不要求板子变形或墨水滴落。",
+      "unknown": "仅讲解或准备，或实际笔尖接触与新增墨迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、记号笔、白板及墨迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部导向、笔尖接触与关键墨迹变化严重不符。",
+        "握笔、接触或画线部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔迹与板面关系合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、笔尖、白板和可见墨迹及停笔后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write or draw on a whiteboard with a marker",
+      "question": "How physically plausible is the interaction as the person writes or draws on the whiteboard with the marker?",
+      "body": "Consider grip, finger–wrist control, and arm guidance. Postures and drawings may vary.",
+      "contact": "Tip contact and motion should correspond to hand operation, with interpretable board support.",
+      "object": "New ink should relate to regions passed by the tip. Existing charts or erasure marks do not establish current success.",
+      "aftermath": "If the tip lifts or stops, consider mark retention and contact release. Board deformation or dripping is not required.",
+      "unknown": "Choose unable to judge if only explanation or preparation is shown, or neither tip contact nor new ink can be assessed.",
+      "scores": [
+        "The person, marker, board, and ink behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand guidance, tip contact, and key ink changes seriously disagree.",
+        "Some grip, contact, or drawing is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and ink–board relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, tip, board, visible ink, and post-stop state are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P109",
+    "media_id": "A_00272",
+    "zh": {
+      "title": "用喷漆罐在玻璃窗上涂色",
+      "question": "人物用喷漆罐在玻璃窗上涂色，整体交互有多合理？",
+      "body": "观察握罐、按压喷嘴与手臂扫动协调，不要求固定喷距或轨迹。",
+      "contact": "喷嘴方向、喷出物与受涂区域应在位置和时序上相联系，不要求罐体接触玻璃。",
+      "object": "新增涂层应与喷涂位置相关，原有涂鸦和残留不能作为当前喷涂成功的依据。",
+      "aftermath": "若喷雾飘散或涂料流挂，观察来源、延续和重力方向，不要求一定流挂。",
+      "unknown": "仅持罐准备，或喷出与玻璃受涂区域都不足以评价时选择无法判断。",
+      "scores": [
+        "人体、喷罐、喷出物与玻璃涂层整体严重不合理，或清楚显示没有喷涂。",
+        "喷涂尝试可辨认，但手部扫动、喷嘴方向与关键涂层变化严重不符。",
+        "持罐、喷出或新涂层部分合理，同时有影响喷涂的明显异常。",
+        "主要喷涂、人体协调及喷出物与玻璃表面变化合理，仅有轻微局部异常。",
+        "实际喷涂可评价，人体、喷罐、玻璃及可见涂层和喷雾后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Apply spray paint to a glass window",
+      "question": "How physically plausible is the interaction as the person applies spray paint to the glass window?",
+      "body": "Consider grip, nozzle pressing, and coordinated arm sweeping. No fixed distance or path is required.",
+      "contact": "Nozzle direction, output, and receiving region should correspond in position and time. Can–glass contact is not required.",
+      "object": "New coating should relate to spray location. Existing graffiti and residue do not establish current spraying success.",
+      "aftermath": "If mist drifts or paint runs, consider source, continuation, and gravity. Runs are not required.",
+      "unknown": "Choose unable to judge if only can preparation is shown or neither output nor receiving region can be assessed.",
+      "scores": [
+        "The person, can, output, and coating behave implausibly overall, or a clear view confirms no spraying.",
+        "An attempt is recognizable, but arm sweep, nozzle direction, and key coating changes seriously disagree.",
+        "Some holding, output, or new coating is plausible, alongside clear anomalies affecting spraying.",
+        "The main spraying, body coordination, output, and glass-surface changes are plausible, with minor local anomalies.",
+        "Actual spraying is assessable, and the person, can, glass, visible coating, and subsequent mist motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P101",
+    "media_id": "A_00574",
+    "zh": {
+      "title": "在透明玻璃板上用记号笔书写",
+      "question": "人物用记号笔在透明玻璃板上书写，整体交互有多合理？",
+      "body": "观察笔杆握持、手指与手腕细小运动及抬臂协调，不规定字形或写字姿势。",
+      "contact": "笔尖与玻璃的接触和移动应与手部操作相联系。",
+      "object": "若墨迹形成，其位置和延伸应与笔尖经过区域相关，不要求写出特定文字。",
+      "aftermath": "若抬笔或墨迹停止延伸，观察接触解除及笔迹保留，不要求墨水滴落或被擦除。",
+      "unknown": "仅举笔准备，或笔尖与书写面实际接触和笔迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、笔尖、玻璃及笔迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部操作、笔尖运动与关键墨迹变化严重不符。",
+        "握笔、接触或笔迹形成部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔尖与玻璃上的笔迹合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、记号笔、玻璃及可见抬笔和笔迹后续状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write on a transparent glass board with a marker",
+      "question": "How physically plausible is the interaction as the person writes on the glass board with the marker?",
+      "body": "Consider grip, fine finger–wrist motion, and raised-arm coordination. No particular handwriting or posture is required.",
+      "contact": "Tip contact and movement on the glass should relate to hand operation.",
+      "object": "Any ink marks should form and extend along regions passed by the tip. Specific text is not required.",
+      "aftermath": "If the tip lifts or marks stop extending, consider contact release and mark retention. Dripping or erasing is not required.",
+      "unknown": "Choose unable to judge if only pen preparation is shown or neither actual tip contact nor marks can be assessed.",
+      "scores": [
+        "The person, tip, glass, and marks behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand operation, tip motion, and key ink changes seriously disagree.",
+        "Some grip, contact, or mark formation is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and tip–glass–mark relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, marker, glass, visible lifting, and subsequent mark state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "记号笔在透明玻璃上书写，相同接触与墨迹形成条件"
+  },
+  {
+    "sample_id": "P105",
+    "media_id": "A_01596",
+    "zh": {
+      "title": "在透明玻璃板上用记号笔书写",
+      "question": "人物用记号笔在透明玻璃板上书写，整体交互有多合理？",
+      "body": "观察笔杆握持、手指与手腕细小运动及抬臂协调，不规定字形或写字姿势。",
+      "contact": "笔尖与玻璃的接触和移动应与手部操作相联系。",
+      "object": "若墨迹形成，其位置和延伸应与笔尖经过区域相关，不要求写出特定文字。",
+      "aftermath": "若抬笔或墨迹停止延伸，观察接触解除及笔迹保留，不要求墨水滴落或被擦除。",
+      "unknown": "仅举笔准备，或笔尖与书写面实际接触和笔迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、笔尖、玻璃及笔迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部操作、笔尖运动与关键墨迹变化严重不符。",
+        "握笔、接触或笔迹形成部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔尖与玻璃上的笔迹合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、记号笔、玻璃及可见抬笔和笔迹后续状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write on a transparent glass board with a marker",
+      "question": "How physically plausible is the interaction as the person writes on the glass board with the marker?",
+      "body": "Consider grip, fine finger–wrist motion, and raised-arm coordination. No particular handwriting or posture is required.",
+      "contact": "Tip contact and movement on the glass should relate to hand operation.",
+      "object": "Any ink marks should form and extend along regions passed by the tip. Specific text is not required.",
+      "aftermath": "If the tip lifts or marks stop extending, consider contact release and mark retention. Dripping or erasing is not required.",
+      "unknown": "Choose unable to judge if only pen preparation is shown or neither actual tip contact nor marks can be assessed.",
+      "scores": [
+        "The person, tip, glass, and marks behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand operation, tip motion, and key ink changes seriously disagree.",
+        "Some grip, contact, or mark formation is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and tip–glass–mark relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, marker, glass, visible lifting, and subsequent mark state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "记号笔在透明玻璃上书写，相同接触与墨迹形成条件"
+  },
+  {
+    "sample_id": "P110",
+    "media_id": "A_02830",
+    "zh": {
+      "title": "在透明玻璃板上用记号笔书写",
+      "question": "人物用记号笔在透明玻璃板上书写，整体交互有多合理？",
+      "body": "观察笔杆握持、手指与手腕细小运动及抬臂协调，不规定字形或写字姿势。",
+      "contact": "笔尖与玻璃的接触和移动应与手部操作相联系。",
+      "object": "若墨迹形成，其位置和延伸应与笔尖经过区域相关，不要求写出特定文字。",
+      "aftermath": "若抬笔或墨迹停止延伸，观察接触解除及笔迹保留，不要求墨水滴落或被擦除。",
+      "unknown": "仅举笔准备，或笔尖与书写面实际接触和笔迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、笔尖、玻璃及笔迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部操作、笔尖运动与关键墨迹变化严重不符。",
+        "握笔、接触或笔迹形成部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔尖与玻璃上的笔迹合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、记号笔、玻璃及可见抬笔和笔迹后续状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write on a transparent glass board with a marker",
+      "question": "How physically plausible is the interaction as the person writes on the glass board with the marker?",
+      "body": "Consider grip, fine finger–wrist motion, and raised-arm coordination. No particular handwriting or posture is required.",
+      "contact": "Tip contact and movement on the glass should relate to hand operation.",
+      "object": "Any ink marks should form and extend along regions passed by the tip. Specific text is not required.",
+      "aftermath": "If the tip lifts or marks stop extending, consider contact release and mark retention. Dripping or erasing is not required.",
+      "unknown": "Choose unable to judge if only pen preparation is shown or neither actual tip contact nor marks can be assessed.",
+      "scores": [
+        "The person, tip, glass, and marks behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand operation, tip motion, and key ink changes seriously disagree.",
+        "Some grip, contact, or mark formation is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and tip–glass–mark relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, marker, glass, visible lifting, and subsequent mark state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "记号笔在透明玻璃上书写，相同接触与墨迹形成条件"
+  },
+  {
+    "sample_id": "P106",
+    "media_id": "A_01573",
+    "zh": {
+      "title": "用记号笔在白板上书写",
+      "question": "人物用记号笔在白板上书写或画图，整体交互有多合理？",
+      "body": "观察握笔、手指和手腕控制及手臂导向，允许不同姿势和图形。",
+      "contact": "笔尖与板面的接触及移动应与手的操作对应，板面支撑应保持可解释。",
+      "object": "新增墨迹应与笔尖经过的位置相联系，已有图表或擦痕不代表当前操作已成功。",
+      "aftermath": "若抬笔或停止，观察笔迹保留与接触解除，不要求板子变形或墨水滴落。",
+      "unknown": "仅讲解或准备，或实际笔尖接触与新增墨迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、记号笔、白板及墨迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部导向、笔尖接触与关键墨迹变化严重不符。",
+        "握笔、接触或画线部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔迹与板面关系合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、笔尖、白板和可见墨迹及停笔后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write or draw on a whiteboard with a marker",
+      "question": "How physically plausible is the interaction as the person writes or draws on the whiteboard with the marker?",
+      "body": "Consider grip, finger–wrist control, and arm guidance. Postures and drawings may vary.",
+      "contact": "Tip contact and motion should correspond to hand operation, with interpretable board support.",
+      "object": "New ink should relate to regions passed by the tip. Existing charts or erasure marks do not establish current success.",
+      "aftermath": "If the tip lifts or stops, consider mark retention and contact release. Board deformation or dripping is not required.",
+      "unknown": "Choose unable to judge if only explanation or preparation is shown, or neither tip contact nor new ink can be assessed.",
+      "scores": [
+        "The person, marker, board, and ink behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand guidance, tip contact, and key ink changes seriously disagree.",
+        "Some grip, contact, or drawing is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and ink–board relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, tip, board, visible ink, and post-stop state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "记号笔在白板上书写或画图，相同接触与墨迹形成条件"
+  },
+  {
+    "sample_id": "P107",
+    "media_id": "A_01205",
+    "zh": {
+      "title": "用记号笔在白板上书写",
+      "question": "人物用记号笔在白板上书写或画图，整体交互有多合理？",
+      "body": "观察握笔、手指和手腕控制及手臂导向，允许不同姿势和图形。",
+      "contact": "笔尖与板面的接触及移动应与手的操作对应，板面支撑应保持可解释。",
+      "object": "新增墨迹应与笔尖经过的位置相联系，已有图表或擦痕不代表当前操作已成功。",
+      "aftermath": "若抬笔或停止，观察笔迹保留与接触解除，不要求板子变形或墨水滴落。",
+      "unknown": "仅讲解或准备，或实际笔尖接触与新增墨迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、记号笔、白板及墨迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部导向、笔尖接触与关键墨迹变化严重不符。",
+        "握笔、接触或画线部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔迹与板面关系合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、笔尖、白板和可见墨迹及停笔后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write or draw on a whiteboard with a marker",
+      "question": "How physically plausible is the interaction as the person writes or draws on the whiteboard with the marker?",
+      "body": "Consider grip, finger–wrist control, and arm guidance. Postures and drawings may vary.",
+      "contact": "Tip contact and motion should correspond to hand operation, with interpretable board support.",
+      "object": "New ink should relate to regions passed by the tip. Existing charts or erasure marks do not establish current success.",
+      "aftermath": "If the tip lifts or stops, consider mark retention and contact release. Board deformation or dripping is not required.",
+      "unknown": "Choose unable to judge if only explanation or preparation is shown, or neither tip contact nor new ink can be assessed.",
+      "scores": [
+        "The person, marker, board, and ink behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand guidance, tip contact, and key ink changes seriously disagree.",
+        "Some grip, contact, or drawing is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and ink–board relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, tip, board, visible ink, and post-stop state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "记号笔在白板上书写或画图，相同接触与墨迹形成条件"
+  },
+  {
+    "sample_id": "P108",
+    "media_id": "A_01136",
+    "zh": {
+      "title": "用记号笔在白板上书写",
+      "question": "人物用记号笔在白板上书写或画图，整体交互有多合理？",
+      "body": "观察握笔、手指和手腕控制及手臂导向，允许不同姿势和图形。",
+      "contact": "笔尖与板面的接触及移动应与手的操作对应，板面支撑应保持可解释。",
+      "object": "新增墨迹应与笔尖经过的位置相联系，已有图表或擦痕不代表当前操作已成功。",
+      "aftermath": "若抬笔或停止，观察笔迹保留与接触解除，不要求板子变形或墨水滴落。",
+      "unknown": "仅讲解或准备，或实际笔尖接触与新增墨迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、记号笔、白板及墨迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部导向、笔尖接触与关键墨迹变化严重不符。",
+        "握笔、接触或画线部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔迹与板面关系合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、笔尖、白板和可见墨迹及停笔后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write or draw on a whiteboard with a marker",
+      "question": "How physically plausible is the interaction as the person writes or draws on the whiteboard with the marker?",
+      "body": "Consider grip, finger–wrist control, and arm guidance. Postures and drawings may vary.",
+      "contact": "Tip contact and motion should correspond to hand operation, with interpretable board support.",
+      "object": "New ink should relate to regions passed by the tip. Existing charts or erasure marks do not establish current success.",
+      "aftermath": "If the tip lifts or stops, consider mark retention and contact release. Board deformation or dripping is not required.",
+      "unknown": "Choose unable to judge if only explanation or preparation is shown, or neither tip contact nor new ink can be assessed.",
+      "scores": [
+        "The person, marker, board, and ink behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand guidance, tip contact, and key ink changes seriously disagree.",
+        "Some grip, contact, or drawing is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and ink–board relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, tip, board, visible ink, and post-stop state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "记号笔在白板上书写或画图，相同接触与墨迹形成条件"
+  },
+  {
+    "sample_id": "P111",
+    "media_id": "A_02217",
+    "zh": {
+      "title": "用记号笔在白板上书写",
+      "question": "人物用记号笔在白板上书写或画图，整体交互有多合理？",
+      "body": "观察握笔、手指和手腕控制及手臂导向，允许不同姿势和图形。",
+      "contact": "笔尖与板面的接触及移动应与手的操作对应，板面支撑应保持可解释。",
+      "object": "新增墨迹应与笔尖经过的位置相联系，已有图表或擦痕不代表当前操作已成功。",
+      "aftermath": "若抬笔或停止，观察笔迹保留与接触解除，不要求板子变形或墨水滴落。",
+      "unknown": "仅讲解或准备，或实际笔尖接触与新增墨迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、记号笔、白板及墨迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部导向、笔尖接触与关键墨迹变化严重不符。",
+        "握笔、接触或画线部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔迹与板面关系合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、笔尖、白板和可见墨迹及停笔后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write or draw on a whiteboard with a marker",
+      "question": "How physically plausible is the interaction as the person writes or draws on the whiteboard with the marker?",
+      "body": "Consider grip, finger–wrist control, and arm guidance. Postures and drawings may vary.",
+      "contact": "Tip contact and motion should correspond to hand operation, with interpretable board support.",
+      "object": "New ink should relate to regions passed by the tip. Existing charts or erasure marks do not establish current success.",
+      "aftermath": "If the tip lifts or stops, consider mark retention and contact release. Board deformation or dripping is not required.",
+      "unknown": "Choose unable to judge if only explanation or preparation is shown, or neither tip contact nor new ink can be assessed.",
+      "scores": [
+        "The person, marker, board, and ink behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand guidance, tip contact, and key ink changes seriously disagree.",
+        "Some grip, contact, or drawing is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and ink–board relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, tip, board, visible ink, and post-stop state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "记号笔在白板上书写或画图，相同接触与墨迹形成条件"
+  },
+  {
+    "sample_id": "P103",
+    "media_id": "A_00206",
+    "zh": {
+      "title": "用粉笔在黑板上书写",
+      "question": "人物用粉笔在黑板上书写或画线，整体交互有多合理？",
+      "body": "观察短粉笔的指间握持、手腕精细移动及抬臂协调，不规定文字内容。",
+      "contact": "粉笔端与板面的接触和移动应与手部操作相关。",
+      "object": "新增粉笔痕迹应与接触轨迹相联系，原有文字不作为当前书写成功的依据。",
+      "aftermath": "若抬手、停笔或少量粉尘落下，观察接触解除和痕迹保留，不要求明显粉尘。",
+      "unknown": "仅举粉笔准备，或实际接触与新增笔迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、粉笔、板面及痕迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部操作、粉笔接触与关键痕迹变化严重不符。",
+        "握持、接触或痕迹形成部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及粉笔与板面关系合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、粉笔、板面、痕迹及可见停笔或粉尘运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write on a blackboard with chalk",
+      "question": "How physically plausible is the interaction as the person writes or draws lines on the blackboard with chalk?",
+      "body": "Consider fingertip grip on the short chalk, fine wrist motion, and raised-arm coordination. Specific text is not required.",
+      "contact": "Chalk-end contact and movement should relate to hand operation.",
+      "object": "New chalk traces should relate to the contact path. Existing text does not establish current writing success.",
+      "aftermath": "If the hand lifts, writing stops, or dust falls, consider release and trace retention. Visible dust is not required.",
+      "unknown": "Choose unable to judge if only chalk preparation is shown or neither actual contact nor new traces can be assessed.",
+      "scores": [
+        "The person, chalk, board, and traces behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand operation, chalk contact, and key trace changes seriously disagree.",
+        "Some grip, contact, or trace formation is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and chalk–board relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, chalk, board, traces, and visible stopping or dust motion are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "粉笔在黑板上书写，相同接触与粉笔痕迹形成条件"
+  }
+]

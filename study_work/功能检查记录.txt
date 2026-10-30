@@ -1,0 +1,4 @@
+PASS: 300 trilingual records with six detailed instructions each, media and frame paths, internal sources, 10×150 allocation, 5 assignments per video.
+PASS: source-level simulation of no default score, watch threshold, seek prevention, score/null distinction, reason, language, reload, navigation, export, and old-storage isolation.
+PASS: source-level rendering of all 300 cases in all three languages, without missing instructions or rating descriptions.
+NOT RUN: browser rendering, actual browser video playback, downloads, refresh and narrow-screen acceptance.

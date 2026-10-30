@@ -1,0 +1,867 @@
+[
+  {
+    "sample_id": "P214",
+    "media_id": "A_01943",
+    "zh": {
+      "title": "用高尔夫球杆作用于沙坑",
+      "question": "人物用高尔夫球杆作用于沙坑，整体交互有多合理？",
+      "body": "观察握杆、挥动或下压与躯干和脚部支撑的配合。",
+      "contact": "杆头与沙接触的位置和时刻应与手臂动作相符。",
+      "object": "沙可被压入、带起或散落，不要求片段中一定有可见球飞出。",
+      "aftermath": "若沙飞散或杆头离开，观察重力、堆积及随挥，不要求沙坑大幅改变。",
+      "unknown": "只有瞄准准备，实际杆头与沙作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体控杆、杆头沙面作用与沙粒运动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控杆、杆头沙面作用与沙粒运动的关键关系严重不符。",
+        "人体控杆、杆头沙面作用与沙粒运动部分合理，同时存在明显异常。",
+        "人体控杆、杆头沙面作用与沙粒运动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控杆、杆头沙面作用与沙粒运动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a golf club into bunker sand",
+      "question": "How physically plausible is the interaction: work a golf club into bunker sand?",
+      "body": "Consider grip, swing or downward pressure, torso coordination, and foot support.",
+      "contact": "Clubhead–sand contact location and timing should match arm action.",
+      "object": "Sand may compress, lift, or scatter. A visible departing ball is not required.",
+      "aftermath": "If sand scatters or the head withdraws, consider gravity, accumulation, and follow-through without requiring a major bunker change.",
+      "unknown": "Choose unable to judge if only aiming is shown and actual club–sand action cannot be assessed.",
+      "scores": [
+        "Club control, clubhead–sand action, and grain motion are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among club control, clubhead–sand action, and grain motion seriously disagree.",
+        "Club control, clubhead–sand action, and grain motion are partly plausible, alongside clear anomalies.",
+        "The main relationships among club control, clubhead–sand action, and grain motion are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and club control, clubhead–sand action, and grain motion and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P215",
+    "media_id": "A_03756",
+    "zh": {
+      "title": "用乒乓球拍击球",
+      "question": "人物用乒乓球拍击球，整体交互有多合理？",
+      "body": "观察握拍、手腕前臂和身体重心配合，不指定技术姿势。",
+      "contact": "拍面与球的相遇时刻应与球的速度或方向变化相联系。",
+      "object": "球可快速离拍，不要求出现沙土飞溅，也不要求看清细微旋转。",
+      "aftermath": "若球落台、反弹或离开画面，评价可见轨迹，不推断画面外结果。",
+      "unknown": "只有准备挥拍，实际击球关系不足以评价时选择无法判断。",
+      "scores": [
+        "人体挥拍、乒乓球拍接触与球的轨迹整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体挥拍、乒乓球拍接触与球的轨迹的关键关系严重不符。",
+        "人体挥拍、乒乓球拍接触与球的轨迹部分合理，同时存在明显异常。",
+        "人体挥拍、乒乓球拍接触与球的轨迹主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体挥拍、乒乓球拍接触与球的轨迹及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Strike a table-tennis ball with a paddle",
+      "question": "How physically plausible is the interaction: strike a table-tennis ball with a paddle?",
+      "body": "Consider grip, wrist–forearm action, and weight coordination without prescribing technique.",
+      "contact": "Paddle–ball encounter timing should relate to changes in ball speed or direction.",
+      "object": "The ball may leave rapidly. Sand spray and visibly resolved fine spin are not required.",
+      "aftermath": "If it lands, bounces, or leaves view, assess the visible trajectory without inferring off-screen results.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual striking cannot be assessed.",
+      "scores": [
+        "Paddle control, table-tennis contact, and ball trajectory are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among paddle control, table-tennis contact, and ball trajectory seriously disagree.",
+        "Paddle control, table-tennis contact, and ball trajectory are partly plausible, alongside clear anomalies.",
+        "The main relationships among paddle control, table-tennis contact, and ball trajectory are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and paddle control, table-tennis contact, and ball trajectory and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P216",
+    "media_id": "A_03646",
+    "zh": {
+      "title": "挥动高尔夫球杆击打球座上的球",
+      "question": "人物挥动高尔夫球杆击打球座上的球，整体交互有多合理？",
+      "body": "观察握杆、肩髋转动、重心转移和随挥，不限定唯一姿势。",
+      "contact": "杆头经过球位的时刻应与球离座相关，手与杆的连接应连续。",
+      "object": "球可被击出，不要求练习垫或草地必定飞散。",
+      "aftermath": "若球可见，观察离座与飞行，球离开画面后不推断落点。",
+      "unknown": "只有瞄准或上杆准备，实际击球不足以评价时选择无法判断。",
+      "scores": [
+        "人体挥杆、杆头球座接触与球离座运动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体挥杆、杆头球座接触与球离座运动的关键关系严重不符。",
+        "人体挥杆、杆头球座接触与球离座运动部分合理，同时存在明显异常。",
+        "人体挥杆、杆头球座接触与球离座运动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体挥杆、杆头球座接触与球离座运动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Swing a golf club at a teed ball",
+      "question": "How physically plausible is the interaction: swing a golf club at a teed ball?",
+      "body": "Consider grip, shoulder–hip rotation, weight transfer, and follow-through without prescribing one technique.",
+      "contact": "Head passage through the ball location should relate to ball departure, with continuous hand–club connection.",
+      "object": "The ball may launch. Mat or turf spray is not required.",
+      "aftermath": "If visible, consider departure and flight without inferring a landing outside the frame.",
+      "unknown": "Choose unable to judge if only aiming or backswing preparation is shown and actual striking cannot be assessed.",
+      "scores": [
+        "Body swing, clubhead–tee-ball contact, and ball departure are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body swing, clubhead–tee-ball contact, and ball departure seriously disagree.",
+        "Body swing, clubhead–tee-ball contact, and ball departure are partly plausible, alongside clear anomalies.",
+        "The main relationships among body swing, clubhead–tee-ball contact, and ball departure are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body swing, clubhead–tee-ball contact, and ball departure and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P217",
+    "media_id": "A_03512",
+    "zh": {
+      "title": "挥动高尔夫球杆击打球座上的球",
+      "question": "人物挥动高尔夫球杆击打球座上的球，整体交互有多合理？",
+      "body": "观察握杆、肩髋转动、重心转移和随挥，不限定唯一姿势。",
+      "contact": "杆头经过球位的时刻应与球离座相关，手与杆的连接应连续。",
+      "object": "球可被击出，不要求练习垫或草地必定飞散。",
+      "aftermath": "若球可见，观察离座与飞行，球离开画面后不推断落点。",
+      "unknown": "只有瞄准或上杆准备，实际击球不足以评价时选择无法判断。",
+      "scores": [
+        "人体挥杆、杆头球座接触与球离座运动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体挥杆、杆头球座接触与球离座运动的关键关系严重不符。",
+        "人体挥杆、杆头球座接触与球离座运动部分合理，同时存在明显异常。",
+        "人体挥杆、杆头球座接触与球离座运动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体挥杆、杆头球座接触与球离座运动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Swing a golf club at a teed ball",
+      "question": "How physically plausible is the interaction: swing a golf club at a teed ball?",
+      "body": "Consider grip, shoulder–hip rotation, weight transfer, and follow-through without prescribing one technique.",
+      "contact": "Head passage through the ball location should relate to ball departure, with continuous hand–club connection.",
+      "object": "The ball may launch. Mat or turf spray is not required.",
+      "aftermath": "If visible, consider departure and flight without inferring a landing outside the frame.",
+      "unknown": "Choose unable to judge if only aiming or backswing preparation is shown and actual striking cannot be assessed.",
+      "scores": [
+        "Body swing, clubhead–tee-ball contact, and ball departure are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body swing, clubhead–tee-ball contact, and ball departure seriously disagree.",
+        "Body swing, clubhead–tee-ball contact, and ball departure are partly plausible, alongside clear anomalies.",
+        "The main relationships among body swing, clubhead–tee-ball contact, and ball departure are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body swing, clubhead–tee-ball contact, and ball departure and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "与P216同为球座上高尔夫球的挥杆击打，垫面和草地均不强制飞散"
+  },
+  {
+    "sample_id": "P218",
+    "media_id": "A_03511",
+    "zh": {
+      "title": "从草面球位挥动高尔夫球杆",
+      "question": "人物从草面球位挥动高尔夫球杆，整体交互有多合理？",
+      "body": "观察双手握杆、上身旋转与下肢平衡。",
+      "contact": "杆头轨迹应与握持和球位对应，可见球的变化应与接触时刻相关。",
+      "object": "球可被带离球位，草面可以基本保持，不强制要求草屑或沙粒。",
+      "aftermath": "若随挥或球继续飞行，观察动作连续性，不推断不可见落点。",
+      "unknown": "只有瞄准或上杆，实际挥击不足以评价时选择无法判断。",
+      "scores": [
+        "人体转动、球杆连续轨迹与球位作用整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体转动、球杆连续轨迹与球位作用的关键关系严重不符。",
+        "人体转动、球杆连续轨迹与球位作用部分合理，同时存在明显异常。",
+        "人体转动、球杆连续轨迹与球位作用主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体转动、球杆连续轨迹与球位作用及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Swing a golf club from a grass-level ball position",
+      "question": "How physically plausible is the interaction: swing a golf club from a grass-level ball position?",
+      "body": "Consider two-hand grip, torso rotation, and lower-body balance.",
+      "contact": "Head trajectory should correspond to grip and ball location, with visible ball changes related to contact timing.",
+      "object": "The ball may leave its position while grass remains largely unchanged. Turf or sand spray is not required.",
+      "aftermath": "If follow-through or flight is visible, consider continuity without inferring an unseen landing.",
+      "unknown": "Choose unable to judge if only aiming or backswing is shown and actual striking cannot be assessed.",
+      "scores": [
+        "Body rotation, continuous club trajectory, and action at the ball position are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body rotation, continuous club trajectory, and action at the ball position seriously disagree.",
+        "Body rotation, continuous club trajectory, and action at the ball position are partly plausible, alongside clear anomalies.",
+        "The main relationships among body rotation, continuous club trajectory, and action at the ball position are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body rotation, continuous club trajectory, and action at the ball position and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P219",
+    "media_id": "A_02329",
+    "zh": {
+      "title": "完成高尔夫挥杆的随挥",
+      "question": "人物完成高尔夫挥杆的随挥，整体交互有多合理？",
+      "body": "观察双手持杆、肩髋旋转和挥杆后站姿平衡。",
+      "contact": "球杆应随双手连续运动，不要求重新出现已经过去的碰撞。",
+      "object": "杆体可以快速转动，若球在画面内，其运动应有合理连续性。",
+      "aftermath": "观察随挥减速和身体恢复支撑，不推断未显示的击球成功或落点。",
+      "unknown": "随挥过短或遮挡导致实际人杆运动无法评价时选择无法判断。",
+      "scores": [
+        "人体随挥、球杆惯性运动与站姿支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体随挥、球杆惯性运动与站姿支撑的关键关系严重不符。",
+        "人体随挥、球杆惯性运动与站姿支撑部分合理，同时存在明显异常。",
+        "人体随挥、球杆惯性运动与站姿支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体随挥、球杆惯性运动与站姿支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Follow through after a golf swing",
+      "question": "How physically plausible is the interaction: follow through after a golf swing?",
+      "body": "Consider two-hand grip, shoulder–hip rotation, and post-swing balance.",
+      "contact": "The club should move continuously with the hands. An earlier collision need not reappear.",
+      "object": "The club may rotate rapidly. Any visible ball motion should remain continuous.",
+      "aftermath": "Consider deceleration and restored body support without inferring unseen shot success or landing.",
+      "unknown": "Choose unable to judge if follow-through is too brief or obscured to assess actual person–club motion.",
+      "scores": [
+        "Body follow-through, club inertia, and stance support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body follow-through, club inertia, and stance support seriously disagree.",
+        "Body follow-through, club inertia, and stance support are partly plausible, alongside clear anomalies.",
+        "The main relationships among body follow-through, club inertia, and stance support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body follow-through, club inertia, and stance support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P220",
+    "media_id": "A_01981",
+    "zh": {
+      "title": "持握并调整网球拍",
+      "question": "人物持握并调整网球拍，整体交互有多合理？",
+      "body": "观察手指握柄、手腕调向和身体准备姿势。",
+      "contact": "球拍应由手部合理承托，握柄与拍框的结构应连续。",
+      "object": "球拍可转向或小幅摆动，本任务不强制要求球出现、击球或拍线变形。",
+      "aftermath": "若调整后停住，观察手部控制及拍体停止，不推断下一次击球。",
+      "unknown": "手柄被遮挡且实际持握关系无法评价时选择无法判断。",
+      "scores": [
+        "手部握拍、拍体调向与人体平衡整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部握拍、拍体调向与人体平衡的关键关系严重不符。",
+        "手部握拍、拍体调向与人体平衡部分合理，同时存在明显异常。",
+        "手部握拍、拍体调向与人体平衡主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部握拍、拍体调向与人体平衡及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold and adjust a tennis racket",
+      "question": "How physically plausible is the interaction: hold and adjust a tennis racket?",
+      "body": "Consider handle grip, wrist orientation, and body readiness.",
+      "contact": "The hand should plausibly support the racket, with continuous handle–frame structure.",
+      "object": "The racket may turn or move slightly. A ball, strike, or string deformation is not required for this holding task.",
+      "aftermath": "On stopping, consider hand control and racket deceleration without inferring the next shot.",
+      "unknown": "Choose unable to judge if the grip is obscured and actual holding cannot be assessed.",
+      "scores": [
+        "Hand grip, racket orientation, and body balance are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand grip, racket orientation, and body balance seriously disagree.",
+        "Hand grip, racket orientation, and body balance are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand grip, racket orientation, and body balance are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand grip, racket orientation, and body balance and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P221",
+    "media_id": "A_01937",
+    "zh": {
+      "title": "用球棒击打汽车挡风玻璃",
+      "question": "人物用球棒击打汽车挡风玻璃，整体交互有多合理？",
+      "body": "观察双手控棒、挥动和身体支撑。",
+      "contact": "棒与玻璃的接触应与挥动对应，玻璃变化应从合理作用位置发展。",
+      "object": "挡风玻璃可产生裂纹、局部变形或碎裂，不要求整面像无夹层薄玻璃一样散落。",
+      "aftermath": "若碎片脱离或球棒回撤，观察重力、保留支撑及停止。",
+      "unknown": "只有持棒瞄准，实际作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体挥棒、挡风玻璃接触与局部破裂响应整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体挥棒、挡风玻璃接触与局部破裂响应的关键关系严重不符。",
+        "人体挥棒、挡风玻璃接触与局部破裂响应部分合理，同时存在明显异常。",
+        "人体挥棒、挡风玻璃接触与局部破裂响应主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体挥棒、挡风玻璃接触与局部破裂响应及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Strike a car windshield with a bat",
+      "question": "How physically plausible is the interaction: strike a car windshield with a bat?",
+      "body": "Consider bat control, swinging, and body support.",
+      "contact": "Bat–glass contact should match the swing, with changes developing from plausible action locations.",
+      "object": "A windshield may crack, deform locally, or break. Complete loose-fragment collapse is not required.",
+      "aftermath": "If fragments detach or the bat withdraws, consider gravity, retained support, and stopping.",
+      "unknown": "Choose unable to judge if only aiming is shown and actual action cannot be assessed.",
+      "scores": [
+        "Body swing, windshield contact, and local fracture response are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body swing, windshield contact, and local fracture response seriously disagree.",
+        "Body swing, windshield contact, and local fracture response are partly plausible, alongside clear anomalies.",
+        "The main relationships among body swing, windshield contact, and local fracture response are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body swing, windshield contact, and local fracture response and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P222",
+    "media_id": "A_02044",
+    "zh": {
+      "title": "用锤作用于木框玻璃窗",
+      "question": "人物用锤作用于木框玻璃窗，整体交互有多合理？",
+      "body": "观察握锤、手臂推压或敲击与身体平衡。",
+      "contact": "锤头与玻璃作用位置应与手部动作相符，窗框应合理承托。",
+      "object": "新裂纹、压损或碎片应与作用相关，已有白色圆痕不代表当前操作成功。",
+      "aftermath": "若碎片落下或锤离开，观察重力和残留玻璃支撑，不要求整窗崩落。",
+      "unknown": "实际锤头接触被遮挡或只有准备时选择无法判断。",
+      "scores": [
+        "人体控锤、窗玻璃作用与框内支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控锤、窗玻璃作用与框内支撑的关键关系严重不符。",
+        "人体控锤、窗玻璃作用与框内支撑部分合理，同时存在明显异常。",
+        "人体控锤、窗玻璃作用与框内支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控锤、窗玻璃作用与框内支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Apply a hammer to a framed glass window",
+      "question": "How physically plausible is the interaction: apply a hammer to a framed glass window?",
+      "body": "Consider grip, arm pressure or tapping, and balance.",
+      "contact": "Head contact should correspond to hand action, with plausible frame support.",
+      "object": "New cracks, damage, or fragments should relate to action. Existing white marks do not establish current success.",
+      "aftermath": "If pieces fall or the hammer withdraws, consider gravity and remaining glass support without requiring total collapse.",
+      "unknown": "Choose unable to judge if actual contact is obscured or only preparation is shown.",
+      "scores": [
+        "Hammer control, window-glass action, and frame support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hammer control, window-glass action, and frame support seriously disagree.",
+        "Hammer control, window-glass action, and frame support are partly plausible, alongside clear anomalies.",
+        "The main relationships among hammer control, window-glass action, and frame support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hammer control, window-glass action, and frame support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P223",
+    "media_id": "A_04724",
+    "zh": {
+      "title": "扶持竹筒并用细木棍操作",
+      "question": "人物扶持竹筒并用细木棍操作，整体交互有多合理？",
+      "body": "观察一手承托竹筒、另一手控棍与躯干协调。",
+      "contact": "棍与竹筒开口或内部的可见接触应与手部运动对应。",
+      "object": "竹筒应保持合理形状和承托，不凭烟熏痕迹推断当下点火或内部物质。",
+      "aftermath": "若棍退出或竹筒移近已有火焰，观察支撑与可见火源关系，不要求燃烧突然增强。",
+      "unknown": "竹筒内部不可见不扣分，实际控筒控棍也不足以评价时选择无法判断。",
+      "scores": [
+        "双手控筒控棍、竹筒承托与可见接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控筒控棍、竹筒承托与可见接触的关键关系严重不符。",
+        "双手控筒控棍、竹筒承托与可见接触部分合理，同时存在明显异常。",
+        "双手控筒控棍、竹筒承托与可见接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控筒控棍、竹筒承托与可见接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Support a bamboo tube while using a thin stick",
+      "question": "How physically plausible is the interaction: support a bamboo tube while using a thin stick?",
+      "body": "Consider one-hand tube support, other-hand stick control, and torso coordination.",
+      "contact": "Visible stick contact at the opening or interior should correspond to hand motion.",
+      "object": "The tube should retain plausible form and support. Soot does not establish current ignition or unseen contents.",
+      "aftermath": "On withdrawal or approach to existing flames, consider support and visible fire location without requiring sudden flame growth.",
+      "unknown": "Do not penalize an unseen interior. Choose unable to judge if actual tube and stick control also cannot be assessed.",
+      "scores": [
+        "Two-hand tube–stick control, bamboo support, and visible contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand tube–stick control, bamboo support, and visible contact seriously disagree.",
+        "Two-hand tube–stick control, bamboo support, and visible contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand tube–stick control, bamboo support, and visible contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand tube–stick control, bamboo support, and visible contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P224",
+    "media_id": "A_04706",
+    "zh": {
+      "title": "把粗木段放入已有火焰的火坑",
+      "question": "人物把粗木段放入已有火焰的火坑，整体交互有多合理？",
+      "body": "观察双手承重、弯腰降低和站姿平衡。",
+      "contact": "木段应随手移动，并在落到石块或木堆时获得合理支撑。",
+      "object": "已有火焰可受木段位置影响，不要求粗木段立即全部燃烧。",
+      "aftermath": "若松手，观察木段停放或滚动及火焰烟气变化，不要求火焰必定增大。",
+      "unknown": "只有举木准备，实际放置不足以评价时选择无法判断。",
+      "scores": [
+        "人体承重、木段放置与火坑支撑及火焰响应整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体承重、木段放置与火坑支撑及火焰响应的关键关系严重不符。",
+        "人体承重、木段放置与火坑支撑及火焰响应部分合理，同时存在明显异常。",
+        "人体承重、木段放置与火坑支撑及火焰响应主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体承重、木段放置与火坑支撑及火焰响应及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Place a thick log into an already burning fire pit",
+      "question": "How physically plausible is the interaction: place a thick log into an already burning fire pit?",
+      "body": "Consider two-hand load support, lowering, and balance.",
+      "contact": "The log should move with the hands and acquire support from stones or wood on placement.",
+      "object": "Existing flames may respond to log position. Immediate complete ignition is not required.",
+      "aftermath": "On release, consider resting or rolling and visible fire or smoke changes without requiring flame growth.",
+      "unknown": "Choose unable to judge if only carrying preparation is shown and actual placement cannot be assessed.",
+      "scores": [
+        "Body load support, log placement, pit support, and flame response are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body load support, log placement, pit support, and flame response seriously disagree.",
+        "Body load support, log placement, pit support, and flame response are partly plausible, alongside clear anomalies.",
+        "The main relationships among body load support, log placement, pit support, and flame response are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body load support, log placement, pit support, and flame response and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P225",
+    "media_id": "A_04695",
+    "zh": {
+      "title": "在小火旁承托竹筒",
+      "question": "人物在小火旁承托竹筒，整体交互有多合理？",
+      "body": "观察蹲姿、双手承托长竹筒和局部调整。",
+      "contact": "竹筒的重量支撑与手部位置应相容，竹筒和火源的相对位置应连续。",
+      "object": "已有火焰可摆动，不要求竹筒自行点燃、软化或立刻改变颜色。",
+      "aftermath": "若竹筒转动或移开，观察重力与支撑转换，烟气按可见程度评价。",
+      "unknown": "若承托接触与火源关系均不可见，无法评价实际交互时选择无法判断。",
+      "scores": [
+        "人体低位承托、竹筒连续性与火源位置关系整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体低位承托、竹筒连续性与火源位置关系的关键关系严重不符。",
+        "人体低位承托、竹筒连续性与火源位置关系部分合理，同时存在明显异常。",
+        "人体低位承托、竹筒连续性与火源位置关系主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体低位承托、竹筒连续性与火源位置关系及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Support a bamboo tube beside a small fire",
+      "question": "How physically plausible is the interaction: support a bamboo tube beside a small fire?",
+      "body": "Consider crouching, two-hand support of the long tube, and local adjustments.",
+      "contact": "Weight support should fit hand positions, with continuous tube–fire spatial relations.",
+      "object": "Existing flames may flicker. Tube ignition, softening, or immediate color change is not required.",
+      "aftermath": "If turned or withdrawn, consider gravity and support transfer, assessing smoke only where visible.",
+      "unknown": "Choose unable to judge if support contact and fire relations are both hidden and actual interaction cannot be assessed.",
+      "scores": [
+        "Low-level body support, tube continuity, and fire-source spatial relations are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among low-level body support, tube continuity, and fire-source spatial relations seriously disagree.",
+        "Low-level body support, tube continuity, and fire-source spatial relations are partly plausible, alongside clear anomalies.",
+        "The main relationships among low-level body support, tube continuity, and fire-source spatial relations are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and low-level body support, tube continuity, and fire-source spatial relations and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P227",
+    "media_id": "A_04669",
+    "zh": {
+      "title": "向燃烧的枝条堆添加木柴",
+      "question": "人物向燃烧的枝条堆添加木柴，整体交互有多合理？",
+      "body": "观察双手持柴、前伸放置与脚部平衡。",
+      "contact": "木柴应通过手的动作接近并接触枝条堆，不应忽略堆体的承托。",
+      "object": "枝条可局部移位，已有火焰烟气可摆动，不要求新柴立即完全着火。",
+      "aftermath": "若松手，观察柴条停止、滑动或落入堆内及可见火焰变化。",
+      "unknown": "只有拿柴准备，实际放置不足以评价时选择无法判断。",
+      "scores": [
+        "人体放柴、枝条堆承托与已有火焰连续性整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体放柴、枝条堆承托与已有火焰连续性的关键关系严重不符。",
+        "人体放柴、枝条堆承托与已有火焰连续性部分合理，同时存在明显异常。",
+        "人体放柴、枝条堆承托与已有火焰连续性主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体放柴、枝条堆承托与已有火焰连续性及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Add firewood to a burning branch pile",
+      "question": "How physically plausible is the interaction: add firewood to a burning branch pile?",
+      "body": "Consider two-hand holding, reaching placement, and foot balance.",
+      "contact": "Wood should approach and contact the pile through hand action, respecting pile support.",
+      "object": "Branches may shift locally and existing flames or smoke may fluctuate. Immediate complete ignition is not required.",
+      "aftermath": "On release, consider resting, sliding, or falling into the pile and visible flame changes.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual placement cannot be assessed.",
+      "scores": [
+        "Body placement, branch-pile support, and existing-flame continuity are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body placement, branch-pile support, and existing-flame continuity seriously disagree.",
+        "Body placement, branch-pile support, and existing-flame continuity are partly plausible, alongside clear anomalies.",
+        "The main relationships among body placement, branch-pile support, and existing-flame continuity are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body placement, branch-pile support, and existing-flame continuity and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P228",
+    "media_id": "A_04544",
+    "zh": {
+      "title": "抛接燃烧的长柄火把",
+      "question": "人物抛接燃烧的长柄火把，整体交互有多合理？",
+      "body": "观察双手交替释放、接取及身体平衡。",
+      "contact": "手接触应对应火把的释放与停止，自由段运动应与之前抛动相关。",
+      "object": "火把可旋转，火焰应与燃烧端保持合理来源关系，不要求火焰固定形状。",
+      "aftermath": "若接住或停止，观察手部缓冲和火焰随运动摆动，不要求每次完整循环都在画面内。",
+      "unknown": "只有举火把展示，实际抛接不足以评价时选择无法判断。",
+      "scores": [
+        "人体抛接、火把飞行与燃烧端火焰整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体抛接、火把飞行与燃烧端火焰的关键关系严重不符。",
+        "人体抛接、火把飞行与燃烧端火焰部分合理，同时存在明显异常。",
+        "人体抛接、火把飞行与燃烧端火焰主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体抛接、火把飞行与燃烧端火焰及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Juggle burning long-handled torches",
+      "question": "How physically plausible is the interaction: juggle burning long-handled torches?",
+      "body": "Consider alternating releases and catches and body balance.",
+      "contact": "Hand contact should correspond to release and arrest, with free motion related to the preceding throw.",
+      "object": "Torches may rotate. Flames should retain a plausible burning-tip source without a fixed shape.",
+      "aftermath": "On catching or stopping, consider hand cushioning and moving flames without requiring every complete cycle in view.",
+      "unknown": "Choose unable to judge if only display is shown and actual juggling cannot be assessed.",
+      "scores": [
+        "Body juggling, torch flight, and burning-tip flames are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body juggling, torch flight, and burning-tip flames seriously disagree.",
+        "Body juggling, torch flight, and burning-tip flames are partly plausible, alongside clear anomalies.",
+        "The main relationships among body juggling, torch flight, and burning-tip flames are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body juggling, torch flight, and burning-tip flames and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P229",
+    "media_id": "A_04539",
+    "zh": {
+      "title": "提持燃烧的煤油灯",
+      "question": "人物提持燃烧的煤油灯，整体交互有多合理？",
+      "body": "观察提柄握持、手臂承托和轻微调整。",
+      "contact": "提柄、灯体与手的连接应连续，灯体运动应与承托相关。",
+      "object": "灯内火焰可闪动，反光罩可随灯移动，不要求当场点火或外壳燃烧。",
+      "aftermath": "若灯摆动或停住，观察重力方向、手部控制及灯内火焰来源。",
+      "unknown": "灯体与手的承托均无法辨认时选择无法判断。",
+      "scores": [
+        "人体提持、煤油灯结构承托与灯内火焰整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体提持、煤油灯结构承托与灯内火焰的关键关系严重不符。",
+        "人体提持、煤油灯结构承托与灯内火焰部分合理，同时存在明显异常。",
+        "人体提持、煤油灯结构承托与灯内火焰主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体提持、煤油灯结构承托与灯内火焰及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold a burning kerosene lamp by its handle",
+      "question": "How physically plausible is the interaction: hold a burning kerosene lamp by its handle?",
+      "body": "Consider handle grip, arm support, and small adjustments.",
+      "contact": "Handle, lamp body, and hand connections should remain continuous, with motion related to support.",
+      "object": "The internal flame may flicker and the reflector may move with the lamp. New ignition or casing combustion is not required.",
+      "aftermath": "On swinging or stopping, consider gravity, hand control, and the internal flame source.",
+      "unknown": "Choose unable to judge if actual hand–lamp support cannot be distinguished.",
+      "scores": [
+        "Body holding, lamp structure and support, and internal flame are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body holding, lamp structure and support, and internal flame seriously disagree.",
+        "Body holding, lamp structure and support, and internal flame are partly plausible, alongside clear anomalies.",
+        "The main relationships among body holding, lamp structure and support, and internal flame are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body holding, lamp structure and support, and internal flame and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P230",
+    "media_id": "A_04494",
+    "zh": {
+      "title": "把长木段安放到火堆旁或火堆上",
+      "question": "人物把长木段安放到火堆旁或火堆上，整体交互有多合理？",
+      "body": "观察弯腰、双手移动长木段与站姿平衡。",
+      "contact": "木段应在手、地面或火堆间得到连续支撑，放置接触应与手部动作对应。",
+      "object": "已有火焰可绕木段变化，不要求长木段立即烧透或形成固定火焰大小。",
+      "aftermath": "若松手，观察木段的停止、滚动和火堆承托。",
+      "unknown": "只有弯腰准备，实际放置不足以评价时选择无法判断。",
+      "scores": [
+        "人体搬放、长木段地面接触与火堆支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体搬放、长木段地面接触与火堆支撑的关键关系严重不符。",
+        "人体搬放、长木段地面接触与火堆支撑部分合理，同时存在明显异常。",
+        "人体搬放、长木段地面接触与火堆支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体搬放、长木段地面接触与火堆支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Position a long log beside or on a fire",
+      "question": "How physically plausible is the interaction: position a long log beside or on a fire?",
+      "body": "Consider leaning, two-hand log movement, and balance.",
+      "contact": "Support should transfer continuously among hands, ground, and pile, with placement contact related to hand action.",
+      "object": "Existing flames may change around the log. Immediate thorough burning or a fixed flame size is not required.",
+      "aftermath": "On release, consider resting, rolling, and pile support.",
+      "unknown": "Choose unable to judge if only bending preparation is shown and actual placement cannot be assessed.",
+      "scores": [
+        "Body placement, long-log ground contact, and fire-pile support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body placement, long-log ground contact, and fire-pile support seriously disagree.",
+        "Body placement, long-log ground contact, and fire-pile support are partly plausible, alongside clear anomalies.",
+        "The main relationships among body placement, long-log ground contact, and fire-pile support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body placement, long-log ground contact, and fire-pile support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P231",
+    "media_id": "A_04439",
+    "zh": {
+      "title": "操控燃烧的长柄火把",
+      "question": "人物操控燃烧的长柄火把，整体交互有多合理？",
+      "body": "观察双手换握、抬动与躯干平衡。",
+      "contact": "火把应在握持时由手支撑，若释放则按自由运动评价，不能要求始终与手连接。",
+      "object": "燃烧端可移动并带动火焰摆动，不要求火把刚体本身弯曲。",
+      "aftermath": "若转动、接取或停止，观察惯性、重力及火焰与燃烧端的连续关系。",
+      "unknown": "只有准备且控把或实际运动不足以评价时选择无法判断。",
+      "scores": [
+        "双手火把控制、杆体运动与燃烧端火焰整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手火把控制、杆体运动与燃烧端火焰的关键关系严重不符。",
+        "双手火把控制、杆体运动与燃烧端火焰部分合理，同时存在明显异常。",
+        "双手火把控制、杆体运动与燃烧端火焰主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手火把控制、杆体运动与燃烧端火焰及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Manipulate burning long-handled torches",
+      "question": "How physically plausible is the interaction: manipulate burning long-handled torches?",
+      "body": "Consider regripping, lifting, and torso balance.",
+      "contact": "Hands should support held torches. Assess any released torch as free motion without requiring continued hand attachment.",
+      "object": "Burning ends may move and carry fluctuating flames. Shaft bending is not required.",
+      "aftermath": "On rotating, catching, or stopping, consider inertia, gravity, and flame-source continuity.",
+      "unknown": "Choose unable to judge if only preparation is shown and control or actual motion cannot be assessed.",
+      "scores": [
+        "Two-hand torch control, shaft motion, and burning-tip flames are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand torch control, shaft motion, and burning-tip flames seriously disagree.",
+        "Two-hand torch control, shaft motion, and burning-tip flames are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand torch control, shaft motion, and burning-tip flames are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand torch control, shaft motion, and burning-tip flames and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P232",
+    "media_id": "A_04424",
+    "zh": {
+      "title": "把金属丝保持在喷灯火焰中",
+      "question": "人物把金属丝保持在喷灯火焰中，整体交互有多合理？",
+      "body": "观察手指夹持金属丝与手腕精细定位。",
+      "contact": "丝与喷嘴的空间关系应连续，火焰应从喷嘴合理喷出。",
+      "object": "金属丝受热可以暂时没有明显变化，不要求短片内熔断、发红或弯曲。",
+      "aftermath": "若丝移动或火焰摆动，观察夹持与热源位置，不推断不可见温度。",
+      "unknown": "丝、手或火焰作用位置无法分辨，实际加热关系不足以评价时选择无法判断。",
+      "scores": [
+        "手部定位、金属丝承托与喷灯火焰来源整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部定位、金属丝承托与喷灯火焰来源的关键关系严重不符。",
+        "手部定位、金属丝承托与喷灯火焰来源部分合理，同时存在明显异常。",
+        "手部定位、金属丝承托与喷灯火焰来源主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部定位、金属丝承托与喷灯火焰来源及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold a metal wire in a blowtorch flame",
+      "question": "How physically plausible is the interaction: hold a metal wire in a blowtorch flame?",
+      "body": "Consider finger grip and fine wrist positioning.",
+      "contact": "Wire–nozzle spatial relations should remain continuous, with flame emerging plausibly from the nozzle.",
+      "object": "Heating may produce no immediate visible wire change. Melting, glowing, or bending within the clip is not required.",
+      "aftermath": "On wire motion or flame fluctuation, consider grip and heat-source position without inferring unseen temperature.",
+      "unknown": "Choose unable to judge if wire, hand, or flame position cannot be distinguished enough to assess heating.",
+      "scores": [
+        "Hand positioning, wire support, and blowtorch flame source are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand positioning, wire support, and blowtorch flame source seriously disagree.",
+        "Hand positioning, wire support, and blowtorch flame source are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand positioning, wire support, and blowtorch flame source are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand positioning, wire support, and blowtorch flame source and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P233",
+    "media_id": "A_04417",
+    "zh": {
+      "title": "戴手套托持一端燃烧的木段",
+      "question": "人物戴手套托持一端燃烧的木段，整体交互有多合理？",
+      "body": "观察双手承托与手臂控制，不按是否看向镜头判断物理合理性。",
+      "contact": "木段应由手合理承托，燃烧端与火焰来源应连续。",
+      "object": "火焰可自然摆动，不要求整段木头立刻燃烧或明显缩短。",
+      "aftermath": "若木段调整位置，观察惯性、重力及火焰方向变化。",
+      "unknown": "实际手木承托或火源位置无法评价时选择无法判断。",
+      "scores": [
+        "人体托木、木段支撑与端部燃烧整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体托木、木段支撑与端部燃烧的关键关系严重不符。",
+        "人体托木、木段支撑与端部燃烧部分合理，同时存在明显异常。",
+        "人体托木、木段支撑与端部燃烧主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体托木、木段支撑与端部燃烧及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Support a log burning at one end with gloved hands",
+      "question": "How physically plausible is the interaction: support a log burning at one end with gloved hands?",
+      "body": "Consider two-hand support and arm control. Looking at the camera is not itself a physical error.",
+      "contact": "Hands should plausibly support the log, with continuous burning-end flame sourcing.",
+      "object": "Flames may fluctuate naturally. Immediate whole-log burning or visible shortening is not required.",
+      "aftermath": "If repositioned, consider inertia, gravity, and flame direction changes.",
+      "unknown": "Choose unable to judge if actual hand–log support or flame location cannot be assessed.",
+      "scores": [
+        "Body holding, log support, and end combustion are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body holding, log support, and end combustion seriously disagree.",
+        "Body holding, log support, and end combustion are partly plausible, alongside clear anomalies.",
+        "The main relationships among body holding, log support, and end combustion are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body holding, log support, and end combustion and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P234",
+    "media_id": "A_04407",
+    "zh": {
+      "title": "操控带火焰的球形道具",
+      "question": "人物操控带火焰的球形道具，整体交互有多合理？",
+      "body": "观察双手对手柄或支杆的控制和身体协调。",
+      "contact": "球、可见连接件与手的关系应连续，按实际连接约束评价，不强制视为自由抛球。",
+      "object": "球形燃烧端可移动，火焰应具有合理来源，不要求球体本身明显变形。",
+      "aftermath": "若球转动或停止，观察约束运动和火焰摆动，不推断隐藏机构。",
+      "unknown": "连接关系无法辨认且实际运动不足以评价时选择无法判断。",
+      "scores": [
+        "人体控柄、球形道具约束运动与火焰来源整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控柄、球形道具约束运动与火焰来源的关键关系严重不符。",
+        "人体控柄、球形道具约束运动与火焰来源部分合理，同时存在明显异常。",
+        "人体控柄、球形道具约束运动与火焰来源主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控柄、球形道具约束运动与火焰来源及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Manipulate flaming spherical props",
+      "question": "How physically plausible is the interaction: manipulate flaming spherical props?",
+      "body": "Consider hand control of handles or rods and body coordination.",
+      "contact": "Balls, visible connectors, and hands should remain coherent. Use visible constraints rather than assuming freely thrown balls.",
+      "object": "Spherical burning ends may move with plausibly sourced flames. Obvious ball deformation is not required.",
+      "aftermath": "On rotation or stopping, consider constrained motion and flame fluctuation without inferring hidden mechanisms.",
+      "unknown": "Choose unable to judge if connection relations are unclear and actual motion cannot be assessed.",
+      "scores": [
+        "Handle control, constrained spherical-prop motion, and flame sources are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among handle control, constrained spherical-prop motion, and flame sources seriously disagree.",
+        "Handle control, constrained spherical-prop motion, and flame sources are partly plausible, alongside clear anomalies.",
+        "The main relationships among handle control, constrained spherical-prop motion, and flame sources are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and handle control, constrained spherical-prop motion, and flame sources and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P235",
+    "media_id": "A_04337",
+    "zh": {
+      "title": "按动厨房喷灯的点火机构",
+      "question": "人物按动厨房喷灯的点火机构，整体交互有多合理？",
+      "body": "观察扶持筒体、手指按动与喷嘴定向的协调。",
+      "contact": "按键动作与喷嘴火焰的开始、保持或停止应有合理关系。",
+      "object": "火焰可从喷嘴出现，不要求金属筒体变形或燃烧。",
+      "aftermath": "若松开或移动，观察火焰随控制和喷嘴位置变化，不限定固定长度。",
+      "unknown": "只有拿灯展示或点火部位完全不可见时选择无法判断。",
+      "scores": [
+        "手指点火、喷灯握持与喷嘴火焰响应整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手指点火、喷灯握持与喷嘴火焰响应的关键关系严重不符。",
+        "手指点火、喷灯握持与喷嘴火焰响应部分合理，同时存在明显异常。",
+        "手指点火、喷灯握持与喷嘴火焰响应主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手指点火、喷灯握持与喷嘴火焰响应及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Activate a kitchen torch ignition mechanism",
+      "question": "How physically plausible is the interaction: activate a kitchen torch ignition mechanism?",
+      "body": "Consider cylinder support, finger activation, and nozzle orientation.",
+      "contact": "Button action should plausibly relate to flame onset, maintenance, or stopping.",
+      "object": "A flame may emerge from the nozzle. Cylinder deformation or combustion is not required.",
+      "aftermath": "On release or movement, consider control and nozzle-related flame changes without prescribing fixed length.",
+      "unknown": "Choose unable to judge if only display is shown or the ignition area is entirely hidden.",
+      "scores": [
+        "Finger activation, torch grip, and nozzle-flame response are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among finger activation, torch grip, and nozzle-flame response seriously disagree.",
+        "Finger activation, torch grip, and nozzle-flame response are partly plausible, alongside clear anomalies.",
+        "The main relationships among finger activation, torch grip, and nozzle-flame response are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and finger activation, torch grip, and nozzle-flame response and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P236",
+    "media_id": "A_04317",
+    "zh": {
+      "title": "用长金属杆操作炉口",
+      "question": "人物用长金属杆操作炉口，整体交互有多合理？",
+      "body": "观察双手控杆、前伸及身体承力支撑。",
+      "contact": "杆端与炉口的进入或接触应与手部动作相关，炉体应有合理支撑。",
+      "object": "已有火焰和火星可变化，不要求杆立刻熔化或炉内材料完整可见。",
+      "aftermath": "若杆退出或火星飞出，观察杆体连续性、火星轨迹及火焰来源。",
+      "unknown": "炉口遮挡导致实际杆端作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体控杆、炉口接触与火焰火星运动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控杆、炉口接触与火焰火星运动的关键关系严重不符。",
+        "人体控杆、炉口接触与火焰火星运动部分合理，同时存在明显异常。",
+        "人体控杆、炉口接触与火焰火星运动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控杆、炉口接触与火焰火星运动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate at a furnace opening with a long metal rod",
+      "question": "How physically plausible is the interaction: operate at a furnace opening with a long metal rod?",
+      "body": "Consider two-hand rod control, reaching, and load-bearing stance.",
+      "contact": "Rod entry or contact should correspond to hand action, with plausible furnace support.",
+      "object": "Existing flames and sparks may vary. Immediate rod melting or a complete view of furnace contents is not required.",
+      "aftermath": "On withdrawal or spark emission, consider rod continuity, spark trajectories, and flame sources.",
+      "unknown": "Choose unable to judge if occlusion prevents assessment of actual rod-end action.",
+      "scores": [
+        "Rod control, furnace-opening contact, and flame and spark motion are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among rod control, furnace-opening contact, and flame and spark motion seriously disagree.",
+        "Rod control, furnace-opening contact, and flame and spark motion are partly plausible, alongside clear anomalies.",
+        "The main relationships among rod control, furnace-opening contact, and flame and spark motion are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and rod control, furnace-opening contact, and flame and spark motion and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P237",
+    "media_id": "A_04290",
+    "zh": {
+      "title": "用木棍拨动燃烧的木柴",
+      "question": "人物用木棍拨动燃烧的木柴，整体交互有多合理？",
+      "body": "观察弯腰、双手推拨和脚部支撑。",
+      "contact": "棍端与木柴的作用应和手部推压对应，不要求手直接接触燃烧木柴。",
+      "object": "木柴可局部移动，火焰烟气可随位置变化，不要求火立刻熄灭或增强。",
+      "aftermath": "若拨动后停住，观察木柴承托、棍端退出和可见火星。",
+      "unknown": "只有持棍准备，实际拨动不足以评价时选择无法判断。",
+      "scores": [
+        "人体推拨、棍柴接触与火堆支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体推拨、棍柴接触与火堆支撑的关键关系严重不符。",
+        "人体推拨、棍柴接触与火堆支撑部分合理，同时存在明显异常。",
+        "人体推拨、棍柴接触与火堆支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体推拨、棍柴接触与火堆支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Adjust burning logs with a wooden stick",
+      "question": "How physically plausible is the interaction: adjust burning logs with a wooden stick?",
+      "body": "Consider leaning, two-hand pushing, and foot support.",
+      "contact": "Stick-end action on wood should correspond to hand pressure. Direct hand contact with burning logs is not required.",
+      "object": "Logs may shift locally, affecting flames or smoke. Immediate extinction or growth is not required.",
+      "aftermath": "On stopping, consider log support, stick withdrawal, and any visible sparks.",
+      "unknown": "Choose unable to judge if only stick preparation is shown and actual adjustment cannot be assessed.",
+      "scores": [
+        "Body pushing, stick–log contact, and fire-pile support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body pushing, stick–log contact, and fire-pile support seriously disagree.",
+        "Body pushing, stick–log contact, and fire-pile support are partly plausible, alongside clear anomalies.",
+        "The main relationships among body pushing, stick–log contact, and fire-pile support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body pushing, stick–log contact, and fire-pile support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P238",
+    "media_id": "A_04274",
+    "zh": {
+      "title": "朝小蜡烛附近按动喷瓶",
+      "question": "人物朝小蜡烛附近按动喷瓶，整体交互有多合理？",
+      "body": "观察蹲姿、握瓶、食指按压及喷嘴定向。",
+      "contact": "喷液若可见，其出现应与按压和喷嘴位置相联系，蜡烛应保持地面支撑。",
+      "object": "液滴可形成喷雾，已有火焰可响应，不推断粉色液体成分，也不强制要求燃烧或熄灭。",
+      "aftermath": "若液滴落地或火焰改变，观察运动连续性及火源关系。",
+      "unknown": "只有对准准备或喷液与火源关系不足以评价时选择无法判断。",
+      "scores": [
+        "手部按喷、液滴运动与蜡烛火焰响应整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部按喷、液滴运动与蜡烛火焰响应的关键关系严重不符。",
+        "手部按喷、液滴运动与蜡烛火焰响应部分合理，同时存在明显异常。",
+        "手部按喷、液滴运动与蜡烛火焰响应主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部按喷、液滴运动与蜡烛火焰响应及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate a spray bottle near a small candle",
+      "question": "How physically plausible is the interaction: operate a spray bottle near a small candle?",
+      "body": "Consider crouching, bottle grip, trigger pressure, and nozzle orientation.",
+      "contact": "Any visible liquid should relate to activation and nozzle position, with the candle supported on the ground.",
+      "object": "Droplets may form mist and the existing flame may respond. Do not infer pink-liquid composition or require ignition or extinction.",
+      "aftermath": "If drops land or the flame changes, consider continuous motion and fire-source relations.",
+      "unknown": "Choose unable to judge if only aiming is shown or spray–fire relations cannot be assessed.",
+      "scores": [
+        "Trigger operation, droplet motion, and candle-flame response are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among trigger operation, droplet motion, and candle-flame response seriously disagree.",
+        "Trigger operation, droplet motion, and candle-flame response are partly plausible, alongside clear anomalies.",
+        "The main relationships among trigger operation, droplet motion, and candle-flame response are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and trigger operation, droplet motion, and candle-flame response and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

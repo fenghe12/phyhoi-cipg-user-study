@@ -14,3 +14,11 @@ scripts/build_supplement_candidates.py
 scripts/finalize_review_selection.py
 scripts/generate_contact_sheets.py
 scripts/seed_review_decisions.py
+
+# Persistent local authoring artifacts, kept outside version control.
+study_work/all_frames/
+study_work/frames/
+study_work/tmp/
+study_work/cache/
+study_work/**/__pycache__/
+study_work/recovery/

@@ -1,0 +1,579 @@
+[
+  {
+    "sample_id": "P255",
+    "media_id": "A_01560",
+    "zh": {
+      "title": "把薄荷叶按入玻璃杯",
+      "question": "人物把薄荷叶按入玻璃杯，整体交互有多合理？",
+      "body": "观察手指按叶、另一手扶杯及低位操作协调。",
+      "contact": "叶片应在手指作用下接触杯口或杯内食材，玻璃杯应由砧板承托。",
+      "object": "柔软叶片可弯曲、压缩或进入杯中，不要求立刻碎成汁液。",
+      "aftermath": "若松手，观察叶片回弹或保留位置及杯体稳定。",
+      "unknown": "只有摆放叶片准备，实际按入不足以评价时选择无法判断。",
+      "scores": [
+        "手指按压、薄荷叶弯曲与杯内支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手指按压、薄荷叶弯曲与杯内支撑的关键关系严重不符。",
+        "手指按压、薄荷叶弯曲与杯内支撑部分合理，同时存在明显异常。",
+        "手指按压、薄荷叶弯曲与杯内支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手指按压、薄荷叶弯曲与杯内支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Press mint leaves into a glass",
+      "question": "How physically plausible is the interaction: press mint leaves into a glass?",
+      "body": "Consider finger pressure, other-hand glass stabilization, and low-level coordination.",
+      "contact": "Leaves should contact the rim or contents through finger action, with the glass supported by the board.",
+      "object": "Soft leaves may bend, compress, or enter the glass. Immediate crushing into juice is not required.",
+      "aftermath": "On release, consider rebound or retention and glass stability.",
+      "unknown": "Choose unable to judge if only leaf setup is shown and actual pressing cannot be assessed.",
+      "scores": [
+        "Finger pressure, mint-leaf bending, and glass-interior support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among finger pressure, mint-leaf bending, and glass-interior support seriously disagree.",
+        "Finger pressure, mint-leaf bending, and glass-interior support are partly plausible, alongside clear anomalies.",
+        "The main relationships among finger pressure, mint-leaf bending, and glass-interior support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and finger pressure, mint-leaf bending, and glass-interior support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P256",
+    "media_id": "A_01095",
+    "zh": {
+      "title": "用菜刀切葱",
+      "question": "人物用菜刀切葱，整体交互有多合理？",
+      "body": "观察持刀手上下或前后切动与扶葱手调整的协调。",
+      "contact": "刀刃与葱及砧板的接触应和切段出现对应。",
+      "object": "葱的细长叶茎可弯曲、切断或散成小段，不要求所有叶片同时断开。",
+      "aftermath": "若切段散开或刀抬起，观察砧板支撑及细长叶段的柔性。",
+      "unknown": "只有摆刀准备，实际切葱不足以评价时选择无法判断。",
+      "scores": [
+        "双手控刀扶葱、叶茎分离与砧板支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控刀扶葱、叶茎分离与砧板支撑的关键关系严重不符。",
+        "双手控刀扶葱、叶茎分离与砧板支撑部分合理，同时存在明显异常。",
+        "双手控刀扶葱、叶茎分离与砧板支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控刀扶葱、叶茎分离与砧板支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Chop a scallion with a kitchen knife",
+      "question": "How physically plausible is the interaction: chop a scallion with a kitchen knife?",
+      "body": "Consider cutting strokes and coordinated adjustments of the stabilizing hand.",
+      "contact": "Blade contact with scallion and board should correspond to new cut sections.",
+      "object": "Slender leaves and stems may bend, separate, or scatter. All leaves need not sever together.",
+      "aftermath": "If pieces scatter or the knife lifts, consider board support and flexible leaf segments.",
+      "unknown": "Choose unable to judge if only knife setup is shown and actual chopping cannot be assessed.",
+      "scores": [
+        "Knife–scallion hand coordination, stem separation, and board support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife–scallion hand coordination, stem separation, and board support seriously disagree.",
+        "Knife–scallion hand coordination, stem separation, and board support are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife–scallion hand coordination, stem separation, and board support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife–scallion hand coordination, stem separation, and board support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "与P250同为砧板上菜刀切葱，细长叶茎弯曲与分段作用条件相同"
+  },
+  {
+    "sample_id": "P257",
+    "media_id": "A_01074",
+    "zh": {
+      "title": "用菜刀切紫胡萝卜",
+      "question": "人物用菜刀切紫胡萝卜，整体交互有多合理？",
+      "body": "观察持刀与扶持细长根茎的双手协调。",
+      "contact": "刀刃作用应对应根茎切口，砧板与扶持应合理限制滚动。",
+      "object": "根茎可形成片块，截面颜色按可见内容评价，不要求像叶菜一样柔软折叠。",
+      "aftermath": "若片块分离或滚动，观察重力与砧板接触。",
+      "unknown": "只有放刀准备，实际刀与根茎作用不足以评价时选择无法判断。",
+      "scores": [
+        "双手控刀、紫胡萝卜分离与砧板限制整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控刀、紫胡萝卜分离与砧板限制的关键关系严重不符。",
+        "双手控刀、紫胡萝卜分离与砧板限制部分合理，同时存在明显异常。",
+        "双手控刀、紫胡萝卜分离与砧板限制主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控刀、紫胡萝卜分离与砧板限制及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a purple carrot with a kitchen knife",
+      "question": "How physically plausible is the interaction: cut a purple carrot with a kitchen knife?",
+      "body": "Consider coordinated knife control and stabilization of the slender root.",
+      "contact": "Blade action should correspond to cuts, with board and hand plausibly limiting rolling.",
+      "object": "Root slices or pieces may form. Assess visible interior color without requiring leafy flexibility.",
+      "aftermath": "If pieces separate or roll, consider gravity and board contact.",
+      "unknown": "Choose unable to judge if only setup is shown and actual knife–root action cannot be assessed.",
+      "scores": [
+        "Knife coordination, purple-carrot separation, and board restraint are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife coordination, purple-carrot separation, and board restraint seriously disagree.",
+        "Knife coordination, purple-carrot separation, and board restraint are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife coordination, purple-carrot separation, and board restraint are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife coordination, purple-carrot separation, and board restraint and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P258",
+    "media_id": "A_00879",
+    "zh": {
+      "title": "在碗上方刨削橙色食材",
+      "question": "人物在碗上方刨削橙色食材，整体交互有多合理？",
+      "body": "观察一手控刨、另一手握料往复摩擦的配合。",
+      "contact": "食材与金属刨面的作用应相关，刨具与碗的相对位置应合理。",
+      "object": "表面可逐渐去除并形成屑丝，不推断橙色食材的具体品种，也不要求大块断裂。",
+      "aftermath": "若碎屑落下，观察重力和入碗位置，不要求每一小屑清晰可见。",
+      "unknown": "实际刨削接触无法辨认时选择无法判断。",
+      "scores": [
+        "双手刨削、表面去除与碗内收集整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手刨削、表面去除与碗内收集的关键关系严重不符。",
+        "双手刨削、表面去除与碗内收集部分合理，同时存在明显异常。",
+        "双手刨削、表面去除与碗内收集主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手刨削、表面去除与碗内收集及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Grate an orange ingredient above a bowl",
+      "question": "How physically plausible is the interaction: grate an orange ingredient above a bowl?",
+      "body": "Consider grater control and reciprocating ingredient motion with the other hand.",
+      "contact": "Ingredient action on the metal surface should correspond to abrasion, with plausible grater–bowl placement.",
+      "object": "Surface material may gradually become shreds. Do not infer the exact ingredient or require large fractures.",
+      "aftermath": "If shreds fall, consider gravity and bowl entry without requiring each tiny particle to be resolved.",
+      "unknown": "Choose unable to judge if actual grating contact cannot be distinguished.",
+      "scores": [
+        "Two-hand grating, surface removal, and bowl collection are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand grating, surface removal, and bowl collection seriously disagree.",
+        "Two-hand grating, surface removal, and bowl collection are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand grating, surface removal, and bowl collection are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand grating, surface removal, and bowl collection and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P259",
+    "media_id": "A_00417",
+    "zh": {
+      "title": "在砧板上把黄瓜切成片",
+      "question": "人物在砧板上把黄瓜切成片，整体交互有多合理？",
+      "body": "观察持刀下切与扶黄瓜手逐渐后移的协调。",
+      "contact": "刀刃、黄瓜和砧板接触应连续，新切片应与刀作用对应。",
+      "object": "剩余黄瓜可保持圆柱形并逐步缩短，不把已有切片当作当前切割完成。",
+      "aftermath": "若片块倾倒、滑开或刀抬起，观察支撑和重力。",
+      "unknown": "只有持刀准备，实际切片过程不足以评价时选择无法判断。",
+      "scores": [
+        "双手控刀扶瓜、黄瓜成片与砧板接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控刀扶瓜、黄瓜成片与砧板接触的关键关系严重不符。",
+        "双手控刀扶瓜、黄瓜成片与砧板接触部分合理，同时存在明显异常。",
+        "双手控刀扶瓜、黄瓜成片与砧板接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控刀扶瓜、黄瓜成片与砧板接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Slice a cucumber on a board",
+      "question": "How physically plausible is the interaction: slice a cucumber on a board?",
+      "body": "Consider downward cutting and coordinated withdrawal of the stabilizing hand.",
+      "contact": "Blade, cucumber, and board contact should remain continuous, with new slices related to blade action.",
+      "object": "The remaining cylinder may shorten gradually. Existing slices do not establish current cutting completion.",
+      "aftermath": "If slices topple, slide, or the knife lifts, consider support and gravity.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual slicing cannot be assessed.",
+      "scores": [
+        "Knife–cucumber coordination, slice formation, and board contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife–cucumber coordination, slice formation, and board contact seriously disagree.",
+        "Knife–cucumber coordination, slice formation, and board contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife–cucumber coordination, slice formation, and board contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife–cucumber coordination, slice formation, and board contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P260",
+    "media_id": "A_00378",
+    "zh": {
+      "title": "用小刀切番茄",
+      "question": "人物用小刀切番茄，整体交互有多合理？",
+      "body": "观察握刀、扶持圆形番茄和控制滚动的双手配合。",
+      "contact": "刀刃与外皮、软果肉及砧板作用应相关。",
+      "object": "番茄可局部压缩、切开或出少量汁液，不要求硬脆断裂或大量喷汁。",
+      "aftermath": "若片块分离，观察软组织形变与砧板支撑。",
+      "unknown": "只有刀贴近番茄，实际切入不足以评价时选择无法判断。",
+      "scores": [
+        "双手控刀、番茄软组织分离与砧板支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控刀、番茄软组织分离与砧板支撑的关键关系严重不符。",
+        "双手控刀、番茄软组织分离与砧板支撑部分合理，同时存在明显异常。",
+        "双手控刀、番茄软组织分离与砧板支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控刀、番茄软组织分离与砧板支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a tomato with a small knife",
+      "question": "How physically plausible is the interaction: cut a tomato with a small knife?",
+      "body": "Consider grip, round-fruit stabilization, and control of rolling.",
+      "contact": "Blade action should relate to skin, soft flesh, and board contact.",
+      "object": "The tomato may compress, open, or release a little juice. Brittle fracture or abundant spray is not required.",
+      "aftermath": "If pieces separate, consider soft-tissue deformation and board support.",
+      "unknown": "Choose unable to judge if only blade positioning is shown and actual entry cannot be assessed.",
+      "scores": [
+        "Knife coordination, soft-tomato separation, and board support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife coordination, soft-tomato separation, and board support seriously disagree.",
+        "Knife coordination, soft-tomato separation, and board support are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife coordination, soft-tomato separation, and board support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife coordination, soft-tomato separation, and board support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P261",
+    "media_id": "A_00159",
+    "zh": {
+      "title": "用小刀切带叶胡萝卜",
+      "question": "人物用小刀切带叶胡萝卜，整体交互有多合理？",
+      "body": "观察持刀、扶根茎与手指调整的协调。",
+      "contact": "刀刃进入根茎应与手部切动对应，叶簇和根体的连接按实际切位评价。",
+      "object": "根体可形成片块，不要求叶子必须脱落或胡萝卜全部切完。",
+      "aftermath": "若片块滚动或刀退出，观察砧板承托及根茎剩余部分的连续性。",
+      "unknown": "实际切入被遮挡或只有准备时选择无法判断。",
+      "scores": [
+        "双手控刀、胡萝卜根体分离与叶根连续性整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控刀、胡萝卜根体分离与叶根连续性的关键关系严重不符。",
+        "双手控刀、胡萝卜根体分离与叶根连续性部分合理，同时存在明显异常。",
+        "双手控刀、胡萝卜根体分离与叶根连续性主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控刀、胡萝卜根体分离与叶根连续性及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a leafy carrot with a small knife",
+      "question": "How physically plausible is the interaction: cut a leafy carrot with a small knife?",
+      "body": "Consider knife control, root stabilization, and finger adjustments.",
+      "contact": "Blade entry should correspond to hand action, with leaf–root connections assessed at the actual cutting location.",
+      "object": "Root pieces may form. Leaf detachment or finishing the whole carrot is not required.",
+      "aftermath": "On rolling pieces or withdrawal, consider board support and continuity of the remaining root.",
+      "unknown": "Choose unable to judge if entry is obscured or only preparation is shown.",
+      "scores": [
+        "Knife coordination, carrot-root separation, and leaf–root continuity are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife coordination, carrot-root separation, and leaf–root continuity seriously disagree.",
+        "Knife coordination, carrot-root separation, and leaf–root continuity are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife coordination, carrot-root separation, and leaf–root continuity are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife coordination, carrot-root separation, and leaf–root continuity and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P262",
+    "media_id": "A_00065",
+    "zh": {
+      "title": "用宽刀切玉米棒",
+      "question": "人物用宽刀切玉米棒，整体交互有多合理？",
+      "body": "观察双手持刀扶玉米与上身下压的配合。",
+      "contact": "刀刃作用应与玉米棒接触位置相关，砧板应合理承托并限制滚动。",
+      "object": "玉米可在受力处切开、压入或掉少量颗粒，不要求像松散谷粒一样整体流动。",
+      "aftermath": "若段块或玉米粒分离，观察重力、板面碰撞及剩余棒体支撑。",
+      "unknown": "只有摆刀或切位准备，实际刀玉米作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体下压、玉米棒切入与砧板支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体下压、玉米棒切入与砧板支撑的关键关系严重不符。",
+        "人体下压、玉米棒切入与砧板支撑部分合理，同时存在明显异常。",
+        "人体下压、玉米棒切入与砧板支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体下压、玉米棒切入与砧板支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a corn cob with a broad knife",
+      "question": "How physically plausible is the interaction: cut a corn cob with a broad knife?",
+      "body": "Consider knife control, cob stabilization, and upper-body downward pressure.",
+      "contact": "Blade action should correspond to cob contact, with the board supporting and limiting rolling.",
+      "object": "The cob may cut, indent, or shed some kernels. Whole-cob granular flow is not required.",
+      "aftermath": "If sections or kernels separate, consider gravity, board collision, and support of the remainder.",
+      "unknown": "Choose unable to judge if only knife placement is shown and actual action cannot be assessed.",
+      "scores": [
+        "Body pressure, corn-cob cutting, and board support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body pressure, corn-cob cutting, and board support seriously disagree.",
+        "Body pressure, corn-cob cutting, and board support are partly plausible, alongside clear anomalies.",
+        "The main relationships among body pressure, corn-cob cutting, and board support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body pressure, corn-cob cutting, and board support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P263",
+    "media_id": "A_02277",
+    "zh": {
+      "title": "用削皮工具去除黄瓜表皮",
+      "question": "人物用削皮工具去除黄瓜表皮，整体交互有多合理？",
+      "body": "观察一手扶瓜、另一手沿表面移动工具的协调。",
+      "contact": "刃口与表皮接触和削皮方向应相关，不能按切厚片的唯一方式评价。",
+      "object": "薄皮可卷曲或脱离并露出较浅表面，不要求黄瓜整体断成两段。",
+      "aftermath": "若皮条落下或工具离开，观察柔性、重力和瓜体支撑。",
+      "unknown": "刃口实际作用不足以评价或只有展示工具时选择无法判断。",
+      "scores": [
+        "双手削皮、黄瓜表面去除与皮条运动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手削皮、黄瓜表面去除与皮条运动的关键关系严重不符。",
+        "双手削皮、黄瓜表面去除与皮条运动部分合理，同时存在明显异常。",
+        "双手削皮、黄瓜表面去除与皮条运动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手削皮、黄瓜表面去除与皮条运动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Remove cucumber skin with a peeling tool",
+      "question": "How physically plausible is the interaction: remove cucumber skin with a peeling tool?",
+      "body": "Consider cucumber stabilization and coordinated surface strokes.",
+      "contact": "Blade contact and peeling direction should correspond without requiring thick-slice cutting.",
+      "object": "Thin skin may curl or detach, exposing a lighter surface. Halving the whole cucumber is not required.",
+      "aftermath": "If peel falls or the tool withdraws, consider flexibility, gravity, and cucumber support.",
+      "unknown": "Choose unable to judge if actual blade action cannot be assessed or only the tool is displayed.",
+      "scores": [
+        "Two-hand peeling, cucumber-surface removal, and peel motion are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand peeling, cucumber-surface removal, and peel motion seriously disagree.",
+        "Two-hand peeling, cucumber-surface removal, and peel motion are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand peeling, cucumber-surface removal, and peel motion are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand peeling, cucumber-surface removal, and peel motion and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P264",
+    "media_id": "A_01458",
+    "zh": {
+      "title": "用压泥器压碎碗内熟土豆",
+      "question": "人物用压泥器压碎碗内熟土豆，整体交互有多合理？",
+      "body": "观察握柄下压、扶碗与上身配合。",
+      "contact": "压头、土豆块和碗底接触应与按压对应。",
+      "object": "熟土豆可压扁、分裂或逐渐成为泥状，不要求一次完全均匀。",
+      "aftermath": "若压头抬起，观察食材黏附或回落及玻璃碗支撑，不要求碗体变形。",
+      "unknown": "只有工具放在碗内，实际按压不足以评价时选择无法判断。",
+      "scores": [
+        "人体下压、熟土豆压碎与玻璃碗承托整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体下压、熟土豆压碎与玻璃碗承托的关键关系严重不符。",
+        "人体下压、熟土豆压碎与玻璃碗承托部分合理，同时存在明显异常。",
+        "人体下压、熟土豆压碎与玻璃碗承托主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体下压、熟土豆压碎与玻璃碗承托及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Mash cooked potatoes in a bowl",
+      "question": "How physically plausible is the interaction: mash cooked potatoes in a bowl?",
+      "body": "Consider handle pressure, bowl stabilization, and upper-body coordination.",
+      "contact": "Masher, potato chunks, and bowl-bottom contact should correspond to pressing.",
+      "object": "Cooked potatoes may flatten, fragment, or gradually mash. Immediate uniformity is not required.",
+      "aftermath": "On lifting, consider adhesion or falling food and glass-bowl support without requiring bowl deformation.",
+      "unknown": "Choose unable to judge if the tool merely rests in the bowl and actual pressing cannot be assessed.",
+      "scores": [
+        "Body pressure, cooked-potato crushing, and glass-bowl support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body pressure, cooked-potato crushing, and glass-bowl support seriously disagree.",
+        "Body pressure, cooked-potato crushing, and glass-bowl support are partly plausible, alongside clear anomalies.",
+        "The main relationships among body pressure, cooked-potato crushing, and glass-bowl support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body pressure, cooked-potato crushing, and glass-bowl support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P265",
+    "media_id": "A_01381",
+    "zh": {
+      "title": "用削皮刀去除土豆外皮",
+      "question": "人物用削皮刀去除土豆外皮，整体交互有多合理？",
+      "body": "观察持刀、扶持圆形土豆和调节切向的双手配合。",
+      "contact": "刃口应沿外表面作用，土豆应由手或砧板合理承托。",
+      "object": "粗糙外皮可被削去，露出内部表面，不要求整个土豆被切块。",
+      "aftermath": "若皮屑分离或土豆转动，观察重力、连续外形及手部固定。",
+      "unknown": "只有刀位准备，实际表面去除不足以评价时选择无法判断。",
+      "scores": [
+        "双手削皮、土豆外皮分离与根体承托整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手削皮、土豆外皮分离与根体承托的关键关系严重不符。",
+        "双手削皮、土豆外皮分离与根体承托部分合理，同时存在明显异常。",
+        "双手削皮、土豆外皮分离与根体承托主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手削皮、土豆外皮分离与根体承托及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Peel a potato with a peeling knife",
+      "question": "How physically plausible is the interaction: peel a potato with a peeling knife?",
+      "body": "Consider knife control, round-potato stabilization, and changing stroke orientation.",
+      "contact": "The blade should act along the outer surface, with hand or board support.",
+      "object": "Rough skin may separate and expose inner tissue. Dicing the whole potato is not required.",
+      "aftermath": "On peel separation or potato rotation, consider gravity, continuous form, and stabilization.",
+      "unknown": "Choose unable to judge if only blade setup is shown and actual surface removal cannot be assessed.",
+      "scores": [
+        "Two-hand peeling, potato-skin separation, and root support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand peeling, potato-skin separation, and root support seriously disagree.",
+        "Two-hand peeling, potato-skin separation, and root support are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand peeling, potato-skin separation, and root support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand peeling, potato-skin separation, and root support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P266",
+    "media_id": "A_01355",
+    "zh": {
+      "title": "把切好的洋葱放入锅中",
+      "question": "人物把切好的洋葱放入锅中，整体交互有多合理？",
+      "body": "观察手部收拢碎块、承托转移和释放的协调。",
+      "contact": "洋葱块应从砧板经手或可见工具移向锅口，不能只按已有锅内内容判断。",
+      "object": "碎块可单独或成组掉落，不要求形成液体流。",
+      "aftermath": "若入锅或留在板上，观察重力、锅沿碰撞和支撑转换，不要求全部转移完。",
+      "unknown": "只有伸手准备或实际移料被遮挡时选择无法判断。",
+      "scores": [
+        "手部转移、洋葱块释放与锅板支撑转换整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部转移、洋葱块释放与锅板支撑转换的关键关系严重不符。",
+        "手部转移、洋葱块释放与锅板支撑转换部分合理，同时存在明显异常。",
+        "手部转移、洋葱块释放与锅板支撑转换主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部转移、洋葱块释放与锅板支撑转换及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Transfer chopped onion into a pot",
+      "question": "How physically plausible is the interaction: transfer chopped onion into a pot?",
+      "body": "Consider gathering pieces, supporting transfer, and release.",
+      "contact": "Pieces should move from board via hand or visible tool toward the pot. Existing pot contents alone do not establish transfer.",
+      "object": "Pieces may fall separately or in groups without liquid-like flow.",
+      "aftermath": "On pot entry or retention on the board, consider gravity, rim collision, and support transfer without requiring complete emptying.",
+      "unknown": "Choose unable to judge if only reaching preparation is shown or actual transfer is obscured.",
+      "scores": [
+        "Hand transfer, onion-piece release, and pot–board support transitions are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand transfer, onion-piece release, and pot–board support transitions seriously disagree.",
+        "Hand transfer, onion-piece release, and pot–board support transitions are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand transfer, onion-piece release, and pot–board support transitions are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand transfer, onion-piece release, and pot–board support transitions and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P267",
+    "media_id": "A_00370",
+    "zh": {
+      "title": "拉开汽车后备箱盖",
+      "question": "人物拉开汽车后备箱盖，整体交互有多合理？",
+      "body": "观察手部操作锁扣、抬盖与身体平衡。",
+      "contact": "箱盖应围绕合理铰接转动，手与盖缘或锁扣的作用应连续。",
+      "object": "箱盖可以部分开启，不要求车体移动或箱盖变形。",
+      "aftermath": "若手松开或盖停止，观察铰链支撑及可见保持，不推断隐藏助力装置结构。",
+      "unknown": "只有摸索锁扣，实际开启不足以评价时选择无法判断。",
+      "scores": [
+        "手部抬盖、后备箱铰接与车体支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部抬盖、后备箱铰接与车体支撑的关键关系严重不符。",
+        "手部抬盖、后备箱铰接与车体支撑部分合理，同时存在明显异常。",
+        "手部抬盖、后备箱铰接与车体支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部抬盖、后备箱铰接与车体支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pull open a car trunk lid",
+      "question": "How physically plausible is the interaction: pull open a car trunk lid?",
+      "body": "Consider latch operation, lid lifting, and body balance.",
+      "contact": "The lid should rotate around plausible hinges with continuous hand action at the edge or latch.",
+      "object": "Partial opening is sufficient. Car movement or lid deformation is not required.",
+      "aftermath": "On release or stopping, consider hinge support and retention without inferring hidden assist structure.",
+      "unknown": "Choose unable to judge if only latch preparation is shown and actual opening cannot be assessed.",
+      "scores": [
+        "Hand lifting, trunk-lid hinging, and vehicle support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand lifting, trunk-lid hinging, and vehicle support seriously disagree.",
+        "Hand lifting, trunk-lid hinging, and vehicle support are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand lifting, trunk-lid hinging, and vehicle support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand lifting, trunk-lid hinging, and vehicle support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P268",
+    "media_id": "A_04110",
+    "zh": {
+      "title": "按压调整汽车尾翼的位置",
+      "question": "人物按压调整汽车尾翼的位置，整体交互有多合理？",
+      "body": "观察双手压持、手臂导向与上身平衡。",
+      "contact": "尾翼与支架或安装面接触应相关，手部按压应对应调整。",
+      "object": "尾翼可对齐或就位，不要求金属永久变形或后备箱同时关闭。",
+      "aftermath": "若松手，观察可见连接与支撑，不推断隐藏紧固件已安装。",
+      "unknown": "只有指示位置，实际压调不足以评价时选择无法判断。",
+      "scores": [
+        "双手压调、尾翼安装连接与车体支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手压调、尾翼安装连接与车体支撑的关键关系严重不符。",
+        "双手压调、尾翼安装连接与车体支撑部分合理，同时存在明显异常。",
+        "双手压调、尾翼安装连接与车体支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手压调、尾翼安装连接与车体支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Press and align a car rear spoiler",
+      "question": "How physically plausible is the interaction: press and align a car rear spoiler?",
+      "body": "Consider two-hand pressure, arm guidance, and balance.",
+      "contact": "Spoiler contact with brackets or mounting surfaces should correspond to adjustment.",
+      "object": "The spoiler may align or seat. Permanent metal deformation or simultaneous trunk closing is not required.",
+      "aftermath": "On release, consider visible connection and support without inferring hidden fasteners.",
+      "unknown": "Choose unable to judge if only pointing is shown and actual pressing cannot be assessed.",
+      "scores": [
+        "Two-hand adjustment, spoiler mounting connections, and vehicle support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand adjustment, spoiler mounting connections, and vehicle support seriously disagree.",
+        "Two-hand adjustment, spoiler mounting connections, and vehicle support are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand adjustment, spoiler mounting connections, and vehicle support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand adjustment, spoiler mounting connections, and vehicle support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P269",
+    "media_id": "A_01694",
+    "zh": {
+      "title": "把金属桶推入汽车后部",
+      "question": "人物把金属桶推入汽车后部，整体交互有多合理？",
+      "body": "观察双手承托、推移或转正大桶与身体承力协调。",
+      "contact": "桶与手、车厢底部和开口接触应连续，运动方向应与施力相容。",
+      "object": "刚性桶可平移或转动，不要求桶壁明显压扁。",
+      "aftermath": "若桶就位或松手，观察重力、滚动限制与车内支撑，不凭外观推断精确重量。",
+      "unknown": "只有扶桶准备，实际移动不足以评价时选择无法判断。",
+      "scores": [
+        "人体推移承重、桶体运动与车厢接触支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体推移承重、桶体运动与车厢接触支撑的关键关系严重不符。",
+        "人体推移承重、桶体运动与车厢接触支撑部分合理，同时存在明显异常。",
+        "人体推移承重、桶体运动与车厢接触支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体推移承重、桶体运动与车厢接触支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Push a metal barrel into the rear of a vehicle",
+      "question": "How physically plausible is the interaction: push a metal barrel into the rear of a vehicle?",
+      "body": "Consider two-hand support, pushing or reorientation, and load-related body coordination.",
+      "contact": "Barrel contact with hands, cargo floor, and opening should remain continuous, with motion compatible with applied action.",
+      "object": "The rigid barrel may translate or rotate without visible wall crushing.",
+      "aftermath": "On placement or release, consider gravity, rolling limits, and interior support without inferring exact weight from appearance.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual movement cannot be assessed.",
+      "scores": [
+        "Body pushing and load support, barrel motion, and vehicle contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body pushing and load support, barrel motion, and vehicle contact seriously disagree.",
+        "Body pushing and load support, barrel motion, and vehicle contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among body pushing and load support, barrel motion, and vehicle contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body pushing and load support, barrel motion, and vehicle contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P270",
+    "media_id": "A_02752",
+    "zh": {
+      "title": "借助勺子向玻璃杯倒饮料",
+      "question": "人物借助勺子向玻璃杯倒饮料，整体交互有多合理？",
+      "body": "观察一手倾罐、另一手定位勺面和双手协调。",
+      "contact": "罐口、勺面与杯口的液体路径应相关，杯应得到桌面承托。",
+      "object": "液体可沿勺分流并与已有饮料泡沫接触，不要求完全没有泡沫或固定分层。",
+      "aftermath": "若停倒或泡沫变化，观察流束中断、重力与杯内液位，不要求倒完整罐。",
+      "unknown": "只有对位准备，实际流动不足以评价时选择无法判断。",
+      "scores": [
+        "双手倾罐控勺、液体路径与杯内积聚整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手倾罐控勺、液体路径与杯内积聚的关键关系严重不符。",
+        "双手倾罐控勺、液体路径与杯内积聚部分合理，同时存在明显异常。",
+        "双手倾罐控勺、液体路径与杯内积聚主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手倾罐控勺、液体路径与杯内积聚及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour a drink into a glass using a spoon",
+      "question": "How physically plausible is the interaction: pour a drink into a glass using a spoon?",
+      "body": "Consider can tilting, spoon positioning, and two-hand coordination.",
+      "contact": "Flow from can opening through spoon toward the glass should correspond, with table support for the glass.",
+      "object": "Liquid may spread over the spoon and contact existing drink and foam. No-foam pouring or a fixed layer pattern is not required.",
+      "aftermath": "On stopping or foam changes, consider flow interruption, gravity, and liquid level without requiring an empty can.",
+      "unknown": "Choose unable to judge if only alignment is shown and actual flow cannot be assessed.",
+      "scores": [
+        "Can–spoon coordination, liquid path, and glass accumulation are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among can–spoon coordination, liquid path, and glass accumulation seriously disagree.",
+        "Can–spoon coordination, liquid path, and glass accumulation are partly plausible, alongside clear anomalies.",
+        "The main relationships among can–spoon coordination, liquid path, and glass accumulation are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and can–spoon coordination, liquid path, and glass accumulation and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

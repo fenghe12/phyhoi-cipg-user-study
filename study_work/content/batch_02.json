@@ -1,0 +1,146 @@
+[
+  {
+    "sample_id": "P018",
+    "media_id": "A_01215",
+    "zh": {
+      "title": "操作红色赛车的车身部件",
+      "question": "人物在红色赛车旁拉动车身部件，整个交互有多合理？",
+      "body": "观察手对部件的控制、手臂与前倾或直立姿势的协调，不要求固定动作顺序。",
+      "contact": "手的拉动应与所接触部件的运动相对应，车门或前部盖板应与各自车身连接关系相容。",
+      "object": "若开口或部件位置变化，观察形状及连接连续性，不要求所有已打开部件都继续移动。",
+      "aftermath": "若部件停止或保持开启，观察支撑与车体关系，不假定不可见的锁止过程。",
+      "unknown": "关键手部接触和被操作部件都无法辨认，或仅有准备动作时选择无法判断。",
+      "scores": [
+        "人体、所操作部件与车体的可见关系整体严重不合理，或清楚显示未操作部件。",
+        "可辨认拉动尝试，但手的作用与部件关键运动及连接严重不符。",
+        "部分手部操作或部件运动合理，同时存在影响主要过程的明显异常。",
+        "主要拉动及人体、部件和车体关系合理，仅有轻微局部异常。",
+        "实际部件操作可评价，人体、接触、部件运动和可见后续支撑协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate a component of a red race car",
+      "question": "How physically plausible is the overall interaction as the person pulls a component beside the red race car?",
+      "body": "Consider control of the component and coordination of the arm with leaning or standing posture. No fixed action order is required.",
+      "contact": "Pulling should correspond to motion of the contacted component. A door or front cover should remain compatible with its own attachment to the car.",
+      "object": "If an opening or component position changes, consider continuity of shape and attachment. All already-open parts need not move.",
+      "aftermath": "If a part stops or stays open, consider support relative to the car. Do not assume an unseen latching process.",
+      "unknown": "Choose unable to judge if neither key hand contact nor the operated component can be identified, or only preparation is shown.",
+      "scores": [
+        "The visible person, operated component, and car behave implausibly overall, or a clear view confirms no operation.",
+        "Pulling is recognizable, but hand action and key component movement or attachment seriously disagree.",
+        "Some hand operation or component motion is plausible, alongside clear anomalies affecting the main process.",
+        "The main pull and person–component–car relationship are plausible, with minor local anomalies.",
+        "Actual component operation is assessable, and body action, contact, component movement, and visible subsequent support are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P019",
+    "media_id": "A_00780",
+    "zh": {
+      "title": "打开银色跑车车门",
+      "question": "人物拉开银色跑车车门，整个交互有多合理？",
+      "body": "观察俯身操作把手、手臂抬起与身体直立的协调，不限定双手或单手。",
+      "contact": "门把手操作与车门移动应有合理联系，门板与车身连接处应保持可解释的转动关系。",
+      "object": "开口随门板移动而变化，车门形状与边缘应连续，不要求特定打开角度。",
+      "aftermath": "若车门停住或手离开，观察门板支撑及身体后续动作，不要求持续托举。",
+      "unknown": "仅靠近或握把准备，或实际开门过程缺乏足够可见信息时选择无法判断。",
+      "scores": [
+        "人体、车门与车身的可见关系整体严重不合理，或清楚显示没有开门操作。",
+        "可辨认开门尝试，但手的作用与门板关键运动及连接严重不符。",
+        "把手操作或门的转动部分合理，同时有影响开启过程的明显异常。",
+        "主要开门及人体、门板和车身关系合理，仅有轻微局部异常。",
+        "实际开门已呈现，人体、把手、门板与可见后续支撑协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Open a silver sports car door",
+      "question": "How physically plausible is the overall interaction as the person opens the silver sports car door?",
+      "body": "Consider coordination of leaning to the handle, lifting the arm, and straightening the body. Either one or both hands may be used.",
+      "contact": "Handle operation should relate plausibly to door movement, with interpretable rotation at the car attachment.",
+      "object": "The opening changes with panel movement. Door shape and edges should be continuous. No particular opening angle is required.",
+      "aftermath": "If the door stops or the hand leaves it, consider panel support and subsequent body motion. Continued lifting is not required.",
+      "unknown": "Choose unable to judge if only approach or handle preparation is shown, or actual opening lacks enough visible information.",
+      "scores": [
+        "The visible person, door, and car behave implausibly overall, or a clear view confirms no opening action.",
+        "An opening attempt is recognizable, but hand action and key panel movement or attachment seriously disagree.",
+        "Some handle use or door rotation is plausible, alongside clear anomalies affecting opening.",
+        "The main opening and person–panel–car relationship are plausible, with minor local anomalies.",
+        "Actual opening is shown, and the person, handle, panel, and visible subsequent support are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P020",
+    "media_id": "A_00143",
+    "zh": {
+      "title": "拉动银色面包车侧门把手",
+      "question": "人物拉动银色面包车侧滑门把手，整个交互有多合理？",
+      "body": "观察手对竖直把手的抓持、手臂移动及站姿协调，允许不同拉动幅度。",
+      "contact": "手与把手应保持可解释的接触，把手及门板的响应应与拉动相联系。",
+      "object": "若侧门移动，观察其与车体的导向关系及开口变化，不要求完成全程开门。",
+      "aftermath": "若门板停止或保持位置，观察边缘和支撑的连续性，不推断不可见的锁结构。",
+      "unknown": "仅接近把手，或实际拉动和门板响应都不足以评价时选择无法判断。",
+      "scores": [
+        "人体、把手与侧门的可见过程整体严重不合理，或清楚显示未拉动把手。",
+        "可辨认拉动尝试，但手与把手及侧门关键反应严重不符。",
+        "握持或门板响应部分合理，同时存在影响主要操作的明显异常。",
+        "主要把手操作及人体、门板与车体关系合理，仅有轻微局部异常。",
+        "实际拉动已呈现，人体、把手、门板及可见停止过程协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pull a silver van’s sliding-door handle",
+      "question": "How physically plausible is the overall interaction as the person pulls the silver van’s sliding-door handle?",
+      "body": "Consider the grip on the vertical handle, arm movement, and standing coordination. Pulling range may vary.",
+      "contact": "Hand–handle contact should be interpretable, and handle or panel responses should relate to the pull.",
+      "object": "If the door moves, consider its guidance relative to the van and changes in the opening. Full opening is not required.",
+      "aftermath": "If the panel stops or holds position, consider continuity of its edges and support. Do not infer an unseen lock.",
+      "unknown": "Choose unable to judge if only approach is shown or neither actual pulling nor panel response is assessable.",
+      "scores": [
+        "The visible person, handle, and sliding door behave implausibly overall, or a clear view confirms no handle pull.",
+        "A pull is recognizable, but the hand, handle, and key door response seriously disagree.",
+        "Some grip or panel response is plausible, alongside clear anomalies affecting the main operation.",
+        "The main handle action and person–panel–van relationship are plausible, with minor local anomalies.",
+        "Actual pulling is shown, and the person, handle, panel, and visible stopping process are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P021",
+    "media_id": "A_00864",
+    "zh": {
+      "title": "在汽车后备箱旁搬动行李箱",
+      "question": "人物在打开的汽车后备箱旁搬动硬壳行李箱，整个交互有多合理？",
+      "body": "观察手对箱体或把手的抓持、手臂与躯干协调，以及承受箱体负载时的平衡，不要求夸张发力。",
+      "contact": "手的支撑或提拉与行李箱运动应对应，箱体经过后备箱边缘时位置保持连续。",
+      "object": "行李箱可移动或转向，硬壳及车体不必发生变形，不指定唯一装入方向。",
+      "aftermath": "若箱体放置、停住或轮子接触表面，观察支撑转换和停止，不要求片段内完成装载。",
+      "unknown": "仅站在箱旁或准备抓持，实际搬动及支撑关系无法评价时选择无法判断。",
+      "scores": [
+        "人体、行李箱及车辆的可见关系整体严重不合理，或清楚显示没有搬动操作。",
+        "可辨认搬动尝试，但手的支撑与箱体关键运动或负载关系严重不符。",
+        "抓持或箱体移动部分合理，同时存在影响搬动过程的明显异常。",
+        "主要搬动及人体、箱体与后备箱关系合理，仅有轻微局部异常。",
+        "实际搬动可评价，人体、行李箱、车辆及可见支撑转换协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Move a suitcase beside an open car trunk",
+      "question": "How physically plausible is the overall interaction as the person moves a hard-shell suitcase beside the open trunk?",
+      "body": "Consider grip on the case or handle, arm–torso coordination, and balance under the load. Exaggerated effort is not required.",
+      "contact": "Hand support or lifting should correspond to suitcase motion, with continuous position as it passes the trunk edge.",
+      "object": "The case may translate or rotate. Shell or car deformation is not required, and no unique loading direction is prescribed.",
+      "aftermath": "If the case is placed, stops, or its wheels contact a surface, consider support transitions and stopping. Completed loading within the clip is not required.",
+      "unknown": "Choose unable to judge if only standing or grip preparation is shown and actual movement and support cannot be assessed.",
+      "scores": [
+        "The visible person, suitcase, and car behave implausibly overall, or a clear view confirms no moving action.",
+        "A moving attempt is recognizable, but hand support and key case motion or load relations seriously disagree.",
+        "Some grip or suitcase movement is plausible, alongside clear anomalies affecting the movement.",
+        "The main moving action and person–case–trunk relationship are plausible, with minor local anomalies.",
+        "Actual movement is assessable, and the person, case, car, and visible support transitions are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

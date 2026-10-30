@@ -1,0 +1,182 @@
+[
+  {
+    "sample_id": "P056",
+    "media_id": "A_01691",
+    "zh": {
+      "title": "切木砧板上的绿色蔬菜段",
+      "question": "人物用厨房刀切木砧板上的绿色蔬菜段，整个交互有多合理？",
+      "body": "观察持刀、辅助固定与手臂协调，不依据讲话表情推测力值。",
+      "contact": "刀刃与菜段的接触和手部动作应对应，木板应支撑食材。",
+      "object": "若菜段出现新切口或分离，应与刀的作用相关，不要求判断未明确的蔬菜品种。",
+      "aftermath": "若菜段滚动、移开或堆积，观察板面接触和停止，不要求所有菜段都被切。",
+      "unknown": "仅讲话或准备食材，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、菜段与木板整体严重不合理，或清楚显示没有切菜。",
+        "切割尝试可辨认，但刀的关键作用与菜段变化严重不符。",
+        "持刀、接触或菜段变化部分合理，同时有影响切割的明显异常。",
+        "主要切割及人体、菜段和支撑关系合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、菜段及可见后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut green vegetable segments on a wooden board",
+      "question": "How physically plausible is the overall interaction as the person cuts the green vegetable segments on the wooden board?",
+      "body": "Consider knife control, auxiliary holding, and arm coordination. Speaking expressions do not determine force.",
+      "contact": "Blade contact should correspond to hand action, with board support for the food.",
+      "object": "New cuts or separation should relate to blade action. Identifying an unspecified vegetable species is not required.",
+      "aftermath": "If segments roll, move, or accumulate, consider board contact and stopping. All pieces need not be cut.",
+      "unknown": "Choose unable to judge if only speaking or ingredient preparation is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "The person, knife, segments, and board behave implausibly overall, or a clear view confirms no cutting.",
+        "An attempt is recognizable, but key blade action and segment changes seriously disagree.",
+        "Some knife control, contact, or segment changes are plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting and person–segments–support relationship are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, knife, segments, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P057",
+    "media_id": "A_01554",
+    "zh": {
+      "title": "切砧板上的红黄甜椒块",
+      "question": "人物用刀切砧板上的红黄甜椒块，整个交互有多合理？",
+      "body": "观察刀柄控制、另一手聚拢或固定椒块及双臂协调。",
+      "contact": "刀刃作用与手部运动应对应，椒块应由砧板或手合理支撑。",
+      "object": "椒壁可弯曲、压缩或分离，新切口应与刀的位置相关，不要求旁边面包发生变化。",
+      "aftermath": "若椒块散开或移向一侧，观察板面支撑与停止，不要求碎屑飞散。",
+      "unknown": "仅展示食材，或实际刀椒作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、椒块和砧板整体严重不合理，或清楚显示没有切椒。",
+        "切椒尝试可辨认，但刀的关键作用与椒块反应严重不符。",
+        "聚拢、用刀或椒壁变化部分合理，同时有影响切割的明显异常。",
+        "主要切割及人体、椒块和板面支撑合理，仅有轻微局部异常。",
+        "实际切椒可评价，人体、刀、红黄椒块及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut red and yellow pepper pieces",
+      "question": "How physically plausible is the overall interaction as the person cuts the red and yellow pepper pieces on the board?",
+      "body": "Consider handle control, the other hand gathering or holding pieces, and arm coordination.",
+      "contact": "Blade action should correspond to hand motion, with plausible support from the board or hand.",
+      "object": "Pepper walls may bend, compress, or separate. New cuts should relate to blade position. Nearby bread need not change.",
+      "aftermath": "If pieces spread or move aside, consider board support and stopping. Scattering fragments are not required.",
+      "unknown": "Choose unable to judge if only ingredient display is shown or actual blade–pepper action cannot be assessed.",
+      "scores": [
+        "The person, knife, pieces, and board behave implausibly overall, or a clear view confirms no pepper cutting.",
+        "An attempt is recognizable, but key blade action and pepper response seriously disagree.",
+        "Some gathering, knife use, or wall changes are plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting and person–pepper–board support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, knife, red and yellow pieces, and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P058",
+    "media_id": "A_01300",
+    "zh": {
+      "title": "用刨丝器处理胡萝卜",
+      "question": "人物操作胡萝卜和金属刨丝器的整体交互有多合理？",
+      "body": "观察手对胡萝卜和刨丝器的控制及手臂协调，允许不同接触角度。",
+      "contact": "若进行刨擦，胡萝卜与刨面的相对运动应与手部操作对应，刨丝器与盘面或手的支撑应连续。",
+      "object": "若出现细丝、碎屑或胡萝卜表面变化，应与刨擦区域相关，不要求每次动作都有可见碎屑。",
+      "aftermath": "若碎料落到玻璃盘或器具停止，观察接触与积累，不要求整个胡萝卜处理完。",
+      "unknown": "仅展示工具和胡萝卜，尚未呈现足够实际加工时选择无法判断。",
+      "scores": [
+        "人体、胡萝卜、刨丝器和盘子的可见过程整体严重不合理，或充分清楚地确认没有目标操作。",
+        "可辨认刨擦尝试，但手部作用与胡萝卜、刨面关键反应严重不符。",
+        "器具控制、接触或材料变化部分合理，同时有影响加工的明显异常。",
+        "主要刨擦及人体、胡萝卜和器具支撑合理，仅有轻微局部异常。",
+        "实际加工可评价，人体、胡萝卜、刨丝器和可见碎料及后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a carrot with a grater",
+      "question": "How physically plausible is the overall interaction as the person operates the carrot and metal grater?",
+      "body": "Consider control of the carrot and grater and arm coordination. Contact angles may vary.",
+      "contact": "If grating occurs, relative motion should correspond to hand action, with continuous support from the plate or hand.",
+      "object": "Any shreds, fragments, or surface changes should relate to the grating region. Visible fragments on every stroke are not required.",
+      "aftermath": "If material falls onto the glass plate or the tool stops, consider contact and accumulation. Finishing the carrot is not required.",
+      "unknown": "Choose unable to judge if only tool and carrot display is shown without enough actual processing to assess.",
+      "scores": [
+        "The person, carrot, grater, and plate behave implausibly overall, or a sufficiently clear view confirms no target operation.",
+        "Grating is recognizable, but hand action and key carrot–grater responses seriously disagree.",
+        "Some tool control, contact, or material changes are plausible, alongside clear anomalies affecting processing.",
+        "The main grating, body action, carrot, and tool support are plausible, with minor local anomalies.",
+        "Actual processing is assessable, and the person, carrot, grater, visible fragments, and subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P059",
+    "media_id": "A_00905",
+    "zh": {
+      "title": "在砧板上操作土豆片",
+      "question": "人物在木砧板上操作土豆片，整个可见交互有多合理？",
+      "body": "观察手指对薄片的抓取或按压、手腕和双臂协调，不要求明显全身发力。",
+      "contact": "手与土豆片的接触、移位及板面支撑应相互对应。",
+      "object": "薄片可保持形状、轻微弯曲或因操作移动，不把已经存在的薄片推断为片段内切割成功。",
+      "aftermath": "若薄片被放下、重叠或滑动，观察支撑转换和停止，不要求全部薄片重新排列。",
+      "unknown": "仅展示或讲解食材而缺乏足够实际接触操作时选择无法判断。",
+      "scores": [
+        "人体、土豆片与砧板的可见关系整体严重不合理，或清楚显示没有操作土豆片。",
+        "可辨认操作尝试，但手的作用与土豆片关键移动或支撑严重不符。",
+        "抓取、接触或薄片移动部分合理，同时有影响主要过程的明显异常。",
+        "主要手部操作及土豆片与板面关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、土豆片、砧板及可见放置和后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Handle potato slices on a board",
+      "question": "How physically plausible is the visible interaction as the person handles potato slices on the wooden board?",
+      "body": "Consider finger grasping or pressing, wrist control, and arm coordination. Obvious whole-body effort is not required.",
+      "contact": "Hand contact, slice displacement, and board support should correspond.",
+      "object": "Slices may retain shape, bend slightly, or move with handling. Existing slices do not establish cutting success within the clip.",
+      "aftermath": "If slices are placed, overlapped, or slide, consider support transitions and stopping. All slices need not be rearranged.",
+      "unknown": "Choose unable to judge if only ingredient display or explanation is shown without enough actual contact operation to assess.",
+      "scores": [
+        "The person, slices, and board behave implausibly overall, or a clear view confirms no slice handling.",
+        "An attempt is recognizable, but hand action and key slice movement or support seriously disagree.",
+        "Some grasping, contact, or slice motion is plausible, alongside clear anomalies affecting the main process.",
+        "The main hand operation and slice–board relationship are plausible, with minor local anomalies.",
+        "Actual handling is assessable, and the person, slices, board, visible placement, and subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P060",
+    "media_id": "A_00769",
+    "zh": {
+      "title": "切白色砧板上的青甜椒",
+      "question": "人物用厨房刀切白色砧板上的青甜椒，整个交互有多合理？",
+      "body": "观察持刀、固定椒体和双臂协调，允许不同握法和切割方向。",
+      "contact": "刀刃与椒皮接触应与手部操作对应，椒体应由砧板合理支撑。",
+      "object": "椒壁可弯曲或分离，若切口和内部组织暴露应与刀的作用相关，不规定去籽顺序。",
+      "aftermath": "若椒块倾倒、滑动或移开，观察板面接触与停止，不要求所有椒块散开。",
+      "unknown": "仅摆放刀具或椒体，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、青椒与砧板整体严重不合理，或清楚显示没有切椒。",
+        "切椒尝试可辨认，但刀的关键作用与椒体反应严重不符。",
+        "固定、接触或椒壁变化部分合理，同时有影响切割的明显异常。",
+        "主要切割及人体、椒体和板面支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、青椒和可见后续移动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a green bell pepper on a white board",
+      "question": "How physically plausible is the overall interaction as the person cuts the green bell pepper on the white board?",
+      "body": "Consider knife control, holding the pepper, and arm coordination. Grips and cutting directions may vary.",
+      "contact": "Blade contact with the skin should correspond to hand operation, with plausible board support.",
+      "object": "Pepper walls may bend or separate. Cuts and exposed internal tissue should relate to blade action. No seed-removal order is prescribed.",
+      "aftermath": "If pieces tip, slide, or move away, consider board contact and stopping. All pieces need not spread apart.",
+      "unknown": "Choose unable to judge if only knife or pepper positioning is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "The person, knife, pepper, and board behave implausibly overall, or a clear view confirms no pepper cutting.",
+        "An attempt is recognizable, but key blade action and pepper response seriously disagree.",
+        "Some holding, contact, or wall changes are plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting and person–pepper–board support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, knife, pepper, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

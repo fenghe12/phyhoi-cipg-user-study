@@ -1,0 +1,542 @@
+[
+  {
+    "sample_id": "P271",
+    "media_id": "A_00739",
+    "zh": {
+      "title": "把绿色液体从塑料瓶倒入杯中",
+      "question": "人物把绿色液体从塑料瓶倒入杯中，整体交互有多合理？",
+      "body": "观察握瓶、逐步倾斜与扶杯的双手协调。",
+      "contact": "瓶口到杯口的液体路径应与倾斜相关，杯应由桌面或手承托。",
+      "object": "液体可流入并积聚，瓶口已有泡沫可变化，不要求流束完全透明或完全无泡。",
+      "aftermath": "若停倒或少量液体溅出，观察重力、液位与泡沫连续性。",
+      "unknown": "只有倾瓶准备，实际流动不足以评价时选择无法判断。",
+      "scores": [
+        "双手倾瓶扶杯、绿色液体流动与杯内积聚整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手倾瓶扶杯、绿色液体流动与杯内积聚的关键关系严重不符。",
+        "双手倾瓶扶杯、绿色液体流动与杯内积聚部分合理，同时存在明显异常。",
+        "双手倾瓶扶杯、绿色液体流动与杯内积聚主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手倾瓶扶杯、绿色液体流动与杯内积聚及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour green liquid from a plastic bottle into a glass",
+      "question": "How physically plausible is the interaction: pour green liquid from a plastic bottle into a glass?",
+      "body": "Consider bottle grip, progressive tilting, and glass stabilization.",
+      "contact": "The bottle-to-glass flow path should relate to tilt, with hand or table support for the glass.",
+      "object": "Liquid may flow and accumulate, with changes in existing bottle-mouth foam. Perfect clarity or foam-free pouring is not required.",
+      "aftermath": "On stopping or splashing, consider gravity, liquid level, and foam continuity.",
+      "unknown": "Choose unable to judge if only tilting preparation is shown and actual flow cannot be assessed.",
+      "scores": [
+        "Bottle–glass coordination, green-liquid flow, and glass accumulation are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among bottle–glass coordination, green-liquid flow, and glass accumulation seriously disagree.",
+        "Bottle–glass coordination, green-liquid flow, and glass accumulation are partly plausible, alongside clear anomalies.",
+        "The main relationships among bottle–glass coordination, green-liquid flow, and glass accumulation are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and bottle–glass coordination, green-liquid flow, and glass accumulation and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P272",
+    "media_id": "A_00485",
+    "zh": {
+      "title": "把醒酒器中的红色液体倒入酒杯",
+      "question": "人物把醒酒器中的红色液体倒入酒杯，整体交互有多合理？",
+      "body": "观察坐姿、握器倾倒与杯体位置控制。",
+      "contact": "器口、流束和杯口应有合理相对位置，杯或器的支撑应连续。",
+      "object": "液体可形成流束并在杯中积聚，不要求整器倒空或杯子移动。",
+      "aftermath": "若停止倾倒，观察流束中断和剩余液体，不推断画面外洒漏。",
+      "unknown": "只有举器或对杯准备，实际转移不足以评价时选择无法判断。",
+      "scores": [
+        "人体倾器、红液转移与酒杯桌面支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体倾器、红液转移与酒杯桌面支撑的关键关系严重不符。",
+        "人体倾器、红液转移与酒杯桌面支撑部分合理，同时存在明显异常。",
+        "人体倾器、红液转移与酒杯桌面支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体倾器、红液转移与酒杯桌面支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour red liquid from a decanter into a wine glass",
+      "question": "How physically plausible is the interaction: pour red liquid from a decanter into a wine glass?",
+      "body": "Consider seated balance, decanter grip and tilt, and glass positioning.",
+      "contact": "Opening, stream, and glass should align plausibly, with continuous vessel support.",
+      "object": "Liquid may stream and accumulate without emptying the decanter or moving the glass.",
+      "aftermath": "On stopping, consider stream interruption and remaining liquid without inferring off-screen spills.",
+      "unknown": "Choose unable to judge if only lifting or alignment is shown and actual transfer cannot be assessed.",
+      "scores": [
+        "Decanter control, red-liquid transfer, and glass–table support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among decanter control, red-liquid transfer, and glass–table support seriously disagree.",
+        "Decanter control, red-liquid transfer, and glass–table support are partly plausible, alongside clear anomalies.",
+        "The main relationships among decanter control, red-liquid transfer, and glass–table support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and decanter control, red-liquid transfer, and glass–table support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P273",
+    "media_id": "A_04187",
+    "zh": {
+      "title": "向有余烬的纤维火绒吹气",
+      "question": "人物向有余烬的纤维火绒吹气，整体交互有多合理？",
+      "body": "观察双手托持、嘴部吹气与火绒距离控制。",
+      "contact": "火绒应由手承托，吹气时烟与余烬的变化应有合理时序。",
+      "object": "余烬可变亮、阴燃或产生火焰，不要求每次吹气都立即出现大火。",
+      "aftermath": "若停止吹气或火绒移开，观察烟气扩散和燃烧来源，不推断隐藏火种。",
+      "unknown": "只有凑近准备，实际吹气与火绒响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体吹气、纤维束承托与余烬烟气变化整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体吹气、纤维束承托与余烬烟气变化的关键关系严重不符。",
+        "人体吹气、纤维束承托与余烬烟气变化部分合理，同时存在明显异常。",
+        "人体吹气、纤维束承托与余烬烟气变化主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体吹气、纤维束承托与余烬烟气变化及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Blow on fibrous tinder containing embers",
+      "question": "How physically plausible is the interaction: blow on fibrous tinder containing embers?",
+      "body": "Consider two-hand support, blowing, and distance control.",
+      "contact": "Hands should support tinder, with plausible timing of smoke and ember responses to blowing.",
+      "object": "Embers may brighten, smolder, or ignite. Large flames after every breath are not required.",
+      "aftermath": "On stopping or withdrawal, consider smoke dispersal and combustion sources without inferring hidden ignition.",
+      "unknown": "Choose unable to judge if only approach is shown and actual blowing and tinder response cannot be assessed.",
+      "scores": [
+        "Body blowing, fiber-bundle support, and ember–smoke changes are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body blowing, fiber-bundle support, and ember–smoke changes seriously disagree.",
+        "Body blowing, fiber-bundle support, and ember–smoke changes are partly plausible, alongside clear anomalies.",
+        "The main relationships among body blowing, fiber-bundle support, and ember–smoke changes are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body blowing, fiber-bundle support, and ember–smoke changes and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P274",
+    "media_id": "A_03428",
+    "zh": {
+      "title": "在营火旁持物并操作",
+      "question": "人物在营火旁持物并操作，整体交互有多合理？",
+      "body": "观察蹲姿、双手托持小物与身体平衡。",
+      "contact": "按可见手、物体和木堆的相对位置评价，不根据不可见部分指定工具或燃料。",
+      "object": "已有微弱火焰和烟可变化，不要求重新点火或所有木柴立即燃烧。",
+      "aftermath": "若小物接近或离开木堆，观察连续运动及火烟来源。",
+      "unknown": "物体过小、接触被遮挡且实际操作无法评价时选择无法判断。",
+      "scores": [
+        "人体低位操作、持物支撑与营火位置关系整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体低位操作、持物支撑与营火位置关系的关键关系严重不符。",
+        "人体低位操作、持物支撑与营火位置关系部分合理，同时存在明显异常。",
+        "人体低位操作、持物支撑与营火位置关系主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体低位操作、持物支撑与营火位置关系及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Handle an object beside a campfire",
+      "question": "How physically plausible is the interaction: handle an object beside a campfire?",
+      "body": "Consider crouching, two-hand support of the small object, and balance.",
+      "contact": "Assess visible hand–object–pile relations without assigning an unseen tool or fuel.",
+      "object": "Existing faint flames and smoke may vary. New ignition or immediate burning of every log is not required.",
+      "aftermath": "If the object approaches or leaves the pile, consider continuous motion and fire or smoke sources.",
+      "unknown": "Choose unable to judge if size and occlusion prevent assessment of actual operation.",
+      "scores": [
+        "Low-level body action, object support, and campfire spatial relations are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among low-level body action, object support, and campfire spatial relations seriously disagree.",
+        "Low-level body action, object support, and campfire spatial relations are partly plausible, alongside clear anomalies.",
+        "The main relationships among low-level body action, object support, and campfire spatial relations are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and low-level body action, object support, and campfire spatial relations and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P275",
+    "media_id": "A_03416",
+    "zh": {
+      "title": "托持正在燃烧的干火绒束",
+      "question": "人物托持正在燃烧的干火绒束，整体交互有多合理？",
+      "body": "观察双手托持纤维、树皮和细枝的协调。",
+      "contact": "松散材料应由手或束内接触合理支撑，火焰应与燃烧材料相关。",
+      "object": "火焰烟气可摆动，燃烧可局部进行，不要求短片内全部烧尽。",
+      "aftermath": "若束体倾斜或移开，观察松散材料保持、火焰方向及烟气扩散。",
+      "unknown": "手与材料支撑或燃烧位置均无法辨认时选择无法判断。",
+      "scores": [
+        "双手承托、松散火绒结构与火焰烟气整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手承托、松散火绒结构与火焰烟气的关键关系严重不符。",
+        "双手承托、松散火绒结构与火焰烟气部分合理，同时存在明显异常。",
+        "双手承托、松散火绒结构与火焰烟气主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手承托、松散火绒结构与火焰烟气及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold an actively burning dry-tinder bundle",
+      "question": "How physically plausible is the interaction: hold an actively burning dry-tinder bundle?",
+      "body": "Consider two-hand support of fibers, bark, and thin twigs.",
+      "contact": "Loose materials should have plausible hand or internal contact support, with flames related to burning material.",
+      "object": "Flames and smoke may fluctuate and combustion may remain local. Complete consumption is not required.",
+      "aftermath": "On tilting or withdrawal, consider material retention, flame direction, and smoke dispersal.",
+      "unknown": "Choose unable to judge if material support and burning location cannot be distinguished.",
+      "scores": [
+        "Two-hand support, loose-tinder structure, and flame and smoke are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand support, loose-tinder structure, and flame and smoke seriously disagree.",
+        "Two-hand support, loose-tinder structure, and flame and smoke are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand support, loose-tinder structure, and flame and smoke are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand support, loose-tinder structure, and flame and smoke and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P276",
+    "media_id": "A_03405",
+    "zh": {
+      "title": "把枝条和稻草推入炉口",
+      "question": "人物把枝条和稻草推入炉口，整体交互有多合理？",
+      "body": "观察双手推送、弯腰与身体平衡。",
+      "contact": "燃料与炉口接触及深入应与手部推压对应，炉体应合理限制位置。",
+      "object": "枝条可滑动、草束可压缩，已有火焰可变化，不要求每根立刻燃烧。",
+      "aftermath": "若松手，观察燃料留置、局部掉落和烟气来源。",
+      "unknown": "只有整理炉旁材料，实际送入不足以评价时选择无法判断。",
+      "scores": [
+        "人体推送、枝草炉口接触与炉内支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体推送、枝草炉口接触与炉内支撑的关键关系严重不符。",
+        "人体推送、枝草炉口接触与炉内支撑部分合理，同时存在明显异常。",
+        "人体推送、枝草炉口接触与炉内支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体推送、枝草炉口接触与炉内支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Push branches and straw into a stove opening",
+      "question": "How physically plausible is the interaction: push branches and straw into a stove opening?",
+      "body": "Consider two-hand feeding, leaning, and balance.",
+      "contact": "Fuel contact and entry should correspond to hand pressure, with plausible opening constraints.",
+      "object": "Branches may slide and straw may compress while existing flames vary. Immediate ignition of every piece is not required.",
+      "aftermath": "On release, consider retention, local falling, and smoke sources.",
+      "unknown": "Choose unable to judge if only nearby sorting is shown and actual feeding cannot be assessed.",
+      "scores": [
+        "Body feeding, branch–straw opening contact, and stove support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body feeding, branch–straw opening contact, and stove support seriously disagree.",
+        "Body feeding, branch–straw opening contact, and stove support are partly plausible, alongside clear anomalies.",
+        "The main relationships among body feeding, branch–straw opening contact, and stove support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body feeding, branch–straw opening contact, and stove support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P277",
+    "media_id": "A_03388",
+    "zh": {
+      "title": "吹动干草火绒使其阴燃",
+      "question": "人物吹动干草火绒使其阴燃，整体交互有多合理？",
+      "body": "观察托持松散束体、俯身吹气与嘴部距离协调。",
+      "contact": "手部应合理承托火绒，烟气出现和受气流影响应与操作相关。",
+      "object": "材料可阴燃、冒烟或局部发光，不要求短片内出现明火。",
+      "aftermath": "若停止吹气或移开，观察烟的扩散及束体保持，不凭微笑推断点火成功。",
+      "unknown": "只有准备，实际吹气和材料响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体吹气、干草束承托与阴燃烟气整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体吹气、干草束承托与阴燃烟气的关键关系严重不符。",
+        "人体吹气、干草束承托与阴燃烟气部分合理，同时存在明显异常。",
+        "人体吹气、干草束承托与阴燃烟气主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体吹气、干草束承托与阴燃烟气及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Blow on a dry-grass tinder bundle to encourage smoldering",
+      "question": "How physically plausible is the interaction: blow on a dry-grass tinder bundle to encourage smoldering?",
+      "body": "Consider bundle support, leaning breath, and mouth distance.",
+      "contact": "Hands should plausibly support tinder, with smoke onset and airflow response related to action.",
+      "object": "Material may smolder, smoke, or glow locally. Open flame within the clip is not required.",
+      "aftermath": "On stopping or withdrawal, consider smoke dispersal and bundle retention. A smile does not establish ignition success.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual blowing and material response cannot be assessed.",
+      "scores": [
+        "Body blowing, grass-bundle support, and smoldering smoke are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body blowing, grass-bundle support, and smoldering smoke seriously disagree.",
+        "Body blowing, grass-bundle support, and smoldering smoke are partly plausible, alongside clear anomalies.",
+        "The main relationships among body blowing, grass-bundle support, and smoldering smoke are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body blowing, grass-bundle support, and smoldering smoke and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P278",
+    "media_id": "A_04237",
+    "zh": {
+      "title": "用发圈和细带束住头发",
+      "question": "人物用发圈和细带束住头发，整体交互有多合理？",
+      "body": "观察双手在脑后收拢发束、拉伸发圈与穿绕的协调。",
+      "contact": "发圈或细带应在手指和发束间合理接触，不要求每段隐藏绕行清晰可见。",
+      "object": "头发可聚拢，弹性圈可拉伸或回缩，不要求发丝改变长度。",
+      "aftermath": "若松手，观察发束保持或自然下垂及圈带的约束，不要求唯一发型终态。",
+      "unknown": "只有展示发圈或收拢准备，实际束发不足以评价时选择无法判断。",
+      "scores": [
+        "双手束发、圈带弹性约束与发束保持整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手束发、圈带弹性约束与发束保持的关键关系严重不符。",
+        "双手束发、圈带弹性约束与发束保持部分合理，同时存在明显异常。",
+        "双手束发、圈带弹性约束与发束保持主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手束发、圈带弹性约束与发束保持及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Secure hair with a hair tie and thin ribbon",
+      "question": "How physically plausible is the interaction: secure hair with a hair tie and thin ribbon?",
+      "body": "Consider gathering behind the head, stretching the tie, and coordinated threading.",
+      "contact": "Tie or ribbon should contact fingers and hair plausibly. Hidden loops need not all be visible.",
+      "object": "Hair may gather and elastic may stretch or retract without changing strand length.",
+      "aftermath": "On release, consider retention or natural hanging and tie constraints without prescribing one final hairstyle.",
+      "unknown": "Choose unable to judge if only tie display or gathering preparation is shown and actual fastening cannot be assessed.",
+      "scores": [
+        "Two-hand fastening, elastic tie constraints, and hair retention are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand fastening, elastic tie constraints, and hair retention seriously disagree.",
+        "Two-hand fastening, elastic tie constraints, and hair retention are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand fastening, elastic tie constraints, and hair retention are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand fastening, elastic tie constraints, and hair retention and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P279",
+    "media_id": "A_04157",
+    "zh": {
+      "title": "用自动卷发器整理发束",
+      "question": "人物用自动卷发器整理发束，整体交互有多合理？",
+      "body": "观察一手分取发束、另一手控器与头部位置协调。",
+      "contact": "发束应在器具入口或卷筒处连续接触，器具运动应与握持相符。",
+      "object": "头发可被卷入、弯曲或释放，不要求一次形成固定大小卷曲。",
+      "aftermath": "若发束退出，观察连续长度、柔性下垂和器具释放，不推断不可见温度。",
+      "unknown": "只有靠近准备，实际卷绕不足以评价时选择无法判断。",
+      "scores": [
+        "双手控发控器、发束卷绕与释放连续性整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控发控器、发束卷绕与释放连续性的关键关系严重不符。",
+        "双手控发控器、发束卷绕与释放连续性部分合理，同时存在明显异常。",
+        "双手控发控器、发束卷绕与释放连续性主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控发控器、发束卷绕与释放连续性及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Style a hair section with an automatic curler",
+      "question": "How physically plausible is the interaction: style a hair section with an automatic curler?",
+      "body": "Consider separating hair, controlling the tool, and head positioning.",
+      "contact": "Hair contact at the opening or roller should remain continuous, with tool motion related to grip.",
+      "object": "Hair may wind, bend, or release without requiring a fixed curl size in one pass.",
+      "aftermath": "On exit, consider continuous length, flexible hanging, and release without inferring unseen temperature.",
+      "unknown": "Choose unable to judge if only approach is shown and actual winding cannot be assessed.",
+      "scores": [
+        "Hair–tool coordination, strand winding, and release continuity are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hair–tool coordination, strand winding, and release continuity seriously disagree.",
+        "Hair–tool coordination, strand winding, and release continuity are partly plausible, alongside clear anomalies.",
+        "The main relationships among hair–tool coordination, strand winding, and release continuity are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hair–tool coordination, strand winding, and release continuity and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P280",
+    "media_id": "A_03576",
+    "zh": {
+      "title": "用直发夹整理头发",
+      "question": "人物用直发夹整理头发，整体交互有多合理？",
+      "body": "观察一手夹持器具、另一手分束与肩臂协调。",
+      "contact": "夹板开合、发束接触和沿发移动应相关，电线应保持合理连接。",
+      "object": "发束可被夹住、滑过或变得平顺，不要求涂抹物出现或整头立即改变。",
+      "aftermath": "若夹板打开或发束释放，观察头发连续性及重力下垂，不推断不可见温度。",
+      "unknown": "只有器具靠近，实际夹持滑动不足以评价时选择无法判断。",
+      "scores": [
+        "双手控夹、夹板发束接触与发丝释放整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控夹、夹板发束接触与发丝释放的关键关系严重不符。",
+        "双手控夹、夹板发束接触与发丝释放部分合理，同时存在明显异常。",
+        "双手控夹、夹板发束接触与发丝释放主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控夹、夹板发束接触与发丝释放及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Style hair with a flat iron",
+      "question": "How physically plausible is the interaction: style hair with a flat iron?",
+      "body": "Consider tool grip, sectioning with the other hand, and arm coordination.",
+      "contact": "Plate opening, strand contact, and passage along hair should correspond, with plausible cord connection.",
+      "object": "A section may clamp, slide, or smooth. Visible spread or immediate whole-head change is not required.",
+      "aftermath": "On opening or release, consider strand continuity and gravity without inferring unseen temperature.",
+      "unknown": "Choose unable to judge if only approach is shown and actual clamping or sliding cannot be assessed.",
+      "scores": [
+        "Flat-iron control, plate–hair contact, and strand release are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among flat-iron control, plate–hair contact, and strand release seriously disagree.",
+        "Flat-iron control, plate–hair contact, and strand release are partly plausible, alongside clear anomalies.",
+        "The main relationships among flat-iron control, plate–hair contact, and strand release are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and flat-iron control, plate–hair contact, and strand release and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P281",
+    "media_id": "A_02849",
+    "zh": {
+      "title": "用梳子和卷发工具整理发束",
+      "question": "人物用梳子和卷发工具整理发束，整体交互有多合理？",
+      "body": "观察戴手套的手扶持发束与另一手导向工具的配合。",
+      "contact": "梳理或卷筒接触应与手的操作相关，按实际可见工具评价。",
+      "object": "发束可分开、拉直或卷绕，不要求涂抹膏体或整头立即改变。",
+      "aftermath": "若工具移开，观察发丝连续、回落或保持卷曲，不要求整个发型完成。",
+      "unknown": "只有展示工具，实际发束作用不足以评价时选择无法判断。",
+      "scores": [
+        "双手梳卷协调、发丝工具接触与柔性变化整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手梳卷协调、发丝工具接触与柔性变化的关键关系严重不符。",
+        "双手梳卷协调、发丝工具接触与柔性变化部分合理，同时存在明显异常。",
+        "双手梳卷协调、发丝工具接触与柔性变化主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手梳卷协调、发丝工具接触与柔性变化及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Arrange a hair section with a comb and curling tools",
+      "question": "How physically plausible is the interaction: arrange a hair section with a comb and curling tools?",
+      "body": "Consider gloved strand support and tool guidance with the other hand.",
+      "contact": "Combing or barrel contact should correspond to hand action, using actually visible tools.",
+      "object": "Hair may separate, straighten, or wind. Visible paste or immediate whole-head change is not required.",
+      "aftermath": "On withdrawal, consider strand continuity, hanging, or retained curl without requiring a completed hairstyle.",
+      "unknown": "Choose unable to judge if only tools are displayed and actual hair action cannot be assessed.",
+      "scores": [
+        "Comb–curl coordination, hair–tool contact, and flexible change are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among comb–curl coordination, hair–tool contact, and flexible change seriously disagree.",
+        "Comb–curl coordination, hair–tool contact, and flexible change are partly plausible, alongside clear anomalies.",
+        "The main relationships among comb–curl coordination, hair–tool contact, and flexible change are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and comb–curl coordination, hair–tool contact, and flexible change and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P282",
+    "media_id": "A_00762",
+    "zh": {
+      "title": "用吹风机吹整头发",
+      "question": "人物用吹风机吹整头发，整体交互有多合理？",
+      "body": "观察握机、喷嘴调向和另一手拨发的协调。",
+      "contact": "喷嘴方向与头发局部响应应有合理关系，电线应连续连接。",
+      "object": "头发可随气流摆动或逐渐蓬松，不要求看见空气本身、涂料或瞬间完全吹干。",
+      "aftermath": "若喷嘴移开，观察发丝回落和手部控制，不推断不可见温度或湿度。",
+      "unknown": "只有持机准备，实际吹整关系不足以评价时选择无法判断。",
+      "scores": [
+        "双手吹整、喷嘴定向与发丝气流响应整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手吹整、喷嘴定向与发丝气流响应的关键关系严重不符。",
+        "双手吹整、喷嘴定向与发丝气流响应部分合理，同时存在明显异常。",
+        "双手吹整、喷嘴定向与发丝气流响应主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手吹整、喷嘴定向与发丝气流响应及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Style hair with a hairdryer",
+      "question": "How physically plausible is the interaction: style hair with a hairdryer?",
+      "body": "Consider dryer grip, nozzle orientation, and hair guidance with the other hand.",
+      "contact": "Nozzle direction should relate plausibly to local hair response, with continuous cord connection.",
+      "object": "Hair may move in airflow or gradually gain volume. Visible air, spread, or instantaneous complete drying is not required.",
+      "aftermath": "On nozzle withdrawal, consider strand settling and hand control without inferring unseen temperature or moisture.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual drying interaction cannot be assessed.",
+      "scores": [
+        "Dryer–hand coordination, nozzle direction, and hair airflow response are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among dryer–hand coordination, nozzle direction, and hair airflow response seriously disagree.",
+        "Dryer–hand coordination, nozzle direction, and hair airflow response are partly plausible, alongside clear anomalies.",
+        "The main relationships among dryer–hand coordination, nozzle direction, and hair airflow response are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and dryer–hand coordination, nozzle direction, and hair airflow response and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P283",
+    "media_id": "A_03548",
+    "zh": {
+      "title": "用染发刷向发根涂膏",
+      "question": "人物用染发刷向发根涂膏，整体交互有多合理？",
+      "body": "观察握刷、分发与手腕小幅导向的协调。",
+      "contact": "刷毛接触与发根处膏体转移应相关，不凭已有白膏判定本次涂抹。",
+      "object": "膏体可附着并局部铺开，头发可随刷动弯曲，不要求立即改变发色。",
+      "aftermath": "若刷子离开，观察膏体保留和发丝连续，不推断化学反应是否完成。",
+      "unknown": "只有刷子靠近，实际涂抹不足以评价时选择无法判断。",
+      "scores": [
+        "手部控刷、膏体转移与发根接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部控刷、膏体转移与发根接触的关键关系严重不符。",
+        "手部控刷、膏体转移与发根接触部分合理，同时存在明显异常。",
+        "手部控刷、膏体转移与发根接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部控刷、膏体转移与发根接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Apply cream to hair roots with a dye brush",
+      "question": "How physically plausible is the interaction: apply cream to hair roots with a dye brush?",
+      "body": "Consider brush grip, sectioning, and small wrist guidance.",
+      "contact": "Bristle contact should relate to root-level cream transfer. Existing white cream alone does not establish this application.",
+      "object": "Cream may adhere and spread locally while hair bends. Immediate color change is not required.",
+      "aftermath": "On withdrawal, consider cream retention and strand continuity without inferring completion of chemical reactions.",
+      "unknown": "Choose unable to judge if only approach is shown and actual application cannot be assessed.",
+      "scores": [
+        "Brush control, cream transfer, and root contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among brush control, cream transfer, and root contact seriously disagree.",
+        "Brush control, cream transfer, and root contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among brush control, cream transfer, and root contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and brush control, cream transfer, and root contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P284",
+    "media_id": "A_00924",
+    "zh": {
+      "title": "用两根细棒整理额前发束",
+      "question": "人物用两根细棒整理额前发束，整体交互有多合理？",
+      "body": "观察双手控棒、夹取或绕动发束与头部配合。",
+      "contact": "细棒与发丝的接触应连续，头发应保持与头部或其余发束的合理连接。",
+      "object": "发丝可分束、弯曲或绕卷，不要求硬性断裂或工具变软。",
+      "aftermath": "若细棒移开，观察发束释放、下垂或局部保持形状。",
+      "unknown": "只有细棒对位，实际发束作用不足以评价时选择无法判断。",
+      "scores": [
+        "双手控棒、细棒发丝接触与发束柔性整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控棒、细棒发丝接触与发束柔性的关键关系严重不符。",
+        "双手控棒、细棒发丝接触与发束柔性部分合理，同时存在明显异常。",
+        "双手控棒、细棒发丝接触与发束柔性主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控棒、细棒发丝接触与发束柔性及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Arrange a forehead hair section with two slender sticks",
+      "question": "How physically plausible is the interaction: arrange a forehead hair section with two slender sticks?",
+      "body": "Consider two-hand stick control, gripping or winding hair, and head coordination.",
+      "contact": "Stick–hair contact should remain continuous, with plausible hair attachment to head or the remaining section.",
+      "object": "Hair may separate, bend, or wind without rigid fracture or tool softening.",
+      "aftermath": "On stick withdrawal, consider release, hanging, or local shape retention.",
+      "unknown": "Choose unable to judge if only positioning is shown and actual hair action cannot be assessed.",
+      "scores": [
+        "Two-hand stick control, stick–hair contact, and strand flexibility are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand stick control, stick–hair contact, and strand flexibility seriously disagree.",
+        "Two-hand stick control, stick–hair contact, and strand flexibility are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand stick control, stick–hair contact, and strand flexibility are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand stick control, stick–hair contact, and strand flexibility and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P285",
+    "media_id": "A_03588",
+    "zh": {
+      "title": "持握并展示一双工作手套",
+      "question": "人物持握并展示一双工作手套，整体交互有多合理？",
+      "body": "观察双手夹持、翻转或托住空手套的配合。",
+      "contact": "布手套应随手接触合理移动，手指、织物和两只手套的关系应连续。",
+      "object": "空手套可折叠、下垂或局部张开，不要求像已戴在手上一样保持充实形状。",
+      "aftermath": "若换握或松开一侧，观察柔性、重力和剩余支撑。",
+      "unknown": "手与手套的实际承托关系无法辨认时选择无法判断。",
+      "scores": [
+        "双手展示、空手套柔性与重力支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手展示、空手套柔性与重力支撑的关键关系严重不符。",
+        "双手展示、空手套柔性与重力支撑部分合理，同时存在明显异常。",
+        "双手展示、空手套柔性与重力支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手展示、空手套柔性与重力支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold and display a pair of work gloves",
+      "question": "How physically plausible is the interaction: hold and display a pair of work gloves?",
+      "body": "Consider gripping, turning, and supporting the empty gloves.",
+      "contact": "Fabric gloves should move plausibly with hand contact, maintaining continuous finger, fabric, and glove relations.",
+      "object": "Empty gloves may fold, hang, or open locally without retaining a filled-hand shape.",
+      "aftermath": "On regripping or releasing one side, consider flexibility, gravity, and remaining support.",
+      "unknown": "Choose unable to judge if actual hand–glove support cannot be distinguished.",
+      "scores": [
+        "Two-hand display, empty-glove flexibility, and gravity support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand display, empty-glove flexibility, and gravity support seriously disagree.",
+        "Two-hand display, empty-glove flexibility, and gravity support are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand display, empty-glove flexibility, and gravity support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand display, empty-glove flexibility, and gravity support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "sample_id": "P076",
+    "media_id": "A_02459",
+    "zh": {
+      "title": "从汽水罐向塑料杯倾倒",
+      "question": "人物把红色汽水罐中的饮品倒入透明塑料杯，整体交互有多合理？",
+      "body": "观察持罐倾转与持杯位置的双手协调，允许杯子轻微移动。",
+      "contact": "罐口、流束和杯口应在时序与位置上相联系。",
+      "object": "深色液体进入杯中时液面或泡沫可变化，不要求薄塑料杯出现形变。",
+      "aftermath": "若停倒后有滴液、溢出或杯中晃动，观察下落与停止，这些现象不必同时出现。",
+      "unknown": "仅对准罐杯，实际液体转移不足以评价时选择无法判断。",
+      "scores": [
+        "人体、罐杯和液体整体严重不合理，或清楚显示没有倾倒。",
+        "倾倒尝试可辨认，但双手控制、罐口流动与杯中反应严重不符。",
+        "持罐持杯或流入部分合理，同时有影响转移的明显异常。",
+        "主要倾倒、双手配合及杯内变化合理，仅有轻微局部异常。",
+        "实际转移可评价，人体、汽水罐、塑料杯和可见液体后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour soda from a can into a plastic cup",
+      "question": "How physically plausible is the interaction as the person pours the drink from the red can into the clear plastic cup?",
+      "body": "Consider coordination of can tilt and cup position. Slight cup movement is possible.",
+      "contact": "Can opening, stream, and cup opening should correspond in time and space.",
+      "object": "Dark liquid may change the level or foam in the cup. Deformation of the thin cup is not required.",
+      "aftermath": "If dripping, overflow, or liquid motion occurs after stopping, consider falling and settling. These effects need not all occur.",
+      "unknown": "Choose unable to judge if the vessels are only aligned and actual transfer cannot be assessed.",
+      "scores": [
+        "The person, vessels, and liquid behave implausibly overall, or a clear view confirms no pouring.",
+        "An attempt is recognizable, but hand control, outlet flow, and cup response seriously disagree.",
+        "Some vessel control or inflow is plausible, alongside clear anomalies affecting transfer.",
+        "The main pour, hand coordination, and cup changes are plausible, with minor local anomalies.",
+        "Actual transfer is assessable, and the person, can, plastic cup, and visible subsequent liquid motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P077",
+    "media_id": "A_01569",
+    "zh": {
+      "title": "在量杯中操作带泡沫的黏稠材料",
+      "question": "人物在透明量杯中操作绿色黏稠材料和白色泡沫，整体交互有多合理？",
+      "body": "观察持杯与伸入或抓取材料的双手协调，发力表现应与可见材料阻力相容。",
+      "contact": "手指、材料与杯口接触应连续，不要求玻璃杯被挤压变形。",
+      "object": "黏稠材料可拉长、折叠或回缩，泡沫可变形，变化应与手的作用相关。",
+      "aftermath": "若材料提起、回落或黏附杯壁，观察支撑、释放和延续，不要求材料完全离杯。",
+      "unknown": "仅展示杯中材料，或实际手与材料的交互不足以评价时选择无法判断。",
+      "scores": [
+        "人体、量杯和材料的可见关系整体严重不合理，或清楚显示没有操作材料。",
+        "操作尝试可辨认，但手的作用与黏稠材料关键形变或泡沫反应严重不符。",
+        "抓取、持杯或材料拉伸部分合理，同时有影响操作的明显异常。",
+        "主要操作、双手协调及材料形变和支撑合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、量杯、黏稠材料、泡沫及可见回落或后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Manipulate foamy viscous material in a measuring cup",
+      "question": "How physically plausible is the interaction as the person manipulates the green viscous material and white foam in the clear measuring cup?",
+      "body": "Consider coordination of holding the cup and reaching into or grasping the material. Visible effort should be compatible with its apparent resistance.",
+      "contact": "Finger, material, and rim contact should be continuous. Squeezing need not deform the glass.",
+      "object": "Viscous material may stretch, fold, or retract, and foam may deform in relation to hand action.",
+      "aftermath": "If material lifts, returns, or adheres to the wall, consider support, release, and continuation. Full removal is not required.",
+      "unknown": "Choose unable to judge if only display is shown or actual hand–material interaction cannot be assessed.",
+      "scores": [
+        "The person, cup, and material behave implausibly overall, or a clear view confirms no material operation.",
+        "An attempt is recognizable, but hand action and key material deformation or foam response seriously disagree.",
+        "Some grasping, cup holding, or stretching is plausible, alongside clear anomalies affecting manipulation.",
+        "The main operation, hand coordination, deformation, and support are plausible, with minor local anomalies.",
+        "Actual manipulation is assessable, and the person, cup, viscous material, foam, and visible return or subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P078",
+    "media_id": "A_00484",
+    "zh": {
+      "title": "向法压壶中注水",
+      "question": "人物用细嘴水壶向法压壶中注水，整体交互有多合理？",
+      "body": "观察持壶、手腕倾转和细嘴对准开口的协调，不要求固定高度。",
+      "contact": "细嘴、流束和法压壶开口的相对位置应合理，手与水壶关系应连续。",
+      "object": "水流入及咖啡粉浸润、漂浮或液面上升若可见，应与注水相关，不规定泡沫量。",
+      "aftermath": "若停水后有滴流或壶内旋动，观察下落和逐渐停止，不要求蒸汽可见。",
+      "unknown": "仅举壶准备，实际水流与进入壶中的过程不足以评价时选择无法判断。",
+      "scores": [
+        "人体、水壶、法压壶及水流整体严重不合理，或清楚显示没有注水。",
+        "注水尝试可辨认，但手部控制、细嘴出流与壶内反应严重不符。",
+        "倾转、对准或浸润变化部分合理，同时有影响注水的明显异常。",
+        "主要注水、人体配合及咖啡粉和液面变化合理，仅有轻微局部异常。",
+        "实际注水可评价，人体、细嘴壶、法压壶和可见后续流动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour water into a French press",
+      "question": "How physically plausible is the interaction as the person pours water from the gooseneck kettle into the French press?",
+      "body": "Consider kettle holding, wrist tilt, and alignment of the narrow spout with the opening. No fixed height is required.",
+      "contact": "Spout, stream, and press opening should have a plausible spatial relation, with continuous hand–kettle contact.",
+      "object": "Visible wetting, floating grounds, or rising level should relate to inflow. Foam quantity is not prescribed.",
+      "aftermath": "If dripping or circulation continues after stopping, consider falling and settling. Visible steam is not required.",
+      "unknown": "Choose unable to judge if only kettle preparation is shown or flow and entry into the press cannot be assessed.",
+      "scores": [
+        "The person, kettle, press, and water behave implausibly overall, or a clear view confirms no pouring.",
+        "An attempt is recognizable, but hand control, spout output, and press response seriously disagree.",
+        "Some tilt, alignment, or wetting is plausible, alongside clear anomalies affecting pouring.",
+        "The main pour, body coordination, grounds, and level changes are plausible, with minor local anomalies.",
+        "Actual pouring is assessable, and the person, kettle, press, and visible subsequent flow are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P079",
+    "media_id": "A_00222",
+    "zh": {
+      "title": "从红色汽水罐向玻璃杯倾倒",
+      "question": "人物从红色汽水罐向玻璃杯倒饮品，整体交互有多合理？",
+      "body": "观察持罐手的倾角控制和手臂协调，杯子可由手或台面支撑。",
+      "contact": "罐口、流束及杯口的空间和时间关系应可解释。",
+      "object": "杯底原有泡沫不代表当前已倾倒，新增液面或泡沫变化应与流入相关。",
+      "aftermath": "若停倒、液滴下落或杯中晃动，观察持续与停止，不要求产生溢出。",
+      "unknown": "仅拿罐对准杯口，实际转移不足以评价时选择无法判断。",
+      "scores": [
+        "人体、罐杯和饮品整体严重不合理，或清楚显示没有倾倒。",
+        "倾倒尝试可辨认，但罐体控制、出口流动与杯中变化严重不符。",
+        "持罐或新增液体变化部分合理，同时有影响转移的明显异常。",
+        "主要倾倒、人体操作及杯内液体和泡沫变化合理，仅有轻微局部异常。",
+        "实际倾倒可评价，人体、罐杯、流束和可见后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour a red-can drink into a glass",
+      "question": "How physically plausible is the interaction as the person pours the red-can drink into the glass?",
+      "body": "Consider can-tilt control and arm coordination. The glass may be supported by a hand or surface.",
+      "contact": "Outlet, stream, and glass opening should have an interpretable spatial and temporal relation.",
+      "object": "Existing foam at the bottom does not establish current pouring. New level or foam changes should relate to inflow.",
+      "aftermath": "If pouring stops, droplets fall, or contents move, consider continuation and settling. Overflow is not required.",
+      "unknown": "Choose unable to judge if the can is only aimed at the glass and actual transfer cannot be assessed.",
+      "scores": [
+        "The person, vessels, and drink behave implausibly overall, or a clear view confirms no pouring.",
+        "An attempt is recognizable, but can control, outlet flow, and glass changes seriously disagree.",
+        "Some holding or new liquid changes are plausible, alongside clear anomalies affecting transfer.",
+        "The main pour, body action, and liquid and foam changes are plausible, with minor local anomalies.",
+        "Actual pouring is assessable, and the person, vessels, stream, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P080",
+    "media_id": "A_00579",
+    "zh": {
+      "title": "用割炬处理支架上的金属板",
+      "question": "人物用割炬切割支架上的金属板，整体交互有多合理？",
+      "body": "观察持炬双手、手臂导向及前倾姿势的平衡，不要求明显后坐。",
+      "contact": "割炬作用区域与手的移动应相关，金属板与支架保持可解释的支撑。",
+      "object": "若出现切缝、灼热区域或局部材料变化，应与割炬作用位置和时序相关，不要求整板分离。",
+      "aftermath": "若火花或熔融小滴出现，观察从作用区域离开、下落或消失的连续性，不要求固定数量。",
+      "unknown": "只有靠近板面，或实际割炬作用和板面变化不足以评价时选择无法判断。",
+      "scores": [
+        "人体、割炬、金属板及支架的可见过程整体严重不合理，或清楚显示没有切割操作。",
+        "切割尝试可辨认，但炬的关键作用与板面或火花反应严重不符。",
+        "持炬、作用接触或材料变化部分合理，同时有影响加工的明显异常。",
+        "主要切割、人体导向及板面和可见火花变化合理，仅有轻微局部异常。",
+        "实际加工可评价，人体、割炬、板面、支架及可见后续火花或材料变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a supported metal plate with a torch",
+      "question": "How physically plausible is the interaction as the person cuts the metal plate on the stand with a torch?",
+      "body": "Consider two-hand tool control, arm guidance, and balance while leaning. Obvious recoil is not required.",
+      "contact": "The working region should relate to hand-guided motion, with interpretable support of the plate on the stand.",
+      "object": "Any cut, heated region, or local material change should relate to tool position and timing. Full plate separation is not required.",
+      "aftermath": "If sparks or molten droplets appear, consider continuity of departure, falling, or disappearance from the work region. No fixed quantity is required.",
+      "unknown": "Choose unable to judge if only approach is shown or actual torch action and plate changes cannot be assessed.",
+      "scores": [
+        "The person, torch, plate, and stand behave implausibly overall, or a clear view confirms no cutting action.",
+        "An attempt is recognizable, but key torch action and surface or spark responses seriously disagree.",
+        "Some holding, working contact, or material changes are plausible, alongside clear anomalies affecting processing.",
+        "The main cut, body guidance, plate, and visible spark changes are plausible, with minor local anomalies.",
+        "Actual processing is assessable, and the person, torch, plate, stand, and visible subsequent sparks or material changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P081",
+    "media_id": "A_00558",
+    "zh": {
+      "title": "用角磨机加工固定金属条",
+      "question": "人物用角磨机加工固定的金属条，整体交互有多合理？",
+      "body": "观察双手控制主机和辅助把手、手臂稳定与站姿协调。",
+      "contact": "磨盘作用位置应与工具导向相关，金属条应保持与固定表面相容的支撑。",
+      "object": "若表面磨痕或切缝出现，应与接触区域相关，不要求短片段内金属条断开。",
+      "aftermath": "若火花、粉尘或工具离开表面，观察产生区域与运动延续，不要求所有材料都有明显火花。",
+      "unknown": "仅握机准备，或磨盘与金属的实际作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、角磨机、金属条及固定关系整体严重不合理，或清楚显示没有加工。",
+        "加工尝试可辨认，但双手导向、磨盘接触与金属关键反应严重不符。",
+        "工具控制或接触变化部分合理，同时有影响加工的明显异常。",
+        "主要加工、人体协调及金属支撑和表面反应合理，仅有轻微局部异常。",
+        "实际加工可评价，人体、角磨机、金属条及可见火花或后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a fixed metal strip with an angle grinder",
+      "question": "How physically plausible is the interaction as the person works the fixed metal strip with the angle grinder?",
+      "body": "Consider two-hand control of the body and auxiliary handle, arm stability, and stance.",
+      "contact": "Disc contact should relate to tool guidance, with support compatible with the strip’s fixed surface.",
+      "object": "Any abrasion mark or cut should relate to the contact region. Severing within the clip is not required.",
+      "aftermath": "If sparks, dust, or tool withdrawal occur, consider the source region and continuation. Strong sparks are not required for every material.",
+      "unknown": "Choose unable to judge if only tool preparation is shown or actual disc–metal action cannot be assessed.",
+      "scores": [
+        "The person, grinder, strip, and fixing behave implausibly overall, or a clear view confirms no processing.",
+        "An attempt is recognizable, but hand guidance, disc contact, and key metal responses seriously disagree.",
+        "Some tool control or contact changes are plausible, alongside clear anomalies affecting processing.",
+        "The main processing, body coordination, metal support, and surface response are plausible, with minor local anomalies.",
+        "Actual processing is assessable, and the person, grinder, strip, and visible sparks or subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P082",
+    "media_id": "A_00186",
+    "zh": {
+      "title": "用气动磨具加工螺旋齿轮",
+      "question": "工人用气动磨具加工大螺旋齿轮表面，整体交互有多合理？",
+      "body": "观察戴手套的双手对磨具的控制、手臂导向及身体平衡。",
+      "contact": "圆形磨头与齿面接触应对应手部动作，齿轮与圆形底座的支撑应连续。",
+      "object": "若局部磨痕或表面变化可见，应与磨头位置相关，不要求齿轮整体旋转或变形。",
+      "aftermath": "若火花、粉尘或磨头移开，观察来源与停止，不要求固定数量的火花。",
+      "unknown": "仅靠近齿轮，或磨头接触及表面响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体、磨具、齿轮与底座的可见关系整体严重不合理，或清楚显示没有加工。",
+        "加工尝试可辨认，但手部导向、磨头位置与齿面关键反应严重不符。",
+        "磨具控制或局部作用部分合理，同时有影响加工的明显异常。",
+        "主要磨削、人体协调及齿轮支撑和表面变化合理，仅有轻微局部异常。",
+        "实际磨削可评价，人体、磨具、齿轮及可见碎屑或后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Grind a helical gear with a pneumatic tool",
+      "question": "How physically plausible is the interaction as the worker grinds the large helical gear surface with the pneumatic tool?",
+      "body": "Consider gloved two-hand control, arm guidance, and body balance.",
+      "contact": "Circular-head contact with the teeth should correspond to hand action, with continuous support on the round base.",
+      "object": "Any local abrasion or surface change should relate to head position. Whole-gear rotation or deformation is not required.",
+      "aftermath": "If sparks, dust, or withdrawal occur, consider their source and stopping. No fixed spark quantity is required.",
+      "unknown": "Choose unable to judge if only approach is shown or head contact and surface response cannot be assessed.",
+      "scores": [
+        "The person, tool, gear, and base behave implausibly overall, or a clear view confirms no processing.",
+        "An attempt is recognizable, but hand guidance, head position, and key tooth-surface responses seriously disagree.",
+        "Some tool control or local action is plausible, alongside clear anomalies affecting processing.",
+        "The main grinding, body coordination, gear support, and surface changes are plausible, with minor local anomalies.",
+        "Actual grinding is assessable, and the person, tool, gear, and visible debris or subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P083",
+    "media_id": "A_03008",
+    "zh": {
+      "title": "用长刀切支架上的圆柱物",
+      "question": "人物用长刀切支架上含白色材料的圆柱物，整体交互有多合理？",
+      "body": "观察刀柄控制、辅助固定及上身协调，不从表情推定力值。",
+      "contact": "刀刃与圆柱接触及相对移动应对应双手操作，支架应合理支撑目标物。",
+      "object": "若外层或内部白色材料出现切口、变形或分离，应与刀的作用相关，不假定未知材料性质。",
+      "aftermath": "若碎料、火花或切下部分出现，观察产生位置与后续运动，不要求某一种后果必然发生。",
+      "unknown": "仅准备刀或目标物，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、圆柱物及支架整体严重不合理，或清楚显示没有切割。",
+        "切割尝试可辨认，但刀的关键作用与目标物变化严重不符。",
+        "持刀、固定或局部材料变化部分合理，同时有影响切割的明显异常。",
+        "主要切割、人体配合及圆柱物支撑和反应合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、圆柱物、支架及可见后续材料运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a supported cylindrical object with a long knife",
+      "question": "How physically plausible is the interaction as the person cuts the supported cylinder containing white material with a long knife?",
+      "body": "Consider handle control, auxiliary holding, and upper-body coordination. Facial expression does not establish force.",
+      "contact": "Blade contact and relative motion should correspond to hand operation, with plausible stand support.",
+      "object": "Any cut, deformation, or separation of the exterior or white material should relate to blade action. Do not assume unknown material properties.",
+      "aftermath": "If fragments, sparks, or cut portions appear, consider source and subsequent motion. No single aftermath is mandatory.",
+      "unknown": "Choose unable to judge if only blade or target preparation is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "The person, blade, cylinder, and stand behave implausibly overall, or a clear view confirms no cutting.",
+        "An attempt is recognizable, but key blade action and target changes seriously disagree.",
+        "Some knife control, holding, or local material changes are plausible, alongside clear anomalies affecting cutting.",
+        "The main cut, body coordination, target support, and response are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, blade, cylinder, stand, and visible subsequent material motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P084",
+    "media_id": "A_02869",
+    "zh": {
+      "title": "用钢丝钳剪金属接口旁的细线",
+      "question": "工人用钢丝钳剪白色设备金属接口旁的细线，整体交互有多合理？",
+      "body": "观察钳柄闭合、另一手定位和手腕协调，不要求大幅全身发力。",
+      "contact": "钳口与线材的接触、闭合和手部操作应在位置与时序上对应。",
+      "object": "若细线弯曲或断开，应与钳口作用相关，设备接口应保持可解释的固定关系。",
+      "aftermath": "若线端回弹、落下或被取走，观察释放与支撑，不要求出现火花。",
+      "unknown": "仅将钳子靠近线，或钳口与线的实际作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、钳子、线材和设备关系整体严重不合理，或清楚显示没有剪线。",
+        "剪线尝试可辨认，但钳口闭合与线材关键变化严重不符。",
+        "定位、钳口作用或线材分离部分合理，同时有影响剪线的明显异常。",
+        "主要剪线、双手协调及线材和接口关系合理，仅有轻微局部异常。",
+        "实际剪线可评价，人体、钳口、细线、接口及可见线端后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a thin wire beside an equipment interface",
+      "question": "How physically plausible is the interaction as the worker cuts the thin wire beside the white equipment’s metal interface with cutters?",
+      "body": "Consider handle closure, positioning by the other hand, and wrist coordination. Large whole-body effort is not required.",
+      "contact": "Jaw contact and closure should correspond to hand action in space and time.",
+      "object": "Any wire bending or separation should relate to jaw action, with interpretable fixing of the equipment interface.",
+      "aftermath": "If an end springs back, falls, or is removed, consider release and support. Sparks are not required.",
+      "unknown": "Choose unable to judge if the cutters only approach or actual jaw–wire action cannot be assessed.",
+      "scores": [
+        "The person, cutters, wire, and equipment behave implausibly overall, or a clear view confirms no wire cutting.",
+        "An attempt is recognizable, but jaw closure and key wire changes seriously disagree.",
+        "Some positioning, jaw action, or separation is plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting, hand coordination, and wire–interface relation are plausible, with minor local anomalies.",
+        "Actual wire cutting is assessable, and the person, jaws, wire, interface, and visible subsequent end motion are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

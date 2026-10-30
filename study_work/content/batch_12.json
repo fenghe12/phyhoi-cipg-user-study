@@ -1,0 +1,218 @@
+[
+  {
+    "sample_id": "P061",
+    "media_id": "A_00434",
+    "zh": {
+      "title": "切部分切开的紫甘蓝",
+      "question": "人物继续切木砧板上部分切开的紫甘蓝，整体交互有多合理？",
+      "body": "观察握刀、扶持层状菜体及手臂协调，允许不同切片方向。",
+      "contact": "刀刃进入的位置应与手部动作对应，菜体应由木板或另一手支撑。",
+      "object": "新增切片、层片分离或局部压缩应与刀刃作用相联系，已有菜丝不代表当前操作已成功。",
+      "aftermath": "若菜片倾倒或菜丝堆积，观察板面接触与停止，不要求所有层片散开。",
+      "unknown": "仅准备或展示已有菜丝，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、层状菜体及木板整体严重不合理，或清楚显示没有切菜。",
+        "切割尝试可辨认，但刀的作用与紫甘蓝关键层片变化严重不符。",
+        "双手控制或层片分离部分合理，同时有影响主要切割的明显异常。",
+        "主要切割、人体配合和菜片支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、层状菜体与可见堆积和后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a partly sliced purple cabbage",
+      "question": "How physically plausible is the interaction as the person continues cutting the partly sliced purple cabbage on the wooden board?",
+      "body": "Consider knife grip, holding the layered cabbage, and arm coordination. Slice directions may vary.",
+      "contact": "Blade entry should correspond to hand action, with support from the board or other hand.",
+      "object": "New slices, layer separation, or local compression should relate to blade action. Existing shreds do not establish success of the current action.",
+      "aftermath": "If slices tip or shreds accumulate, consider board contact and stopping. All layers need not spread apart.",
+      "unknown": "Choose unable to judge if only preparation or existing-shred display is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "The person, blade, layered cabbage, and board behave implausibly overall, or a clear view confirms no cutting.",
+        "An attempt is recognizable, but blade action and key layer changes seriously disagree.",
+        "Some hand control or layer separation is plausible, alongside clear anomalies affecting the main cut.",
+        "The main cutting, body coordination, and slice support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, blade, layered cabbage, visible accumulation, and subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P062",
+    "media_id": "A_03339",
+    "zh": {
+      "title": "切木砧板上的红色食材",
+      "question": "人物用厨房刀切木砧板上的红色食材，整体交互有多合理？",
+      "body": "观察握刀、辅助固定和双手协调，不因食材品种不明确而规定特定力值。",
+      "contact": "刀刃接触及移动应与手部操作对应，食材与木板的支撑应连续。",
+      "object": "若出现切口、形变或分离，应与刀的作用相关，不要求未经确认的内部结构。",
+      "aftermath": "若切下部分滑动、倾倒或停住，观察板面接触，不要求汁液或籽粒出现。",
+      "unknown": "仅摆放食材，或刀与食材实际作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、红色食材和木板整体严重不合理，或清楚显示没有切割。",
+        "切割尝试可辨认，但刀的关键作用与食材变化严重不符。",
+        "持刀、固定或食材分离部分合理，同时有影响切割的明显异常。",
+        "主要切割、人体配合和食材支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、食材与可见后续移动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a red ingredient on a wooden board",
+      "question": "How physically plausible is the interaction as the person cuts the red ingredient with a kitchen knife on the board?",
+      "body": "Consider knife grip, auxiliary holding, and hand coordination. An uncertain ingredient identity does not prescribe a force magnitude.",
+      "contact": "Blade contact and movement should correspond to hand action, with continuous board support.",
+      "object": "Any cut, deformation, or separation should relate to blade action. Unconfirmed internal structures are not required.",
+      "aftermath": "If cut portions slide, tip, or stop, consider board contact. Juice or seeds are not required.",
+      "unknown": "Choose unable to judge if only positioning is shown or actual blade–ingredient action cannot be assessed.",
+      "scores": [
+        "The person, blade, red ingredient, and board behave implausibly overall, or a clear view confirms no cutting.",
+        "An attempt is recognizable, but key blade action and ingredient changes seriously disagree.",
+        "Some knife control, holding, or separation is plausible, alongside clear anomalies affecting the cut.",
+        "The main cutting, body coordination, and ingredient support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, blade, ingredient, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P063",
+    "media_id": "A_01809",
+    "zh": {
+      "title": "儿童在浅绿砧板上切胡萝卜",
+      "question": "儿童用刀切浅绿砧板上的去皮胡萝卜，整体交互有多合理？",
+      "body": "观察持刀、固定胡萝卜和手指与手臂协调，不以人物年龄预设评分或要求成人幅度。",
+      "contact": "刀刃与胡萝卜的作用应对应手部动作，砧板应承托菜体。",
+      "object": "新切片的分离与刀刃位置和时序应相关，已有薄片不作为当前切割成功的依据。",
+      "aftermath": "若薄片倾倒、重叠或滚动，观察板面接触和停止，不要求切片厚度一致。",
+      "unknown": "仅持刀准备，或实际切割缺乏足够可见信息时选择无法判断。",
+      "scores": [
+        "人体、刀、胡萝卜与砧板整体严重不合理，或清楚显示没有切割。",
+        "切割尝试可辨认，但手与刀的作用和胡萝卜关键分离严重不符。",
+        "双手控制或新切片形成部分合理，同时有影响切割的明显异常。",
+        "主要切割、人体协调和薄片支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、胡萝卜及可见薄片后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "A child cuts a carrot on a light-green board",
+      "question": "How physically plausible is the interaction as the child cuts the peeled carrot on the light-green board?",
+      "body": "Consider knife control, holding, and finger–arm coordination. Age does not predetermine the rating or require adult movement range.",
+      "contact": "Blade action should correspond to hand motion, with board support for the carrot.",
+      "object": "New slice separation should relate to blade position and timing. Existing slices do not establish current cutting success.",
+      "aftermath": "If slices tip, overlap, or roll, consider board contact and stopping. Uniform thickness is not required.",
+      "unknown": "Choose unable to judge if only knife preparation is shown or actual cutting lacks enough visible information.",
+      "scores": [
+        "The person, blade, carrot, and board behave implausibly overall, or a clear view confirms no cutting.",
+        "An attempt is recognizable, but hand–blade action and key carrot separation seriously disagree.",
+        "Some hand control or new slice formation is plausible, alongside clear anomalies affecting the cut.",
+        "The main cutting, body coordination, and slice support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, blade, carrot, and visible subsequent slice motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P064",
+    "media_id": "A_01620",
+    "zh": {
+      "title": "切蓝色砧板上的黄土豆",
+      "question": "人物用刀切蓝色砧板上的黄土豆，整体交互有多合理？",
+      "body": "观察扶持圆形土豆、握刀和双臂协调，允许不同切块方向。",
+      "contact": "刀刃接触与手部操作应相联系，土豆及砧板的支撑应连续。",
+      "object": "若土豆出现切口或分离，其位置应与刀刃经过的区域相关，不要求外皮被去除。",
+      "aftermath": "若土豆块倾倒、滚动或停住，观察板面接触，不要求处理完整个土豆。",
+      "unknown": "仅准备工具或土豆，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、土豆及蓝色砧板整体严重不合理，或清楚显示没有切土豆。",
+        "切割尝试可辨认，但刀的作用与土豆关键形变或分离严重不符。",
+        "固定、用刀或土豆变化部分合理，同时有影响切割的明显异常。",
+        "主要切割、人体控制和土豆块支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、土豆和可见后续滚动或停止协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a yellow potato on a blue board",
+      "question": "How physically plausible is the interaction as the person cuts the yellow potato on the blue board?",
+      "body": "Consider holding the round potato, knife grip, and arm coordination. Cutting directions may vary.",
+      "contact": "Blade contact should relate to hand operation, with continuous potato and board support.",
+      "object": "Cuts or separation should relate to the blade path. Skin removal is not required.",
+      "aftermath": "If portions tip, roll, or stop, consider board contact. Finishing the whole potato is not required.",
+      "unknown": "Choose unable to judge if only tool or potato preparation is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "The person, blade, potato, and blue board behave implausibly overall, or a clear view confirms no potato cutting.",
+        "An attempt is recognizable, but blade action and key deformation or separation seriously disagree.",
+        "Some holding, knife use, or potato changes are plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting, body control, and portion support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, blade, potato, and visible subsequent rolling or stopping are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P065",
+    "media_id": "A_01260",
+    "zh": {
+      "title": "切木砧板上的整颗卷心菜",
+      "question": "人物用刀切木砧板上的卷心菜，整体交互有多合理？",
+      "body": "观察扶持菜球、持刀和手臂与躯干的协调，不规定唯一切法。",
+      "contact": "刀与菜叶或菜芯的接触应与手部动作对应，菜球由木板合理支撑。",
+      "object": "层状菜叶可压缩或分离，新增切口应与刀的作用相关，不要求整颗菜立即散开。",
+      "aftermath": "若菜块或菜叶被移向玻璃碗，观察支撑转换；不要求必须转移到碗中。",
+      "unknown": "仅展示菜或准备刀具，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、菜球及木板整体严重不合理，或清楚显示没有切菜。",
+        "切割尝试可辨认，但刀的作用与菜叶或菜芯关键变化严重不符。",
+        "扶持、接触或菜叶分离部分合理，同时有影响切割的明显异常。",
+        "主要切割、人体协调和菜块支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、卷心菜和可见后续支撑转换协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a whole cabbage on a wooden board",
+      "question": "How physically plausible is the interaction as the person cuts the cabbage on the wooden board?",
+      "body": "Consider holding the cabbage, knife control, and arm–torso coordination. No unique cutting technique is required.",
+      "contact": "Blade contact with leaves or core should correspond to hand action, with plausible board support.",
+      "object": "Layered leaves may compress or separate. New cuts should relate to blade action. The whole cabbage need not immediately spread apart.",
+      "aftermath": "If portions or leaves move toward the glass bowl, consider support transitions. Transfer into the bowl is not required.",
+      "unknown": "Choose unable to judge if only display or knife preparation is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "The person, blade, cabbage, and board behave implausibly overall, or a clear view confirms no cutting.",
+        "An attempt is recognizable, but blade action and key leaf or core changes seriously disagree.",
+        "Some holding, contact, or leaf separation is plausible, alongside clear anomalies affecting the cut.",
+        "The main cutting, body coordination, and portion support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, blade, cabbage, and visible subsequent support transitions are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P066",
+    "media_id": "A_01133",
+    "zh": {
+      "title": "切木砧板上的芹菜",
+      "question": "人物用刀切木砧板上的长芹菜，整体交互有多合理？",
+      "body": "观察固定长菜茎、持刀和双手配合，允许不同切段长度。",
+      "contact": "刀刃与茎部的接触及相对移动应对应手部操作，木板应支撑菜茎。",
+      "object": "茎叶可弯曲或分离，新增菜段应与刀的位置和时序相关，不要求所有纤维完全可见。",
+      "aftermath": "若菜段滚动、聚拢或移开，观察板面接触和停止，不要求叶片全部脱落。",
+      "unknown": "仅准备菜茎或工具，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、芹菜及砧板整体严重不合理，或清楚显示没有切芹菜。",
+        "切割尝试可辨认，但刀的关键作用与菜茎变化严重不符。",
+        "固定、接触或菜段分离部分合理，同时有影响切割的明显异常。",
+        "主要切割、双手协调和菜茎支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、芹菜及可见菜段后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut celery on a wooden board",
+      "question": "How physically plausible is the interaction as the person cuts the long celery on the wooden board?",
+      "body": "Consider holding the long stalk, knife control, and coordination of both hands. Section length may vary.",
+      "contact": "Blade contact and relative movement at the stalk should correspond to hand action, with board support.",
+      "object": "Stems and leaves may bend or separate. New sections should relate to blade position and timing. All fibers need not be visible.",
+      "aftermath": "If sections roll, gather, or move away, consider board contact and stopping. All leaves need not detach.",
+      "unknown": "Choose unable to judge if only stalk or tool preparation is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "The person, blade, celery, and board behave implausibly overall, or a clear view confirms no celery cutting.",
+        "An attempt is recognizable, but key blade action and stalk changes seriously disagree.",
+        "Some holding, contact, or section separation is plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting, hand coordination, and stalk support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, blade, celery, and visible subsequent section motion are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

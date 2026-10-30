@@ -1,0 +1,290 @@
+[
+  {
+    "sample_id": "P085",
+    "media_id": "A_00008",
+    "zh": {
+      "title": "用漏勺在深锅中转移食物",
+      "question": "人物用金属漏勺在大深锅中转移食物，整体交互有多合理？",
+      "body": "观察握柄、手腕和手臂的提放协调，动作应与可见负载相容。",
+      "contact": "勺头进入、离开锅口和所承托食物的关系应连续。",
+      "object": "食物可随勺移动，液体可从网孔流回，不要求漏勺长期盛住液体。",
+      "aftermath": "若滴液或食物回落，观察与锅沿和锅内的接触，不要求全部食物转出。",
+      "unknown": "仅举勺展示，实际勺与食物的交互不足以评价时选择无法判断。",
+      "scores": [
+        "人体、漏勺、食物和深锅整体严重不合理，或清楚显示没有转移操作。",
+        "转移尝试可辨认，但提勺动作与食物支撑及关键运动严重不符。",
+        "握持、舀取或食物移动部分合理，同时有影响转移的明显异常。",
+        "主要转移、人体协调及勺锅接触和负载反应合理，仅有轻微局部异常。",
+        "实际转移可评价，人体、漏勺、食物、深锅及可见滴落或后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Transfer food in a deep pot with a mesh ladle",
+      "question": "How physically plausible is the interaction as the person transfers food in the large deep pot with the mesh ladle?",
+      "body": "Consider handle grip and wrist–arm coordination in lifting and lowering, compatible with the visible load.",
+      "contact": "The head’s entry and exit at the rim and its support of food should be continuous.",
+      "object": "Food may move with the ladle, and liquid may drain through the mesh. Long-term liquid retention is not required.",
+      "aftermath": "If dripping or food return occurs, consider contact with the rim and pot interior. Transferring all food is not required.",
+      "unknown": "Choose unable to judge if only ladle display is shown or actual ladle–food interaction cannot be assessed.",
+      "scores": [
+        "The person, ladle, food, and pot behave implausibly overall, or a clear view confirms no transfer action.",
+        "An attempt is recognizable, but lifting, food support, and key motion seriously disagree.",
+        "Some grip, scooping, or food movement is plausible, alongside clear anomalies affecting transfer.",
+        "The main transfer, body coordination, ladle–pot contact, and load response are plausible, with minor local anomalies.",
+        "Actual transfer is assessable, and the person, ladle, food, pot, and visible dripping or subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P086",
+    "media_id": "A_02902",
+    "zh": {
+      "title": "把装食物的炸篮放入油炸锅",
+      "question": "人物控制装有长条食物的炸篮进入油炸锅，整体交互有多合理？",
+      "body": "观察握持篮柄、手腕导向和手臂随负载的协调，不要求夸张身体反应。",
+      "contact": "炸篮经过锅沿及进入油面的过程应连续，篮中食物应有网篮支撑。",
+      "object": "若油面波动、气泡或食物位置变化，应与炸篮入油或提起相联系，不要求短片段内变色。",
+      "aftermath": "若炸篮停住、提起或滴油，观察支撑转换和液滴下落，不要求油液飞溅。",
+      "unknown": "仅举篮准备，实际篮与锅油的交互不足以评价时选择无法判断。",
+      "scores": [
+        "人体、炸篮、食物和油炸锅整体严重不合理，或清楚显示没有放篮操作。",
+        "入锅尝试可辨认，但手部控制与炸篮、食物及油面关键反应严重不符。",
+        "导向、支撑或入油变化部分合理，同时有影响烹饪操作的明显异常。",
+        "主要放篮、人体协调及食物支撑和油面反应合理，仅有轻微局部异常。",
+        "实际入锅可评价，人体、炸篮、食物、油面及可见提放或滴油协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Lower a food-filled basket into a deep fryer",
+      "question": "How physically plausible is the interaction as the person guides the basket containing the long food item into the fryer?",
+      "body": "Consider handle grip, wrist guidance, and arm coordination under the load. Dramatic body reactions are not required.",
+      "contact": "Passage across the rim and into the oil should be continuous, with mesh support for the food.",
+      "object": "Any oil motion, bubbles, or food shifts should relate to lowering or lifting. Color change within the short clip is not required.",
+      "aftermath": "If the basket stops, lifts, or drains, consider support transitions and falling droplets. Oil splashing is not required.",
+      "unknown": "Choose unable to judge if only basket preparation is shown or actual basket–oil interaction cannot be assessed.",
+      "scores": [
+        "The person, basket, food, and fryer behave implausibly overall, or a clear view confirms no lowering action.",
+        "An attempt is recognizable, but hand control and key basket, food, or oil responses seriously disagree.",
+        "Some guidance, support, or oil-entry changes are plausible, alongside clear anomalies affecting the operation.",
+        "The main lowering, body coordination, food support, and oil response are plausible, with minor local anomalies.",
+        "Actual entry is assessable, and the person, basket, food, oil, and visible lifting or draining are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P087",
+    "media_id": "A_03187",
+    "zh": {
+      "title": "操作靠近嘴部的小型装置并呼出烟雾",
+      "question": "人物操作靠近嘴部的小型装置并呼出烟雾，整体交互有多合理？",
+      "body": "观察手部握持、装置靠近嘴部及头颈与手臂协调，不要求特定表情。",
+      "contact": "装置与嘴唇接近或接触应连续，可见呼出烟雾的位置和时间应与嘴部动作相容。",
+      "object": "装置可保持形状，烟雾可扩展和卷动，不依据外形推断其内部机制。",
+      "aftermath": "若装置移开或人物转头，观察烟雾与后续扩散的连续性，不要求烟雾完全消失。",
+      "unknown": "仅展示装置，或嘴部和烟雾源均不足以评价实际交互时选择无法判断。",
+      "scores": [
+        "人体、装置、嘴部与烟雾整体严重不合理，或清楚显示没有目标交互。",
+        "操作尝试可辨认，但握持、嘴部动作与关键烟雾反应严重不符。",
+        "手口协调或烟雾变化部分合理，同时有影响主要过程的明显异常。",
+        "主要装置操作、人体协调及可见呼出和扩散合理，仅有轻微局部异常。",
+        "实际交互可评价，人体、装置、嘴部和可见烟雾后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate a small device near the mouth and exhale smoke",
+      "question": "How physically plausible is the interaction as the person operates the small device near the mouth and exhales smoke?",
+      "body": "Consider grip, approach to the mouth, and head–neck–arm coordination. No particular expression is required.",
+      "contact": "Approach or lip contact should be continuous. Visible exhalation source and timing should be compatible with mouth action.",
+      "object": "The device may retain shape while smoke expands and curls. Do not infer internal mechanisms from appearance.",
+      "aftermath": "If the device withdraws or the head turns, consider continuity of smoke and subsequent diffusion. Complete dissipation is not required.",
+      "unknown": "Choose unable to judge if only display is shown or neither mouth nor smoke source permits assessment of actual interaction.",
+      "scores": [
+        "The person, device, mouth, and smoke behave implausibly overall, or a clear view confirms no target interaction.",
+        "An attempt is recognizable, but grip, mouth action, and key smoke response seriously disagree.",
+        "Some hand–mouth coordination or smoke changes are plausible, alongside clear anomalies affecting the main process.",
+        "The main device operation, body coordination, visible exhalation, and diffusion are plausible, with minor local anomalies.",
+        "Actual interaction is assessable, and the person, device, mouth, and visible subsequent smoke motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P088",
+    "media_id": "A_00545",
+    "zh": {
+      "title": "向冒白雾的容器中倒液体",
+      "question": "人物从烧杯向桌上的白色容器倒液体，整体交互有多合理？",
+      "body": "观察烧杯握持、手腕倾转和与容器开口的协调，不以惊讶表情规定身体反应。",
+      "contact": "杯口、液流和容器开口应相联系，容器与桌面支撑应连续。",
+      "object": "液体进入及雾气变化若可见，应与容器约束相容，不推断未明确的化学成分或反应速度。",
+      "aftermath": "雾气可从容器附近扩展、下沉或受气流偏转，不要求瞬间消散或固定方向。",
+      "unknown": "浓雾挡住全部关键转移且没有足够实际交互可评价时选择无法判断。",
+      "scores": [
+        "人体、烧杯、液体和容器及白雾的可见关系整体严重不合理，或清楚显示没有倾倒。",
+        "倾倒尝试可辨认，但手部控制、液流进入和容器关键响应严重不符。",
+        "持杯、流动或雾气变化部分合理，同时有影响转移的明显异常。",
+        "主要倾倒、人体协调及容器支撑和可见雾气变化合理，仅有轻微局部异常。",
+        "实际倾倒可评价，人体、烧杯、液体、容器和可见雾气后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour liquid into a white mist-emitting container",
+      "question": "How physically plausible is the interaction as the person pours liquid from the beaker into the white container on the table?",
+      "body": "Consider grip, wrist tilt, and alignment with the opening. Surprise does not prescribe a body reaction.",
+      "contact": "Beaker opening, stream, and receiving opening should correspond, with continuous table support.",
+      "object": "Visible inflow or mist changes should be compatible with container constraints. Do not infer unspecified chemicals or reaction rates.",
+      "aftermath": "Mist may spread, sink, or drift with airflow. Instant dissipation or a fixed direction is not required.",
+      "unknown": "Choose unable to judge if mist hides all crucial transfer and there is insufficient actual interaction to assess.",
+      "scores": [
+        "The person, beaker, liquid, container, and mist behave implausibly overall, or a clear view confirms no pouring.",
+        "An attempt is recognizable, but hand control, liquid entry, and key container responses seriously disagree.",
+        "Some holding, flow, or mist changes are plausible, alongside clear anomalies affecting transfer.",
+        "The main pour, body coordination, container support, and visible mist changes are plausible, with minor local anomalies.",
+        "Actual pouring is assessable, and the person, beaker, liquid, container, and visible subsequent mist motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P089",
+    "media_id": "A_00526",
+    "zh": {
+      "title": "手持持续放出橙烟的装置",
+      "question": "人物手持持续放出橙色烟雾的圆筒装置，整体交互有多合理？",
+      "body": "观察手对装置的抓持、手臂支撑和姿势协调，不要求因出烟产生明显后坐。",
+      "contact": "装置与手的接触和运动应连续，烟雾源应与装置出口相联系。",
+      "object": "装置可保持形状，烟雾可扩展和卷动，不要求点火过程出现在片段中。",
+      "aftermath": "若手臂移动或烟雾遮挡人物，观察烟雾持续和扩散，不要求固定烟柱形状。",
+      "unknown": "装置或持握始终不可见，且烟雾源不足以评价时选择无法判断。",
+      "scores": [
+        "人体、装置与橙烟的可见关系整体严重不合理，或清楚显示没有持握交互。",
+        "持握可辨认，但手的支撑、装置运动与关键烟源关系严重不符。",
+        "支撑或烟雾延续部分合理，同时有影响持物和出烟关系的明显异常。",
+        "主要持握、人体协调及装置和烟雾源合理，仅有轻微局部异常。",
+        "实际持握可评价，人体、装置、烟源及可见扩散与后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold an orange-smoke-emitting device",
+      "question": "How physically plausible is the interaction as the person holds the cylindrical device continuously emitting orange smoke?",
+      "body": "Consider grip, arm support, and posture. Obvious recoil from emission is not required.",
+      "contact": "Hand contact and device motion should be continuous, with smoke originating near its outlet.",
+      "object": "The device may retain shape while smoke expands and curls. Ignition need not occur within the clip.",
+      "aftermath": "If the arm moves or smoke obscures the body, consider continuation and diffusion. A fixed plume shape is not required.",
+      "unknown": "Choose unable to judge if the device or grip is never visible and the smoke source cannot be assessed.",
+      "scores": [
+        "The person, device, and orange smoke behave implausibly overall, or a clear view confirms no holding interaction.",
+        "Holding is recognizable, but hand support, device motion, and key smoke-source relations seriously disagree.",
+        "Some support or smoke continuation is plausible, alongside clear anomalies affecting holding and emission relations.",
+        "The main holding, body coordination, device, and smoke source are plausible, with minor local anomalies.",
+        "Actual holding is assessable, and the person, device, source, visible diffusion, and subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P090",
+    "media_id": "A_03310",
+    "zh": {
+      "title": "用金属杆处理冒烟的硫磺堆",
+      "question": "工人用长金属杆处理冒烟的硫磺堆，整体交互有多合理？",
+      "body": "观察双手握杆、手臂与前倾躯干的配合及脚部支撑，不推定真实负载。",
+      "contact": "杆端与料堆的作用应与手部运动相联系，杆身与手的位置应连续。",
+      "object": "若块状或粉末状材料移动，应与杆端作用相关，不要求整堆形变或新产生烟雾。",
+      "aftermath": "若碎块滚落、粉尘或烟雾扩散，观察地面支撑与延续，不将背景管道烟雾自动归因于杆的操作。",
+      "unknown": "杆端作用始终被挡住，且缺乏足够实际材料交互可评价时选择无法判断。",
+      "scores": [
+        "人体、金属杆、料堆和地面关系整体严重不合理，或清楚显示没有处理料堆。",
+        "操作尝试可辨认，但杆的关键作用与材料移动及支撑严重不符。",
+        "握杆、接触或料块变化部分合理，同时有影响处理过程的明显异常。",
+        "主要处理、人体协调及料堆支撑和可见烟尘表现合理，仅有轻微局部异常。",
+        "实际材料操作可评价，人体、金属杆、料堆及可见碎块和烟尘后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a smoking sulfur pile with a metal rod",
+      "question": "How physically plausible is the interaction as the worker works the smoking sulfur pile with a long metal rod?",
+      "body": "Consider two-hand grip, arm–torso coordination while leaning, and foot support. Do not infer measured load.",
+      "contact": "Rod-tip action on the pile should relate to hand motion, with continuous shaft–hand positions.",
+      "object": "Any block or powder movement should relate to tip action. Whole-pile deformation or newly generated smoke is not required.",
+      "aftermath": "If pieces roll, dust rises, or smoke spreads, consider ground support and continuation. Background pipe smoke is not automatically caused by rod operation.",
+      "unknown": "Choose unable to judge if tip action is always hidden and there is insufficient actual material interaction to assess.",
+      "scores": [
+        "The person, rod, pile, and ground behave implausibly overall, or a clear view confirms no pile-working action.",
+        "An attempt is recognizable, but key rod action and material motion or support seriously disagree.",
+        "Some grip, contact, or piece changes are plausible, alongside clear anomalies affecting the work.",
+        "The main work, body coordination, pile support, and visible smoke or dust behavior are plausible, with minor local anomalies.",
+        "Actual material operation is assessable, and the person, rod, pile, visible pieces, and subsequent smoke or dust motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P091",
+    "media_id": "A_01224",
+    "zh": {
+      "title": "在冒烟的炉旁操作长柄铲",
+      "question": "人物在冒烟的圆筒炉旁用长柄铲处理煤料，整体交互有多合理？",
+      "body": "观察双手握柄、提铲与俯身姿势和下肢支撑的协调。",
+      "contact": "铲头与煤料或炉口的实际作用应对应手臂动作，铲上材料应有可解释的支撑。",
+      "object": "若煤料被铲起、移位或倒入，应与铲头运动相关，不要求炉体变形或烟量立即改变。",
+      "aftermath": "若煤块掉落或铲头退出，观察地面或炉口接触及烟雾延续，不要求一次加满。",
+      "unknown": "仅持铲准备，或铲头与材料的实际交互不足以评价时选择无法判断。",
+      "scores": [
+        "人体、铲、煤料和炉的可见关系整体严重不合理，或清楚显示没有铲料操作。",
+        "铲料尝试可辨认，但人体动作与铲头负载及材料关键运动严重不符。",
+        "握持、提放或煤料移动部分合理，同时有影响主要过程的明显异常。",
+        "主要铲料、人体协调及材料支撑和可见烟雾合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、铲、煤料、炉口及可见掉落和后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate a long-handled shovel beside a smoking furnace",
+      "question": "How physically plausible is the interaction as the person works coal with the long-handled shovel beside the cylindrical smoking furnace?",
+      "body": "Consider two-hand grip, lifting, leaning posture, and leg support.",
+      "contact": "Actual scoop contact with coal or the furnace opening should correspond to arm action, with interpretable support of material on the shovel.",
+      "object": "Any lifting, displacement, or pouring of coal should relate to scoop motion. Furnace deformation or an immediate smoke change is not required.",
+      "aftermath": "If pieces fall or the scoop withdraws, consider ground or furnace contact and continuing smoke. Filling in one operation is not required.",
+      "unknown": "Choose unable to judge if only shovel preparation is shown or actual scoop–material interaction cannot be assessed.",
+      "scores": [
+        "The person, shovel, coal, and furnace behave implausibly overall, or a clear view confirms no shoveling action.",
+        "An attempt is recognizable, but body action, scoop load, and key material motion seriously disagree.",
+        "Some grip, lifting, or coal movement is plausible, alongside clear anomalies affecting the main process.",
+        "The main shoveling, body coordination, material support, and visible smoke are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and the person, shovel, coal, opening, visible falling, and subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P092",
+    "media_id": "A_00290",
+    "zh": {
+      "title": "持冒白雾的酒杯靠近嘴部",
+      "question": "人物将装红色液体且杯沿有白雾的酒杯靠近嘴部，整体交互有多合理？",
+      "body": "观察对细杯柄的抓持、手腕倾转与头颈协调，不要求特定享用表情。",
+      "contact": "杯沿与嘴部的接近或接触应连续，杯子和手的支撑关系应可解释。",
+      "object": "若液体倾斜或液面变化，应与杯的姿态相关；杯沿白雾不必因嘴部接近立即停止。",
+      "aftermath": "若杯子移开或雾气扩散，观察液体回稳和雾气延续，不要求可见吞咽或喝空。",
+      "unknown": "仅展示酒杯，或嘴部与杯沿实际关系及液体均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、酒杯、液体及白雾的可见关系整体严重不合理，或清楚显示没有持杯靠近嘴部的操作。",
+        "操作尝试可辨认，但持杯、杯沿接触与液体关键响应严重不符。",
+        "手口协调、液体或白雾表现部分合理，同时有影响交互的明显异常。",
+        "主要持杯靠近、人体协调及液体和白雾变化合理，仅有轻微局部异常。",
+        "实际交互可评价，人体、酒杯、液体、嘴部及可见白雾后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Bring a misting drink glass to the mouth",
+      "question": "How physically plausible is the interaction as the person brings the glass containing red liquid and white rim mist to the mouth?",
+      "body": "Consider grip on the slender stem, wrist tilt, and head–neck coordination. No particular enjoyment expression is required.",
+      "contact": "Rim approach or lip contact should be continuous, with interpretable hand support.",
+      "object": "Any liquid tilt or level change should relate to glass posture. Rim mist need not stop immediately on approach to the mouth.",
+      "aftermath": "If the glass withdraws or mist spreads, consider liquid settling and mist continuation. Visible swallowing or emptying is not required.",
+      "unknown": "Choose unable to judge if only display is shown or neither actual rim–mouth relations nor liquid permit assessment.",
+      "scores": [
+        "The person, glass, liquid, and mist behave implausibly overall, or a clear view confirms no glass-to-mouth operation.",
+        "An attempt is recognizable, but holding, rim contact, and key liquid responses seriously disagree.",
+        "Some hand–mouth coordination, liquid, or mist behavior is plausible, alongside clear anomalies affecting interaction.",
+        "The main approach, body coordination, liquid, and mist changes are plausible, with minor local anomalies.",
+        "Actual interaction is assessable, and the person, glass, liquid, mouth, and visible subsequent mist motion are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

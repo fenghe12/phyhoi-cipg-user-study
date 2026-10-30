@@ -1,0 +1,327 @@
+[
+  {
+    "sample_id": "P189",
+    "media_id": "A_02456",
+    "zh": {
+      "title": "用园艺铲切除杂草根部",
+      "question": "人物用园艺铲切除杂草根部，整体交互有多合理？",
+      "body": "观察蹲姿、握铲和固定草丛的双手协调。",
+      "contact": "铲刃与根土作用位置应与手部动作对应。",
+      "object": "根土可松开、分离或随草丛移动，不要求每根细根可见。",
+      "aftermath": "若土块落下或草丛移开，观察支撑转换，不要求黄花脱落。",
+      "unknown": "只有准备或实际根土作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、铲、杂草和土壤整体严重不合理，或清楚显示没有切除操作。",
+        "尝试可辨认，但铲刃与草根关键反应严重不符。",
+        "控铲、根土接触或草丛移动部分合理，同时有明显异常。",
+        "主要切除、双手协调及根土分离合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、铲、草根、土壤及可见后续移开协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut weeds at their roots with a garden shovel",
+      "question": "How physically plausible is the interaction as the person cuts the weeds at their roots with the shovel?",
+      "body": "Consider crouching, shovel grip, and holding the clump with the other hand.",
+      "contact": "Blade contact with roots and soil should correspond to hand action.",
+      "object": "Roots and soil may loosen, separate, or move with the clump. Every fine root need not be visible.",
+      "aftermath": "If clods fall or the clump withdraws, consider support transitions. Flower detachment is not required.",
+      "unknown": "Choose unable to judge if only preparation is shown or actual root–soil action cannot be assessed.",
+      "scores": [
+        "The person, shovel, weeds, and soil behave implausibly overall, or a clear view confirms no removal action.",
+        "An attempt is recognizable, but blade action and key root responses seriously disagree.",
+        "Some control, root–soil contact, or clump motion is plausible, alongside clear anomalies.",
+        "The main removal, hand coordination, and root–soil separation are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and the person, shovel, roots, soil, and visible subsequent withdrawal are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P190",
+    "media_id": "A_01122",
+    "zh": {
+      "title": "用尖木棍挖土坑",
+      "question": "人物用尖木棍挖土坑，整体交互有多合理？",
+      "body": "观察双手握棍、上身按压和蹲坐支撑，不要求固定用力姿势。",
+      "contact": "棍尖与土的接触、进入或撬动应与手部动作对应。",
+      "object": "土可压实、松动或移位，变化应与棍尖作用相关，不要求一次形成深坑。",
+      "aftermath": "若棍退出或土块落回，观察地面接触和停止，不要求木棍弯曲。",
+      "unknown": "只有准备姿势，实际棍尖土壤作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、木棍、土坑和支撑整体严重不合理，或清楚显示没有挖土。",
+        "挖土尝试可辨认，但按撬动作与棍尖及土壤关键响应严重不符。",
+        "握棍、入土或土料移动部分合理，同时有明显异常。",
+        "主要挖土、人体协调及棍尖接触合理，仅有轻微局部异常。",
+        "实际挖土可评价，人体、木棍、土壤及可见退出和土块运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Dig with a pointed wooden stick",
+      "question": "How physically plausible is the interaction as the person digs the soil pit with the pointed stick?",
+      "body": "Consider two-hand grip, upper-body pressure, and crouching or seated support. No fixed effort posture is prescribed.",
+      "contact": "Tip contact, insertion, or levering should correspond to hand action.",
+      "object": "Soil may compact, loosen, or shift in relation to tip action. A deep hole in one action is not required.",
+      "aftermath": "If the stick withdraws or clods return, consider ground contact and stopping. Stick bending is not required.",
+      "unknown": "Choose unable to judge if only preparation is shown or actual tip–soil action cannot be assessed.",
+      "scores": [
+        "The person, stick, pit, and support behave implausibly overall, or a clear view confirms no digging.",
+        "An attempt is recognizable, but pressing or levering and key tip or soil responses seriously disagree.",
+        "Some grip, insertion, or soil motion is plausible, alongside clear anomalies.",
+        "The main digging, body coordination, and tip contact are plausible, with minor local anomalies.",
+        "Actual digging is assessable, and the person, stick, soil, visible withdrawal, and clod motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P191",
+    "media_id": "A_00936",
+    "zh": {
+      "title": "用折叠铲挖车轮旁的沙",
+      "question": "人物用折叠铲挖车轮旁的沙，整体交互有多合理？",
+      "body": "观察双手控柄、弯腰及站姿平衡，不要求车辆同时移动。",
+      "contact": "铲刃与沙接触和承托应与手臂动作对应，铲与轮胎距离应连续可解释。",
+      "object": "沙可被铲起、散开或形成凹槽，变化应与铲的作用相关。",
+      "aftermath": "若沙从铲上落下，观察颗粒下落与堆积，不要求一次使车脱困。",
+      "unknown": "只有准备或实际铲沙不足以评价时选择无法判断。",
+      "scores": [
+        "人体、铲、沙和车轮关系整体严重不合理，或清楚显示没有挖沙。",
+        "挖沙尝试可辨认，但铲的动作与沙的关键承托或流落严重不符。",
+        "握持、入沙或颗粒运动部分合理，同时有明显异常。",
+        "主要挖沙、人体协调及沙与车轮周围支撑合理，仅有轻微局部异常。",
+        "实际挖沙可评价，人体、铲、沙、车轮及可见后续堆积协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Dig sand beside a vehicle wheel with a folding shovel",
+      "question": "How physically plausible is the interaction as the person digs the sand beside the wheel?",
+      "body": "Consider two-hand control, leaning, and standing balance. Simultaneous vehicle motion is not required.",
+      "contact": "Blade contact and sand support should correspond to arm action, with continuous, interpretable distance from the tire.",
+      "object": "Sand may lift, scatter, or form a depression in relation to shovel action.",
+      "aftermath": "If sand falls from the scoop, consider falling grains and accumulation. Freeing the vehicle in one action is not required.",
+      "unknown": "Choose unable to judge if only preparation is shown or actual sand digging cannot be assessed.",
+      "scores": [
+        "The person, shovel, sand, and wheel behave implausibly overall, or a clear view confirms no digging.",
+        "An attempt is recognizable, but shovel action and key sand support or flow seriously disagree.",
+        "Some grip, entry, or grain motion is plausible, alongside clear anomalies.",
+        "The main digging, body coordination, and support around the wheel are plausible, with minor local anomalies.",
+        "Actual digging is assessable, and the person, shovel, sand, wheel, and visible subsequent accumulation are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P192",
+    "media_id": "A_00913",
+    "zh": {
+      "title": "用气动雕刻工具加工木雕",
+      "question": "人物用气动雕刻工具加工木雕，整体交互有多合理？",
+      "body": "观察握机、手腕精细导向及俯身平衡，不要求固定加工速度。",
+      "contact": "刀头接触、工具移动与手的操作应相关，木雕应有合理支撑。",
+      "object": "新增凹槽、表面去除或木屑应与刀头作用相关，已有雕形不代表当前加工成功。",
+      "aftermath": "若工具退出或木屑落下，观察释放与堆积，不要求整件雕刻完成。",
+      "unknown": "实际刀头作用与木面响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体、工具、木雕及支撑整体严重不合理，或清楚显示没有雕刻。",
+        "雕刻尝试可辨认，但手部导向与木面关键去除严重不符。",
+        "握机、接触或木屑形成部分合理，同时有明显异常。",
+        "主要雕刻、人体协调及木雕支撑合理，仅有轻微局部异常。",
+        "实际雕刻可评价，人体、刀头、木雕及可见后续碎屑运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Carve wood with a pneumatic tool",
+      "question": "How physically plausible is the interaction as the person works the wooden sculpture with the pneumatic carving tool?",
+      "body": "Consider grip, fine wrist guidance, and leaning balance. No fixed feed speed is required.",
+      "contact": "Head contact and motion should relate to hand operation, with plausible workpiece support.",
+      "object": "New grooves, surface removal, or shavings should relate to tool action. Existing sculpture does not establish current success.",
+      "aftermath": "If the tool withdraws or shavings fall, consider release and accumulation. Finishing the sculpture is not required.",
+      "unknown": "Choose unable to judge if actual head action and wood response cannot be assessed.",
+      "scores": [
+        "The person, tool, sculpture, and support behave implausibly overall, or a clear view confirms no carving.",
+        "An attempt is recognizable, but hand guidance and key surface removal seriously disagree.",
+        "Some grip, contact, or shavings are plausible, alongside clear anomalies.",
+        "The main carving, body coordination, and workpiece support are plausible, with minor local anomalies.",
+        "Actual carving is assessable, and the person, head, wood, and visible subsequent debris are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P193",
+    "media_id": "A_02344",
+    "zh": {
+      "title": "把玉米幼苗放入土中",
+      "question": "人物把带土的玉米幼苗放入土中，整体交互有多合理？",
+      "body": "观察手对根土和叶茎的支撑、低位操作与身体协调。",
+      "contact": "根土、坑口和手的接触应连续，放置应与手的下降动作对应。",
+      "object": "土可被拨开或回填，幼苗可轻晃，不要求立即长高或根系可见。",
+      "aftermath": "若松手或压土，观察幼苗与土壤支撑转换，不要求完全竖直的唯一终态。",
+      "unknown": "仅展示幼苗或准备坑口，实际放置不足以评价时选择无法判断。",
+      "scores": [
+        "人体、幼苗、根土和地面整体严重不合理，或清楚显示没有放苗。",
+        "放置尝试可辨认，但手的支撑与幼苗关键移动或土壤响应严重不符。",
+        "承托、接触或回填部分合理，同时有明显异常。",
+        "主要放置、人体协调及幼苗土壤支撑合理，仅有轻微局部异常。",
+        "实际放置可评价，人体、幼苗、根土及可见松手后保持协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Place a corn seedling into soil",
+      "question": "How physically plausible is the interaction as the person places the soil-bearing corn seedling into the ground?",
+      "body": "Consider support of roots, soil, and stem and coordination in low-level work.",
+      "contact": "Root-ball, opening, and hand contact should be continuous, with placement related to lowering.",
+      "object": "Soil may be opened or backfilled and the seedling may sway. Immediate growth or visible roots is not required.",
+      "aftermath": "On release or pressing soil, consider support transitions. A uniquely upright final state is not required.",
+      "unknown": "Choose unable to judge if only seedling display or hole preparation is shown and actual placement cannot be assessed.",
+      "scores": [
+        "The person, seedling, root soil, and ground behave implausibly overall, or a clear view confirms no placement.",
+        "An attempt is recognizable, but hand support and key seedling motion or soil responses seriously disagree.",
+        "Some holding, contact, or backfilling is plausible, alongside clear anomalies.",
+        "The main placement, body coordination, and plant–soil support are plausible, with minor local anomalies.",
+        "Actual placement is assessable, and the person, seedling, root soil, and visible post-release retention are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P194",
+    "media_id": "A_01988",
+    "zh": {
+      "title": "把长柄铲按入土壤",
+      "question": "人物把长柄铲按入土壤，整体交互有多合理？",
+      "body": "观察双手握柄、俯身与下肢支撑的协调，不要求唯一踩铲方式。",
+      "contact": "铲刃入土、柄的移动和手部作用应相关。",
+      "object": "土可压缩、裂开或随铲位移，不要求铲一次进入固定深度。",
+      "aftermath": "若铲退出或土块松落，观察释放与地面支撑，不要求完成整个坑。",
+      "unknown": "只有准备姿势，实际铲土作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、长柄铲与土壤关系整体严重不合理，或清楚显示没有按铲。",
+        "按铲尝试可辨认，但人体作用与铲刃入土及关键土壤反应严重不符。",
+        "握柄、入土或土料变化部分合理，同时有明显异常。",
+        "主要入土、人体协调及铲土接触合理，仅有轻微局部异常。",
+        "实际按铲可评价，人体、长柄铲、土壤及可见退出或土块运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Press a long-handled shovel into soil",
+      "question": "How physically plausible is the interaction as the person presses the shovel into the ground?",
+      "body": "Consider two-hand grip, leaning, and leg support. No unique foot-on-blade technique is prescribed.",
+      "contact": "Blade entry and handle motion should relate to hand action.",
+      "object": "Soil may compress, crack, or move with the scoop. A fixed insertion depth is not required.",
+      "aftermath": "If the tool withdraws or clods loosen, consider release and ground support. A completed hole is not required.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual soil action cannot be assessed.",
+      "scores": [
+        "The person, shovel, and soil behave implausibly overall, or a clear view confirms no pressing.",
+        "An attempt is recognizable, but body action, blade entry, and key soil responses seriously disagree.",
+        "Some grip, entry, or material changes are plausible, alongside clear anomalies.",
+        "The main entry, body coordination, and blade–soil contact are plausible, with minor local anomalies.",
+        "Actual pressing is assessable, and the person, shovel, soil, and visible withdrawal or clod motion are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "双手按长柄铲进入地面，同一入土作用条件"
+  },
+  {
+    "sample_id": "P195",
+    "media_id": "A_01687",
+    "zh": {
+      "title": "用长柄铲切翻湿土块",
+      "question": "人物用长柄铲切翻坑中的湿土块，整体交互有多合理？",
+      "body": "观察握柄、切入和翻动时的手臂躯干协调及站姿。",
+      "contact": "铲刃接触和撬动应与手部动作对应，坑边支撑应可解释。",
+      "object": "湿土可成团、压缩或分离，不要求像干沙一样全部散开。",
+      "aftermath": "若土团翻落或少量泥屑掉落，观察碰撞和堆积，不要求扬尘。",
+      "unknown": "实际铲刃与湿土作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、铲、湿土与坑边关系整体严重不合理，或清楚显示没有翻土。",
+        "翻土尝试可辨认，但切撬动作与湿土关键分离或承托严重不符。",
+        "握持、入土或土团移动部分合理，同时有明显异常。",
+        "主要翻土、人体协调及湿土支撑合理，仅有轻微局部异常。",
+        "实际翻土可评价，人体、铲、湿土及可见翻落后堆积协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut and turn wet soil with a shovel",
+      "question": "How physically plausible is the interaction as the person cuts and turns the wet clods in the pit?",
+      "body": "Consider grip, arm–torso coordination during entry and turning, and stance.",
+      "contact": "Blade contact and levering should correspond to hand action, with interpretable pit-edge support.",
+      "object": "Wet soil may clump, compress, or separate. Dry-sand-like dispersal is not required.",
+      "aftermath": "If clods turn or crumbs fall, consider collision and accumulation. Dust is not required.",
+      "unknown": "Choose unable to judge if actual blade–wet-soil action cannot be assessed.",
+      "scores": [
+        "The person, shovel, wet soil, and pit edge behave implausibly overall, or a clear view confirms no turning.",
+        "An attempt is recognizable, but cutting or levering and key separation or support seriously disagree.",
+        "Some grip, entry, or clod motion is plausible, alongside clear anomalies.",
+        "The main turning, body coordination, and wet-soil support are plausible, with minor local anomalies.",
+        "Actual turning is assessable, and the person, shovel, wet soil, and visible post-fall accumulation are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P196",
+    "media_id": "A_03322",
+    "zh": {
+      "title": "用宽铲切翻结实土块",
+      "question": "人物用宽铲切翻结实土块，整体交互有多合理？",
+      "body": "观察双手握柄、铲刃下压或撬动及身体平衡。",
+      "contact": "铲与土块的作用位置应与手臂动作相联系。",
+      "object": "结实土块可开裂、松动或分离，不要求一碰就完全碎散。",
+      "aftermath": "若土块翻转或土屑落下，观察支撑、下落和停止，不要求整个料堆移位。",
+      "unknown": "只有准备或实际铲土作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、宽铲和土块关系整体严重不合理，或清楚显示没有切翻。",
+        "尝试可辨认，但铲刃作用与土块关键松裂或承托严重不符。",
+        "握持、接触或土块运动部分合理，同时有明显异常。",
+        "主要切翻、人体协调及土块支撑合理，仅有轻微局部异常。",
+        "实际切翻可评价，人体、宽铲、土块及可见后续落土协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut and turn compact earth with a broad shovel",
+      "question": "How physically plausible is the interaction as the person cuts and turns the compact earth?",
+      "body": "Consider two-hand grip, blade pressing or levering, and balance.",
+      "contact": "Blade action location should relate to arm motion.",
+      "object": "Compact earth may crack, loosen, or separate. Immediate complete crumbling is not required.",
+      "aftermath": "If clods turn or crumbs fall, consider support, falling, and stopping. Moving the whole pile is not required.",
+      "unknown": "Choose unable to judge if only preparation is shown or actual soil action cannot be assessed.",
+      "scores": [
+        "The person, broad shovel, and earth behave implausibly overall, or a clear view confirms no cutting or turning.",
+        "An attempt is recognizable, but blade action and key loosening or support seriously disagree.",
+        "Some grip, contact, or clod motion is plausible, alongside clear anomalies.",
+        "The main turning, body coordination, and clod support are plausible, with minor local anomalies.",
+        "Actual work is assessable, and the person, shovel, earth, and visible subsequent falling are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P197",
+    "media_id": "A_01811",
+    "zh": {
+      "title": "用铲转移独轮车中的土料",
+      "question": "人物用铲转移独轮车中的松散土料，整体交互有多合理？",
+      "body": "观察双手握柄、提铲倾倒与躯干协调，动作应与可见负载相容。",
+      "contact": "铲头入料、承托及离开车斗应与人体动作对应。",
+      "object": "土料可成小团或颗粒落下，变化应与铲的姿态相关，不要求全部流成连续液束。",
+      "aftermath": "若土料落地或回车斗，观察碰撞和堆积，不要求独轮车被清空。",
+      "unknown": "只有持铲准备，实际提取转移不足以评价时选择无法判断。",
+      "scores": [
+        "人体、铲、土料和独轮车整体严重不合理，或清楚显示没有转移。",
+        "转移尝试可辨认，但提铲负载与关键落土或支撑严重不符。",
+        "握持、承托或土料流落部分合理，同时有明显异常。",
+        "主要转移、人体协调及车斗铲头关系合理，仅有轻微局部异常。",
+        "实际转移可评价，人体、铲、土料、车斗及可见后续堆积协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Transfer soil from a wheelbarrow with a spade",
+      "question": "How physically plausible is the interaction as the person transfers the loose soil from the wheelbarrow?",
+      "body": "Consider two-hand grip, lifting and pouring, and torso coordination compatible with the visible load.",
+      "contact": "Scoop entry, support, and exit should correspond to body action.",
+      "object": "Soil may fall in grains or small clods related to scoop posture. A continuous liquid-like stream is not required.",
+      "aftermath": "If material lands on the ground or returns to the tray, consider collision and accumulation. Emptying the barrow is not required.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual lifting and transfer cannot be assessed.",
+      "scores": [
+        "The person, spade, soil, and barrow behave implausibly overall, or a clear view confirms no transfer.",
+        "An attempt is recognizable, but lifted load and key falling or support seriously disagree.",
+        "Some grip, support, or soil flow is plausible, alongside clear anomalies.",
+        "The main transfer, body coordination, and tray–scoop relation are plausible, with minor local anomalies.",
+        "Actual transfer is assessable, and the person, spade, soil, tray, and visible subsequent accumulation are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

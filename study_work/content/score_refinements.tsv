@@ -1,0 +1,95 @@
+sample_id	zh	en
+P198	例如，双手推压方向与底座位移或地面承托严重不符。	For example, two-hand pressure seriously conflicts with base displacement or floor support.
+P199	例如，手的抬盖动作与箱盖绕连接处的转动严重不符。	For example, hand lifting seriously conflicts with lid rotation about its connection.
+P201	例如，拉出盒体时的手部承托与架体导向严重不符。	For example, hand support during extraction seriously conflicts with rack guidance.
+P202	例如，桌腿展开与桌面降低、桌脚承重之间严重不符。	For example, leg unfolding seriously conflicts with top lowering and foot load transfer.
+P203	例如，把手拉动与抽屉沿柜内导向的移动严重不符。	For example, handle pulling seriously conflicts with guided drawer motion.
+P204	例如，前面板随手移动而抽屉主体与盒体的关系严重不连续。	For example, hand-driven front-panel motion seriously conflicts with drawer–box continuity.
+P205	例如，抬盖动作与塑料盖、箱体连接和桌面承托严重不符。	For example, lifting seriously conflicts with lid–case connection and tabletop support.
+P206	例如，双手拉动的作用位置与龙虾关节或壳体分离严重不符。	For example, opposing grips seriously conflict with joint or shell separation.
+P207	例如，手部拉动与柜面板的铰接或导向关系严重不符。	For example, hand pulling seriously conflicts with panel hinges or guidance.
+P208	例如，手指对位与面板、把手实际附着和支撑严重不符。	For example, finger alignment seriously conflicts with panel–handle attachment and support.
+P209	例如，手指按压与橡皮筋伸长、勺臂约束和释放严重不符。	For example, finger pressure seriously conflicts with band stretch, spoon constraints, and release.
+P210	例如，手的压动与木臂转动、球体约束和底架承托严重不符。	For example, pressing seriously conflicts with arm rotation, ball constraints, and frame support.
+P211	例如，锅面加速与湿面条滑动、腾空或回落严重不符。	For example, pan acceleration seriously conflicts with wet noodles sliding, lifting, or returning.
+P212	例如，倾锅角度与黏液越过锅缘的流动、落点积聚严重不符。	For example, pan tilt seriously conflicts with viscous rim flow and landing accumulation.
+P214	例如，手臂控杆与杆头入沙、带沙或退出的关键时序严重不符。	For example, arm control seriously conflicts with head entry, sand displacement, or withdrawal timing.
+P215	例如，球拍挥动与球受拍面作用后的速度或方向变化严重不符。	For example, paddle action seriously conflicts with the ball's speed or direction response.
+P216	例如，杆头通过球位的时刻与球从球座离开严重不符。	For example, clubhead passage seriously conflicts with ball departure from the tee.
+P218	例如，握杆和转体与杆头通过草面球位的关键轨迹严重不符。	For example, grip and body rotation seriously conflict with head passage through the grass-level ball position.
+P219	例如，双手随挥与球杆转动、减速和站姿承托严重不符。	For example, hand follow-through seriously conflicts with club rotation, deceleration, and stance support.
+P220	例如，手部握柄与拍框调向或停止时的惯性严重不符。	For example, handle grip seriously conflicts with frame orientation or stopping inertia.
+P221	例如，球棒接触位置与挡风玻璃新裂纹、变形或碎片形成严重不符。	For example, bat contact seriously conflicts with new windshield cracks, deformation, or fragment formation.
+P222	例如，锤头推压或敲击与框内玻璃的新变化严重不符。	For example, hammer pressure or tapping seriously conflicts with new changes in the framed glass.
+P223	例如，双手控筒控棍与竹筒承托、棍端可见接触严重不符。	For example, tube–stick control seriously conflicts with bamboo support and visible stick-end contact.
+P224	例如，双手降低木段与木段落到火坑后取得支撑严重不符。	For example, two-hand lowering seriously conflicts with support acquired in the fire pit.
+P225	例如，双手承托位置与长竹筒的重力方向、移动或停留严重不符。	For example, hand support seriously conflicts with the long tube's gravity, movement, or retention.
+P227	例如，手中柴条的放置与枝条堆实际承托严重不符。	For example, hand placement seriously conflicts with support from the branch pile.
+P228	例如，释放和接取时刻与火把自由飞行、旋转及停止严重不符。	For example, release and catch timing seriously conflict with torch flight, rotation, and arrest.
+P229	例如，提柄受手支撑与灯体摆动、重力和灯内火源严重不符。	For example, handle support seriously conflicts with lamp swinging, gravity, and the internal flame source.
+P230	例如，搬放长木段与地面、木堆间的承托转换严重不符。	For example, long-log placement seriously conflicts with ground-to-pile support transfer.
+P231	例如，换握或释放与火把杆体运动及燃烧端连续性严重不符。	For example, regripping or release seriously conflicts with shaft motion and burning-tip continuity.
+P232	例如，夹持金属丝与喷嘴火焰作用位置的空间关系严重不符。	For example, wire grip seriously conflicts with the spatial location of nozzle-flame heating.
+P233	例如，手套托持木段与木段重量支撑或端部火焰来源严重不符。	For example, gloved holding seriously conflicts with log support or the burning-end flame source.
+P234	例如，控柄动作与球形道具的连接约束、转动和火焰来源严重不符。	For example, handle action seriously conflicts with spherical-prop connections, rotation, and flame sources.
+P235	例如，按动点火机构与喷嘴火焰开始、保持或停止严重不符。	For example, ignition activation seriously conflicts with nozzle-flame onset, maintenance, or stopping.
+P236	例如，长杆推进与炉口接触、杆端连续性和火星来源严重不符。	For example, rod feeding seriously conflicts with opening contact, rod-end continuity, and spark origins.
+P237	例如，棍端推拨与燃烧木柴的位置变化或堆内承托严重不符。	For example, stick pushing seriously conflicts with log displacement or pile support.
+P238	例如，按喷动作与喷嘴液滴路径或可见火焰响应严重不符。	For example, trigger action seriously conflicts with droplet paths or visible flame response.
+P239	例如，戴手套的手部移动与手套形态、可见火焰来源严重不符。	For example, gloved-hand movement seriously conflicts with glove form and visible flame sources.
+P240	例如，握柄控锅与锅体支撑或火焰随锅运动的连续性严重不符。	For example, pan grip seriously conflicts with pan support or flame continuity during motion.
+P241	例如，长叉推压与面饼在炉壁上的接触、位置或附着严重不符。	For example, fork pressure seriously conflicts with bread contact, position, or attachment on the wall.
+P242	例如，双手举降与香束保持、烟气从燃烧端逸出严重不符。	For example, two-hand lifting seriously conflicts with bundle retention and smoke from burning tips.
+P243	例如，握持和调向与金属喷灯、软管约束及喷嘴火焰严重不符。	For example, grip and orientation seriously conflict with torch structure, hose constraints, and nozzle flame.
+P244	例如，手部扶持与炉门、炉体连接及炭火空间关系严重不符。	For example, hand support seriously conflicts with door–casing connections and coal locations.
+P245	例如，手指承托与圆柱体升降、顶部及下部的连续性严重不符。	For example, finger support seriously conflicts with cylinder movement and top-to-body continuity.
+P246	例如，双手定位与元件承托、打火机火焰接近关系严重不符。	For example, two-hand positioning seriously conflicts with component support and lighter-flame proximity.
+P247	例如，叉的固定和刀的往复切动与牛排切口发展严重不符。	For example, fork restraint and knife sawing seriously conflict with steak-cut progression.
+P248	例如，长刀沿肉面切动与火腿薄片形成或固定架承托严重不符。	For example, long-blade slicing seriously conflicts with ham-slice formation or stand support.
+P249	例如，手或工具的取放与软馅转移、卷体承托严重不符。	For example, hand or tool transfer seriously conflicts with filling deposition and roll support.
+P250	例如，刀刃切动与细长叶茎弯曲、切段出现的时序严重不符。	For example, blade strokes seriously conflict with slender-stem bending and segment formation timing.
+P251	例如，刀刃切入与空腔青椒薄壁分离及扶椒固定严重不符。	For example, blade entry seriously conflicts with hollow-pepper wall separation and stabilization.
+P252	例如，刀刃切动与洋葱层片分离或砧板承托严重不符。	For example, blade action seriously conflicts with onion-layer separation or board support.
+P253	例如，切片器下压与实际切割区域、黄瓜分片严重不符。	For example, slicer pressure seriously conflicts with its actual cutting region and cucumber separation.
+P254	例如，胡萝卜沿刨面摩擦与新细丝形成、入盒严重不符。	For example, carrot strokes seriously conflict with new shred formation and box entry.
+P255	例如，手指按压与薄荷叶弯曲、进入杯内的支撑严重不符。	For example, finger pressure seriously conflicts with mint bending and support on glass entry.
+P257	例如，刀刃作用与紫胡萝卜片块分离、根体防滚支撑严重不符。	For example, blade action seriously conflicts with purple-carrot separation and restraint against rolling.
+P258	例如，食材与刨面往复摩擦和表面去除、碎屑入碗严重不符。	For example, reciprocal strokes seriously conflict with surface removal and shreds entering the bowl.
+P259	例如，刀刃切入与新黄瓜片形成、剩余瓜体连续性严重不符。	For example, blade entry seriously conflicts with new cucumber slices and continuity of the remainder.
+P260	例如，小刀切入与番茄软果肉压缩、切口发展严重不符。	For example, knife entry seriously conflicts with soft-tomato compression and cut progression.
+P261	例如，小刀切动与胡萝卜根体分离、叶根连接严重不符。	For example, knife action seriously conflicts with root separation and leaf–root connections.
+P262	例如，宽刀下压与玉米棒切入、段块或颗粒分离严重不符。	For example, broad-blade pressure seriously conflicts with cob entry or section and kernel separation.
+P263	例如，沿瓜面削动与薄皮去除、皮条脱离严重不符。	For example, surface strokes seriously conflict with thin-skin removal and peel release.
+P264	例如，压泥器下压与熟土豆块压碎、碗底承托严重不符。	For example, masher pressure seriously conflicts with cooked-potato crushing and bowl-bottom support.
+P265	例如，削皮刀沿外皮移动与皮屑去除、土豆承托严重不符。	For example, surface blade motion seriously conflicts with skin removal and potato support.
+P266	例如，手部承托释放与洋葱块从板面进入锅口的轨迹严重不符。	For example, hand support and release seriously conflict with onion trajectories from board to pot.
+P267	例如，手抬箱盖与后备箱铰接、车体支撑严重不符。	For example, lid lifting seriously conflicts with trunk hinges and vehicle support.
+P268	例如，双手压调与尾翼对齐、安装连接和松手支撑严重不符。	For example, two-hand adjustment seriously conflicts with spoiler alignment, attachment, and release support.
+P269	例如，双手推承与金属桶转动、车厢底面承托严重不符。	For example, two-hand pushing and holding seriously conflict with barrel rotation and cargo-floor support.
+P270	例如，倾罐控勺与液体经勺面进入杯口的路径严重不符。	For example, can–spoon coordination seriously conflicts with the liquid path into the glass.
+P271	例如，瓶体倾角与瓶口流束、杯内液位变化严重不符。	For example, bottle tilt seriously conflicts with mouth outflow and glass liquid-level changes.
+P272	例如，醒酒器倾斜与红液越过器口、流入酒杯严重不符。	For example, decanter tilt seriously conflicts with red-liquid outflow and wine-glass entry.
+P273	例如，托持和吹气与余烬、烟气的可见时序响应严重不符。	For example, holding and blowing seriously conflict with visible ember and smoke response timing.
+P274	例如，低位持物操作与木堆支撑、可见火烟位置严重不符。	For example, low-level handling seriously conflicts with pile support and visible fire or smoke locations.
+P275	例如，双手承托与松散火绒保持、火焰烟气来源严重不符。	For example, two-hand support seriously conflicts with loose-tinder retention and flame or smoke sources.
+P276	例如，双手推送与枝草进入炉口、压缩和留置严重不符。	For example, hand feeding seriously conflicts with branch–straw entry, compression, and retention.
+P277	例如，吹气和托束与干草阴燃、烟气扩散的关系严重不符。	For example, blowing and bundle support seriously conflict with smoldering and smoke dispersal.
+P278	例如，手指穿绕与发圈伸缩、发束受到的约束严重不符。	For example, finger threading seriously conflicts with tie elasticity and hair constraints.
+P279	例如，控器与发束进入卷筒、卷绕或退出的连续性严重不符。	For example, tool control seriously conflicts with continuous strand entry, winding, or exit.
+P280	例如，夹板开合和滑动与发束受夹、释放的关系严重不符。	For example, plate opening and sliding seriously conflict with strand clamping and release.
+P281	例如，梳卷动作与发丝工具接触、发束弯曲和释放严重不符。	For example, combing or curling seriously conflicts with tool contact, strand bending, and release.
+P282	例如，喷嘴方向和拨发动作与发丝局部气流响应严重不符。	For example, nozzle direction and hand guidance seriously conflict with local hair airflow response.
+P283	例如，刷毛接触与膏体从刷面转移到发根严重不符。	For example, bristle contact seriously conflicts with cream transfer to hair roots.
+P284	例如，双手控棒与额前发束夹取、绕动和释放严重不符。	For example, stick control seriously conflicts with gripping, winding, and releasing the forehead section.
+P285	例如，换握位置与空手套折叠、下垂和剩余支撑严重不符。	For example, regripping seriously conflicts with empty-glove folding, hanging, and remaining support.
+P286	例如，手部前送与标枪脱手时刻、离手后的轨迹严重不符。	For example, forward delivery seriously conflicts with javelin release timing and subsequent trajectory.
+P287	例如，步伐摆臂与保龄球脱手、接触球道的时刻严重不符。	For example, steps and swing seriously conflict with bowling-ball release and lane-contact timing.
+P288	例如，手腕控锅与饼离锅、翻转和重力回落严重不符。	For example, wrist action seriously conflicts with pancake departure, rotation, and gravitational return.
+P290	例如，握柄提拉与系绳球轨迹、绳长约束和接球接触严重不符。	For example, handle lifting seriously conflicts with tethered-ball paths, string constraints, and catches.
+P292	例如，锅面提送与块状食材分散、离锅或回锅碰撞严重不符。	For example, pan delivery seriously conflicts with chunk dispersal, departure, or returning collisions.
+P293	例如，双手投送与药球脱手、墙面反弹或手部回接严重不符。	For example, two-hand delivery seriously conflicts with release, wall rebound, or receiving contact.
+P294	例如，手部抬降与橙子承托、脱手下落或重新接触严重不符。	For example, hand lifting seriously conflicts with orange support, free falling, or renewed contact.
+P295	例如，身体转动与球杆通过室内击球区域、随挥减速严重不符。	For example, body rotation seriously conflicts with club passage through the indoor hitting area and follow-through deceleration.
+P296	例如，转体挥拍与球在拍面作用前后的速度方向严重不符。	For example, torso and racket action seriously conflict with ball speed and direction around contact.
+P298	例如，低位挥拍与小球受拍、碰墙或落地反弹严重不符。	For example, a low swing seriously conflicts with racket contact and wall or floor rebounds.
+P299	例如，沿架杆位置推杆与母球被杆头启动、台面滚动严重不符。	For example, guided cue delivery seriously conflicts with tip-driven cue-ball onset and cloth rolling.

@@ -1,0 +1,230 @@
+[
+  {
+    "sample_id": "P008",
+    "media_id": "A_02861",
+    "source_task_id": "A_02861",
+    "video": "./media/A_02861.mp4",
+    "zh": {
+      "title": "用长剑切西瓜",
+      "question": "人物用长剑切木凳上的西瓜，整个交互的物理表现有多合理？",
+      "body": "观察握剑、手臂与躯干的协调及平衡，动作幅度和姿势可以不同。",
+      "contact": "剑刃与西瓜的接触、剑的运动和西瓜的支撑关系应连续且可解释。",
+      "object": "切入、变形或分离若可见，应与剑的作用相联系，不规定瓜块数量。",
+      "aftermath": "若瓜块移动、掉落或滚动，观察其与木凳和地面的关系；这些后果不必全部出现。",
+      "scores": [
+        "人物与剑的运动、西瓜及支撑关系整体严重不合理，或画面清楚地显示没有执行切割。",
+        "可辨认切割尝试，但剑与西瓜的关键作用及其反应严重不符。",
+        "挥剑、接触或瓜的变化中既有合理部分，也有影响关键过程的明显异常。",
+        "主要切割过程及人体与西瓜反应可以解释，仅有轻微局部异常。",
+        "实际切割已呈现，人物、剑、西瓜及可见后续表现协调，没有明显物理异常。"
+      ],
+      "unknown": "仅有准备动作，或剑与西瓜的关键接触始终不可见，无法评价实际切割时选择无法判断。"
+    },
+    "en": {
+      "title": "Cut a watermelon with a sword",
+      "question": "How physically plausible is the overall interaction as the person cuts a watermelon on a wooden stool with a sword?",
+      "body": "Consider the grip, coordination of arm and torso, and balance. Different postures and ranges of motion are possible.",
+      "contact": "The blade contact, sword motion, and support of the watermelon should remain continuous and physically interpretable.",
+      "object": "Any visible penetration, deformation, or separation should relate to the sword’s action. No fixed number of pieces is required.",
+      "aftermath": "If pieces move, fall, or roll, consider their relation to the stool and ground. These outcomes need not all occur.",
+      "scores": [
+        "The person, sword, watermelon, and support behave implausibly overall, or a clear view confirms no cutting action.",
+        "A cutting attempt is recognizable, but the key action and watermelon response seriously disagree.",
+        "Plausible aspects coexist with clear anomalies affecting the swing, contact, or fruit response.",
+        "The main cutting action and responses are interpretable, with only minor local anomalies.",
+        "Actual cutting is shown, and the person, sword, watermelon, and visible aftermath are coherent without obvious physical anomalies."
+      ],
+      "unknown": "Choose unable to judge if only preparation is shown or the crucial blade–fruit interaction is never visible."
+    }
+  },
+  {
+    "sample_id": "P068",
+    "media_id": "A_02363",
+    "source_task_id": "A_02363",
+    "video": "./media/A_02363.mp4",
+    "zh": {
+      "title": "从啤酒瓶向玻璃杯倾倒",
+      "question": "人物将瓶中饮品倒入玻璃杯的整体交互有多合理？",
+      "body": "观察手臂与手腕对瓶子的控制及姿势协调，倾斜角度可以变化。",
+      "contact": "瓶口、杯口和液流的位置与时间应相互对应，瓶子与手的运动保持连续。",
+      "object": "可见液体应从瓶口流向合理位置；杯内液面或泡沫变化应与流入过程相联系。",
+      "aftermath": "若出现溢出或液滴，观察其下落与接触；不要求发生溢出。",
+      "scores": [
+        "人物、瓶杯与液体的可见过程整体严重不合理，或清楚显示没有倾倒。",
+        "可辨认倾倒尝试，但瓶口、液流与杯中反应的关键关系严重不符。",
+        "瓶子的控制或液体变化部分合理，同时存在影响倾倒过程的明显异常。",
+        "主要倾倒及人物、液体和杯中反应合理，仅有轻微局部异常。",
+        "实际倾倒已呈现，人体控制、瓶杯、液流及可见后续变化协调，没有明显异常。"
+      ],
+      "unknown": "仅摆放瓶杯，或瓶口和液体转移始终无法观察时选择无法判断。"
+    },
+    "en": {
+      "title": "Pour from a beer bottle into a glass",
+      "question": "How physically plausible is the overall interaction as the person pours the drink into the glass?",
+      "body": "Consider arm and wrist control of the bottle and posture. The tilt can vary.",
+      "contact": "The bottle opening, glass opening, and stream should align in space and time, with continuous hand–bottle motion.",
+      "object": "Visible liquid should flow from the bottle opening to a plausible location. Changes in liquid level or foam should relate to the inflow.",
+      "aftermath": "If liquid spills or droplets appear, consider their fall and contact. Spilling is not required.",
+      "scores": [
+        "The visible person, vessels, and liquid behave implausibly overall, or a clear view confirms no pouring.",
+        "A pouring attempt is recognizable, but the relation between bottle, stream, and glass response is seriously inconsistent.",
+        "Some bottle control or liquid changes are plausible, alongside clear anomalies affecting the pour.",
+        "The main pour and the person’s and liquid’s responses are plausible, with minor local anomalies.",
+        "Actual pouring is shown, and the person, vessels, flow, and visible subsequent changes are coherent without obvious anomalies."
+      ],
+      "unknown": "Choose unable to judge if the vessels are only positioned or the opening and transfer cannot be observed."
+    }
+  },
+  {
+    "sample_id": "P200",
+    "media_id": "A_00809",
+    "source_task_id": "A_00809",
+    "video": "./media/A_00809.mp4",
+    "zh": {
+      "title": "拉出鸡舍底部抽屉",
+      "question": "人物拉出鸡舍底部木抽屉的整体交互有多合理？",
+      "body": "观察手部抓持、手臂与身体的协调以及抽屉负载下的平衡，不限定站姿。",
+      "contact": "手与抽屉的接触、拉动方向及抽屉相对鸡舍的移动应连续。",
+      "object": "抽屉沿可解释的支撑或导向关系移动，开口和抽屉位置变化与拉动相对应。",
+      "aftermath": "若抽屉停止、倾斜或脱离支撑，观察它与鸡舍及地面的关系，不要求完全拉出。",
+      "scores": [
+        "人体、抽屉和鸡舍的可见关系整体严重不合理，或清楚显示没有拉动抽屉。",
+        "可辨认拉动尝试，但手的作用与抽屉的关键移动严重不符。",
+        "拉动或支撑部分合理，同时存在影响抽屉移动的明显异常。",
+        "主要拉动及人体、抽屉和支撑关系合理，仅有轻微局部异常。",
+        "实际拉动已呈现，人体、抽屉、支撑和可见后续运动协调，没有明显异常。"
+      ],
+      "unknown": "仅有靠近或准备，或手与抽屉的实际交互始终不可见时选择无法判断。"
+    },
+    "en": {
+      "title": "Pull out the chicken-coop drawer",
+      "question": "How physically plausible is the overall interaction as the person pulls out the wooden drawer beneath the coop?",
+      "body": "Consider the grip, coordination of arms and body, and balance under the drawer’s load. No fixed stance is required.",
+      "contact": "Hand contact, pulling direction, and drawer movement relative to the coop should be continuous.",
+      "object": "The drawer should move in a way consistent with its visible support or guides, and its position should relate to the pull.",
+      "aftermath": "If the drawer stops, tilts, or leaves its support, consider its relation to the coop and ground. Full removal is not required.",
+      "scores": [
+        "The visible person, drawer, and coop behave implausibly overall, or a clear view confirms no pulling.",
+        "A pulling attempt is recognizable, but the hand action and key drawer movement seriously disagree.",
+        "Some pulling or support is plausible, alongside clear anomalies affecting the drawer movement.",
+        "The main pull and the person, drawer, and support are plausible, with minor local anomalies.",
+        "Actual pulling is shown, and the person, drawer, support, and visible subsequent motion are coherent without obvious anomalies."
+      ],
+      "unknown": "Choose unable to judge if only approach or preparation is shown, or the actual hand–drawer interaction is never visible."
+    }
+  },
+  {
+    "sample_id": "P157",
+    "media_id": "A_01199",
+    "source_task_id": "A_01199",
+    "video": "./media/A_01199.mp4",
+    "zh": {
+      "title": "整理并折叠条纹衣物",
+      "question": "人物在桌面上整理并折叠条纹衣物的整体交互有多合理？",
+      "body": "观察双手、手臂与身体的配合，允许不同抓持位置和折叠顺序。",
+      "contact": "手与衣物接触及牵引、按压过程应与布料移动相联系。",
+      "object": "布料可弯曲、褶皱和重叠，形状变化应与手的操作和桌面支撑相协调。",
+      "aftermath": "若松手后布料滑动或褶皱变化，观察其与桌面的关系，不规定最终折叠形状。",
+      "scores": [
+        "人物、衣物和桌面的可见过程整体严重不合理，或画面清楚显示没有整理或折叠。",
+        "可辨认整理或折叠尝试，但手的操作与衣物关键变化严重不符。",
+        "手部操作或布料变化部分合理，同时存在影响主要过程的明显异常。",
+        "主要整理或折叠过程及人体、衣物反应合理，仅有轻微局部异常。",
+        "实际整理或折叠已呈现，双手、布料、桌面及可见后续变化协调，没有明显异常。"
+      ],
+      "unknown": "仅有准备，或手与布料的实际交互始终不可见时选择无法判断。"
+    },
+    "en": {
+      "title": "Arrange and fold a striped garment",
+      "question": "How physically plausible is the overall interaction as the person arranges and folds the garment on the table?",
+      "body": "Consider coordination of hands, arms, and body. Different grips and folding orders are possible.",
+      "contact": "Hand contact, pulling, and pressing should relate to the garment’s movement.",
+      "object": "The fabric may bend, wrinkle, and overlap. Its changes should relate to hand actions and table support.",
+      "aftermath": "If the fabric slides or wrinkles change after release, consider its relation to the table. No fixed final fold is required.",
+      "scores": [
+        "The visible person, garment, and table behave implausibly overall, or a clear view confirms no arranging or folding.",
+        "An attempt is recognizable, but hand actions and key fabric changes seriously disagree.",
+        "Some hand actions or fabric changes are plausible, alongside clear anomalies affecting the main process.",
+        "The main arranging or folding action and responses are plausible, with minor local anomalies.",
+        "Actual arranging or folding is shown, and hands, fabric, table, and visible subsequent changes are coherent without obvious anomalies."
+      ],
+      "unknown": "Choose unable to judge if only preparation is shown or actual hand–fabric interaction is never visible."
+    }
+  },
+  {
+    "sample_id": "P213",
+    "media_id": "A_02835",
+    "source_task_id": "A_02835",
+    "video": "./media/A_02835.mp4",
+    "zh": {
+      "title": "用平底锅抛动食材",
+      "question": "厨师通过摇动平底锅抛动食材的整体交互有多合理？",
+      "body": "观察握持锅柄、手腕和手臂的协调以及对锅的控制，动作幅度可以不同。",
+      "contact": "锅与食材的接触、锅的加速及食材离开或返回锅面的时序应相互对应。",
+      "object": "食材可在锅内滑动或短暂离开锅面，其运动与锅的作用及重力相联系。",
+      "aftermath": "若食材落回锅中或落到其他表面，观察碰撞和停止过程，不要求每块食材都离锅。",
+      "scores": [
+        "人体、锅与食材的可见运动整体严重不合理，或画面清楚显示没有抛动操作。",
+        "可辨认抛动尝试，但锅的运动与食材关键反应严重不符。",
+        "锅或食材的部分运动合理，同时存在影响抛动过程的明显异常。",
+        "主要抛动及人体、锅和食材反应合理，仅有轻微局部异常。",
+        "实际抛动已呈现，人体、锅、食材及可见落回或后续运动协调，没有明显异常。"
+      ],
+      "unknown": "仅持锅准备，或锅与食材的实际交互始终不可见时选择无法判断。"
+    },
+    "en": {
+      "title": "Toss ingredients in a frying pan",
+      "question": "How physically plausible is the overall interaction as the chef shakes the pan to toss the ingredients?",
+      "body": "Consider the grip on the handle, coordination of wrist and arm, and control of the pan. The motion range may vary.",
+      "contact": "Pan–food contact, pan acceleration, and the timing of food leaving or returning to the surface should correspond.",
+      "object": "Food may slide in the pan or briefly leave it. Its motion should relate to the pan action and gravity.",
+      "aftermath": "If food returns to the pan or lands elsewhere, consider the impact and stopping motion. Not every piece needs to leave the pan.",
+      "scores": [
+        "The visible person, pan, and food behave implausibly overall, or a clear view confirms no tossing action.",
+        "A tossing attempt is recognizable, but pan motion and the key food response seriously disagree.",
+        "Some pan or food motion is plausible, alongside clear anomalies affecting the toss.",
+        "The main tossing action and the person, pan, and food responses are plausible, with minor local anomalies.",
+        "Actual tossing is shown, and the person, pan, food, and visible landing or subsequent motion are coherent without obvious anomalies."
+      ],
+      "unknown": "Choose unable to judge if the pan is only held in preparation or actual pan–food interaction is never visible."
+    }
+  },
+  {
+    "sample_id": "P226",
+    "media_id": "A_04694",
+    "source_task_id": "A_04694",
+    "video": "./media/A_04694.mp4",
+    "zh": {
+      "title": "用打火机点燃雪茄",
+      "question": "人物用打火机点燃雪茄的整体交互有多合理？",
+      "body": "观察双手对雪茄和打火机的控制与协调，不限定握法或固定姿势。",
+      "contact": "火焰与雪茄末端的相对位置及接触时间应与点燃过程相联系。",
+      "object": "若可见火焰、烟或雪茄末端变化，它们应与热源及燃烧过程相协调。",
+      "aftermath": "若火焰移开后出现烟或余火，观察其持续或消散，不要求同时出现所有现象。",
+      "scores": [
+        "人物、打火机、雪茄与火焰的可见过程整体严重不合理，或画面清楚显示没有点燃操作。",
+        "可辨认点燃尝试，但热源作用与雪茄的关键反应严重不符。",
+        "手部控制或燃烧变化部分合理，同时存在影响点燃过程的明显异常。",
+        "主要点燃过程及人体、热源和雪茄反应合理，仅有轻微局部异常。",
+        "实际点燃交互已呈现，双手、热源、雪茄及可见后续变化协调，没有明显异常。"
+      ],
+      "unknown": "仅有准备，或火焰与雪茄末端的实际交互始终不可见时选择无法判断。"
+    },
+    "en": {
+      "title": "Light a cigar with a lighter",
+      "question": "How physically plausible is the overall interaction as the person lights a cigar with a lighter?",
+      "body": "Consider control and coordination of both hands with the cigar and lighter. No fixed grip or posture is required.",
+      "contact": "The flame’s position and contact time relative to the cigar tip should relate to the lighting process.",
+      "object": "Any visible flame, smoke, or change at the cigar tip should be consistent with the heat source and combustion.",
+      "aftermath": "If smoke or an ember appears after the flame moves away, consider its persistence or dissipation. All such effects are not required.",
+      "scores": [
+        "The visible person, lighter, cigar, and flame behave implausibly overall, or a clear view confirms no lighting action.",
+        "A lighting attempt is recognizable, but heat application and the key cigar response seriously disagree.",
+        "Some hand control or combustion changes are plausible, alongside clear anomalies affecting lighting.",
+        "The main lighting process and the person, heat source, and cigar responses are plausible, with minor local anomalies.",
+        "Actual lighting interaction is shown, and hands, heat source, cigar, and visible subsequent changes are coherent without obvious anomalies."
+      ],
+      "unknown": "Choose unable to judge if only preparation is shown or actual flame–cigar interaction is never visible."
+    }
+  }
+]

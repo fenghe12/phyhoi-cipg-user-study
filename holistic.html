@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>PhyHOI-Bench · 整体物理合理性评分</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./holistic.css">
+  <script src="./holistic_data.js" defer></script>
+  <script src="./holistic_allocation.js" defer></script>
+  <script src="./holistic.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div><div class="brand">PhyHOI-Bench</div><div class="study-title" id="demo"></div></div>
+    <div class="topbar-actions">
+      <div class="language-control">
+        <span>Language / 语言 / 言語</span>
+        <div class="language-switch" role="group" aria-label="Language / 语言 / 言語">
+          <button type="button" id="languageEn">English</button>
+          <button type="button" id="languageZh">中文</button>
+          <button type="button" id="languageJa">日本語</button>
+        </div>
+      </div>
+      <div class="progress-block">
+        <div class="progress-copy"><span id="progress"></span><span id="saveState" role="status"></span></div>
+        <div class="progress-track"><div id="progressFill"></div></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="holistic-instructions"><strong id="scope"></strong><p id="intro"></p></div>
+    <div class="holistic-toolbar">
+      <label for="caseSelect" id="caseLabel"></label><select id="caseSelect"></select>
+      <button id="export" type="button" class="secondary-button"></button>
+    </div>
+    <p id="storageError" class="notice" role="alert" hidden></p>
+    <p id="complete" class="completion-note" role="status" hidden></p>
+    <div class="holistic-layout">
+      <section class="video-column">
+        <div class="sample-meta"><span id="sampleIndex" class="sample-index"></span><span id="blind" class="blind-badge"></span></div>
+        <div class="video-shell"><video id="video" controls playsinline loop preload="metadata"></video></div>
+        <div class="holistic-video-footer"><p id="watch" role="status"></p><p id="mediaError" role="alert" hidden></p>
+          <div class="nav"><button id="prev" type="button" class="secondary-button"></button><button id="replay" type="button" class="secondary-button"></button><button id="next" type="button" class="primary-button"></button></div>
+        </div>
+      </section>
+      <section class="rating-column">
+        <div class="rating-head"><div><p class="eyebrow" id="ratingMode"></p><h1 id="title"></h1></div></div>
+        <div class="holistic-rating-body">
+          <p id="question" class="question"></p><h2 id="instructionHeading"></h2><ol id="guidance" class="case-instructions"></ol><p id="visibility" class="notice"></p>
+          <fieldset id="ratings"><legend id="legend"></legend><div id="options"></div></fieldset>
+          <label for="reason" id="reasonLabel"></label><textarea id="reason" rows="3"></textarea>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

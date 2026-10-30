@@ -1,0 +1,546 @@
+[
+  {
+    "sample_id": "P286",
+    "media_id": "A_04609",
+    "zh": {
+      "title": "投掷标枪",
+      "question": "人物投掷标枪，整体交互有多合理？",
+      "body": "观察持枪、后引、身体转动和前送的连续协调，不指定唯一运动技术。",
+      "contact": "手对标枪的支撑、加速和释放应相关，枪身应保持连续结构。",
+      "object": "若标枪脱手，运动应与释放方向和重力相容，不要求整段远距离飞行可见。",
+      "aftermath": "若有随动或落地，观察惯性与支撑，不推断画面外命中或距离。",
+      "unknown": "仅显示后引等准备动作而实际投掷不足以评价时选择无法判断。",
+      "scores": [
+        "人体投掷、标枪释放与可见飞行整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体投掷、标枪释放与可见飞行的关键关系严重不符。",
+        "人体投掷、标枪释放与可见飞行部分合理，同时存在明显异常。",
+        "人体投掷、标枪释放与可见飞行主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体投掷、标枪释放与可见飞行及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Throw a javelin",
+      "question": "How physically plausible is the interaction: throw a javelin?",
+      "body": "Consider continuous coordination of grip, withdrawal, body rotation, and forward delivery without prescribing one technique.",
+      "contact": "Support, acceleration, and release should correspond, with continuous javelin structure.",
+      "object": "If released, motion should fit release direction and gravity. The entire long flight need not be visible.",
+      "aftermath": "If follow-through or landing is shown, consider inertia and support without inferring off-screen distance or success.",
+      "unknown": "Choose unable to judge if only withdrawal or other preparation is shown and actual throwing cannot be assessed.",
+      "scores": [
+        "Body throwing, javelin release, and visible flight are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body throwing, javelin release, and visible flight seriously disagree.",
+        "Body throwing, javelin release, and visible flight are partly plausible, alongside clear anomalies.",
+        "The main relationships among body throwing, javelin release, and visible flight are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body throwing, javelin release, and visible flight and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P287",
+    "media_id": "A_04476",
+    "zh": {
+      "title": "投出保龄球",
+      "question": "人物投出保龄球，整体交互有多合理？",
+      "body": "观察双手承球到单手摆臂、步伐和下放释放的协调。",
+      "contact": "球应在持握时受手支撑，脱手时刻与前摆及球道接触应相关。",
+      "object": "球可向前滚动，不要求腾空很高或短片内撞到球瓶。",
+      "aftermath": "若球在道上继续运动或人随挥，观察接触和惯性，不推断画面外击瓶结果。",
+      "unknown": "只有抱球或后摆准备，实际投出不足以评价时选择无法判断。",
+      "scores": [
+        "人体步伐摆臂、保龄球释放与球道接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体步伐摆臂、保龄球释放与球道接触的关键关系严重不符。",
+        "人体步伐摆臂、保龄球释放与球道接触部分合理，同时存在明显异常。",
+        "人体步伐摆臂、保龄球释放与球道接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体步伐摆臂、保龄球释放与球道接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Deliver a bowling ball",
+      "question": "How physically plausible is the interaction: deliver a bowling ball?",
+      "body": "Consider transfer from two-hand support to arm swing, stepping, and low release.",
+      "contact": "Hands should support the held ball, with separation related to forward swing and lane contact.",
+      "object": "The ball may roll forward. High airborne motion or pin impact within the clip is not required.",
+      "aftermath": "On continuing lane motion or follow-through, consider contact and inertia without inferring off-screen pin results.",
+      "unknown": "Choose unable to judge if only holding or backswing preparation is shown and actual delivery cannot be assessed.",
+      "scores": [
+        "Body stepping and swing, bowling-ball release, and lane contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body stepping and swing, bowling-ball release, and lane contact seriously disagree.",
+        "Body stepping and swing, bowling-ball release, and lane contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among body stepping and swing, bowling-ball release, and lane contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body stepping and swing, bowling-ball release, and lane contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P288",
+    "media_id": "A_04287",
+    "zh": {
+      "title": "晃动平底锅翻饼",
+      "question": "人物晃动平底锅翻饼，整体交互有多合理？",
+      "body": "观察握柄、手腕提送与上身平衡。",
+      "contact": "锅面作用、饼离锅和回落时刻应与手臂动作相容。",
+      "object": "整张饼可滑动、弯曲或空中翻转，不要求像液体一样流出或出现固定高度。",
+      "aftermath": "若饼落回锅面，观察重力、柔性及再次接触，不要求翻转必须成功才可给合理分。",
+      "unknown": "只有端锅准备，实际翻动不足以评价时选择无法判断。",
+      "scores": [
+        "人体控锅、饼的离锅翻转与回落接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控锅、饼的离锅翻转与回落接触的关键关系严重不符。",
+        "人体控锅、饼的离锅翻转与回落接触部分合理，同时存在明显异常。",
+        "人体控锅、饼的离锅翻转与回落接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控锅、饼的离锅翻转与回落接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Toss a pancake with a frying pan",
+      "question": "How physically plausible is the interaction: toss a pancake with a frying pan?",
+      "body": "Consider handle grip, wrist delivery, and upper-body balance.",
+      "contact": "Pan action, pancake departure, and return timing should be compatible with arm motion.",
+      "object": "The whole pancake may slide, bend, or rotate in flight without liquid-like outflow or a prescribed height.",
+      "aftermath": "On return, consider gravity, flexibility, and renewed contact. A successful flip is not required for plausible physics.",
+      "unknown": "Choose unable to judge if only holding preparation is shown and actual tossing cannot be assessed.",
+      "scores": [
+        "Pan control, pancake departure and rotation, and return contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among pan control, pancake departure and rotation, and return contact seriously disagree.",
+        "Pan control, pancake departure and rotation, and return contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among pan control, pancake departure and rotation, and return contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and pan control, pancake departure and rotation, and return contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P289",
+    "media_id": "A_04061",
+    "zh": {
+      "title": "晃动平底锅翻饼",
+      "question": "人物晃动平底锅翻饼，整体交互有多合理？",
+      "body": "观察握柄、手腕提送与上身平衡。",
+      "contact": "锅面作用、饼离锅和回落时刻应与手臂动作相容。",
+      "object": "整张饼可滑动、弯曲或空中翻转，不要求像液体一样流出或出现固定高度。",
+      "aftermath": "若饼落回锅面，观察重力、柔性及再次接触，不要求翻转必须成功才可给合理分。",
+      "unknown": "只有端锅准备，实际翻动不足以评价时选择无法判断。",
+      "scores": [
+        "人体控锅、饼的离锅翻转与回落接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控锅、饼的离锅翻转与回落接触的关键关系严重不符。",
+        "人体控锅、饼的离锅翻转与回落接触部分合理，同时存在明显异常。",
+        "人体控锅、饼的离锅翻转与回落接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控锅、饼的离锅翻转与回落接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Toss a pancake with a frying pan",
+      "question": "How physically plausible is the interaction: toss a pancake with a frying pan?",
+      "body": "Consider handle grip, wrist delivery, and upper-body balance.",
+      "contact": "Pan action, pancake departure, and return timing should be compatible with arm motion.",
+      "object": "The whole pancake may slide, bend, or rotate in flight without liquid-like outflow or a prescribed height.",
+      "aftermath": "On return, consider gravity, flexibility, and renewed contact. A successful flip is not required for plausible physics.",
+      "unknown": "Choose unable to judge if only holding preparation is shown and actual tossing cannot be assessed.",
+      "scores": [
+        "Pan control, pancake departure and rotation, and return contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among pan control, pancake departure and rotation, and return contact seriously disagree.",
+        "Pan control, pancake departure and rotation, and return contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among pan control, pancake departure and rotation, and return contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and pan control, pancake departure and rotation, and return contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "与P288同为平底锅翻整张饼，锅材质和饼色不改变本条物理作用条件"
+  },
+  {
+    "sample_id": "P291",
+    "media_id": "A_03943",
+    "zh": {
+      "title": "晃动平底锅翻饼",
+      "question": "人物晃动平底锅翻饼，整体交互有多合理？",
+      "body": "观察握柄、手腕提送与上身平衡。",
+      "contact": "锅面作用、饼离锅和回落时刻应与手臂动作相容。",
+      "object": "整张饼可滑动、弯曲或空中翻转，不要求像液体一样流出或出现固定高度。",
+      "aftermath": "若饼落回锅面，观察重力、柔性及再次接触，不要求翻转必须成功才可给合理分。",
+      "unknown": "只有端锅准备，实际翻动不足以评价时选择无法判断。",
+      "scores": [
+        "人体控锅、饼的离锅翻转与回落接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控锅、饼的离锅翻转与回落接触的关键关系严重不符。",
+        "人体控锅、饼的离锅翻转与回落接触部分合理，同时存在明显异常。",
+        "人体控锅、饼的离锅翻转与回落接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控锅、饼的离锅翻转与回落接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Toss a pancake with a frying pan",
+      "question": "How physically plausible is the interaction: toss a pancake with a frying pan?",
+      "body": "Consider handle grip, wrist delivery, and upper-body balance.",
+      "contact": "Pan action, pancake departure, and return timing should be compatible with arm motion.",
+      "object": "The whole pancake may slide, bend, or rotate in flight without liquid-like outflow or a prescribed height.",
+      "aftermath": "On return, consider gravity, flexibility, and renewed contact. A successful flip is not required for plausible physics.",
+      "unknown": "Choose unable to judge if only holding preparation is shown and actual tossing cannot be assessed.",
+      "scores": [
+        "Pan control, pancake departure and rotation, and return contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among pan control, pancake departure and rotation, and return contact seriously disagree.",
+        "Pan control, pancake departure and rotation, and return contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among pan control, pancake departure and rotation, and return contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and pan control, pancake departure and rotation, and return contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "与P288同为平底锅翻整张饼，锅材质和饼色不改变本条物理作用条件"
+  },
+  {
+    "sample_id": "P290",
+    "media_id": "A_03997",
+    "zh": {
+      "title": "用剑玉托接系绳小球",
+      "question": "人物用剑玉托接系绳小球，整体交互有多合理？",
+      "body": "观察握持木柄、抛起或提拉和对准接球位置的协调。",
+      "contact": "球与柄之间的绳长约束应合理，接触时应对应手柄的承接位置。",
+      "object": "球可在松绳时运动或绳张紧时改变方向，不能把它当作无绳自由球要求评价。",
+      "aftermath": "若接住、错过或摆回，观察重力、绳约束和碰撞，不要求每次接球成功。",
+      "unknown": "只有准备握持，实际球柄绳运动不足以评价时选择无法判断。",
+      "scores": [
+        "人体控柄、系绳球运动与承接接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控柄、系绳球运动与承接接触的关键关系严重不符。",
+        "人体控柄、系绳球运动与承接接触部分合理，同时存在明显异常。",
+        "人体控柄、系绳球运动与承接接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控柄、系绳球运动与承接接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Catch a tethered kendama ball",
+      "question": "How physically plausible is the interaction: catch a tethered kendama ball?",
+      "body": "Consider handle grip, tossing or lifting, and alignment with the receiving position.",
+      "contact": "String-length constraints should be plausible, with catches corresponding to handle contact locations.",
+      "object": "The ball may move with slack or change direction under tension. Do not assume an untethered free ball.",
+      "aftermath": "On catching, missing, or swinging back, consider gravity, string constraints, and collision without requiring success every time.",
+      "unknown": "Choose unable to judge if only preparatory grip is shown and actual ball–handle–string motion cannot be assessed.",
+      "scores": [
+        "Handle control, tethered-ball motion, and receiving contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among handle control, tethered-ball motion, and receiving contact seriously disagree.",
+        "Handle control, tethered-ball motion, and receiving contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among handle control, tethered-ball motion, and receiving contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and handle control, tethered-ball motion, and receiving contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P292",
+    "media_id": "A_03664",
+    "zh": {
+      "title": "晃锅翻动块状食材",
+      "question": "人物晃锅翻动块状食材，整体交互有多合理？",
+      "body": "观察握柄、前后提送与手臂躯干协调。",
+      "contact": "食材与锅面的承托、离开和再接触应与锅体动作相关。",
+      "object": "块状食材可滑动、分散或部分腾空，不要求全部一起跳出或组成整张饼。",
+      "aftermath": "若食材落回或蒸汽上升，观察重力、碰撞及气体扩散。",
+      "unknown": "只有持锅准备，实际翻动不足以评价时选择无法判断。",
+      "scores": [
+        "人体控锅、块状食材运动与回锅碰撞整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控锅、块状食材运动与回锅碰撞的关键关系严重不符。",
+        "人体控锅、块状食材运动与回锅碰撞部分合理，同时存在明显异常。",
+        "人体控锅、块状食材运动与回锅碰撞主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控锅、块状食材运动与回锅碰撞及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Toss chunky food in a pan",
+      "question": "How physically plausible is the interaction: toss chunky food in a pan?",
+      "body": "Consider handle grip, forward–back delivery, and arm–torso coordination.",
+      "contact": "Food support, separation, and renewed contact should relate to pan action.",
+      "object": "Chunks may slide, scatter, or partly lift without all leaving together or forming one pancake.",
+      "aftermath": "On return or rising steam, consider gravity, collisions, and gas dispersal.",
+      "unknown": "Choose unable to judge if only holding preparation is shown and actual tossing cannot be assessed.",
+      "scores": [
+        "Pan control, chunky-food motion, and returning collisions are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among pan control, chunky-food motion, and returning collisions seriously disagree.",
+        "Pan control, chunky-food motion, and returning collisions are partly plausible, alongside clear anomalies.",
+        "The main relationships among pan control, chunky-food motion, and returning collisions are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and pan control, chunky-food motion, and returning collisions and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P293",
+    "media_id": "A_03453",
+    "zh": {
+      "title": "朝墙面投掷药球",
+      "question": "人物朝墙面投掷药球，整体交互有多合理？",
+      "body": "观察双手推送、躯干和下肢承力及回接准备。",
+      "contact": "球的加速与脱手应对应双手前送，若碰墙，球的变化应对应墙面接触。",
+      "object": "球可飞行并反弹，不凭表面外观指定精确重量或要求明显压扁。",
+      "aftermath": "若回接或落下，观察重力、手部缓冲和支撑，不要求完整来回都可见。",
+      "unknown": "只有抱球准备，实际投掷不足以评价时选择无法判断。",
+      "scores": [
+        "人体双手投送、药球墙面作用与回接支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体双手投送、药球墙面作用与回接支撑的关键关系严重不符。",
+        "人体双手投送、药球墙面作用与回接支撑部分合理，同时存在明显异常。",
+        "人体双手投送、药球墙面作用与回接支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体双手投送、药球墙面作用与回接支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Throw a medicine ball toward a wall",
+      "question": "How physically plausible is the interaction: throw a medicine ball toward a wall?",
+      "body": "Consider two-hand delivery, trunk and leg effort, and receiving preparation.",
+      "contact": "Acceleration and release should correspond to forward hand action. Any rebound should relate to wall contact.",
+      "object": "The ball may fly and rebound without a prescribed exact mass or obvious flattening.",
+      "aftermath": "On catching or falling, consider gravity, hand cushioning, and support. A complete round trip need not be visible.",
+      "unknown": "Choose unable to judge if only holding preparation is shown and actual throwing cannot be assessed.",
+      "scores": [
+        "Two-hand delivery, medicine-ball wall action, and receiving support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand delivery, medicine-ball wall action, and receiving support seriously disagree.",
+        "Two-hand delivery, medicine-ball wall action, and receiving support are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand delivery, medicine-ball wall action, and receiving support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand delivery, medicine-ball wall action, and receiving support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P294",
+    "media_id": "A_03598",
+    "zh": {
+      "title": "用手托持和移动橙子",
+      "question": "人物用手托持和移动橙子，整体交互有多合理？",
+      "body": "观察手指承托、手腕抬降及身体协调。",
+      "contact": "持握时橙子应有合理手部支撑，若脱手则按实际自由运动评价。",
+      "object": "橙子可转动、升降或短暂离手，不要求其剥皮、变形或持续悬空。",
+      "aftermath": "若下落、重新接住或继续持有，观察重力、接触与缓冲，不推断隐藏支架。",
+      "unknown": "手果关系被遮挡，实际承托或脱手运动不足以评价时选择无法判断。",
+      "scores": [
+        "手部承托、橙子升降与重力接触整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部承托、橙子升降与重力接触的关键关系严重不符。",
+        "手部承托、橙子升降与重力接触部分合理，同时存在明显异常。",
+        "手部承托、橙子升降与重力接触主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部承托、橙子升降与重力接触及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Support and move an orange by hand",
+      "question": "How physically plausible is the interaction: support and move an orange by hand?",
+      "body": "Consider finger support, wrist lifting and lowering, and body coordination.",
+      "contact": "A held orange should have plausible hand support. Assess actual free motion if released.",
+      "object": "The orange may rotate, rise, lower, or briefly leave the hand without peeling, deformation, or sustained levitation.",
+      "aftermath": "On falling, catching, or continued holding, consider gravity, contact, and cushioning without inferring hidden supports.",
+      "unknown": "Choose unable to judge if hand–fruit relations are obscured and support or released motion cannot be assessed.",
+      "scores": [
+        "Hand support, orange elevation changes, and gravity-related contact are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand support, orange elevation changes, and gravity-related contact seriously disagree.",
+        "Hand support, orange elevation changes, and gravity-related contact are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand support, orange elevation changes, and gravity-related contact are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand support, orange elevation changes, and gravity-related contact and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P295",
+    "media_id": "A_04277",
+    "zh": {
+      "title": "在室内练习区挥动高尔夫球杆",
+      "question": "人物在室内练习区挥动高尔夫球杆，整体交互有多合理？",
+      "body": "观察握杆、肩髋转动、重心转移和随挥。",
+      "contact": "人杆连接与杆头通过击球区域的轨迹应连续，若有实体球，按实际接触评价。",
+      "object": "球杆可快速转动，背景屏幕图像不等于实体球的可见飞行，也不要求室内出现草屑。",
+      "aftermath": "若球接触幕布或人结束随挥，观察可见碰撞与平衡，不推断模拟器数值。",
+      "unknown": "只有瞄准或上杆准备，实际挥动不足以评价时选择无法判断。",
+      "scores": [
+        "人体转动、室内球杆轨迹与击球区作用整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体转动、室内球杆轨迹与击球区作用的关键关系严重不符。",
+        "人体转动、室内球杆轨迹与击球区作用部分合理，同时存在明显异常。",
+        "人体转动、室内球杆轨迹与击球区作用主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体转动、室内球杆轨迹与击球区作用及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Swing a golf club in an indoor practice area",
+      "question": "How physically plausible is the interaction: swing a golf club in an indoor practice area?",
+      "body": "Consider grip, shoulder–hip rotation, weight transfer, and follow-through.",
+      "contact": "Hand–club connection and head passage through the hitting area should remain continuous. Assess physical-ball contact if visible.",
+      "object": "The club may rotate quickly. Screen imagery is not a visible physical-ball flight, and indoor turf spray is not required.",
+      "aftermath": "On ball–screen contact or completed follow-through, consider visible collision and balance without inferring simulator numbers.",
+      "unknown": "Choose unable to judge if only aiming or backswing preparation is shown and actual swinging cannot be assessed.",
+      "scores": [
+        "Body rotation, indoor club trajectory, and hitting-area action are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body rotation, indoor club trajectory, and hitting-area action seriously disagree.",
+        "Body rotation, indoor club trajectory, and hitting-area action are partly plausible, alongside clear anomalies.",
+        "The main relationships among body rotation, indoor club trajectory, and hitting-area action are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body rotation, indoor club trajectory, and hitting-area action and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P296",
+    "media_id": "A_03903",
+    "zh": {
+      "title": "挥动网球拍击球",
+      "question": "人物挥动网球拍击球，整体交互有多合理？",
+      "body": "观察握拍、肩臂挥动、转体与脚部支撑。",
+      "contact": "拍面与球相遇的时刻应和球速或方向变化相符，握持应连续。",
+      "object": "球可快速离拍，不要求细微球拍弹性或旋转清晰可辨。",
+      "aftermath": "若球继续飞行或人物随挥，观察可见连续性，不推断画面外落点与得分。",
+      "unknown": "只有准备挥拍或关键球拍作用不可见时选择无法判断。",
+      "scores": [
+        "人体挥拍、网球拍球接触与球体飞行整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体挥拍、网球拍球接触与球体飞行的关键关系严重不符。",
+        "人体挥拍、网球拍球接触与球体飞行部分合理，同时存在明显异常。",
+        "人体挥拍、网球拍球接触与球体飞行主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体挥拍、网球拍球接触与球体飞行及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Strike a tennis ball with a racket",
+      "question": "How physically plausible is the interaction: strike a tennis ball with a racket?",
+      "body": "Consider grip, arm swing, torso rotation, and foot support.",
+      "contact": "Racket–ball encounter timing should match speed or direction changes, with continuous grip.",
+      "object": "The ball may leave rapidly. Fine racket elasticity or spin need not be resolved.",
+      "aftermath": "On visible flight or follow-through, consider continuity without inferring off-screen landing or score.",
+      "unknown": "Choose unable to judge if only preparation is shown or crucial racket–ball action is hidden.",
+      "scores": [
+        "Body swing, tennis racket–ball contact, and ball flight are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body swing, tennis racket–ball contact, and ball flight seriously disagree.",
+        "Body swing, tennis racket–ball contact, and ball flight are partly plausible, alongside clear anomalies.",
+        "The main relationships among body swing, tennis racket–ball contact, and ball flight are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body swing, tennis racket–ball contact, and ball flight and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P297",
+    "media_id": "A_04035",
+    "zh": {
+      "title": "挥动高尔夫球杆击打球座上的球",
+      "question": "人物挥动高尔夫球杆击打球座上的球，整体交互有多合理？",
+      "body": "观察握杆、肩髋转动、重心转移和随挥，不限定唯一姿势。",
+      "contact": "杆头经过球位的时刻应与球离座相关，手与杆的连接应连续。",
+      "object": "球可被击出，不要求练习垫或草地必定飞散。",
+      "aftermath": "若球可见，观察离座与飞行，球离开画面后不推断落点。",
+      "unknown": "只有瞄准或上杆准备，实际击球不足以评价时选择无法判断。",
+      "scores": [
+        "人体挥杆、杆头球座接触与球离座运动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体挥杆、杆头球座接触与球离座运动的关键关系严重不符。",
+        "人体挥杆、杆头球座接触与球离座运动部分合理，同时存在明显异常。",
+        "人体挥杆、杆头球座接触与球离座运动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体挥杆、杆头球座接触与球离座运动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Swing a golf club at a teed ball",
+      "question": "How physically plausible is the interaction: swing a golf club at a teed ball?",
+      "body": "Consider grip, shoulder–hip rotation, weight transfer, and follow-through without prescribing one technique.",
+      "contact": "Head passage through the ball location should relate to ball departure, with continuous hand–club connection.",
+      "object": "The ball may launch. Mat or turf spray is not required.",
+      "aftermath": "If visible, consider departure and flight without inferring a landing outside the frame.",
+      "unknown": "Choose unable to judge if only aiming or backswing preparation is shown and actual striking cannot be assessed.",
+      "scores": [
+        "Body swing, clubhead–tee-ball contact, and ball departure are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body swing, clubhead–tee-ball contact, and ball departure seriously disagree.",
+        "Body swing, clubhead–tee-ball contact, and ball departure are partly plausible, alongside clear anomalies.",
+        "The main relationships among body swing, clubhead–tee-ball contact, and ball departure are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body swing, clubhead–tee-ball contact, and ball departure and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "与P216同为球座上高尔夫球的挥杆击打，球色不改变接触和飞行条件"
+  },
+  {
+    "sample_id": "P298",
+    "media_id": "A_03701",
+    "zh": {
+      "title": "挥拍击打壁球",
+      "question": "人物挥拍击打壁球，整体交互有多合理？",
+      "body": "观察持拍、低位迎球、脚步及躯干协调。",
+      "contact": "拍面与球相遇应对应球速方向变化，球与墙地的反弹按可见接触评价。",
+      "object": "小球可快速飞行或弹跳，不要求每次完整往返和细微旋转可见。",
+      "aftermath": "若球反弹或人物随挥，观察碰撞、重力与身体平衡，不推断画面外击球。",
+      "unknown": "只有迎球准备，实际击球或反弹关系不足以评价时选择无法判断。",
+      "scores": [
+        "人体低位挥拍、壁球接触与墙地反弹整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体低位挥拍、壁球接触与墙地反弹的关键关系严重不符。",
+        "人体低位挥拍、壁球接触与墙地反弹部分合理，同时存在明显异常。",
+        "人体低位挥拍、壁球接触与墙地反弹主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体低位挥拍、壁球接触与墙地反弹及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Strike a squash ball",
+      "question": "How physically plausible is the interaction: strike a squash ball?",
+      "body": "Consider grip, low reaching, footwork, and torso coordination.",
+      "contact": "Racket encounters should relate to ball speed or direction changes. Assess wall and floor rebounds at visible contacts.",
+      "object": "The small ball may fly or bounce rapidly without every full return or fine spin being visible.",
+      "aftermath": "On rebounds or follow-through, consider collision, gravity, and balance without inferring off-screen strikes.",
+      "unknown": "Choose unable to judge if only readiness is shown and actual striking or rebound relations cannot be assessed.",
+      "scores": [
+        "Low body swing, squash-ball contact, and wall–floor rebounds are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among low body swing, squash-ball contact, and wall–floor rebounds seriously disagree.",
+        "Low body swing, squash-ball contact, and wall–floor rebounds are partly plausible, alongside clear anomalies.",
+        "The main relationships among low body swing, squash-ball contact, and wall–floor rebounds are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and low body swing, squash-ball contact, and wall–floor rebounds and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P299",
+    "media_id": "A_04490",
+    "zh": {
+      "title": "用球杆击打台球母球",
+      "question": "人物用球杆击打台球母球，整体交互有多合理？",
+      "body": "观察俯身、架杆手固定与后手沿杆导向的协调。",
+      "contact": "杆头与白色母球接触应对应球的启动，架杆位置与球杆结构应连续。",
+      "object": "母球可在台面滚动，不要求跳球、进袋或短片内碰到其他球。",
+      "aftermath": "若碰球、碰库或继续滚动，观察可见碰撞与减速，不推断画面外结果。",
+      "unknown": "只有瞄准或试杆，实际击球不足以评价时选择无法判断。",
+      "scores": [
+        "人体架杆推送、杆头母球接触与台面滚动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体架杆推送、杆头母球接触与台面滚动的关键关系严重不符。",
+        "人体架杆推送、杆头母球接触与台面滚动部分合理，同时存在明显异常。",
+        "人体架杆推送、杆头母球接触与台面滚动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体架杆推送、杆头母球接触与台面滚动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Strike a billiard cue ball with a cue",
+      "question": "How physically plausible is the interaction: strike a billiard cue ball with a cue?",
+      "body": "Consider leaning, bridge-hand support, and rear-hand shaft guidance.",
+      "contact": "Tip contact should correspond to cue-ball onset, with continuous bridge placement and cue structure.",
+      "object": "The cue ball may roll across the cloth. Jumping, pocketing, or another-ball collision within the clip is not required.",
+      "aftermath": "On visible ball or cushion collision or continuing roll, consider collision and deceleration without inferring off-screen results.",
+      "unknown": "Choose unable to judge if only aiming or practice strokes are shown and actual striking cannot be assessed.",
+      "scores": [
+        "Body bridge and delivery, tip–cue-ball contact, and tabletop rolling are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body bridge and delivery, tip–cue-ball contact, and tabletop rolling seriously disagree.",
+        "Body bridge and delivery, tip–cue-ball contact, and tabletop rolling are partly plausible, alongside clear anomalies.",
+        "The main relationships among body bridge and delivery, tip–cue-ball contact, and tabletop rolling are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body bridge and delivery, tip–cue-ball contact, and tabletop rolling and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P300",
+    "media_id": "A_04488",
+    "zh": {
+      "title": "从草面球位挥动高尔夫球杆",
+      "question": "人物从草面球位挥动高尔夫球杆，整体交互有多合理？",
+      "body": "观察双手握杆、上身旋转与下肢平衡。",
+      "contact": "杆头轨迹应与握持和球位对应，可见球的变化应与接触时刻相关。",
+      "object": "球可被带离球位，草面可以基本保持，不强制要求草屑或沙粒。",
+      "aftermath": "若随挥或球继续飞行，观察动作连续性，不推断不可见落点。",
+      "unknown": "只有瞄准或上杆，实际挥击不足以评价时选择无法判断。",
+      "scores": [
+        "人体转动、球杆连续轨迹与球位作用整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体转动、球杆连续轨迹与球位作用的关键关系严重不符。",
+        "人体转动、球杆连续轨迹与球位作用部分合理，同时存在明显异常。",
+        "人体转动、球杆连续轨迹与球位作用主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体转动、球杆连续轨迹与球位作用及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Swing a golf club from a grass-level ball position",
+      "question": "How physically plausible is the interaction: swing a golf club from a grass-level ball position?",
+      "body": "Consider two-hand grip, torso rotation, and lower-body balance.",
+      "contact": "Head trajectory should correspond to grip and ball location, with visible ball changes related to contact timing.",
+      "object": "The ball may leave its position while grass remains largely unchanged. Turf or sand spray is not required.",
+      "aftermath": "If follow-through or flight is visible, consider continuity without inferring an unseen landing.",
+      "unknown": "Choose unable to judge if only aiming or backswing is shown and actual striking cannot be assessed.",
+      "scores": [
+        "Body rotation, continuous club trajectory, and action at the ball position are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body rotation, continuous club trajectory, and action at the ball position seriously disagree.",
+        "Body rotation, continuous club trajectory, and action at the ball position are partly plausible, alongside clear anomalies.",
+        "The main relationships among body rotation, continuous club trajectory, and action at the ball position are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body rotation, continuous club trajectory, and action at the ball position and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "与P218同为草面球位挥杆，服装与镜头远近不改变人体球杆球位作用要求"
+  }
+]

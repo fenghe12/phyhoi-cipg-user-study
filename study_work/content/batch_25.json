@@ -1,0 +1,363 @@
+[
+  {
+    "sample_id": "P171",
+    "media_id": "A_01394",
+    "zh": {
+      "title": "用梳子整理模型头的波浪发",
+      "question": "儿童用梳子整理模型头的波浪发，整体交互有多合理？",
+      "body": "观察一手持梳、另一手扶头或发束及双臂协调，不要求成人动作幅度。",
+      "contact": "梳齿与发束接触和通过应与手的运动对应，模型头应有连续支撑。",
+      "object": "发束可分开、弯曲或更顺，不要求所有波浪消失或配饰重新定位。",
+      "aftermath": "若抬梳或松手，观察发丝垂落和模型头稳定，不要求掉发。",
+      "unknown": "实际梳齿作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、梳子、模型头和头发整体严重不合理，或清楚显示没有梳理。",
+        "梳理尝试可辨认，但双手配合与发束关键运动严重不符。",
+        "扶持、梳齿接触或发束分开部分合理，同时有影响梳理的明显异常。",
+        "主要梳理、双手协调及模型头支撑合理，仅有轻微局部异常。",
+        "实际梳理可评价，人体、梳子、发束和可见后续垂落或稳定状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Comb a mannequin’s wavy hair",
+      "question": "How physically plausible is the interaction as the child combs the mannequin’s wavy hair?",
+      "body": "Consider comb control and support of head or hair by the other hand. Adult movement range is not required.",
+      "contact": "Tooth contact and passage should correspond to hand motion, with continuous head support.",
+      "object": "Hair may separate, bend, or become smoother. Removing all waves or repositioning accessories is not required.",
+      "aftermath": "After lifting or release, consider hair hanging and head stability. Hair loss is not required.",
+      "unknown": "Choose unable to judge if actual tooth action cannot be assessed.",
+      "scores": [
+        "The person, comb, head, and hair behave implausibly overall, or a clear view confirms no combing.",
+        "An attempt is recognizable, but hand coordination and key hair motion seriously disagree.",
+        "Some support, tooth contact, or section separation is plausible, alongside clear anomalies affecting combing.",
+        "The main combing, hand coordination, and head support are plausible, with minor local anomalies.",
+        "Actual combing is assessable, and the person, comb, hair, and visible subsequent hanging or stability are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P172",
+    "media_id": "A_01046",
+    "zh": {
+      "title": "用吹风机吹理长发",
+      "question": "人物用吹风机吹理长发，整体交互有多合理？",
+      "body": "观察持机导向、另一手理发及抬臂头颈协调，不规定唯一吹风方向。",
+      "contact": "出风口方向和头发响应应与工具移动相容，机体不必接触头发。",
+      "object": "发丝可随气流偏转、散开或保持部分形状，不要求短片段内完全吹干。",
+      "aftermath": "若机体移开或停吹，观察发丝延续与回落，不要求所有发丝同向运动。",
+      "unknown": "只有持机准备，或出风方向及发丝响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体、吹风机及头发的可见关系整体严重不合理，或清楚显示没有吹理操作。",
+        "吹理尝试可辨认，但手部导向、出风方向与关键发丝响应严重不符。",
+        "持机、理发或气流下发丝运动部分合理，同时有明显异常。",
+        "主要吹理、人体协调及工具与发丝关系合理，仅有轻微局部异常。",
+        "实际吹理可评价，人体、吹风机、长发及可见后续回落协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Blow-style long hair",
+      "question": "How physically plausible is the interaction as the person blow-styles her long hair?",
+      "body": "Consider dryer guidance, arranging by the other hand, and arm–head–neck coordination. No unique airflow direction is prescribed.",
+      "contact": "Outlet direction and hair response should be compatible with tool motion. Tool–hair contact is not required.",
+      "object": "Strands may deflect, spread, or partly retain shape. Complete drying within the clip is not required.",
+      "aftermath": "After withdrawal or stopping, consider continued motion and return. All strands need not move in one direction.",
+      "unknown": "Choose unable to judge if only tool preparation is shown or outlet direction and hair response cannot be assessed.",
+      "scores": [
+        "The person, dryer, and hair behave implausibly overall, or a clear view confirms no blow-styling.",
+        "An attempt is recognizable, but guidance, outlet direction, and key hair responses seriously disagree.",
+        "Some holding, arranging, or airflow-related motion is plausible, alongside clear anomalies.",
+        "The main blow-styling, body coordination, and tool–hair relation are plausible, with minor local anomalies.",
+        "Actual styling is assessable, and the person, dryer, long hair, and visible subsequent return are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P173",
+    "media_id": "A_00967",
+    "zh": {
+      "title": "用吹风机吹理长发",
+      "question": "人物用吹风机吹理长发，整体交互有多合理？",
+      "body": "观察持机导向、另一手理发及抬臂头颈协调，不规定唯一吹风方向。",
+      "contact": "出风口方向和头发响应应与工具移动相容，机体不必接触头发。",
+      "object": "发丝可随气流偏转、散开或保持部分形状，不要求短片段内完全吹干。",
+      "aftermath": "若机体移开或停吹，观察发丝延续与回落，不要求所有发丝同向运动。",
+      "unknown": "只有持机准备，或出风方向及发丝响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体、吹风机及头发的可见关系整体严重不合理，或清楚显示没有吹理操作。",
+        "吹理尝试可辨认，但手部导向、出风方向与关键发丝响应严重不符。",
+        "持机、理发或气流下发丝运动部分合理，同时有明显异常。",
+        "主要吹理、人体协调及工具与发丝关系合理，仅有轻微局部异常。",
+        "实际吹理可评价，人体、吹风机、长发及可见后续回落协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Blow-style long hair",
+      "question": "How physically plausible is the interaction as the person blow-styles her long hair?",
+      "body": "Consider dryer guidance, arranging by the other hand, and arm–head–neck coordination. No unique airflow direction is prescribed.",
+      "contact": "Outlet direction and hair response should be compatible with tool motion. Tool–hair contact is not required.",
+      "object": "Strands may deflect, spread, or partly retain shape. Complete drying within the clip is not required.",
+      "aftermath": "After withdrawal or stopping, consider continued motion and return. All strands need not move in one direction.",
+      "unknown": "Choose unable to judge if only tool preparation is shown or outlet direction and hair response cannot be assessed.",
+      "scores": [
+        "The person, dryer, and hair behave implausibly overall, or a clear view confirms no blow-styling.",
+        "An attempt is recognizable, but guidance, outlet direction, and key hair responses seriously disagree.",
+        "Some holding, arranging, or airflow-related motion is plausible, alongside clear anomalies.",
+        "The main blow-styling, body coordination, and tool–hair relation are plausible, with minor local anomalies.",
+        "Actual styling is assessable, and the person, dryer, long hair, and visible subsequent return are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "手持吹风机吹理自己的长发，相同气流与发丝作用条件"
+  },
+  {
+    "sample_id": "P174",
+    "media_id": "A_00910",
+    "zh": {
+      "title": "用手指扭理分出的发束",
+      "question": "人物用手指扭理分出的发束，整体交互有多合理？",
+      "body": "观察双手交替抓持、手指旋转及抬臂协调，不规定唯一编织顺序。",
+      "contact": "手指与发束接触和交替支撑应连续，发根与头部关系应可解释。",
+      "object": "发束可扭转、交叠或分开，变化应与手指操作相关，不要求固定辫形。",
+      "aftermath": "若松手或发束下垂，观察扭转保持与恢复，不要求发丝变为刚性。",
+      "unknown": "仅分发准备，实际扭理不足以评价时选择无法判断。",
+      "scores": [
+        "人体、手指与发束关系整体严重不合理，或清楚显示没有扭理。",
+        "扭理尝试可辨认，但指间操作与关键发束扭转严重不符。",
+        "抓持、交替支撑或发束变化部分合理，同时有明显异常。",
+        "主要扭理、双手协调及发束连接合理，仅有轻微局部异常。",
+        "实际扭理可评价，人体、手指、发束及可见松手后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Twist a separated hair section by hand",
+      "question": "How physically plausible is the interaction as the person twists the separated section with her fingers?",
+      "body": "Consider alternating grips, finger rotation, and raised-arm coordination. No unique interweaving order is required.",
+      "contact": "Finger contact and alternating support should be continuous, with interpretable root attachment.",
+      "object": "Hair may twist, overlap, or separate in relation to finger action. A fixed braid shape is not required.",
+      "aftermath": "After release or hanging, consider retention and recovery. Rigid strands are not required.",
+      "unknown": "Choose unable to judge if only sectioning preparation is shown and actual twisting cannot be assessed.",
+      "scores": [
+        "The person, fingers, and hair behave implausibly overall, or a clear view confirms no twisting.",
+        "An attempt is recognizable, but finger action and key twisting seriously disagree.",
+        "Some grip, alternating support, or hair changes are plausible, alongside clear anomalies.",
+        "The main twisting, hand coordination, and hair attachment are plausible, with minor local anomalies.",
+        "Actual twisting is assessable, and the person, fingers, hair, and visible post-release state are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P175",
+    "media_id": "A_00875",
+    "zh": {
+      "title": "用宽齿梳整理刘海",
+      "question": "人物用宽齿梳整理刘海，整体交互有多合理？",
+      "body": "观察握梳、手腕扫动及头部姿态协调，不要求改变已有发髻。",
+      "contact": "梳齿与额前发束的接触和通过应与手部动作相联系。",
+      "object": "刘海可分开、压顺或弯曲，不要求固定最终长度或造型。",
+      "aftermath": "若抬梳或用手整理，观察发丝自然下垂和停止，不要求掉发。",
+      "unknown": "只有举梳准备或刘海接触不足以评价时选择无法判断。",
+      "scores": [
+        "人体、宽齿梳与刘海关系整体严重不合理，或清楚显示没有梳理。",
+        "梳理尝试可辨认，但手腕动作与刘海关键移动严重不符。",
+        "握梳、梳齿接触或刘海变化部分合理，同时有明显异常。",
+        "主要梳理、人体协调及刘海和头部关系合理，仅有轻微局部异常。",
+        "实际梳理可评价，人体、梳子、刘海及可见抬梳后下垂协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Comb bangs with a wide-tooth comb",
+      "question": "How physically plausible is the interaction as the person combs her bangs with the wide-tooth comb?",
+      "body": "Consider grip, wrist sweeping, and head posture. Changing the existing bun is not required.",
+      "contact": "Tooth contact and passage through forehead strands should relate to hand action.",
+      "object": "Bangs may separate, flatten, or bend. No fixed final length or style is prescribed.",
+      "aftermath": "After lifting or hand arranging, consider natural hanging and stopping. Hair loss is not required.",
+      "unknown": "Choose unable to judge if only comb preparation is shown or contact with bangs cannot be assessed.",
+      "scores": [
+        "The person, comb, and bangs behave implausibly overall, or a clear view confirms no combing.",
+        "An attempt is recognizable, but wrist action and key bang motion seriously disagree.",
+        "Some grip, contact, or bang changes are plausible, alongside clear anomalies.",
+        "The main combing, body coordination, and bangs–head relation are plausible, with minor local anomalies.",
+        "Actual combing is assessable, and the person, comb, bangs, and visible post-lift hanging are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P176",
+    "media_id": "A_00861",
+    "zh": {
+      "title": "用吹风机和圆刷整理短发",
+      "question": "人物配合吹风机与圆刷整理短发，整体交互有多合理？",
+      "body": "观察双手分别控机和转刷、抬臂及头颈协调。",
+      "contact": "圆刷与发束接触和出风口方向应与双手动作相容。",
+      "object": "发丝可被刷起、弯曲或受气流偏转，不要求一遍形成固定发型。",
+      "aftermath": "若圆刷移开或风向变化，观察发丝释放和回落，不要求头发保持悬空。",
+      "unknown": "只有准备工具，或圆刷接触和吹风响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体、吹风机、圆刷与短发整体严重不合理，或清楚显示没有整理。",
+        "整理尝试可辨认，但双手工具配合与短发关键响应严重不符。",
+        "控机、转刷或发束变化部分合理，同时有明显异常。",
+        "主要吹梳、双手协调及发丝支撑合理，仅有轻微局部异常。",
+        "实际吹梳可评价，人体、机刷、短发及可见释放后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Style short hair with a dryer and round brush",
+      "question": "How physically plausible is the interaction as the person styles his short hair with the dryer and round brush?",
+      "body": "Consider separate dryer and rotating-brush control and arm–head–neck coordination.",
+      "contact": "Brush contact and outlet direction should be compatible with hand actions.",
+      "object": "Hair may lift, bend, or deflect in airflow. A fixed style in one pass is not required.",
+      "aftermath": "After brush withdrawal or airflow change, consider release and return. Suspended hair is not required.",
+      "unknown": "Choose unable to judge if only tool preparation is shown or brush contact and airflow response cannot be assessed.",
+      "scores": [
+        "The person, dryer, brush, and hair behave implausibly overall, or a clear view confirms no styling.",
+        "An attempt is recognizable, but tool coordination and key hair responses seriously disagree.",
+        "Some dryer control, brush rotation, or hair changes are plausible, alongside clear anomalies.",
+        "The main blow-brushing, hand coordination, and hair support are plausible, with minor local anomalies.",
+        "Actual styling is assessable, and the person, tools, hair, and visible post-release state are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P177",
+    "media_id": "A_00622",
+    "zh": {
+      "title": "用钩针操作螺旋接发束",
+      "question": "人物用钩针操作螺旋接发束，整体交互有多合理？",
+      "body": "观察一手控制接发、另一手导向钩针及手指协调，不规定唯一接发步骤。",
+      "contact": "钩端、发束或连接部位的穿引应与手部运动对应。",
+      "object": "发束可被拉过、松开或弯曲，连接变化应与钩针作用相关，不要求可见永久固定。",
+      "aftermath": "若钩针退出或发束释放，观察支撑和下垂，不要求卷曲完全消失。",
+      "unknown": "实际钩端和连接区域不足以评价时选择无法判断。",
+      "scores": [
+        "人体、钩针、接发束及连接关系整体严重不合理，或清楚显示没有操作。",
+        "操作尝试可辨认，但指间导向与关键穿引或发束运动严重不符。",
+        "抓持、钩端接触或发束牵引部分合理，同时有明显异常。",
+        "主要操作、双手协调及接发束支撑合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、钩针、接发束及可见退出后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a spiral hair extension with a latch hook",
+      "question": "How physically plausible is the interaction as the person works the spiral extension with the hook?",
+      "body": "Consider holding the extension, guiding the hook, and finger coordination. No unique extension sequence is required.",
+      "contact": "Hook-end threading at hair or attachment should correspond to hand motion.",
+      "object": "Hair may be drawn through, loosened, or bent. Attachment changes should relate to hook action. Visible permanent fastening is not required.",
+      "aftermath": "After hook withdrawal or release, consider support and hanging. Complete loss of curl is not required.",
+      "unknown": "Choose unable to judge if the actual hook and attachment region cannot be assessed.",
+      "scores": [
+        "The person, hook, extension, and attachment behave implausibly overall, or a clear view confirms no operation.",
+        "An attempt is recognizable, but finger guidance and key threading or hair motion seriously disagree.",
+        "Some grip, hook contact, or pulling is plausible, alongside clear anomalies.",
+        "The main operation, hand coordination, and extension support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and the person, hook, extension, and visible post-withdrawal state are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P178",
+    "media_id": "A_00568",
+    "zh": {
+      "title": "用梳刷整理短波浪发",
+      "question": "人物用梳刷整理短波浪发，整体交互有多合理？",
+      "body": "观察持梳刷、另一手按持及手腕沿头部曲面的协调。",
+      "contact": "梳齿或刷毛与毛层接触应对应手部运动，发根连接应连续。",
+      "object": "毛层可被压顺、分开或改变排列，不要求波浪瞬间消失。",
+      "aftermath": "若换工具或抬手，观察接触解除和发丝保持，不要求显著掉发。",
+      "unknown": "实际梳刷接触与毛层响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体、梳刷和毛层关系整体严重不合理，或清楚显示没有整理。",
+        "整理尝试可辨认，但手部导向与短发关键响应严重不符。",
+        "握持、按压或毛层排列部分合理，同时有明显异常。",
+        "主要梳刷、双手协调及头发支撑合理，仅有轻微局部异常。",
+        "实际整理可评价，人体、梳刷、毛层及可见抬手后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Groom short wavy hair with combs or brushes",
+      "question": "How physically plausible is the interaction as the person grooms his short waves with the tools?",
+      "body": "Consider grip, support by the other hand, and wrist guidance along the head.",
+      "contact": "Teeth or bristles contacting the hair should correspond to hand motion, with continuous root attachment.",
+      "object": "Hair may flatten, separate, or realign. Instant loss of waves is not required.",
+      "aftermath": "During tool changes or lifting, consider release and hair retention. Visible hair loss is not required.",
+      "unknown": "Choose unable to judge if actual tool contact and hair response cannot be assessed.",
+      "scores": [
+        "The person, tools, and hair behave implausibly overall, or a clear view confirms no grooming.",
+        "An attempt is recognizable, but guidance and key short-hair responses seriously disagree.",
+        "Some grip, pressure, or alignment is plausible, alongside clear anomalies.",
+        "The main grooming, hand coordination, and hair support are plausible, with minor local anomalies.",
+        "Actual grooming is assessable, and the person, tools, hair, and visible post-lift state are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P179",
+    "media_id": "A_00078",
+    "zh": {
+      "title": "用宽齿梳梳理湿发",
+      "question": "人物用宽齿梳梳理湿发，整体交互有多合理？",
+      "body": "观察握梳、手腕导向与头颈配合，不要求大幅发力。",
+      "contact": "梳齿与湿发束的接触和通过应与手部操作相联系。",
+      "object": "湿发可成束、贴合或随梳动分开，不要求像干发一样蓬松。",
+      "aftermath": "若抬梳或头发回落，观察发束附着与下垂，不要求水滴必然落下。",
+      "unknown": "只有举梳准备，实际梳理不足以评价时选择无法判断。",
+      "scores": [
+        "人体、宽齿梳与湿发整体严重不合理，或清楚显示没有梳理。",
+        "梳理尝试可辨认，但梳齿运动与湿发关键响应严重不符。",
+        "握梳、接触或湿发分束部分合理，同时有明显异常。",
+        "主要梳理、人体协调及湿发接触和下垂合理，仅有轻微局部异常。",
+        "实际梳理可评价，人体、梳子、湿发及可见抬梳后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Comb wet hair with a wide-tooth comb",
+      "question": "How physically plausible is the interaction as the person combs her wet hair?",
+      "body": "Consider grip, wrist guidance, and head–neck coordination. Large effort is not required.",
+      "contact": "Tooth contact and passage through wet sections should relate to hand operation.",
+      "object": "Wet hair may clump, adhere, or separate with combing. Dry-hair volume is not required.",
+      "aftermath": "After lifting or return, consider adhesion and hanging. Falling water drops are not required.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual combing cannot be assessed.",
+      "scores": [
+        "The person, comb, and wet hair behave implausibly overall, or a clear view confirms no combing.",
+        "An attempt is recognizable, but tooth motion and key wet-hair responses seriously disagree.",
+        "Some grip, contact, or wet sectioning is plausible, alongside clear anomalies.",
+        "The main combing, body coordination, wet contact, and hanging are plausible, with minor local anomalies.",
+        "Actual combing is assessable, and the person, comb, wet hair, and visible post-lift state are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P180",
+    "media_id": "A_00059",
+    "zh": {
+      "title": "配合吹风机与梳子整理卷发",
+      "question": "人物配合吹风机和梳子整理卷发，整体交互有多合理？",
+      "body": "观察双手控机控梳、分束与抬臂协调，不要求固定最终发型。",
+      "contact": "梳齿接触和出风口方向应与双手操作相关，器具不必同时碰到头发。",
+      "object": "卷发可受牵拉、分开或随气流偏转，不要求一遍变直或完全吹干。",
+      "aftermath": "若工具移开或发束松开，观察回弹、下垂和剩余发型保持，不要求所有卷曲消失。",
+      "unknown": "实际梳理与吹风响应不足以评价时选择无法判断。",
+      "scores": [
+        "人体、吹风机、梳子与卷发关系整体严重不合理，或清楚显示没有整理。",
+        "整理尝试可辨认，但双手工具配合与卷发关键响应严重不符。",
+        "分束、梳齿接触或气流下发丝运动部分合理，同时有明显异常。",
+        "主要吹梳、双手协调及卷发形变和支撑合理，仅有轻微局部异常。",
+        "实际整理可评价，人体、机梳、卷发及可见松手后回弹或下垂协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Style curly hair with a dryer and comb",
+      "question": "How physically plausible is the interaction as the person styles her curls with the dryer and comb?",
+      "body": "Consider separate tool control, sectioning, and raised-arm coordination. No fixed final style is required.",
+      "contact": "Tooth contact and outlet direction should relate to hand actions. Both tools need not touch the hair simultaneously.",
+      "object": "Curls may tension, separate, or deflect in airflow. Straightening or complete drying in one pass is not required.",
+      "aftermath": "After withdrawal or release, consider rebound, hanging, and retained style. Removing all curls is not required.",
+      "unknown": "Choose unable to judge if actual combing and airflow response cannot be assessed.",
+      "scores": [
+        "The person, dryer, comb, and curls behave implausibly overall, or a clear view confirms no styling.",
+        "An attempt is recognizable, but tool coordination and key curl responses seriously disagree.",
+        "Some sectioning, tooth contact, or airflow-related motion is plausible, alongside clear anomalies.",
+        "The main blow-combing, hand coordination, curl deformation, and support are plausible, with minor local anomalies.",
+        "Actual styling is assessable, and the person, tools, curls, and visible post-release rebound or hanging are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

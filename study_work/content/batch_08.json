@@ -1,0 +1,182 @@
+[
+  {
+    "sample_id": "P041",
+    "media_id": "A_01630",
+    "zh": {
+      "title": "用小刀处理手持鸡腿",
+      "question": "人物手持生鸡腿并用小刀处理，整个交互有多合理？",
+      "body": "观察固定鸡腿与控制小刀的双手配合、手腕动作及身体姿势，不限定唯一握法。",
+      "contact": "刀刃作用应与手部动作对应，鸡腿在手中的支撑应保持连续。",
+      "object": "皮肤或肌肉可变形或产生切口，不要求骨头断裂或鸡腿完全分离。",
+      "aftermath": "若鸡腿转动、刀移开或部分松开，观察手部支撑和接触解除。",
+      "unknown": "仅展示鸡腿，或小刀与鸡腿的实际作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀和鸡腿支撑整体严重不合理，或清楚显示没有用刀处理。",
+        "操作尝试可辨认，但刀的关键作用与鸡腿反应严重不符。",
+        "双手控制、接触或鸡腿变化部分合理，同时有影响主要过程的明显异常。",
+        "主要用刀及人体、鸡腿变化和支撑合理，仅有轻微局部异常。",
+        "实际处理可评价，双手、小刀、鸡腿和可见后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a hand-held chicken drumstick with a small knife",
+      "question": "How physically plausible is the overall interaction as the person holds and works a raw drumstick with a small knife?",
+      "body": "Consider coordination of the holding and knife hands, wrist motion, and posture. No unique grip is required.",
+      "contact": "Blade action should correspond to hand motion, with continuous support of the drumstick in the hand.",
+      "object": "Skin or muscle may deform or develop cuts. Bone breakage or complete separation is not required.",
+      "aftermath": "If the drumstick rotates, the knife withdraws, or a portion releases, consider hand support and release of contact.",
+      "unknown": "Choose unable to judge if only display is shown or actual knife–drumstick action cannot be assessed.",
+      "scores": [
+        "The person, knife, and drumstick support behave implausibly overall, or a clear view confirms no knife-working action.",
+        "An attempt is recognizable, but key blade action and drumstick response seriously disagree.",
+        "Some hand control, contact, or drumstick changes are plausible, alongside clear anomalies affecting the main process.",
+        "The main knife use, body action, and drumstick changes and support are plausible, with minor local anomalies.",
+        "Actual work is assessable, and hands, knife, drumstick, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P042",
+    "media_id": "A_00954",
+    "zh": {
+      "title": "用长刀处理整条红鲷鱼",
+      "question": "人物用长刀处理台面上的整条红鲷鱼，整个交互有多合理？",
+      "body": "观察持刀手与辅助固定手的协调、手臂运动及站姿，不把看向镜头本身当作物理异常。",
+      "contact": "刀刃与鱼身的实际作用应与手的操作对应，鱼体及台面支撑应连续。",
+      "object": "若鱼皮、鱼肉出现切口或分离，其位置应与刀的作用相关，不要求切断所有鱼鳍。",
+      "aftermath": "若鱼体滑动、转向或分离部分移动，观察表面支撑及停止，不要求掉落。",
+      "unknown": "仅展示鱼或准备刀具，或实际接触缺乏足够可见信息时选择无法判断。",
+      "scores": [
+        "人体、长刀、鱼体及台面关系整体严重不合理，或清楚显示没有处理鱼的操作。",
+        "操作尝试可辨认，但刀的关键作用与鱼体反应严重不符。",
+        "持刀、接触或鱼体变化部分合理，同时有影响处理过程的明显异常。",
+        "主要用刀及人体、鱼体和支撑关系合理，仅有轻微局部异常。",
+        "实际处理可评价，人体、长刀、红鲷鱼和可见后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a whole red sea bream with a long knife",
+      "question": "How physically plausible is the overall interaction as the person works the whole red sea bream on the counter with a long knife?",
+      "body": "Consider coordination of knife and holding hands, arm motion, and stance. Looking at the camera alone is not a physical anomaly.",
+      "contact": "Actual blade action on the fish should correspond to hand operation, with continuous fish and counter support.",
+      "object": "Any cut or separation of skin or flesh should relate to blade action. Removing all fins is not required.",
+      "aftermath": "If the fish slides, rotates, or separated portions move, consider surface support and stopping. Falling is not required.",
+      "unknown": "Choose unable to judge if only fish display or tool preparation is shown, or actual contact lacks enough visible information.",
+      "scores": [
+        "The person, long knife, fish, and counter behave implausibly overall, or a clear view confirms no fish-working action.",
+        "An attempt is recognizable, but key blade action and fish response seriously disagree.",
+        "Some knife control, contact, or fish changes are plausible, alongside clear anomalies affecting the work.",
+        "The main knife use and person–fish–support relationship are plausible, with minor local anomalies.",
+        "Actual work is assessable, and the person, long knife, sea bream, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P043",
+    "media_id": "A_00978",
+    "zh": {
+      "title": "切木砧板上的番茄",
+      "question": "人物用厨房刀切木砧板上的番茄，整个交互有多合理？",
+      "body": "观察持刀、辅助固定和手指位置与切割节奏的协调，不限定唯一切法。",
+      "contact": "刀刃与番茄的作用应对应手部动作，番茄与砧板的支撑应连续。",
+      "object": "瓜肉和果皮可压缩或分离，新增切片应与刀的位置和时序相关，不把已有食材归为当前切割结果。",
+      "aftermath": "若切片倾倒、滑动或汁液移动，观察板面接触，不要求出现明显汁液。",
+      "unknown": "仅摆放番茄或准备工具，或实际刀与番茄作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、刀、番茄及木板关系整体严重不合理，或清楚显示没有切番茄。",
+        "切割尝试可辨认，但刀的关键作用与番茄反应严重不符。",
+        "双手控制、接触或番茄变化部分合理，同时有影响切割的明显异常。",
+        "主要切割及人体、番茄和板面支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、番茄及可见切片与后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a tomato on a wooden board",
+      "question": "How physically plausible is the overall interaction as the person cuts the tomato with a kitchen knife on the wooden board?",
+      "body": "Consider knife control, holding, and coordination of finger position with cutting rhythm. No unique technique is prescribed.",
+      "contact": "Blade action should correspond to hand motion, with continuous tomato support on the board.",
+      "object": "Flesh and skin may compress or separate. New slices should relate to blade position and timing. Existing ingredients are not attributed to the current cut.",
+      "aftermath": "If slices tip or slide, or juice moves, consider board contact. Visible juice is not required.",
+      "unknown": "Choose unable to judge if only tomato or tool preparation is shown, or actual blade–tomato action cannot be assessed.",
+      "scores": [
+        "The person, knife, tomato, and board behave implausibly overall, or a clear view confirms no tomato cutting.",
+        "An attempt is recognizable, but key blade action and tomato response seriously disagree.",
+        "Some hand control, contact, or tomato changes are plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting and body action, tomato, and board support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, knife, tomato, visible slices, and subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P044",
+    "media_id": "A_01925",
+    "zh": {
+      "title": "切木砧板上的深绿叶菜",
+      "question": "人物用宽刃刀切木砧板上的深绿叶菜，整个交互有多合理？",
+      "body": "观察持刀与聚拢叶菜的手的协调，允许不同切割节奏及宽度。",
+      "contact": "刀刃和手的作用应与叶菜移动相联系，砧板对菜叶和茎的支撑应可解释。",
+      "object": "叶片可弯曲、压缩或分离，茎叶变化应与刀的作用相关，不规定碎段数量。",
+      "aftermath": "若菜叶散开、堆积或刀抬起，观察板面接触与停止，不要求飞散。",
+      "unknown": "只有聚拢或准备动作，且没有足够实际切割可评价时选择无法判断。",
+      "scores": [
+        "人体、刀、叶菜及砧板的可见过程整体严重不合理，或清楚显示没有切菜。",
+        "切菜尝试可辨认，但刀的关键作用与茎叶反应严重不符。",
+        "聚拢、接触或菜叶变化部分合理，同时有影响切割的明显异常。",
+        "主要切割及人体、茎叶变化和支撑合理，仅有轻微局部异常。",
+        "实际切菜可评价，人体、宽刃刀、叶菜、木板及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Chop dark leafy greens on a wooden board",
+      "question": "How physically plausible is the overall interaction as the person chops the dark leafy greens with a broad knife on the wooden board?",
+      "body": "Consider coordination of the knife hand and the hand gathering the greens. Rhythm and cut width may vary.",
+      "contact": "Knife and hand action should relate to leaf motion, with interpretable board support for leaves and stems.",
+      "object": "Leaves may bend, compress, or separate. Stem and leaf changes should relate to blade action. No piece count is prescribed.",
+      "aftermath": "If leaves spread or pile up, or the knife lifts, consider board contact and stopping. Scattering is not required.",
+      "unknown": "Choose unable to judge if only gathering or preparation is shown without enough actual cutting to assess.",
+      "scores": [
+        "The person, knife, greens, and board behave implausibly overall, or a clear view confirms no chopping.",
+        "An attempt is recognizable, but key blade action and stem or leaf response seriously disagree.",
+        "Some gathering, contact, or leaf changes are plausible, alongside clear anomalies affecting chopping.",
+        "The main chopping, body action, leaf and stem changes, and support are plausible, with minor local anomalies.",
+        "Actual chopping is assessable, and the person, broad knife, greens, board, and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P045",
+    "media_id": "A_01064",
+    "zh": {
+      "title": "切砧板上的卷心菜",
+      "question": "人物用厨房刀继续切木砧板上的卷心菜，整个交互有多合理？",
+      "body": "观察持刀手、控制菜堆的手及手臂协调，不要求固定节奏或切丝厚度。",
+      "contact": "刀刃与菜叶的作用应与手部动作对应，木板应支撑菜堆。",
+      "object": "已有菜丝不作为当前切割成功的依据，新增分离或形变应与刀的作用相联系。",
+      "aftermath": "若菜丝移动、堆积或刀停住，观察菜堆支撑与停止，不要求菜丝飞散。",
+      "unknown": "只有菜丝展示或准备刀具，且没有足够实际切割可评价时选择无法判断。",
+      "scores": [
+        "人体、刀、菜堆和木板的可见过程整体严重不合理，或清楚显示没有切菜。",
+        "切菜尝试可辨认，但刀的作用与卷心菜关键变化严重不符。",
+        "持刀、接触或菜堆变化部分合理，同时有影响切割的明显异常。",
+        "主要切割及人体、卷心菜和板面支撑合理，仅有轻微局部异常。",
+        "实际切割可评价，人体、刀、卷心菜与可见后续移动和堆积协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut cabbage on a wooden board",
+      "question": "How physically plausible is the overall interaction as the person continues cutting cabbage with a kitchen knife on the wooden board?",
+      "body": "Consider coordination of the knife hand, the hand controlling the pile, and the arms. No fixed rhythm or shred thickness is required.",
+      "contact": "Blade action should correspond to hand motion, with board support for the pile.",
+      "object": "Existing shreds do not establish success of the current action. New separation or deformation should relate to blade action.",
+      "aftermath": "If shreds move or accumulate, or the knife stops, consider support and stopping. Scattering is not required.",
+      "unknown": "Choose unable to judge if only shredded-cabbage display or tool preparation is shown without enough actual cutting to assess.",
+      "scores": [
+        "The person, knife, cabbage pile, and board behave implausibly overall, or a clear view confirms no cutting.",
+        "An attempt is recognizable, but blade action and key cabbage changes seriously disagree.",
+        "Some knife control, contact, or pile changes are plausible, alongside clear anomalies affecting cutting.",
+        "The main cutting and person–cabbage–board support are plausible, with minor local anomalies.",
+        "Actual cutting is assessable, and the person, knife, cabbage, and visible subsequent movement and accumulation are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

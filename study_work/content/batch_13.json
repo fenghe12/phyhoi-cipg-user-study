@@ -1,0 +1,290 @@
+[
+  {
+    "sample_id": "P067",
+    "media_id": "A_02589",
+    "zh": {
+      "title": "从易拉罐向玻璃杯倒饮品",
+      "question": "人物将易拉罐中的饮品倒入玻璃杯，整体交互有多合理？",
+      "body": "观察手对罐体倾角的控制、手腕与手臂协调，不要求固定姿势。",
+      "contact": "罐口、液流和杯口的位置与时序应对应，罐体与手的关系应连续。",
+      "object": "液面和泡沫若变化，应与可见流入有关，不规定泡沫厚度。",
+      "aftermath": "若液滴或溢出出现，观察下落与杯壁接触，不要求发生溢出。",
+      "unknown": "仅举罐准备，或罐口与液体转移始终不足以评价时选择无法判断。",
+      "scores": [
+        "人体、罐杯和液体的可见关系整体严重不合理，或清楚显示没有倾倒。",
+        "倾倒尝试可辨认，但手的控制、罐口液流与杯中反应严重不符。",
+        "罐体控制或液体转移部分合理，同时有影响倾倒的明显异常。",
+        "主要倾倒、人体操作及液面泡沫变化合理，仅有轻微局部异常。",
+        "实际倾倒可评价，人体、罐杯、液流及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour a canned drink into a glass",
+      "question": "How physically plausible is the interaction as the person pours the canned drink into the glass?",
+      "body": "Consider control of can tilt and wrist–arm coordination. No fixed posture is required.",
+      "contact": "Can opening, stream, and glass opening should correspond in position and time, with continuous hand–can relations.",
+      "object": "Visible level and foam changes should relate to inflow. Foam thickness is not prescribed.",
+      "aftermath": "If droplets or overflow occur, consider falling and glass-wall contact. Overflow is not required.",
+      "unknown": "Choose unable to judge if only can preparation is shown or the opening and transfer cannot be assessed.",
+      "scores": [
+        "The person, can, glass, and liquid behave implausibly overall, or a clear view confirms no pouring.",
+        "An attempt is recognizable, but hand control, outlet flow, and glass response seriously disagree.",
+        "Some can control or transfer is plausible, alongside clear anomalies affecting pouring.",
+        "The main pour, body action, and level or foam changes are plausible, with minor local anomalies.",
+        "Actual pouring is assessable, and the person, vessels, flow, and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P069",
+    "media_id": "A_00614",
+    "zh": {
+      "title": "从玻璃啤酒瓶向杯中倒啤酒",
+      "question": "人物将透明啤酒瓶中的啤酒倒入玻璃杯，整体交互有多合理？",
+      "body": "观察瓶体握持、手腕倾转和对杯口位置的协调，不要求露出全身。",
+      "contact": "瓶口、杯口和液流应在位置与时序上相关，瓶子和手的运动应连续。",
+      "object": "杯内液面或泡沫增加应与流入联系，瓶内液体若可见，其运动应与倾斜有关。",
+      "aftermath": "若停倒后有液滴或杯中晃动，观察下落和逐渐停止，不要求全部喝完或倒空。",
+      "unknown": "仅摆放瓶杯，或瓶口和转移过程缺乏足够可见信息时选择无法判断。",
+      "scores": [
+        "人体、瓶杯与液体的可见关系整体严重不合理，或清楚显示没有倒啤酒。",
+        "倾倒尝试可辨认，但手部倾转、瓶口出流与杯中反应严重不符。",
+        "瓶体控制或杯内变化部分合理，同时有影响转移的明显异常。",
+        "主要倒啤酒、人体操作及液流和杯中变化合理，仅有轻微局部异常。",
+        "实际倾倒可评价，人体、瓶杯、液流与可见停倒后运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour beer from a glass bottle into a glass",
+      "question": "How physically plausible is the interaction as the person pours beer from the transparent bottle into the glass?",
+      "body": "Consider bottle grip, wrist tilt, and coordination with the glass opening. The whole body need not be visible.",
+      "contact": "Bottle opening, glass opening, and flow should correspond in position and time, with continuous hand–bottle motion.",
+      "object": "Rising liquid or foam should relate to inflow. Any visible liquid inside the bottle should respond to tilting.",
+      "aftermath": "If droplets or glass contents move after pouring stops, consider falling and settling. Emptying the bottle is not required.",
+      "unknown": "Choose unable to judge if only bottle and glass positioning is shown or the opening and transfer lack enough visible information.",
+      "scores": [
+        "The person, bottle, glass, and liquid behave implausibly overall, or a clear view confirms no beer pouring.",
+        "An attempt is recognizable, but hand tilt, outlet flow, and glass response seriously disagree.",
+        "Some bottle control or glass-content changes are plausible, alongside clear anomalies affecting transfer.",
+        "The main beer pour, body action, flow, and glass changes are plausible, with minor local anomalies.",
+        "Actual pouring is assessable, and the person, vessels, flow, and visible post-pour motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P070",
+    "media_id": "A_00310",
+    "zh": {
+      "title": "在啤酒龙头下持杯接饮品",
+      "question": "人物在金属啤酒龙头下持杯接饮品，整体交互有多合理？",
+      "body": "观察手对杯子的握持、位置和倾角控制以及手臂协调，不要求龙头由同一手操作。",
+      "contact": "杯口与龙头出口及液流的相对位置应可解释，手杯关系应连续。",
+      "object": "杯内液面和泡沫若变化，应与流入相联系，杯体不应因接液而必须变形。",
+      "aftermath": "若液流停止、杯子移开或液滴落下，观察接触解除与杯中晃动，不要求杯子装满。",
+      "unknown": "仅持杯准备，或出口与液体进入杯中的过程不足以评价时选择无法判断。",
+      "scores": [
+        "人体、杯、龙头和液体的可见关系整体严重不合理，或清楚显示没有接液操作。",
+        "接液尝试可辨认，但杯的控制与液流和杯中关键反应严重不符。",
+        "持杯或流入变化部分合理，同时有影响接液的明显异常。",
+        "主要接液、人体持杯及液流和泡沫变化合理，仅有轻微局部异常。",
+        "实际接液可评价，人体、杯、龙头、液流及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold a glass under a beer tap",
+      "question": "How physically plausible is the interaction as the person holds the glass under the metal beer tap to receive the drink?",
+      "body": "Consider grip, position and tilt control of the glass, and arm coordination. The same hand need not operate the tap.",
+      "contact": "Glass opening, outlet, and stream should have an interpretable spatial relation, with continuous hand–glass contact.",
+      "object": "Level and foam changes should relate to inflow. Receiving liquid need not deform the glass.",
+      "aftermath": "If flow stops, the glass withdraws, or droplets fall, consider release and motion inside the glass. Filling the glass is not required.",
+      "unknown": "Choose unable to judge if only glass preparation is shown or outlet-to-glass transfer cannot be assessed.",
+      "scores": [
+        "The person, glass, tap, and liquid behave implausibly overall, or a clear view confirms no receiving action.",
+        "An attempt is recognizable, but glass control, flow, and key glass-content responses seriously disagree.",
+        "Some holding or inflow changes are plausible, alongside clear anomalies affecting receiving.",
+        "The main receiving action, body control, flow, and foam changes are plausible, with minor local anomalies.",
+        "Actual receiving is assessable, and the person, glass, tap, stream, and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P071",
+    "media_id": "A_01436",
+    "zh": {
+      "title": "操作金属罐上的啤酒龙头",
+      "question": "人物操作金属罐上的啤酒龙头，整体交互有多合理？",
+      "body": "观察手对横向手柄的控制、手指与手臂协调，不要求大幅全身动作。",
+      "contact": "手柄接触和运动应与手部操作对应，龙头与罐体连接应保持连续。",
+      "object": "若出口流动发生变化，应与阀门操作有合理时间关系，不推断不可见的内部压力。",
+      "aftermath": "若手柄停止或液滴出现，观察支撑、停止及下落，不要求画面中必须有接液杯。",
+      "unknown": "仅靠近观察，或手柄实际操作和出口响应均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、手柄、龙头与罐体的可见过程整体严重不合理，或清楚显示没有操作龙头。",
+        "操作尝试可辨认，但手的作用与手柄关键运动或出口响应严重不符。",
+        "手柄控制或出口变化部分合理，同时有影响操作的明显异常。",
+        "主要阀门操作、人体配合及可见出口反应合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、手柄、龙头、罐体及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate a beer tap on a metal tank",
+      "question": "How physically plausible is the interaction as the person operates the beer tap on the metal tank?",
+      "body": "Consider control of the horizontal handle and finger–arm coordination. Large whole-body movements are not required.",
+      "contact": "Handle contact and motion should correspond to hand action, with continuous tap–tank attachment.",
+      "object": "Any change in outlet flow should have a plausible temporal relation to valve operation. Do not infer unseen internal pressure.",
+      "aftermath": "If the handle stops or droplets appear, consider support, stopping, and falling. A receiving glass need not be visible.",
+      "unknown": "Choose unable to judge if only approach or observation is shown, or neither handle operation nor outlet response is assessable.",
+      "scores": [
+        "The person, handle, tap, and tank behave implausibly overall, or a clear view confirms no tap operation.",
+        "An attempt is recognizable, but hand action and key handle motion or outlet response seriously disagree.",
+        "Some handle control or outlet change is plausible, alongside clear anomalies affecting operation.",
+        "The main valve operation, body coordination, and visible outlet response are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and the person, handle, tap, tank, and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P072",
+    "media_id": "A_00437",
+    "zh": {
+      "title": "从摩卡壶向咖啡杯倒咖啡",
+      "question": "人物从金属摩卡壶向白色杯中倒咖啡，整体交互有多合理？",
+      "body": "观察握持隔热把手、手腕倾转及壶杯位置协调，不要求固定倾角。",
+      "contact": "壶嘴、液流及杯口应在位置和时序上相关，壶体与手的关系应连续。",
+      "object": "咖啡流入及杯内液面变化应相联系，不要求从不透明壶体测出剩余量。",
+      "aftermath": "若停倒后有滴流或杯内晃动，观察下落与停止，不要求壶盖移动或出现蒸汽。",
+      "unknown": "仅举壶准备，或壶嘴与液体转移始终不足以评价时选择无法判断。",
+      "scores": [
+        "人体、壶杯及咖啡的可见关系整体严重不合理，或清楚显示没有倒咖啡。",
+        "倾倒尝试可辨认，但壶的控制、壶嘴出流和杯中反应严重不符。",
+        "把手控制或咖啡转移部分合理，同时有影响倾倒的明显异常。",
+        "主要倾倒、人体配合及液流和杯内变化合理，仅有轻微局部异常。",
+        "实际倾倒可评价，人体、摩卡壶、杯子和可见滴流及后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour coffee from a moka pot into a cup",
+      "question": "How physically plausible is the interaction as the person pours coffee from the metal moka pot into the white cup?",
+      "body": "Consider grip on the handle, wrist tilt, and coordination of pot and cup position. Tilt need not be fixed.",
+      "contact": "Spout, stream, and cup opening should correspond in position and time, with continuous hand–pot relations.",
+      "object": "Inflow and visible cup-level changes should relate. The remaining amount inside the opaque pot need not be measurable.",
+      "aftermath": "If dripping or cup contents move after stopping, consider falling and settling. Lid motion or steam is not required.",
+      "unknown": "Choose unable to judge if only pot preparation is shown or spout-to-cup transfer cannot be assessed.",
+      "scores": [
+        "The person, pot, cup, and coffee behave implausibly overall, or a clear view confirms no coffee pouring.",
+        "An attempt is recognizable, but pot control, spout flow, and cup response seriously disagree.",
+        "Some handle control or coffee transfer is plausible, alongside clear anomalies affecting pouring.",
+        "The main pour, body coordination, flow, and cup changes are plausible, with minor local anomalies.",
+        "Actual pouring is assessable, and the person, moka pot, cup, visible dripping, and subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P073",
+    "media_id": "A_00224",
+    "zh": {
+      "title": "从玻璃壶向玻璃杯倒咖啡",
+      "question": "人物从玻璃咖啡壶向玻璃杯倾倒咖啡，整体交互有多合理？",
+      "body": "观察壶柄握持、手腕倾转及另一手对杯子的控制，不限定唯一姿势。",
+      "contact": "壶嘴、液流和杯口位置应对应，手与壶杯的支撑关系应连续。",
+      "object": "可见壶内液体随倾角移动，杯内液面变化应与流入相联系，不要求精确比较体积。",
+      "aftermath": "若杯子移开或停倒后有液滴，观察接触解除、下落与液体停止，不要求产生泡沫。",
+      "unknown": "仅摆放壶杯，或液流及其进入杯中的过程不足以评价时选择无法判断。",
+      "scores": [
+        "人体、玻璃壶杯与咖啡整体严重不合理，或清楚显示没有倾倒。",
+        "倾倒尝试可辨认，但手部控制、壶嘴流动与杯中反应严重不符。",
+        "持壶持杯或液体变化部分合理，同时有影响转移的明显异常。",
+        "主要倾倒、人体协调及壶内杯内变化合理，仅有轻微局部异常。",
+        "实际转移可评价，人体、玻璃壶杯、液流和可见后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Pour coffee from a glass pot into a glass cup",
+      "question": "How physically plausible is the interaction as the person pours coffee from the glass pot into the glass cup?",
+      "body": "Consider handle grip, wrist tilt, and control of the cup by the other hand. No unique posture is required.",
+      "contact": "Spout, stream, and cup opening should align, with continuous hand support of the vessels.",
+      "object": "Visible liquid inside the pot should respond to tilt, and cup-level changes should relate to inflow. Exact volume comparison is not required.",
+      "aftermath": "If the cup withdraws or dripping occurs after stopping, consider release, falling, and settling. Foam is not required.",
+      "unknown": "Choose unable to judge if only positioning is shown or flow and entry into the cup cannot be assessed.",
+      "scores": [
+        "The person, glass vessels, and coffee behave implausibly overall, or a clear view confirms no pouring.",
+        "An attempt is recognizable, but hand control, spout flow, and cup response seriously disagree.",
+        "Some vessel holding or liquid changes are plausible, alongside clear anomalies affecting transfer.",
+        "The main pour, body coordination, and liquid changes in pot and cup are plausible, with minor local anomalies.",
+        "Actual transfer is assessable, and the person, vessels, stream, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P074",
+    "media_id": "A_03312",
+    "zh": {
+      "title": "操作连接汽水瓶的手动气泵",
+      "question": "人物操作连接透明汽水瓶的手动气泵，整体交互有多合理？",
+      "body": "观察双手对泵柄的按压或提拉、下肢支撑及从蹲姿到站姿的协调，不要求固定幅度。",
+      "contact": "泵柄运动应与手部动作对应，软管、泵和瓶的连接位置应连续。",
+      "object": "瓶内液体或泡沫若变化，应与可见操作和容器约束相容，不从画面推断真实气压。",
+      "aftermath": "若瓶或软管晃动、泡沫持续或停止，观察支撑和运动延续，不要求喷射或爆裂。",
+      "unknown": "仅调整姿势或准备设备，实际泵柄操作与瓶状态不足以评价时选择无法判断。",
+      "scores": [
+        "人体、气泵、软管与瓶体关系整体严重不合理，或清楚显示没有操作气泵。",
+        "按泵尝试可辨认，但手的作用与泵柄运动及瓶的关键反应严重不符。",
+        "按压、连接或瓶内变化部分合理，同时有影响主要过程的明显异常。",
+        "主要按泵、人体协调及瓶管支撑和可见反应合理，仅有轻微局部异常。",
+        "实际按泵可评价，人体、泵柄、连接管、瓶及可见泡沫或后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate a hand pump connected to a cola bottle",
+      "question": "How physically plausible is the interaction as the person operates the hand pump connected to the transparent cola bottle?",
+      "body": "Consider pressing or pulling the handle, leg support, and coordination from crouching to standing. No fixed range is required.",
+      "contact": "Handle motion should correspond to hand action, with continuous hose, pump, and bottle connections.",
+      "object": "Any liquid or foam changes should be compatible with visible operation and container constraints. Do not infer measured pressure.",
+      "aftermath": "If the bottle or hose sways or foam persists or stops, consider support and continuation. Spraying or bursting is not required.",
+      "unknown": "Choose unable to judge if only posture adjustment or equipment preparation is shown and actual handle operation and bottle state cannot be assessed.",
+      "scores": [
+        "The person, pump, hose, and bottle behave implausibly overall, or a clear view confirms no pumping.",
+        "An attempt is recognizable, but hand action, handle motion, and key bottle responses seriously disagree.",
+        "Some pressing, connection, or bottle-content changes are plausible, alongside clear anomalies affecting the main process.",
+        "The main pumping, body coordination, vessel and hose support, and visible responses are plausible, with minor local anomalies.",
+        "Actual pumping is assessable, and the person, handle, hose, bottle, and visible foam or subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P075",
+    "media_id": "A_03262",
+    "zh": {
+      "title": "从瓶嘴向手掌释放泡沫",
+      "question": "人物从瓶嘴向手掌释放泡沫，整体交互有多合理？",
+      "body": "观察持瓶、控制喷嘴和承接手掌的双手协调，不要求固定倾角或明显全身发力。",
+      "contact": "瓶嘴与手掌的相对位置及泡沫流出应与手部操作相关。",
+      "object": "若泡沫形成或积累，应与出口及手掌接触相联系，不要求精确体积或固定形状。",
+      "aftermath": "若泡沫塌落、滑动或滴落，观察其与掌面的支撑，不要求发生溢出。",
+      "unknown": "仅将瓶嘴对准手掌，实际出料与接触不足以评价时选择无法判断。",
+      "scores": [
+        "人体、瓶嘴、泡沫与手掌整体严重不合理，或清楚显示没有释放泡沫的操作。",
+        "出料尝试可辨认，但手部操作、出口及泡沫关键反应严重不符。",
+        "持瓶、接触或泡沫积累部分合理，同时有影响出料过程的明显异常。",
+        "主要释放、双手协调及掌上泡沫变化合理，仅有轻微局部异常。",
+        "实际出料可评价，人体、瓶嘴、泡沫、手掌及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Dispense foam from a bottle onto a palm",
+      "question": "How physically plausible is the interaction as the person dispenses foam from the bottle nozzle onto the palm?",
+      "body": "Consider bottle holding, nozzle control, and coordination with the receiving palm. A fixed tilt or obvious whole-body effort is not required.",
+      "contact": "Nozzle–palm position and foam output should relate to hand operation.",
+      "object": "Any foam formation or accumulation should relate to the outlet and palm contact. Exact volume or a fixed shape is not required.",
+      "aftermath": "If foam collapses, slides, or drips, consider palm support. Overflow is not required.",
+      "unknown": "Choose unable to judge if the nozzle is only aimed at the palm and actual output and contact cannot be assessed.",
+      "scores": [
+        "The person, nozzle, foam, and palm behave implausibly overall, or a clear view confirms no dispensing action.",
+        "An attempt is recognizable, but hand operation, outlet, and key foam responses seriously disagree.",
+        "Some bottle control, contact, or accumulation is plausible, alongside clear anomalies affecting output.",
+        "The main dispensing, hand coordination, and foam changes on the palm are plausible, with minor local anomalies.",
+        "Actual output is assessable, and the person, nozzle, foam, palm, and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

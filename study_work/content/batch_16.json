@@ -1,0 +1,290 @@
+[
+  {
+    "sample_id": "P093",
+    "media_id": "synth_smg_01",
+    "zh": {
+      "title": "在室内靶场持枪射击",
+      "question": "人物在室内靶场持枪射击，整体物理表现有多合理？",
+      "body": "观察双手持握、手臂与躯干配合及可见射击反应，不要求夸张后坐或特定表情。",
+      "contact": "可见手部操控、枪体运动与发射现象的时序应可解释，不推断被遮挡的机构动作。",
+      "object": "若有枪口闪光、烟雾或弹壳，其来源和出现时序应与可见射击过程相容。",
+      "aftermath": "若弹壳落地、反弹或烟雾持续，观察碰撞和扩散，不要求固定数量或烟量。",
+      "unknown": "仅持枪准备，或实际操控与射击现象均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、枪体、发射及后续现象的可见关系整体严重不合理，或清楚显示没有目标交互。",
+        "射击尝试可辨认，但手部操控、枪体反应与关键发射现象严重不符。",
+        "持握、枪体反应或烟雾弹壳部分合理，同时有影响射击过程的明显异常。",
+        "主要射击、人体协调及可见枪口和弹壳反应合理，仅有轻微局部异常。",
+        "实际射击可评价，人体、枪体、可见发射及烟雾弹壳后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold and fire a gun at an indoor range",
+      "question": "How physically plausible is the overall behavior as the person holds and fires the gun at the indoor range?",
+      "body": "Consider two-hand grip, arm–torso coordination, and visible firing response. Exaggerated recoil or a particular expression is not required.",
+      "contact": "Visible hand operation, gun motion, and firing events should have interpretable timing. Do not infer hidden mechanism actions.",
+      "object": "Any muzzle flash, smoke, or casings should have sources and timing compatible with the visible firing process.",
+      "aftermath": "If casings fall or bounce or smoke persists, consider collision and diffusion. No fixed casing count or smoke amount is required.",
+      "unknown": "Choose unable to judge if only holding preparation is shown or neither actual operation nor firing phenomena can be assessed.",
+      "scores": [
+        "The visible person, gun, firing, and subsequent phenomena behave implausibly overall, or a clear view confirms no target interaction.",
+        "An attempt is recognizable, but hand operation, gun response, and key firing phenomena seriously disagree.",
+        "Some holding, gun response, smoke, or casing behavior is plausible, alongside clear anomalies affecting firing.",
+        "The main firing, body coordination, and visible muzzle and casing responses are plausible, with minor local anomalies.",
+        "Actual firing is assessable, and the person, gun, visible discharge, and subsequent smoke or casing motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P094",
+    "media_id": "A_02791",
+    "zh": {
+      "title": "背负并操作烟雾发生器",
+      "question": "人物背负烟雾发生器并控制前方喷管行走，整体交互有多合理？",
+      "body": "观察肩带承重、双手控制及行走平衡，不要求固定步幅或明显后坐。",
+      "contact": "背包与肩带、喷管与手的关系应连续，管口方向应与控制动作相联系。",
+      "object": "若烟雾从喷管排出，其来源与方向应与可见设备状态相容，不推断不可见开关。",
+      "aftermath": "若人物行走或烟雾扩散，观察设备随身运动及烟雾延续，不要求烟雾始终贴着喷管。",
+      "unknown": "仅展示背包，或设备支撑与喷管实际操作均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、肩带、设备及烟雾的可见关系整体严重不合理，或清楚显示没有背负操作。",
+        "操作可辨认，但身体支撑、喷管控制与关键设备或出烟反应严重不符。",
+        "背负、手部控制或排烟部分合理，同时有影响行走操作的明显异常。",
+        "主要背负行走、人体协调及设备和可见烟雾合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、肩带、设备、喷管和可见后续烟雾运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Carry and operate a backpack smoke generator",
+      "question": "How physically plausible is the interaction as the person carries the smoke generator and controls its forward nozzle while walking?",
+      "body": "Consider strap loading, hand control, and walking balance. A fixed stride or obvious recoil is not required.",
+      "contact": "Backpack–strap and nozzle–hand relations should be continuous, with nozzle direction related to control.",
+      "object": "Any smoke from the nozzle should have a source and direction compatible with visible equipment state. Do not infer hidden switches.",
+      "aftermath": "During walking or diffusion, consider equipment motion with the body and smoke continuation. Smoke need not remain attached to the nozzle.",
+      "unknown": "Choose unable to judge if only backpack display is shown or neither support nor actual nozzle operation can be assessed.",
+      "scores": [
+        "The person, straps, equipment, and smoke behave implausibly overall, or a clear view confirms no carrying operation.",
+        "Operation is recognizable, but body support, nozzle control, and key equipment or emission responses seriously disagree.",
+        "Some carrying, hand control, or emission is plausible, alongside clear anomalies affecting walking operation.",
+        "The main carrying and walking, body coordination, equipment, and visible smoke are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and the person, straps, equipment, nozzle, and visible subsequent smoke motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P095",
+    "media_id": "A_02319",
+    "zh": {
+      "title": "在砂带上加工金属长条",
+      "question": "人物把金属长条靠向运动砂带进行加工，整体交互有多合理？",
+      "body": "观察双手握持长条、手臂导向和姿势平衡，不要求固定按压力或加工角度。",
+      "contact": "金属与砂带接触区域应对应双手导向，砂带与机架的关系应连续。",
+      "object": "若金属表面磨痕或接触区烟尘变化可见，应与加工位置相关，不要求可见大幅形变。",
+      "aftermath": "若长条移开或烟尘继续扩散，观察接触解除和烟尘延续，不要求立即消失。",
+      "unknown": "仅持条准备，或接触及表面响应均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、金属条、砂带和烟尘整体严重不合理，或清楚显示没有加工。",
+        "加工尝试可辨认，但双手导向、接触及金属或烟尘关键反应严重不符。",
+        "握持、摩擦作用或表面变化部分合理，同时有影响加工的明显异常。",
+        "主要加工、人体协调及金属支撑和可见烟尘合理，仅有轻微局部异常。",
+        "实际加工可评价，人体、金属条、砂带及可见移开和烟尘后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a metal bar against a sanding belt",
+      "question": "How physically plausible is the interaction as the person works the metal bar against the moving belt?",
+      "body": "Consider two-hand grip, arm guidance, and balance. A fixed pressure or working angle is not required.",
+      "contact": "Metal–belt contact should correspond to hand guidance, with continuous belt–frame relations.",
+      "object": "Any abrasion or smoke and dust change should relate to the working region. Large visible deformation is not required.",
+      "aftermath": "If the bar withdraws or smoke and dust continue to spread, consider release and continuation. Immediate disappearance is not required.",
+      "unknown": "Choose unable to judge if only holding preparation is shown or neither contact nor surface response can be assessed.",
+      "scores": [
+        "The person, bar, belt, and smoke or dust behave implausibly overall, or a clear view confirms no processing.",
+        "An attempt is recognizable, but hand guidance, contact, and key metal or smoke responses seriously disagree.",
+        "Some grip, frictional action, or surface changes are plausible, alongside clear anomalies affecting processing.",
+        "The main work, body coordination, metal support, and visible smoke or dust are plausible, with minor local anomalies.",
+        "Actual processing is assessable, and the person, bar, belt, visible withdrawal, and subsequent smoke or dust motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P096",
+    "media_id": "A_00317",
+    "zh": {
+      "title": "向盛白色固体的玻璃罐中加液体",
+      "question": "人物用量杯向盛白色固体的玻璃罐中加液体，整体交互有多合理？",
+      "body": "观察戴手套的手控制量杯、倾转及与罐口对准的协调。",
+      "contact": "量杯口、流束和罐口应在位置和时序上对应，罐体由桌面合理支撑。",
+      "object": "若液面、固体位置或白雾变化，应与可见加入过程及容器约束相容，不推断材料成分。",
+      "aftermath": "若雾气越过罐口扩散或停倒后滴流，观察延续和下落，不要求固体完全消失。",
+      "unknown": "关键流入区域被完全遮挡，且没有足够实际转移可评价时选择无法判断。",
+      "scores": [
+        "人体、量杯、液体、罐中材料和雾气整体严重不合理，或清楚显示没有加液操作。",
+        "加液尝试可辨认，但手部控制、流入及罐中关键反应严重不符。",
+        "持杯、转移或材料雾气变化部分合理，同时有影响加入过程的明显异常。",
+        "主要加入、人体协调及罐中材料和可见雾气合理，仅有轻微局部异常。",
+        "实际加入可评价，人体、量杯、液体、玻璃罐、材料及可见后续雾气运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Add liquid to a glass jar containing white solids",
+      "question": "How physically plausible is the interaction as the person adds liquid from the measuring cup to the jar containing white solids?",
+      "body": "Consider gloved cup control, tilt, and alignment with the jar opening.",
+      "contact": "Cup opening, stream, and jar opening should correspond in position and time, with plausible table support.",
+      "object": "Any level, solid-position, or mist change should be compatible with visible addition and container constraints. Do not infer material composition.",
+      "aftermath": "If mist spreads over the rim or dripping continues after stopping, consider continuation and falling. Complete disappearance of solids is not required.",
+      "unknown": "Choose unable to judge if the entry region is fully hidden and there is insufficient actual transfer to assess.",
+      "scores": [
+        "The person, cup, liquid, jar contents, and mist behave implausibly overall, or a clear view confirms no addition.",
+        "An attempt is recognizable, but hand control, inflow, and key jar responses seriously disagree.",
+        "Some holding, transfer, or material and mist changes are plausible, alongside clear anomalies affecting addition.",
+        "The main addition, body coordination, jar contents, and visible mist are plausible, with minor local anomalies.",
+        "Actual addition is assessable, and the person, cup, liquid, jar, material, and visible subsequent mist motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P097",
+    "media_id": "A_03296",
+    "zh": {
+      "title": "用折叠铲处理地面冒烟区域",
+      "question": "人物用折叠铲处理地面冒烟区域，整体交互有多合理？",
+      "body": "观察双手握柄、手臂与俯身姿势和下肢支撑的协调。",
+      "contact": "铲头与地面材料的接触及相对移动应与手部动作相关。",
+      "object": "若土料或表面位置变化，应与铲的作用相联系，不要求烟雾立即减少或火焰出现。",
+      "aftermath": "若土块落下或烟雾扩散，观察地面接触与运动延续，不推断不可见的熄灭结果。",
+      "unknown": "烟雾始终挡住全部关键作用，且没有足够实际铲动可评价时选择无法判断。",
+      "scores": [
+        "人体、铲、地面材料与烟雾整体严重不合理，或清楚显示没有铲动操作。",
+        "铲动尝试可辨认，但人体动作、铲头作用与材料关键反应严重不符。",
+        "握持、地面接触或材料变化部分合理，同时有影响铲动的明显异常。",
+        "主要铲动、人体协调及地面材料与可见烟雾合理，仅有轻微局部异常。",
+        "实际铲动可评价，人体、铲、地面材料和可见土块及烟雾后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Work a smoking ground area with a folding shovel",
+      "question": "How physically plausible is the interaction as the person works the smoking ground area with the folding shovel?",
+      "body": "Consider two-hand grip, arm coordination with leaning posture, and leg support.",
+      "contact": "Scoop contact and relative movement at the ground should relate to hand action.",
+      "object": "Any soil or surface displacement should relate to shovel action. Immediate smoke reduction or visible flame is not required.",
+      "aftermath": "If soil falls or smoke spreads, consider ground contact and continuation. Do not infer an unseen extinguishing outcome.",
+      "unknown": "Choose unable to judge if smoke always hides all crucial action and there is insufficient actual shoveling to assess.",
+      "scores": [
+        "The person, shovel, ground material, and smoke behave implausibly overall, or a clear view confirms no shoveling.",
+        "An attempt is recognizable, but body action, scoop action, and key material responses seriously disagree.",
+        "Some grip, ground contact, or material changes are plausible, alongside clear anomalies affecting shoveling.",
+        "The main shoveling, body coordination, ground material, and visible smoke are plausible, with minor local anomalies.",
+        "Actual shoveling is assessable, and the person, shovel, ground material, visible soil, and subsequent smoke motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P098",
+    "media_id": "A_03227",
+    "zh": {
+      "title": "用长柄勺转移冒蒸汽的浓汤",
+      "question": "人物用长柄勺转移大锅中的浓汤，整体交互有多合理？",
+      "body": "观察勺柄握持、舀起和倾倒的手腕与手臂协调，允许不同高度。",
+      "contact": "勺头与汤面接触、舀取与流回过程应对应手部操作，锅体支撑应连续。",
+      "object": "浓汤可形成流束、滴液或液面扰动，应与勺的姿态和运动相关，不规定黏稠程度的数值。",
+      "aftermath": "若勺停住或汤流回锅中，观察下落、表面波动及蒸汽延续，不要求明显飞溅。",
+      "unknown": "仅持勺准备，或舀取和液体转移不足以评价时选择无法判断。",
+      "scores": [
+        "人体、勺、浓汤和大锅整体严重不合理，或清楚显示没有转移汤的操作。",
+        "转移尝试可辨认，但手部动作、勺的承托及关键汤流反应严重不符。",
+        "舀取、倾倒或汤面变化部分合理，同时有影响转移的明显异常。",
+        "主要转移、人体协调及浓汤流动和可见蒸汽合理，仅有轻微局部异常。",
+        "实际转移可评价，人体、勺、浓汤、大锅及可见回流和蒸汽后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Transfer steaming thick soup with a long-handled ladle",
+      "question": "How physically plausible is the interaction as the person transfers thick soup in the large pot with the ladle?",
+      "body": "Consider handle grip and wrist–arm coordination in scooping and pouring. Height may vary.",
+      "contact": "Scoop contact, lifting, and return flow should correspond to hand operation, with continuous pot support.",
+      "object": "Thick soup may form streams, drips, or surface disturbances related to ladle posture and motion. No numerical viscosity is prescribed.",
+      "aftermath": "If the ladle stops or soup returns, consider falling, surface motion, and continuing steam. Strong splashing is not required.",
+      "unknown": "Choose unable to judge if only ladle preparation is shown or scooping and transfer cannot be assessed.",
+      "scores": [
+        "The person, ladle, soup, and pot behave implausibly overall, or a clear view confirms no soup transfer.",
+        "An attempt is recognizable, but hand action, ladle support, and key soup-flow responses seriously disagree.",
+        "Some scooping, pouring, or surface changes are plausible, alongside clear anomalies affecting transfer.",
+        "The main transfer, body coordination, thick-liquid flow, and visible steam are plausible, with minor local anomalies.",
+        "Actual transfer is assessable, and the person, ladle, soup, pot, visible return flow, and subsequent steam motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P099",
+    "media_id": "A_00271",
+    "zh": {
+      "title": "手持冒烟的草本棒",
+      "question": "人物手持焦黑端冒烟的草本棒，整体交互有多合理？",
+      "body": "观察手指握持、手腕导向及手臂与头部协调，不要求固定表情。",
+      "contact": "草本棒与手的接触应连续，烟雾来源应与可见焦黑端相联系。",
+      "object": "棒体可保持形状，烟雾可卷动扩展，不要求片段内出现新燃烧或明显缩短。",
+      "aftermath": "若棒体或嘴部移动，观察烟雾受运动或气流影响的延续，不要求固定烟柱方向。",
+      "unknown": "仅有烟雾但棒体及持握始终无法辨认，实际交互不足以评价时选择无法判断。",
+      "scores": [
+        "人体、草本棒、持握与烟源关系整体严重不合理，或清楚显示没有持棒交互。",
+        "持握可辨认，但手部控制与棒体运动及关键烟源关系严重不符。",
+        "握持、导向或烟雾延续部分合理，同时有影响持物交互的明显异常。",
+        "主要持握、人体协调及棒体与烟雾来源合理，仅有轻微局部异常。",
+        "实际持握可评价，人体、草本棒、焦黑端及可见烟雾后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold a smoking herb stick",
+      "question": "How physically plausible is the interaction as the person holds the herb stick with its smoking charred tip?",
+      "body": "Consider finger grip, wrist guidance, and arm–head coordination. No fixed expression is required.",
+      "contact": "Hand contact should be continuous, with smoke related to the visible charred tip.",
+      "object": "The stick may retain shape while smoke curls and expands. New ignition or visible shortening within the clip is not required.",
+      "aftermath": "If the stick or mouth moves, consider continued smoke under motion or airflow. A fixed plume direction is not required.",
+      "unknown": "Choose unable to judge if only smoke is visible and neither stick nor grip can be identified well enough to assess actual interaction.",
+      "scores": [
+        "The person, stick, grip, and smoke source behave implausibly overall, or a clear view confirms no holding interaction.",
+        "Holding is recognizable, but hand control, stick motion, and key source relations seriously disagree.",
+        "Some grip, guidance, or smoke continuation is plausible, alongside clear anomalies affecting holding.",
+        "The main holding, body coordination, stick, and smoke source are plausible, with minor local anomalies.",
+        "Actual holding is assessable, and the person, stick, charred tip, and visible subsequent smoke motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P100",
+    "media_id": "A_00684",
+    "zh": {
+      "title": "在透明玻璃板上用记号笔书写",
+      "question": "人物用记号笔在透明玻璃板上书写，整体交互有多合理？",
+      "body": "观察笔杆握持、手指与手腕细小运动及抬臂协调，不规定字形或写字姿势。",
+      "contact": "笔尖与玻璃的接触和移动应与手部操作相联系。",
+      "object": "若墨迹形成，其位置和延伸应与笔尖经过区域相关，不要求写出特定文字。",
+      "aftermath": "若抬笔或墨迹停止延伸，观察接触解除及笔迹保留，不要求墨水滴落或被擦除。",
+      "unknown": "仅举笔准备，或笔尖与书写面实际接触和笔迹均不足以评价时选择无法判断。",
+      "scores": [
+        "人体、笔尖、玻璃及笔迹的可见关系整体严重不合理，或清楚显示没有书写。",
+        "书写尝试可辨认，但手部操作、笔尖运动与关键墨迹变化严重不符。",
+        "握笔、接触或笔迹形成部分合理，同时有影响书写的明显异常。",
+        "主要书写、人体协调及笔尖与玻璃上的笔迹合理，仅有轻微局部异常。",
+        "实际书写可评价，人体、记号笔、玻璃及可见抬笔和笔迹后续状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Write on a transparent glass board with a marker",
+      "question": "How physically plausible is the interaction as the person writes on the glass board with the marker?",
+      "body": "Consider grip, fine finger–wrist motion, and raised-arm coordination. No particular handwriting or posture is required.",
+      "contact": "Tip contact and movement on the glass should relate to hand operation.",
+      "object": "Any ink marks should form and extend along regions passed by the tip. Specific text is not required.",
+      "aftermath": "If the tip lifts or marks stop extending, consider contact release and mark retention. Dripping or erasing is not required.",
+      "unknown": "Choose unable to judge if only pen preparation is shown or neither actual tip contact nor marks can be assessed.",
+      "scores": [
+        "The person, tip, glass, and marks behave implausibly overall, or a clear view confirms no writing.",
+        "An attempt is recognizable, but hand operation, tip motion, and key ink changes seriously disagree.",
+        "Some grip, contact, or mark formation is plausible, alongside clear anomalies affecting writing.",
+        "The main writing, body coordination, and tip–glass–mark relation are plausible, with minor local anomalies.",
+        "Actual writing is assessable, and the person, marker, glass, visible lifting, and subsequent mark state are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

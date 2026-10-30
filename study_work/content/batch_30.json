@@ -1,0 +1,578 @@
+[
+  {
+    "sample_id": "P239",
+    "media_id": "A_04131",
+    "zh": {
+      "title": "展示手套附近的火焰",
+      "question": "人物展示手套附近的火焰，整体交互有多合理？",
+      "body": "观察戴手套的手保持或调整姿态，另一手操作按可见程度评价。",
+      "contact": "手套应随手运动，火焰与可见燃烧位置应有合理空间关系。",
+      "object": "火焰可闪动，手套不必短时间内熔化或出现明显破损。",
+      "aftermath": "若手或火源移动，观察火焰连续变化，不推断不可见燃料与点火方法。",
+      "unknown": "火源与手套关系不可辨认，无法评价实际交互时选择无法判断。",
+      "scores": [
+        "手部姿态、手套连续性与可见火焰来源整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部姿态、手套连续性与可见火焰来源的关键关系严重不符。",
+        "手部姿态、手套连续性与可见火焰来源部分合理，同时存在明显异常。",
+        "手部姿态、手套连续性与可见火焰来源主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部姿态、手套连续性与可见火焰来源及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Display flames near a glove",
+      "question": "How physically plausible is the interaction: display flames near a glove?",
+      "body": "Consider the gloved-hand posture and adjustments, assessing the other hand only where visible.",
+      "contact": "The glove should move with the hand and flames should have plausible spatial relations to visible burning locations.",
+      "object": "Flames may flicker. Immediate glove melting or damage is not required.",
+      "aftermath": "On hand or source motion, consider continuous flame changes without inferring unseen fuel or ignition methods.",
+      "unknown": "Choose unable to judge if flame–glove relations cannot be distinguished enough to assess actual interaction.",
+      "scores": [
+        "Hand posture, glove continuity, and visible flame sources are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand posture, glove continuity, and visible flame sources seriously disagree.",
+        "Hand posture, glove continuity, and visible flame sources are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand posture, glove continuity, and visible flame sources are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand posture, glove continuity, and visible flame sources and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P240",
+    "media_id": "A_03923",
+    "zh": {
+      "title": "持握锅内已有火焰的平底锅",
+      "question": "人物持握锅内已有火焰的平底锅，整体交互有多合理？",
+      "body": "观察握柄、手臂承托和可能的晃锅动作。",
+      "contact": "锅柄与锅体应连接连续，手或灶台应提供合理支撑。",
+      "object": "锅内火焰可随气流和锅体运动变化，不要求重新点火、必定翻食材或锅体燃烧。",
+      "aftermath": "若锅移动或停住，观察火焰来源和运动变化，不把火焰大小单独当成合理性分数。",
+      "unknown": "锅与手的实际关系被遮挡，无法评价持锅过程时选择无法判断。",
+      "scores": [
+        "人体控锅、锅体支撑与锅内火焰连续性整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控锅、锅体支撑与锅内火焰连续性的关键关系严重不符。",
+        "人体控锅、锅体支撑与锅内火焰连续性部分合理，同时存在明显异常。",
+        "人体控锅、锅体支撑与锅内火焰连续性主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控锅、锅体支撑与锅内火焰连续性及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold a pan with existing flames inside",
+      "question": "How physically plausible is the interaction: hold a pan with existing flames inside?",
+      "body": "Consider handle grip, arm support, and any pan movement.",
+      "contact": "Handle–pan structure should remain continuous, supported plausibly by hand or stove.",
+      "object": "Flames may respond to airflow and pan motion. New ignition, food tossing, or pan-material combustion is not required.",
+      "aftermath": "On moving or stopping, consider flame source and motion without treating flame size alone as plausibility.",
+      "unknown": "Choose unable to judge if actual hand–pan relations are obscured enough to prevent assessment.",
+      "scores": [
+        "Pan control, pan support, and internal-flame continuity are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among pan control, pan support, and internal-flame continuity seriously disagree.",
+        "Pan control, pan support, and internal-flame continuity are partly plausible, alongside clear anomalies.",
+        "The main relationships among pan control, pan support, and internal-flame continuity are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and pan control, pan support, and internal-flame continuity and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P241",
+    "media_id": "A_03883",
+    "zh": {
+      "title": "用长叉调整炉内壁上的面饼",
+      "question": "人物用长叉调整炉内壁上的面饼，整体交互有多合理？",
+      "body": "观察握持长杆、前伸推压及身体平衡。",
+      "contact": "叉头、面饼和炉壁的接触应与手部动作相符。",
+      "object": "面饼可局部压合或调整位置，不要求已有火焰重新点燃或面饼立刻熟透。",
+      "aftermath": "若工具退出，观察面饼对炉壁的附着和可见火焰，不强制要求面饼掉落。",
+      "unknown": "炉口遮挡使实际工具面饼作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体控叉、面饼炉壁接触与炉内支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控叉、面饼炉壁接触与炉内支撑的关键关系严重不符。",
+        "人体控叉、面饼炉壁接触与炉内支撑部分合理，同时存在明显异常。",
+        "人体控叉、面饼炉壁接触与炉内支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控叉、面饼炉壁接触与炉内支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Adjust flatbreads on an oven wall with a long fork",
+      "question": "How physically plausible is the interaction: adjust flatbreads on an oven wall with a long fork?",
+      "body": "Consider long-shaft grip, reaching pressure, and balance.",
+      "contact": "Head, bread, and oven-wall contact should correspond to hand action.",
+      "object": "Bread may press against the wall or shift locally. Reignition or immediate full cooking is not required.",
+      "aftermath": "On withdrawal, consider bread attachment and visible flames without requiring detachment.",
+      "unknown": "Choose unable to judge if oven occlusion prevents assessment of actual tool–bread action.",
+      "scores": [
+        "Fork control, bread–wall contact, and oven support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among fork control, bread–wall contact, and oven support seriously disagree.",
+        "Fork control, bread–wall contact, and oven support are partly plausible, alongside clear anomalies.",
+        "The main relationships among fork control, bread–wall contact, and oven support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and fork control, bread–wall contact, and oven support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P242",
+    "media_id": "A_03796",
+    "zh": {
+      "title": "双手举持燃烧的香束",
+      "question": "人物双手举持燃烧的香束，整体交互有多合理？",
+      "body": "观察双手夹持、举降香束与身体俯仰的协调。",
+      "contact": "香束应随手连续运动，香枝和绑线关系应合理。",
+      "object": "已有燃烧端可持续冒烟，不要求当场点火或每枝均有明火。",
+      "aftermath": "若香束下降或倾斜，观察烟气上升与扩散，不要求烟完全跟随香束刚体移动。",
+      "unknown": "手与香束或烟源均无法辨认，实际交互不足以评价时选择无法判断。",
+      "scores": [
+        "双手举降、香束承托与烟气运动整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手举降、香束承托与烟气运动的关键关系严重不符。",
+        "双手举降、香束承托与烟气运动部分合理，同时存在明显异常。",
+        "双手举降、香束承托与烟气运动主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手举降、香束承托与烟气运动及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Raise and lower a bundle of burning incense",
+      "question": "How physically plausible is the interaction: raise and lower a bundle of burning incense?",
+      "body": "Consider two-hand grip, bundle lifting and lowering, and body bowing.",
+      "contact": "Incense should move continuously with the hands, maintaining plausible stick–binding relations.",
+      "object": "Existing burning tips may smoke. New ignition or open flames on every stick is not required.",
+      "aftermath": "On lowering or tilting, consider smoke rise and dispersal rather than rigidly attaching all smoke to the bundle.",
+      "unknown": "Choose unable to judge if hand–bundle relations or smoke sources cannot be distinguished enough for assessment.",
+      "scores": [
+        "Two-hand lifting, incense support, and smoke motion are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand lifting, incense support, and smoke motion seriously disagree.",
+        "Two-hand lifting, incense support, and smoke motion are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand lifting, incense support, and smoke motion are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand lifting, incense support, and smoke motion and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P243",
+    "media_id": "A_03765",
+    "zh": {
+      "title": "扶持连接软管的金属喷灯",
+      "question": "人物扶持连接软管的金属喷灯，整体交互有多合理？",
+      "body": "观察握柄、手臂承托及喷嘴调向。",
+      "contact": "金属管、软管和手部的连接应连续，火焰应与喷嘴位置相关。",
+      "object": "火焰可喷出并摆动，软管可弯曲，不要求金属管熔化或点燃其他物体。",
+      "aftermath": "若喷灯移动或停止，观察软管约束及火焰方向变化。",
+      "unknown": "喷嘴或握持位置不可见，实际控灯关系不足以评价时选择无法判断。",
+      "scores": [
+        "人体控灯、软管约束与喷嘴火焰整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控灯、软管约束与喷嘴火焰的关键关系严重不符。",
+        "人体控灯、软管约束与喷嘴火焰部分合理，同时存在明显异常。",
+        "人体控灯、软管约束与喷嘴火焰主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控灯、软管约束与喷嘴火焰及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Support a hose-connected metal torch",
+      "question": "How physically plausible is the interaction: support a hose-connected metal torch?",
+      "body": "Consider grip, arm support, and nozzle orientation.",
+      "contact": "Pipe, hose, and hand connections should remain continuous, with flame related to nozzle position.",
+      "object": "Flame may jet and fluctuate and the hose may bend. Pipe melting or ignition of another object is not required.",
+      "aftermath": "On movement or stopping, consider hose constraints and flame-direction changes.",
+      "unknown": "Choose unable to judge if nozzle or grip visibility prevents assessment of actual torch control.",
+      "scores": [
+        "Torch control, hose constraints, and nozzle flame are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among torch control, hose constraints, and nozzle flame seriously disagree.",
+        "Torch control, hose constraints, and nozzle flame are partly plausible, alongside clear anomalies.",
+        "The main relationships among torch control, hose constraints, and nozzle flame are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and torch control, hose constraints, and nozzle flame and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P244",
+    "media_id": "A_03722",
+    "zh": {
+      "title": "扶持并操作已有炭火的熏烤炉",
+      "question": "人物扶持并操作已有炭火的熏烤炉，整体交互有多合理？",
+      "body": "观察手套对炉体或门体的扶持及上身平衡。",
+      "contact": "炉门、炉体和手的接触应连续，按可见操作评价，不预设一定开关门。",
+      "object": "炉内炭火可闪动，不要求重新点火、金属炉体变形或整炉移动。",
+      "aftermath": "若门或手移开，观察铰接与支撑及火焰位置。",
+      "unknown": "只有站在炉旁且实际手炉接触不足以评价时选择无法判断。",
+      "scores": [
+        "人体扶持、炉体门体连接与炉内炭火整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体扶持、炉体门体连接与炉内炭火的关键关系严重不符。",
+        "人体扶持、炉体门体连接与炉内炭火部分合理，同时存在明显异常。",
+        "人体扶持、炉体门体连接与炉内炭火主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体扶持、炉体门体连接与炉内炭火及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Support and handle a smoker with existing coals",
+      "question": "How physically plausible is the interaction: support and handle a smoker with existing coals?",
+      "body": "Consider gloved support of the body or door and upper-body balance.",
+      "contact": "Door, casing, and hand contact should remain continuous. Assess visible action without presuming a door cycle.",
+      "object": "Coals may glow or flicker. New ignition, casing deformation, or whole-smoker movement is not required.",
+      "aftermath": "On door or hand movement, consider hinges, support, and flame locations.",
+      "unknown": "Choose unable to judge if only standing beside the smoker is shown and actual contact cannot be assessed.",
+      "scores": [
+        "Body support, casing–door connections, and internal coals are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among body support, casing–door connections, and internal coals seriously disagree.",
+        "Body support, casing–door connections, and internal coals are partly plausible, alongside clear anomalies.",
+        "The main relationships among body support, casing–door connections, and internal coals are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and body support, casing–door connections, and internal coals and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P245",
+    "media_id": "A_03693",
+    "zh": {
+      "title": "持握并观察圆柱形道具",
+      "question": "人物持握并观察圆柱形道具，整体交互有多合理？",
+      "body": "观察手指握持、手腕定向与上身协调。",
+      "contact": "圆柱体应由手合理承托，顶部和下部结构应连续。",
+      "object": "按实际可见情况评价顶部，持握任务不强制要求点火或冒烟。",
+      "aftermath": "若道具移动或出现火焰烟气，观察重力、握持及可见来源，不推断内部成分。",
+      "unknown": "道具与手的实际承托关系无法辨认时选择无法判断。",
+      "scores": [
+        "手部握持、圆柱体连续性与可见顶部变化整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部握持、圆柱体连续性与可见顶部变化的关键关系严重不符。",
+        "手部握持、圆柱体连续性与可见顶部变化部分合理，同时存在明显异常。",
+        "手部握持、圆柱体连续性与可见顶部变化主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部握持、圆柱体连续性与可见顶部变化及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Hold and observe a cylindrical prop",
+      "question": "How physically plausible is the interaction: hold and observe a cylindrical prop?",
+      "body": "Consider finger grip, wrist orientation, and upper-body coordination.",
+      "contact": "The hand should plausibly support the cylinder, with continuous top and lower-body structure.",
+      "object": "Assess the visible top. This holding task does not require ignition or smoke.",
+      "aftermath": "If moved or flames or smoke appear, consider gravity, grip, and visible sources without inferring contents.",
+      "unknown": "Choose unable to judge if actual hand–prop support cannot be distinguished.",
+      "scores": [
+        "Hand grip, cylinder continuity, and visible top changes are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand grip, cylinder continuity, and visible top changes seriously disagree.",
+        "Hand grip, cylinder continuity, and visible top changes are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand grip, cylinder continuity, and visible top changes are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand grip, cylinder continuity, and visible top changes and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P246",
+    "media_id": "A_03662",
+    "zh": {
+      "title": "用打火机加热圆柱形电子元件",
+      "question": "人物用打火机加热圆柱形电子元件，整体交互有多合理？",
+      "body": "观察一手夹持元件、另一手控火与精细定位。",
+      "contact": "火焰应来源于打火机，元件与火焰的接近应与手部动作对应。",
+      "object": "元件可以短时间没有明显外观变化，不要求熔化、爆裂或电学反应。",
+      "aftermath": "若打火机移开或熄灭，观察火源位置和夹持，不推断不可见温度。",
+      "unknown": "实际火焰与元件接近关系不足以评价时选择无法判断。",
+      "scores": [
+        "双手定位、元件承托与打火机火焰来源整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手定位、元件承托与打火机火焰来源的关键关系严重不符。",
+        "双手定位、元件承托与打火机火焰来源部分合理，同时存在明显异常。",
+        "双手定位、元件承托与打火机火焰来源主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手定位、元件承托与打火机火焰来源及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Heat a cylindrical electronic component with a lighter",
+      "question": "How physically plausible is the interaction: heat a cylindrical electronic component with a lighter?",
+      "body": "Consider one-hand component grip, other-hand flame control, and fine positioning.",
+      "contact": "Flame should originate at the lighter and approach should correspond to hand motion.",
+      "object": "The component may show no immediate appearance change. Melting, bursting, or electrical response is not required.",
+      "aftermath": "On withdrawal or extinction, consider source position and grip without inferring unseen temperature.",
+      "unknown": "Choose unable to judge if actual flame–component proximity cannot be assessed.",
+      "scores": [
+        "Two-hand positioning, component support, and lighter-flame source are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand positioning, component support, and lighter-flame source seriously disagree.",
+        "Two-hand positioning, component support, and lighter-flame source are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand positioning, component support, and lighter-flame source are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand positioning, component support, and lighter-flame source and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P247",
+    "media_id": "A_03175",
+    "zh": {
+      "title": "用刀叉切牛排",
+      "question": "人物用刀叉切牛排，整体交互有多合理？",
+      "body": "观察一手叉住肉、另一手持刀往复切动的协调。",
+      "contact": "刀刃接触与切口发展应相关，叉和砧板应提供合理固定。",
+      "object": "熟肉可局部受压、切开并露出截面，不要求瞬间完全分离或大量流汁。",
+      "aftermath": "若肉块分离或被叉起，观察承托转换、柔性及砧板接触。",
+      "unknown": "只有刀叉就位，实际切肉不足以评价时选择无法判断。",
+      "scores": [
+        "双手刀叉控制、牛排切口与砧板支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手刀叉控制、牛排切口与砧板支撑的关键关系严重不符。",
+        "双手刀叉控制、牛排切口与砧板支撑部分合理，同时存在明显异常。",
+        "双手刀叉控制、牛排切口与砧板支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手刀叉控制、牛排切口与砧板支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut steak with a knife and fork",
+      "question": "How physically plausible is the interaction: cut steak with a knife and fork?",
+      "body": "Consider fork stabilization and coordinated sawing with the knife.",
+      "contact": "Blade contact should relate to cut progression, with plausible fork and board restraint.",
+      "object": "Cooked meat may compress and open to reveal a cut face. Immediate full separation or abundant juices is not required.",
+      "aftermath": "If a piece separates or lifts, consider support transfer, flexibility, and board contact.",
+      "unknown": "Choose unable to judge if only utensil setup is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "Two-hand utensil control, steak cutting, and board support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand utensil control, steak cutting, and board support seriously disagree.",
+        "Two-hand utensil control, steak cutting, and board support are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand utensil control, steak cutting, and board support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand utensil control, steak cutting, and board support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P248",
+    "media_id": "A_02921",
+    "zh": {
+      "title": "用长刀切固定架上的火腿",
+      "question": "人物用长刀切固定架上的火腿，整体交互有多合理？",
+      "body": "观察持刀往复导向、另一手扶持及身体协调。",
+      "contact": "长刀刃与火腿的切面应对应，固定架应合理限制整腿移动。",
+      "object": "火腿可形成薄片或局部切口，不要求整腿随刀移动或一次切断。",
+      "aftermath": "若肉片下垂或取下，观察柔性、重力与承托。",
+      "unknown": "只有刀贴近肉面，实际切削不足以评价时选择无法判断。",
+      "scores": [
+        "人体控刀、火腿薄片形成与固定架支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控刀、火腿薄片形成与固定架支撑的关键关系严重不符。",
+        "人体控刀、火腿薄片形成与固定架支撑部分合理，同时存在明显异常。",
+        "人体控刀、火腿薄片形成与固定架支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控刀、火腿薄片形成与固定架支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Slice ham mounted in a stand with a long knife",
+      "question": "How physically plausible is the interaction: slice ham mounted in a stand with a long knife?",
+      "body": "Consider sawing guidance, other-hand support, and body coordination.",
+      "contact": "Blade contact should correspond to the cut surface, with the stand plausibly restraining the ham.",
+      "object": "Thin slices or local cuts may form. Whole-ham movement or severing in one stroke is not required.",
+      "aftermath": "If a slice droops or is removed, consider flexibility, gravity, and support.",
+      "unknown": "Choose unable to judge if only blade positioning is shown and actual slicing cannot be assessed.",
+      "scores": [
+        "Knife control, ham-slice formation, and stand support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife control, ham-slice formation, and stand support seriously disagree.",
+        "Knife control, ham-slice formation, and stand support are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife control, ham-slice formation, and stand support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife control, ham-slice formation, and stand support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P249",
+    "media_id": "A_04534",
+    "zh": {
+      "title": "给西葫芦卷添加馅料或涂料",
+      "question": "人物给西葫芦卷添加馅料或涂料，整体交互有多合理？",
+      "body": "观察指尖或工具取料、扶卷与放置的协调。",
+      "contact": "馅料转移应与手或工具接触相关，卷体应由砧板或手承托。",
+      "object": "软馅可涂开、附着或少量掉落，不要求西葫芦卷被切开或变成液体。",
+      "aftermath": "若放手或工具移开，观察馅料附着、卷体保持及碎屑落下。",
+      "unknown": "只有展示食材或取料准备，实际添加不足以评价时选择无法判断。",
+      "scores": [
+        "手部取放、软馅转移与卷体承托整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部取放、软馅转移与卷体承托的关键关系严重不符。",
+        "手部取放、软馅转移与卷体承托部分合理，同时存在明显异常。",
+        "手部取放、软馅转移与卷体承托主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部取放、软馅转移与卷体承托及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Add filling or spread to zucchini rolls",
+      "question": "How physically plausible is the interaction: add filling or spread to zucchini rolls?",
+      "body": "Consider fingertip or tool transfer, roll stabilization, and placement.",
+      "contact": "Filling transfer should relate to hand or tool contact, with rolls supported by board or hand.",
+      "object": "Soft filling may spread, adhere, or shed small amounts. Cutting rolls or liquefaction is not required.",
+      "aftermath": "On release or tool withdrawal, consider adhesion, roll retention, and falling crumbs.",
+      "unknown": "Choose unable to judge if only display or preparation is shown and actual addition cannot be assessed.",
+      "scores": [
+        "Hand transfer, soft-filling motion, and roll support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand transfer, soft-filling motion, and roll support seriously disagree.",
+        "Hand transfer, soft-filling motion, and roll support are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand transfer, soft-filling motion, and roll support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand transfer, soft-filling motion, and roll support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P250",
+    "media_id": "A_02996",
+    "zh": {
+      "title": "用菜刀切葱",
+      "question": "人物用菜刀切葱，整体交互有多合理？",
+      "body": "观察持刀手上下或前后切动与扶葱手调整的协调。",
+      "contact": "刀刃与葱及砧板的接触应和切段出现对应。",
+      "object": "葱的细长叶茎可弯曲、切断或散成小段，不要求所有叶片同时断开。",
+      "aftermath": "若切段散开或刀抬起，观察砧板支撑及细长叶段的柔性。",
+      "unknown": "只有摆刀准备，实际切葱不足以评价时选择无法判断。",
+      "scores": [
+        "双手控刀扶葱、叶茎分离与砧板支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控刀扶葱、叶茎分离与砧板支撑的关键关系严重不符。",
+        "双手控刀扶葱、叶茎分离与砧板支撑部分合理，同时存在明显异常。",
+        "双手控刀扶葱、叶茎分离与砧板支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控刀扶葱、叶茎分离与砧板支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Chop a scallion with a kitchen knife",
+      "question": "How physically plausible is the interaction: chop a scallion with a kitchen knife?",
+      "body": "Consider cutting strokes and coordinated adjustments of the stabilizing hand.",
+      "contact": "Blade contact with scallion and board should correspond to new cut sections.",
+      "object": "Slender leaves and stems may bend, separate, or scatter. All leaves need not sever together.",
+      "aftermath": "If pieces scatter or the knife lifts, consider board support and flexible leaf segments.",
+      "unknown": "Choose unable to judge if only knife setup is shown and actual chopping cannot be assessed.",
+      "scores": [
+        "Knife–scallion hand coordination, stem separation, and board support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife–scallion hand coordination, stem separation, and board support seriously disagree.",
+        "Knife–scallion hand coordination, stem separation, and board support are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife–scallion hand coordination, stem separation, and board support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife–scallion hand coordination, stem separation, and board support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P251",
+    "media_id": "A_02918",
+    "zh": {
+      "title": "在砧板上切青椒",
+      "question": "人物在砧板上切青椒，整体交互有多合理？",
+      "body": "观察持刀、扶椒和切动时的身体协调。",
+      "contact": "刀刃作用与椒皮椒肉的切口应相关，椒体应由手和砧板合理固定。",
+      "object": "空腔青椒可局部压扁、切开或分成块，不要求像实心根茎一样断裂。",
+      "aftermath": "若椒块分开或籽落下，观察薄壁柔性及砧板承托，不要求每次落籽。",
+      "unknown": "只有准备，实际刀椒作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体控刀、青椒薄壁分离与砧板固定整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但人体控刀、青椒薄壁分离与砧板固定的关键关系严重不符。",
+        "人体控刀、青椒薄壁分离与砧板固定部分合理，同时存在明显异常。",
+        "人体控刀、青椒薄壁分离与砧板固定主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，人体控刀、青椒薄壁分离与砧板固定及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a green pepper on a board",
+      "question": "How physically plausible is the interaction: cut a green pepper on a board?",
+      "body": "Consider knife grip, pepper stabilization, and body coordination.",
+      "contact": "Blade action should relate to skin and flesh cuts, with plausible hand and board restraint.",
+      "object": "A hollow pepper may compress locally, open, or separate into pieces. Solid-root-like fracture is not required.",
+      "aftermath": "If pieces separate or seeds fall, consider wall flexibility and board support without requiring seed fall.",
+      "unknown": "Choose unable to judge if only preparation is shown and actual knife–pepper action cannot be assessed.",
+      "scores": [
+        "Knife control, pepper-wall separation, and board restraint are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among knife control, pepper-wall separation, and board restraint seriously disagree.",
+        "Knife control, pepper-wall separation, and board restraint are partly plausible, alongside clear anomalies.",
+        "The main relationships among knife control, pepper-wall separation, and board restraint are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and knife control, pepper-wall separation, and board restraint and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P252",
+    "media_id": "A_02444",
+    "zh": {
+      "title": "在砧板上切红洋葱",
+      "question": "人物在砧板上切红洋葱，整体交互有多合理？",
+      "body": "观察持刀、扶葱和手指移位的协调。",
+      "contact": "刀刃接触应对应洋葱切口，砧板应合理承托。",
+      "object": "洋葱可分成片块或散开层片，已有葱皮不代表当前切割成功。",
+      "aftermath": "若层片滑开或刀退出，观察局部支撑和重力，不要求葱皮全部脱落。",
+      "unknown": "只有摆刀或整理洋葱，实际切割不足以评价时选择无法判断。",
+      "scores": [
+        "双手切葱、洋葱层片变化与砧板支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手切葱、洋葱层片变化与砧板支撑的关键关系严重不符。",
+        "双手切葱、洋葱层片变化与砧板支撑部分合理，同时存在明显异常。",
+        "双手切葱、洋葱层片变化与砧板支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手切葱、洋葱层片变化与砧板支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Cut a red onion on a board",
+      "question": "How physically plausible is the interaction: cut a red onion on a board?",
+      "body": "Consider knife control, onion stabilization, and finger repositioning.",
+      "contact": "Blade contact should correspond to cuts, with plausible board support.",
+      "object": "The onion may separate into pieces or layers. Existing skins do not establish current cutting success.",
+      "aftermath": "If layers slide or the knife withdraws, consider local support and gravity without requiring complete peeling.",
+      "unknown": "Choose unable to judge if only setup or handling is shown and actual cutting cannot be assessed.",
+      "scores": [
+        "Two-hand cutting, onion-layer changes, and board support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand cutting, onion-layer changes, and board support seriously disagree.",
+        "Two-hand cutting, onion-layer changes, and board support are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand cutting, onion-layer changes, and board support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand cutting, onion-layer changes, and board support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P253",
+    "media_id": "A_01677",
+    "zh": {
+      "title": "用白色切片器按切黄瓜",
+      "question": "人物用白色切片器按切黄瓜，整体交互有多合理？",
+      "body": "观察扶持黄瓜、定位切片器与下压的双手配合。",
+      "contact": "切片器的实际刃口或切割区域应与黄瓜接触对应，不能把装饰孔都视作刀刃。",
+      "object": "黄瓜可局部压缩、切开或分片，不要求整根同步改变。",
+      "aftermath": "若切片器抬起或片块散开，观察黄瓜与砧板支撑。",
+      "unknown": "刃口作用被遮挡，实际按切不足以评价时选择无法判断。",
+      "scores": [
+        "手部下压、切片器黄瓜接触与切片支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但手部下压、切片器黄瓜接触与切片支撑的关键关系严重不符。",
+        "手部下压、切片器黄瓜接触与切片支撑部分合理，同时存在明显异常。",
+        "手部下压、切片器黄瓜接触与切片支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，手部下压、切片器黄瓜接触与切片支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Press a white slicer onto a cucumber",
+      "question": "How physically plausible is the interaction: press a white slicer onto a cucumber?",
+      "body": "Consider cucumber stabilization, slicer positioning, and coordinated downward pressure.",
+      "contact": "Actual blade or cutting regions should correspond to cucumber contact. Do not treat every opening as a blade.",
+      "object": "The cucumber may compress locally, cut, or separate into slices without whole-cucumber change.",
+      "aftermath": "On lifting or piece separation, consider cucumber and board support.",
+      "unknown": "Choose unable to judge if blade action is obscured and actual slicing cannot be assessed.",
+      "scores": [
+        "Hand pressure, slicer–cucumber contact, and slice support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among hand pressure, slicer–cucumber contact, and slice support seriously disagree.",
+        "Hand pressure, slicer–cucumber contact, and slice support are partly plausible, alongside clear anomalies.",
+        "The main relationships among hand pressure, slicer–cucumber contact, and slice support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and hand pressure, slicer–cucumber contact, and slice support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P254",
+    "media_id": "A_01666",
+    "zh": {
+      "title": "用带收集盒的刨丝器刨胡萝卜",
+      "question": "人物用带收集盒的刨丝器刨胡萝卜，整体交互有多合理？",
+      "body": "观察一手固定刨丝器、另一手往复送入胡萝卜的协调。",
+      "contact": "胡萝卜与金属刨面的摩擦方向应对应刨削，装置应得到合理承托。",
+      "object": "胡萝卜可逐渐减少并形成细丝，盒内已有细丝不代表当前刨削成功。",
+      "aftermath": "若细丝落入盒内或食材抬起，观察重力和刨面分离，不要求盒被装满。",
+      "unknown": "只有贴住刨面准备，实际刨削不足以评价时选择无法判断。",
+      "scores": [
+        "双手控料控刨、胡萝卜成丝与收集盒支撑整体严重不合理，或清楚可见的实际动作与任务相反。",
+        "操作尝试可辨认，但双手控料控刨、胡萝卜成丝与收集盒支撑的关键关系严重不符。",
+        "双手控料控刨、胡萝卜成丝与收集盒支撑部分合理，同时存在明显异常。",
+        "双手控料控刨、胡萝卜成丝与收集盒支撑主要关系合理，仅有轻微局部异常。",
+        "实际操作可评价，双手控料控刨、胡萝卜成丝与收集盒支撑及可见后续变化协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Grate carrot with a collection-box grater",
+      "question": "How physically plausible is the interaction: grate carrot with a collection-box grater?",
+      "body": "Consider stabilizing the grater and reciprocating carrot feed.",
+      "contact": "Carrot motion against the metal surface should correspond to abrasion, with supported equipment.",
+      "object": "Carrot may gradually reduce into shreds. Existing box contents do not establish current grating success.",
+      "aftermath": "If shreds enter the box or food lifts, consider gravity and separation without requiring a full box.",
+      "unknown": "Choose unable to judge if only surface setup is shown and actual grating cannot be assessed.",
+      "scores": [
+        "Two-hand grater control, carrot-shred formation, and collection-box support are severely implausible overall, or clearly visible actual action contradicts the task.",
+        "An attempt is recognizable, but key relationships among two-hand grater control, carrot-shred formation, and collection-box support seriously disagree.",
+        "Two-hand grater control, carrot-shred formation, and collection-box support are partly plausible, alongside clear anomalies.",
+        "The main relationships among two-hand grater control, carrot-shred formation, and collection-box support are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and two-hand grater control, carrot-shred formation, and collection-box support and visible subsequent changes are coherent without obvious anomalies."
+      ]
+    }
+  }
+]

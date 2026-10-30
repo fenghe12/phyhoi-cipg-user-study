@@ -1,0 +1,219 @@
+[
+  {
+    "sample_id": "P165",
+    "media_id": "A_02973",
+    "zh": {
+      "title": "在水槽旁操作木柄刷",
+      "question": "人物在水槽旁操作木柄刷，整体可见交互有多合理？",
+      "body": "观察握柄、手腕和手臂协调，不要求固定刷动幅度。",
+      "contact": "手与刷柄、刷毛与实际作用表面的接触应连续。",
+      "object": "若刷毛弯曲或表面物质移动，应与刷动相关，不强加头发整理或未明确的涂层结果。",
+      "aftermath": "若工具抬起、液滴或物质脱落，观察释放与支撑，不要求泡沫出现。",
+      "unknown": "实际工具作用区域不清楚，或只有准备动作时选择无法判断。",
+      "scores": [
+        "人体、刷子及可见作用表面整体严重不合理，或清楚显示没有操作木柄刷。",
+        "操作尝试可辨认，但握持刷动与关键表面响应严重不符。",
+        "手部控制、刷毛接触或物质移动部分合理，同时有明显异常。",
+        "主要刷动、人体协调及表面接触合理，仅有轻微局部异常。",
+        "实际作用可评价，人体、刷子、接触表面及可见后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Operate a wooden-handled brush beside a sink",
+      "question": "How physically plausible is the visible interaction as the person operates the wooden-handled brush beside the sink?",
+      "body": "Consider grip and wrist–arm coordination. No fixed stroke range is required.",
+      "contact": "Hand–handle and bristle–working-surface contact should be continuous.",
+      "object": "Any bristle bending or surface-material motion should relate to brushing. Hair styling or an unspecified coating outcome is not required.",
+      "aftermath": "If the tool lifts or liquid or material detaches, consider release and support. Foam is not required.",
+      "unknown": "Choose unable to judge if the actual working region is unclear or only preparation is shown.",
+      "scores": [
+        "The person, brush, and visible working surface behave implausibly overall, or a clear view confirms no brush operation.",
+        "An attempt is recognizable, but holding and brushing seriously disagree with key surface responses.",
+        "Some hand control, bristle contact, or material motion is plausible, alongside clear anomalies.",
+        "The main brushing, body coordination, and surface contact are plausible, with minor local anomalies.",
+        "Actual action is assessable, and the person, brush, contact surface, and visible subsequent motion are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P166",
+    "media_id": "A_02786",
+    "zh": {
+      "title": "支撑并整理自己的长发",
+      "question": "人物支撑并整理自己的长发，整体交互有多合理？",
+      "body": "观察双手分束抓持、手腕与抬臂协调，不要求完成特定辫形。",
+      "contact": "手指与发束的接触、交替支撑及相对移动应连续。",
+      "object": "发丝可分束、弯曲或交叠，变化应与指间动作相关，原有辫子不自动代表当前编织成功。",
+      "aftermath": "若松手或发束下垂，观察重力和剩余编织的保持，不要求头发固定不动。",
+      "unknown": "仅展示长发或准备抓取，实际整理不足以评价时选择无法判断。",
+      "scores": [
+        "人体、双手、发束及头部连接整体严重不合理，或清楚显示没有整理。",
+        "整理尝试可辨认，但交替抓持与发束关键运动严重不符。",
+        "分束、支撑或发丝交叠部分合理，同时有影响整理的明显异常。",
+        "主要整理、双手协调及发束支撑和下垂合理，仅有轻微局部异常。",
+        "实际整理可评价，人体、双手、长发及可见松手后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Support and arrange one’s long hair",
+      "question": "How physically plausible is the interaction as the person supports and arranges her long hair?",
+      "body": "Consider sectioning grips and wrist–raised-arm coordination. A particular completed braid is not required.",
+      "contact": "Finger contact, alternating support, and relative hair motion should be continuous.",
+      "object": "Strands may section, bend, or overlap in relation to finger action. An existing braid does not establish current braiding success.",
+      "aftermath": "If grip releases or hair hangs, consider gravity and retention of existing interweaving. Immobile hair is not required.",
+      "unknown": "Choose unable to judge if only display or grasp preparation is shown and actual arranging cannot be assessed.",
+      "scores": [
+        "The person, hands, strands, and head attachment behave implausibly overall, or a clear view confirms no arranging.",
+        "An attempt is recognizable, but alternating grip and key hair motion seriously disagree.",
+        "Some sectioning, support, or overlap is plausible, alongside clear anomalies affecting arranging.",
+        "The main arranging, hand coordination, hair support, and hanging are plausible, with minor local anomalies.",
+        "Actual arranging is assessable, and the person, hands, long hair, and visible post-release state are coherent without obvious anomalies."
+      ]
+    },
+    "shared_task_basis": "双手支撑及整理自己的长发，相同分束与交替抓持条件"
+  },
+  {
+    "sample_id": "P167",
+    "media_id": "A_02778",
+    "zh": {
+      "title": "用梳子和电推剪修整胡须",
+      "question": "理发师用梳子和电推剪修整胡须，整体交互有多合理？",
+      "body": "观察双手分别控梳和推剪、手腕导向及受理者头部支撑。",
+      "contact": "梳齿、刀头与胡须的相对位置应与操作对应，不要求刀头深压皮肤。",
+      "object": "若胡须长度或轮廓变化，应与刀头经过区域相关，不要求一次整齐。",
+      "aftermath": "若短毛落下或工具移开，观察释放，不要求大量毛屑或夸张表情。",
+      "unknown": "关键梳剪作用不足以评价时选择无法判断。",
+      "scores": [
+        "人体、梳剪与胡须整体严重不合理，或清楚显示没有修整。",
+        "修整尝试可辨认，但双手导向与胡须关键变化严重不符。",
+        "梳剪配合或胡须反应部分合理，同时有影响修整的明显异常。",
+        "主要修整、双手协调及胡须轮廓变化合理，仅有轻微局部异常。",
+        "实际修整可评价，人体、梳剪、胡须及可见后续毛屑运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Trim a beard with a comb and clipper",
+      "question": "How physically plausible is the interaction as the barber trims the beard with a comb and electric clipper?",
+      "body": "Consider separate tool control, wrist guidance, and support of the recipient’s head.",
+      "contact": "Comb teeth, clipper head, and beard positions should correspond to operation. Deep skin pressure is not required.",
+      "object": "Length or outline changes should relate to the blade path. A fully neat result in one pass is not required.",
+      "aftermath": "If short hairs fall or tools withdraw, consider release. Abundant clippings or dramatic expressions are not required.",
+      "unknown": "Choose unable to judge if crucial comb-and-clipper action cannot be assessed.",
+      "scores": [
+        "The person, tools, and beard behave implausibly overall, or a clear view confirms no trimming.",
+        "An attempt is recognizable, but hand guidance and key beard changes seriously disagree.",
+        "Some tool coordination or beard response is plausible, alongside clear anomalies affecting trimming.",
+        "The main trimming, hand coordination, and outline changes are plausible, with minor local anomalies.",
+        "Actual trimming is assessable, and the person, tools, beard, and visible subsequent clippings are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P168",
+    "media_id": "A_02101",
+    "zh": {
+      "title": "用卷发器夹持发束",
+      "question": "人物用卷发器夹持并整理发束，整体交互有多合理？",
+      "body": "观察持器、另一手分束及手腕转动协调，不推断真实温度。",
+      "contact": "发束与夹持部位接触应与开合或转动相关，发根连接应连续。",
+      "object": "头发可弯曲或卷绕，变化应与器具作用相关，不要求瞬间形成永久卷曲。",
+      "aftermath": "若松夹或移开，观察发束释放、下垂或保留弯曲，不要求出现烟雾。",
+      "unknown": "实际夹持区域不足以评价时选择无法判断。",
+      "scores": [
+        "人体、卷发器与头发整体严重不合理，或清楚显示没有夹持操作。",
+        "夹持尝试可辨认，但工具开合与发束关键运动严重不符。",
+        "分束、接触或卷绕部分合理，同时有影响操作的明显异常。",
+        "主要夹持、双手协调及头发形变合理，仅有轻微局部异常。",
+        "实际操作可评价，人体、器具、发束及可见释放后状态协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Clamp and style a hair section with a curling tool",
+      "question": "How physically plausible is the interaction as the person clamps and styles the section with the curling tool?",
+      "body": "Consider tool grip, sectioning by the other hand, and wrist rotation. Do not infer measured temperature.",
+      "contact": "Hair contact should relate to opening, closure, or rotation, with continuous root attachment.",
+      "object": "Hair may bend or wrap in relation to tool action. Instant permanent curling is not required.",
+      "aftermath": "After release or withdrawal, consider hanging or retained curvature. Smoke is not required.",
+      "unknown": "Choose unable to judge if actual clamping cannot be assessed.",
+      "scores": [
+        "The person, tool, and hair behave implausibly overall, or a clear view confirms no clamping action.",
+        "An attempt is recognizable, but tool closure and key hair motion seriously disagree.",
+        "Some sectioning, contact, or wrapping is plausible, alongside clear anomalies affecting operation.",
+        "The main clamping, hand coordination, and hair deformation are plausible, with minor local anomalies.",
+        "Actual operation is assessable, and the person, tool, hair, and visible post-release state are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P169",
+    "media_id": "A_01601",
+    "zh": {
+      "title": "用电推剪修整自己的短发",
+      "question": "人物用电推剪修整自己的短发，整体交互有多合理？",
+      "body": "观察抬臂控机、手腕随头部曲面导向及头颈协调。",
+      "contact": "刀头或限位梳与头发接触应对应操作，机体与手的关系应连续。",
+      "object": "若发长或轮廓变化，应与推剪经过区域相关，不要求一遍剃净。",
+      "aftermath": "若推剪移开或碎发落下，观察接触解除，不要求明显毛屑或皮肤受损。",
+      "unknown": "只有举机准备或刀头接触不可评价时选择无法判断。",
+      "scores": [
+        "人体、推剪和短发关系整体严重不合理，或清楚显示没有修剪。",
+        "修剪尝试可辨认，但手部导向与短发关键变化严重不符。",
+        "持机、接触或头发变化部分合理，同时有影响修剪的明显异常。",
+        "主要修剪、人体协调及头部工具关系合理，仅有轻微局部异常。",
+        "实际修剪可评价，人体、推剪、短发及可见后续释放或碎发运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Trim one’s short hair with a clipper",
+      "question": "How physically plausible is the interaction as the person trims his short hair with the clipper?",
+      "body": "Consider raised-arm control, wrist guidance along the head, and head–neck coordination.",
+      "contact": "Blade or guard contact should correspond to operation, with continuous hand–tool relations.",
+      "object": "Any length or outline change should relate to the tool path. Complete shaving in one pass is not required.",
+      "aftermath": "If the tool withdraws or clippings fall, consider release. Visible clippings or skin damage are not required.",
+      "unknown": "Choose unable to judge if only preparation is shown or head contact cannot be assessed.",
+      "scores": [
+        "The person, clipper, and hair behave implausibly overall, or a clear view confirms no trimming.",
+        "An attempt is recognizable, but hand guidance and key hair changes seriously disagree.",
+        "Some holding, contact, or hair changes are plausible, alongside clear anomalies affecting trimming.",
+        "The main trimming, body coordination, and head–tool relation are plausible, with minor local anomalies.",
+        "Actual trimming is assessable, and the person, clipper, hair, and visible subsequent release or clippings are coherent without obvious anomalies."
+      ]
+    }
+  },
+  {
+    "sample_id": "P170",
+    "media_id": "A_01483",
+    "zh": {
+      "title": "用宠物梳梳理猫背毛",
+      "question": "儿童用宠物梳梳理站在毛巾上的猫背毛，整体交互有多合理？",
+      "body": "观察握梳、手腕移动与身体协调，不以儿童年龄或猫的表情预设分数。",
+      "contact": "梳齿与毛层接触应对应手部动作，猫与台面支撑应连续。",
+      "object": "毛层可受压或顺着梳动改变，不要求猫体变形或每次梳动都掉毛。",
+      "aftermath": "若猫移动、梳子抬起或松毛脱落，观察接触解除和支撑，不要求固定动物反应。",
+      "unknown": "实际梳齿与背毛交互不足以评价时选择无法判断。",
+      "scores": [
+        "人体、梳子、猫背和台面关系整体严重不合理，或清楚显示没有梳理。",
+        "梳理尝试可辨认，但手部动作与毛层关键响应严重不符。",
+        "握梳、接触或毛层变化部分合理，同时有影响梳理的明显异常。",
+        "主要梳理、人体协调及猫背和台面支撑合理，仅有轻微局部异常。",
+        "实际梳理可评价，人体、梳子、猫毛及可见动物或松毛后续运动协调，没有明显异常。"
+      ]
+    },
+    "en": {
+      "title": "Comb a cat’s back fur",
+      "question": "How physically plausible is the interaction as the child combs the cat standing on the towel?",
+      "body": "Consider grip, wrist motion, and body coordination. Age or the cat’s expression does not predetermine the score.",
+      "contact": "Tooth contact with the fur should correspond to hand action, with continuous cat–surface support.",
+      "object": "Fur may compress or align. Body deformation or loose hair on every stroke is not required.",
+      "aftermath": "If the cat moves, the comb lifts, or hairs detach, consider release and support. No fixed animal reaction is required.",
+      "unknown": "Choose unable to judge if actual tooth–fur interaction cannot be assessed.",
+      "scores": [
+        "The person, comb, cat’s back, and surface behave implausibly overall, or a clear view confirms no combing.",
+        "An attempt is recognizable, but hand action and key fur responses seriously disagree.",
+        "Some grip, contact, or fur changes are plausible, alongside clear anomalies affecting combing.",
+        "The main combing, body coordination, cat’s back, and surface support are plausible, with minor local anomalies.",
+        "Actual combing is assessable, and the person, comb, fur, and visible subsequent animal or loose-hair motion are coherent without obvious anomalies."
+      ]
+    }
+  }
+]
